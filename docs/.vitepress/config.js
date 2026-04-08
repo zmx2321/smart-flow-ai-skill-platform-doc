@@ -9,7 +9,7 @@ export default {
   base: "/smart-flow-ai-skill-platform-doc/",
   head: [
     ["link", { rel: "icon", href: "/smart-flow-ai-skill-platform-doc/favicon.ico" }],
-    ["meta", { name: "theme-color", content: "#0f766e" }],
+    ["meta", { name: "theme-color", content: "#020a08" }],
     [
       "script",
       {},
@@ -28,7 +28,6 @@ export default {
   },
   lastUpdated: true,
   themeConfig: {
-    logo: "/avatar.png?v=20260408",
     siteTitle: "SmartFlow Docs",
     outlineTitle: "本页目录",
     nav: [

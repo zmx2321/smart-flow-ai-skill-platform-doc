@@ -25,7 +25,28 @@ lastUpdated: false
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
-      <img src="/avatar.png?v=20260408" alt="zmx2321 avatar" />
+      <div class="matrix-panel matrix-panel--contact">
+        <div class="matrix-panel__hud">
+          <span>SMARTFLOW // CONTACT NODE</span>
+          <span>OPEN</span>
+        </div>
+        <div class="matrix-panel__canvas">
+          <div class="matrix-panel__trace matrix-panel__trace--top"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
+          <div class="matrix-panel__stack">
+            <span>mail: zmx2321@gmail.com</span>
+            <span>github: github.com/zmx2321</span>
+            <span>focus: delivery / product / private deployment</span>
+          </div>
+          <div class="matrix-panel__callout">reply-window: async but stable</div>
+        </div>
+        <div class="matrix-panel__footer">
+          <span>status: open</span>
+          <span>mode: collaboration</span>
+          <span>docs: public entry</span>
+        </div>
+      </div>
       <div class="brand-hero__panel">
         <span class="brand-pill">SmartFlow Docs</span>
         <strong>公开文档、产品介绍与合作入口</strong>

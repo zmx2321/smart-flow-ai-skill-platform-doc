@@ -48,9 +48,25 @@ features:
         </div>
       </div>
       <div class="landing-brand__panel">
-        <div class="landing-brand__screen">
-          <span class="landing-brand__screen-label">SMARTFLOW // BRAND NODE</span>
-          <img src="/logo.png?v=20260408" alt="智流平台 Logo" />
+        <div class="matrix-panel matrix-panel--brand">
+          <div class="matrix-panel__hud">
+            <span>SMARTFLOW // BRAND NODE</span>
+            <span>SYNC 01</span>
+          </div>
+          <div class="matrix-panel__canvas">
+            <div class="matrix-panel__trace matrix-panel__trace--top"></div>
+            <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
+            <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
+            <div class="matrix-panel__ring"></div>
+            <div class="matrix-panel__glyph">智流</div>
+            <div class="matrix-panel__bolt"></div>
+            <div class="matrix-panel__callout">OPEN &amp; SECURE EXECUTION</div>
+          </div>
+          <div class="matrix-panel__footer">
+            <span>scheduler: active</span>
+            <span>assets: reusable</span>
+            <span>policy: enforced</span>
+          </div>
         </div>
         <div class="landing-brand__meta">
           <span class="link-panel-label">Brand</span>

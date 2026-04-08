@@ -21,7 +21,26 @@ lastUpdated: false
       </div>
     </div>
     <div class="brand-hero__media">
-      <img src="/logo_bg.png?v=20260408" alt="智流 Logo 视觉预览" />
+      <div class="matrix-panel matrix-panel--signal">
+        <div class="matrix-panel__hud">
+          <span>SMARTFLOW // SIGNAL LAB</span>
+          <span>BRAND 02</span>
+        </div>
+        <div class="matrix-panel__canvas">
+          <div class="matrix-panel__trace matrix-panel__trace--top"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
+          <div class="matrix-panel__ring"></div>
+          <div class="matrix-panel__glyph">信号</div>
+          <div class="matrix-panel__bolt"></div>
+          <div class="matrix-panel__callout">CONTROL LOOP / FLOW NODE</div>
+        </div>
+        <div class="matrix-panel__stack">
+          <span>signal: intelligent_dispatch</span>
+          <span>structure: controlled_flow</span>
+          <span>mood: matrix / geek / stable</span>
+        </div>
+      </div>
       <div class="brand-hero__panel">
         <span class="brand-pill">Core Thesis</span>
         <strong>智慧大脑与数据川流，在可控轨道内精准交汇。</strong>
