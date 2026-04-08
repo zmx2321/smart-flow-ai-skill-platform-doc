@@ -12,7 +12,7 @@ export default {
   },
   lastUpdated: true,
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/avatar.png",
     siteTitle: "SmartFlow Docs",
     outlineTitle: "本页目录",
     nav: [
