@@ -4532,6 +4532,14 @@ html:not(.dark) .VPImage.dark[data-v-3ff48986] {
   font-weight: 700;
 }
 
+.VPNavBarTitle .VPImage.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+}
+
 .Layout {
   background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.1), transparent 28%), radial-gradient(circle at top right, rgba(29, 78, 216, 0.08), transparent 26%), var(--smartflow-home-bg);
 }
