@@ -4,33 +4,27 @@ layout: home
 hero:
   name: SmartFlow
   text: 智流·智能执行平台
-  tagline: 面向多租户治理、可信执行、本地桥接与私有化交付的企业级业务自动化平台。先用免费体验与团队演示承接入口，再逐步走向标准产品、CLI 协同和企业部署。
+  tagline: 让 AI 在规则内可靠执行真实工作，而不是停留在聊天层。智流帮助团队安全调度脚本、连接本地能力，并为试用、团队演示与私有化部署提供清晰路径。
   actions:
     - theme: brand
-      text: 申请免费试用
+      text: 立即免费体验
+      link: /guide/getting-started
+    - theme: alt
+      text: 预约团队演示
       link: /contact#lead-form
     - theme: alt
-      text: 预约团队版演示
+      text: 咨询私有化部署
       link: /contact#lead-form
-    - theme: alt
-      text: 产品概览
-      link: /product/
-    - theme: alt
-      text: CLI 指引
-      link: /product/cli
-    - theme: alt
-      text: 部署方式
-      link: /product/deployment
 
 features:
   - title: 多租户治理
-    details: public 总控、客户租户隔离、模板分发、台账与审计已经具备平台化边界。
+    details: 为不同客户提供独立、安全的执行空间，同时保留统一配置、交付与运营能力。
   - title: 可信执行闭环
-    details: 从计划生成、人工确认到执行留痕，重点始终是可控、可确认、可追踪。
+    details: 从计划确认到执行留痕，每一次 AI 动作都可追踪、可复盘、可审计。
   - title: 本地与云端协同
-    details: Web 控制面、CLI、本地执行和未来 Agent 按同一套治理逻辑持续收敛。
-  - title: 1.0 到 4.0
-    details: 从可信交付版、标准产品化，到生态开放与智能执行基础设施，路线已经明确。
+    details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面连接起来。
+  - title: 清晰演进路线
+    details: 从个人试用到团队协作，再到企业部署与生态扩展，路线稳定可预期。
 ---
 
 <div class="landing-shell">
@@ -38,11 +32,11 @@ features:
     <div class="landing-brand">
       <div class="landing-brand__copy">
         <p class="landing-kicker">Brand Signal</p>
-        <h2>首页先承接转化，再解释平台能力</h2>
+        <h2>让 AI 真正进入工作流，而不是停在演示里</h2>
         <p class="landing-lead">
-          “智流”对应的是 <strong>智能调度</strong>、<strong>经验资产化</strong> 和 <strong>安全可控执行</strong>。
-          这个首页不再把视觉主区只当作介绍位，而是明确承接
-          <strong>免费试用</strong>、<strong>团队演示</strong> 和 <strong>企业私有化咨询</strong> 三条转化路径。
+          “智流”对应的是 <strong>智能调度</strong>、<strong>流程资产化</strong> 和 <strong>安全可控执行</strong>。
+          它不是单纯展示模型回答的页面，而是把脚本、流程和规则组织成真正可落地的智能执行平台。
+          你可以先从公开体验入口感受一次执行链路，再根据团队规模和安全要求选择下一步。
         </p>
         <div class="landing-brand__chips">
           <span>申请试用</span>
@@ -53,17 +47,17 @@ features:
         </div>
         <div class="landing-brand__quick-grid">
           <article class="landing-brand__quick-card">
-            <span>入口</span>
-            <strong>试用、演示、企业咨询</strong>
+            <span>场景</span>
+            <strong>个人试用、团队演示、企业部署</strong>
           </article>
           <article class="landing-brand__quick-card">
-            <span>底座</span>
-            <strong>治理、执行、CLI、本地桥接</strong>
+            <span>价值</span>
+            <strong>安全调度、可审计执行、本地桥接</strong>
           </article>
         </div>
         <p class="landing-lead">
-          当前公开链路已经是 <strong>免登录体验页 -&gt; 注册 / 登录 -&gt; 试用 / 演示 / 咨询</strong> 的正式入口。
-          其中体验页访问统计当前按浏览器会话记录一次，不按唯一 IP 去重。
+          无论你是个人开发者、团队负责人还是企业 IT 管理者，这里都会先告诉你
+          <strong>这套平台解决什么问题</strong>、<strong>适合谁</strong>，以及 <strong>下一步怎么开始</strong>。
         </p>
       </div>
       <div class="landing-brand__panel">
@@ -72,15 +66,15 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">试用、演示、企业咨询统一承接，治理与执行走同一条可信路径。</p>
+          <p class="landing-brand__signal-summary">从公开体验到团队演示，再到企业部署，所有入口都围绕“安全、可控、可审计执行”展开。</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
-              <strong>入口</strong>
-              <span>免费体验、团队演示、企业咨询</span>
+              <strong>上手</strong>
+              <span>体验、试用、演示、咨询</span>
             </div>
             <div class="landing-brand__signal-item">
-              <strong>底座</strong>
-              <span>治理、执行、CLI、本地桥接</span>
+              <strong>能力</strong>
+              <span>可控执行、审计留痕、本地桥接</span>
             </div>
           </div>
           <div class="landing-brand__signal-tags">
@@ -104,24 +98,24 @@ features:
     </div>
     <div class="landing-metrics">
       <article class="metric-card">
-        <span class="metric-value">4</span>
-        <span class="metric-label">当前公开主线</span>
-        <p>企业交付、平台治理、个人入口、CLI / Agent。</p>
+        <span class="metric-value">可控</span>
+        <span class="metric-label">执行方式</span>
+        <p>关键动作先确认，再执行，避免 AI 直接越权操作。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">1</span>
-        <span class="metric-label">统一治理内核</span>
-        <p>权限、执行、审计、注册和分发都收敛到同一套逻辑。</p>
+        <span class="metric-value">可审计</span>
+        <span class="metric-label">过程可追溯</span>
+        <p>从输入到结果都能留痕复盘，方便治理与合规要求落地。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">1.0→4.0</span>
-        <span class="metric-label">清晰演进路线</span>
-        <p>从可交付，到产品化，再到生态与智能执行基础设施。</p>
+        <span class="metric-value">可桥接</span>
+        <span class="metric-label">连接本地能力</span>
+        <p>脚本、内网 API 和私有资源都可以逐步纳入统一入口。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">Cloud / Local / Edge</span>
-        <span class="metric-label">执行位置扩展</span>
-        <p>今天承接脚本与本地执行，未来延展到边缘节点和设备端。</p>
+        <span class="metric-value">可演进</span>
+        <span class="metric-label">成长路径清晰</span>
+        <p>从个人试用到团队协作，再到企业部署，逐步扩展而非推倒重来。</p>
       </article>
     </div>
   </section>
@@ -129,33 +123,33 @@ features:
   <section class="landing-band landing-band--commercial">
     <div class="landing-section-head">
       <p class="landing-kicker">Commercial Route</p>
-      <h2>官网直接服务三层商业路径</h2>
+      <h2>针对三类访客，给出三条清晰入口</h2>
       <p class="landing-lead">
-        免费版先让价值被低门槛感知，团队版承接协作和标准订阅，企业版承接私有化与正式交付。
-        这不是三套分裂产品，而是一套平台的三种商业入口。
+        个人开发者先低门槛体验执行链路，团队负责人优先确认协作与治理方案，企业决策者直接判断部署与合规路径。
+        这不是三套分裂产品，而是一套平台面向不同阶段用户的三种进入方式。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
       <article class="mode-card">
         <span class="link-panel-label">Free</span>
-        <h3>免费版 / 社区技能</h3>
-        <p>面向开发者和个体用户，先体验平台价值、沉淀真实脚本样本，并为社区技能与生态入口蓄水。</p>
+        <h3>个人开发者 / 技术尝鲜者</h3>
+        <p>无需先理解复杂架构，先体验一句话调度脚本，感受未来工作方式的雏形，再决定是否正式接入自己的执行流。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Team</span>
-        <h3>团队版 SaaS</h3>
-        <p>承接多人协作、共享技能、审批、权限控制和更稳定的标准化产品订阅，是当前最直接的增长主线。</p>
+        <h3>团队管理者 / 技术负责人</h3>
+        <p>优先确认多人协作、审批、权限控制与执行审计是否匹配团队实际场景，而不是先被一堆模块名淹没。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Enterprise</span>
-        <h3>企业版 / 私有化</h3>
-        <p>面向更重的安全、审计、内网、本地 Agent 和正式交付需求，用专业深度建立高端可信形象。</p>
+        <h3>企业决策者 / IT 管理者</h3>
+        <p>优先判断私有化、内网接入、数据安全和合规要求能否落地，再进入正式部署与交付沟通。</p>
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="./product/">查看免费版路径</a>
-      <a href="./contact.html#lead-form">申请免费试用</a>
-      <a href="./contact.html#lead-form">预约团队版演示</a>
+      <a href="./guide/getting-started.html">立即免费体验</a>
+      <a href="./contact.html#lead-form">预约团队演示</a>
+      <a href="./contact.html#lead-form">咨询私有化部署</a>
       <a href="./product/editions.html">查看版本路线</a>
     </div>
   </section>
@@ -192,8 +186,8 @@ features:
       <h2>谁在构建智流，为什么这套平台值得继续聊</h2>
       <p class="landing-lead">
         智流由一位拥有 <strong>10+ 年政企交付经验</strong> 的独立架构师持续打造。
-        当前项目已经不是概念稿，而是同时具备 <strong>多租户治理</strong>、<strong>可审计执行</strong>、
-        <strong>免费线索入口</strong> 和 <strong>CLI / 本地执行演进路径</strong> 的真实工程底座。
+        核心目标不是做一个会聊天的演示页，而是构建真正
+        <strong>可交付</strong>、<strong>可运维</strong>、<strong>可审计</strong> 的 AI 执行层。
       </p>
       <div class="landing-inline-links">
         <a href="./contact.html#lead-form">继续沟通合作</a>
@@ -207,19 +201,19 @@ features:
         <p>从脚本接入、权限、审计、部署到多租户治理，平台不是只做一个漂亮前台。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">public + tenant</span>
-        <span class="metric-label">治理边界先成立</span>
-        <p>平台总控、客户租户、模板分发、审计日志和台账已经形成正式边界。</p>
+        <span class="metric-value">隔离与治理</span>
+        <span class="metric-label">边界先行</span>
+        <p>从权限到审计，先把边界立起来，再谈规模扩展和持续交付。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">Web + CLI</span>
-        <span class="metric-label">执行端继续扩展</span>
-        <p>今天先打通网页控制面和本地接入，未来继续延展到 Agent、边缘节点和设备端。</p>
+        <span class="metric-value">Web + CLI + Local</span>
+        <span class="metric-label">执行入口持续扩展</span>
+        <p>今天先打通网页入口和本地接入，后续继续增强更完整的混合执行能力。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">Free → Team → Enterprise</span>
-        <span class="metric-label">商业路径清晰</span>
-        <p>免费版承接入口，团队版承接订阅，企业版承接高价值交付，官网直接为这条路径服务。</p>
+        <span class="metric-value">试用 → 演示 → 部署</span>
+        <span class="metric-label">合作路径清晰</span>
+        <p>先让价值被感知，再根据协作深度、安全边界与部署要求继续推进合作。</p>
       </article>
     </div>
   </section>
@@ -286,7 +280,7 @@ features:
       </article>
       <article class="mode-card">
         <h3>平台总控治理</h3>
-        <p>用 <code>public</code> 统一管理租户、模板、公告、日志和台账，但不打破隔离。</p>
+        <p>统一管理租户、模板、公告和日志，同时保持不同客户之间的隔离边界清晰。</p>
       </article>
       <article class="mode-card">
         <h3>免费体验入口</h3>
@@ -307,7 +301,7 @@ features:
   <section class="landing-band landing-band--roadmap">
     <div class="landing-section-head">
       <p class="landing-kicker">Roadmap</p>
-      <h2>从 1.0 到 4.0，不只是加功能，而是平台角色变化</h2>
+      <h2>为什么是现在，以及它会如何继续演进</h2>
     </div>
     <div class="roadmap-grid">
       <article class="roadmap-card">
@@ -346,12 +340,12 @@ features:
     <a class="link-panel" href="./guide/getting-started.html">
       <span class="link-panel-label">Quick Start</span>
       <strong>快速开始</strong>
-      <p>用最短时间看懂公开入口、当前阶段、CLI 路线和交付主线现在分别是什么。</p>
+      <p>用最短时间看懂如何试用、如何接脚本，以及何时该走团队或企业路径。</p>
     </a>
     <a class="link-panel" href="./guide/faq.html">
       <span class="link-panel-label">FAQ</span>
       <strong>常见问题</strong>
-      <p>把定位、隔离、热更新、CLI、本地执行和当前阶段一次讲清楚。</p>
+      <p>把定位、安全边界、本地接入和当前适合谁一次讲清楚。</p>
     </a>
     <a class="link-panel" href="./product/">
       <span class="link-panel-label">Product</span>
@@ -385,16 +379,16 @@ features:
     <div class="cta-card">
       <div>
         <p class="landing-kicker">Contact</p>
-        <h2>现在开放免费线索申请、团队版演示预约和企业版私有化咨询。</h2>
+        <h2>现在开放免费体验、团队演示预约和企业版私有化咨询。</h2>
         <p class="landing-lead">
           如果你在做企业交付、自动化平台、本地执行能力接入，或者希望把已有脚本整理成正式产品，
-          这里就是当前最直接的入口。
+          这里就是当前最直接的入口。我们也欢迎首批标杆客户以共创方式一起打磨真实场景。
         </p>
       </div>
       <div class="cta-actions">
-        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">申请免费试用</a>
-        <a class="cta-button" href="./contact.html#lead-form">预约团队版演示</a>
-        <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">查看 GitHub</a>
+        <a class="cta-button cta-button--brand" href="./guide/getting-started.html">立即免费体验</a>
+        <a class="cta-button" href="./contact.html#lead-form">预约团队演示</a>
+        <a class="cta-button" href="./contact.html#lead-form">咨询私有化部署</a>
       </div>
     </div>
   </section>

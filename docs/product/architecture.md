@@ -57,35 +57,35 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
-    <p class="brand-kicker">Repository Map</p>
-    <h2>仓库结构</h2>
+    <p class="brand-kicker">System Map</p>
+    <h2>系统组成</h2>
     <div class="brand-grid brand-grid--four">
       <article class="brand-card brand-card--nested">
-        <h3><code>back-python</code></h3>
+        <h3>统一后端能力中心</h3>
         <p>统一后端能力中心，承接认证、租户、脚本、Skill、日志、模板等核心服务。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>smart-flow-admin</code></h3>
-        <p><code>public</code> 超管独立前端，负责平台治理，不混入普通租户语义。</p>
+        <h3>治理控制台</h3>
+        <p>负责平台级配置、模板、日志和运营治理，不与普通业务入口混合。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>smart-flow-local</code></h3>
-        <p><code>tenant_1001</code> 企业交付前端，承接第一个正式客户样板。</p>
+        <h3>企业交付前端</h3>
+        <p>面向正式客户环境，承接实际业务访问与脚本执行入口。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>sync-flow</code></h3>
-        <p><code>tenant_1002</code> 企业交付前端，用于另一条正式租户线，不混入 1001。</p>
+        <h3>多客户交付站点</h3>
+        <p>用于承接不同客户或不同环境的交付前端，保持边界清晰、互不混用。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>smart-flow-free</code></h3>
-        <p><code>tenant_1000</code> 个人免费版前端，承接体验、增长和免费线索入口。</p>
+        <h3>个人体验入口</h3>
+        <p>面向个人用户与早期探索者，承接体验、增长和免费线索入口。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>front-vue-hack</code></h3>
-        <p>聚合联调壳层，用来承接多子项目同步，不作为客户正式前端主入口。</p>
+        <h3>联调与集成层</h3>
+        <p>用于多入口协同、联调与统一验证，不直接作为客户正式使用入口。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>smartflow-cli</code></h3>
+        <h3>CLI / Local Bridge</h3>
         <p>本地接入与未来 Agent 入口，把平台控制面和本地环境连接起来。</p>
       </article>
       <article class="brand-card brand-card--nested">
@@ -164,28 +164,28 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
-    <p class="brand-kicker">Frontend Discipline</p>
-    <h2>前端开发纪律</h2>
+    <p class="brand-kicker">Architecture Rules</p>
+    <h2>实施与隔离原则</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./index.html">
         <span>Rule 01</span>
-        <strong>单项目先改</strong>
-        <p>先在正式单项目里落地，再决定是否需要同步到聚合壳层。</p>
+        <strong>租户隔离优先</strong>
+        <p>不同客户的数据、能力和权限边界需要先清晰，再谈统一运营与扩展。</p>
       </a>
       <a class="brand-link-card" href="./index.html">
         <span>Rule 02</span>
-        <strong>验证通过后最后同步 <code>front-vue-hack</code></strong>
-        <p>聚合壳层只做同步与联调，不抢正式单项目的主导地位。</p>
+        <strong>治理与业务入口分层</strong>
+        <p>统一治理能力与客户业务入口需要职责分明，避免权限和表达混乱。</p>
       </a>
       <a class="brand-link-card" href="./index.html">
         <span>Rule 03</span>
-        <strong>不把 <code>tenant_1002</code> 功能混进 <code>tenant_1001</code></strong>
-        <p>租户边界必须清晰，否则很快失去交付可维护性。</p>
+        <strong>变更可验证后再推广</strong>
+        <p>脚本、流程和前端改动都应先验证稳定，再逐步扩展到更大范围。</p>
       </a>
       <a class="brand-link-card" href="./index.html">
         <span>Rule 04</span>
-        <strong><code>public</code> 能力只落在 <code>smart-flow-admin</code></strong>
-        <p>平台治理和普通租户语义必须分开，避免后续权限和产品表达混乱。</p>
+        <strong>交付与平台边界清晰</strong>
+        <p>既要支持客户交付，也要保留统一治理与运营能力，两者不能互相挤占。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>Rule 05</span>

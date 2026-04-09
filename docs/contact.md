@@ -61,18 +61,19 @@ lastUpdated: false
       <p class="brand-kicker">Current Entry</p>
       <h2>如果你是从免登录体验页过来的</h2>
       <ul class="brand-list">
-        <li>当前公开链路已经是：免登录体验页 -&gt; 注册 / 登录 -&gt; 免费试用 / 团队演示 / 企业咨询。</li>
-        <li>体验页已经提供 <code>hello_demo</code> 和 <code>clean_log_demo</code> 两个公开 demo。</li>
-        <li>注册成功目前由成功提示框承接，再跳回登录页，不单独放一个成功页。</li>
+        <li>你已经可以先运行公开 demo，快速感受一次“AI 调度脚本”的完整链路。</li>
+        <li>如果你想继续自己接脚本，下一步直接注册进入个人智能执行台。</li>
+        <li>如果你更关心多人协作、权限审计或本地接入，直接走试用 / 演示沟通更高效。</li>
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Traffic Rule</p>
-      <h2>关于体验页访问统计</h2>
+      <p class="brand-kicker">Before Contact</p>
+      <h2>沟通前建议准备这些信息</h2>
       <ul class="brand-list">
-        <li>当前统计不是按唯一 IP 去重。</li>
-        <li>同一浏览器会话里只记录一次访问。</li>
-        <li>后端仍会记录 <code>visitor_ip</code>、<code>user_agent</code> 和 <code>referer</code>，用于公开入口日志追踪。</li>
+        <li>你想让 AI 调度哪类脚本、流程或数据任务。</li>
+        <li>是否需要多人协作、审批、权限控制或执行审计。</li>
+        <li>是否涉及本地环境、内网资源或私有化部署要求。</li>
+        <li>你更希望先试用、先演示，还是直接沟通企业方案。</li>
       </ul>
     </article>
   </section>
@@ -166,13 +167,13 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three contact-path-grid">
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
-      <h2>免费版 / 社区技能</h2>
-      <p>先让开发者和个体用户低门槛感知价值，沉淀真实脚本样本和生态入口。</p>
+      <h2>个人体验 / 智能执行台</h2>
+      <p>先让开发者和个体用户低门槛感知价值，再决定是否把自己的脚本正式接进执行台。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 02</p>
       <h2>团队版 SaaS</h2>
-      <p>承接多人协作、共享技能、审批、权限控制和更稳定的产品订阅，是当前最值得重点转化的一条线。</p>
+      <p>承接多人协作、共享执行能力、审批、权限控制和更稳定的产品订阅，是当前最值得重点转化的一条线。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>

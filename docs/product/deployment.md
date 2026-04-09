@@ -132,7 +132,7 @@ lastUpdated: false
       </tr>
       <tr>
         <td>02. 个人免费入口期</td>
-        <td>用户已经进入免费入口，开始理解技能库、AI 执行和基础使用路径</td>
+        <td>用户已经进入免费入口，开始理解智能执行台、AI 执行和基础使用路径</td>
         <td>这时更接近产品体验与增长入口，不等于已经进入正式团队 / 企业交付</td>
         <td>如果开始关心多人协作、客户隔离、正式验收，就进入评估期</td>
       </tr>
@@ -213,7 +213,7 @@ lastUpdated: false
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Customer Delivery</span>
         <strong>如果你当前重点是客户交付</strong>
-        <p>优先单租户交付模式，再视情况补 public 治理能力。</p>
+        <p>优先单租户交付模式，再视情况补统一治理能力。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Platform Ops</span>

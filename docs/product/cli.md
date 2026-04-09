@@ -107,7 +107,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>公开页当前已经有 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
         <li>注册成功目前由成功提示框承接，再跳回登录页。</li>
-        <li>体验页访问统计当前按浏览器会话记一次，不按唯一 IP 去重。</li>
+        <li>体验页用于先感受执行链路，不承接真实业务写入。</li>
       </ul>
     </article>
   </section>

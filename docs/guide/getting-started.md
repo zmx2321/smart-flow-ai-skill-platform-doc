@@ -166,13 +166,13 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Current Notes</p>
-      <h2>几条当前必须对齐的真实口径</h2>
+      <p class="brand-kicker">Before You Start</p>
+      <h2>开始前先知道这些</h2>
       <ul class="brand-list">
-        <li>体验页访问统计当前按浏览器会话记一次，不按唯一 IP 去重。</li>
-        <li>后端仍会记录 <code>visitor_ip</code>、<code>user_agent</code> 和 <code>referer</code> 作为公开入口日志。</li>
-        <li>注册成功当前不是单独成功页，而是成功提示后跳回登录页。</li>
-        <li><code>smartflow-cli</code> 当前已可用，但本地 Agent 仍属于骨架，不应写成正式商用本地常驻执行。</li>
+        <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
+        <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
+        <li><code>smartflow-cli</code> 当前已可用，本地接入能力会继续增强。</li>
+        <li>如果你从一开始就是团队或企业场景，直接走试用 / 演示沟通通常更高效。</li>
       </ul>
     </article>
     <article class="brand-card">

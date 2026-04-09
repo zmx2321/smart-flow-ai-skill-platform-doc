@@ -151,10 +151,112 @@ const ThemeStateSync = {
   },
 }
 
+const HomeHeroCode = {
+  name: "HomeHeroCode",
+  setup() {
+    return () =>
+      h("div", { class: "home-hero-code" }, [
+        h("div", { class: "home-hero-code__head" }, [
+          h("div", { class: "home-hero-code__dots" }, [
+            h("span", { class: "home-hero-code__dot home-hero-code__dot--red" }),
+            h("span", { class: "home-hero-code__dot home-hero-code__dot--yellow" }),
+            h("span", { class: "home-hero-code__dot home-hero-code__dot--green" }),
+          ]),
+          h("span", { class: "home-hero-code__file" }, "demo/preview.flow.ts"),
+          h("span", { class: "home-hero-code__status" }, "welcome"),
+        ]),
+        h("div", { class: "home-hero-code__body" }, [
+          h("div", { class: "home-hero-code__line" }, [
+            h("span", { class: "home-hero-code__line-no" }, "01"),
+            h("span", { class: "home-hero-code__line-text" }, [
+              h("span", { class: "token-keyword" }, "const"),
+              " ",
+              h("span", { class: "token-variable" }, "visitor"),
+              " ",
+              h("span", { class: "token-operator" }, "="),
+              " ",
+              h("span", { class: "token-string" }, "'welcome_to_smartflow'"),
+            ]),
+          ]),
+          h("div", { class: "home-hero-code__line" }, [
+            h("span", { class: "home-hero-code__line-no" }, "02"),
+            h("span", { class: "home-hero-code__line-text" }, [
+              h("span", { class: "token-keyword" }, "const"),
+              " ",
+              h("span", { class: "token-variable" }, "message"),
+              " ",
+              h("span", { class: "token-operator" }, "="),
+              " ",
+              h("span", { class: "token-string" }, "'你好，欢迎来到智流'"),
+            ]),
+          ]),
+          h("div", { class: "home-hero-code__line" }, [
+            h("span", { class: "home-hero-code__line-no" }, "03"),
+            h("span", { class: "home-hero-code__line-text" }, [
+              h("span", { class: "token-keyword" }, "const"),
+              " ",
+              h("span", { class: "token-variable" }, "next"),
+              " ",
+              h("span", { class: "token-operator" }, "="),
+              " ",
+              h("span", { class: "token-operator" }, "["),
+              h("span", { class: "token-string" }, "'free_trial'"),
+              h("span", { class: "token-operator" }, ","),
+              " ",
+              h("span", { class: "token-string" }, "'team_demo'"),
+              h("span", { class: "token-operator" }, ","),
+              " ",
+              h("span", { class: "token-string" }, "'private_deploy'"),
+              h("span", { class: "token-operator" }, "]"),
+            ]),
+          ]),
+          h("div", { class: "home-hero-code__line" }, [
+            h("span", { class: "home-hero-code__line-no" }, "04"),
+            h("span", { class: "home-hero-code__line-text" }, [
+              h("span", { class: "token-comment" }, "// 先看体验入口，再继续看产品、CLI 和部署方式"),
+            ]),
+          ]),
+          h("div", { class: "home-hero-code__line" }, [
+            h("span", { class: "home-hero-code__line-no" }, "05"),
+            h("span", { class: "home-hero-code__line-text" }, [
+              h("span", { class: "token-keyword" }, "return"),
+              " ",
+              h("span", { class: "token-function" }, "showExecutionFeel"),
+              h("span", { class: "token-operator" }, "("),
+              h("span", { class: "token-accent" }, "'smartflow_docs'"),
+              h("span", { class: "token-operator" }, ")"),
+            ]),
+          ]),
+        ]),
+        h("div", { class: "home-hero-code__footer" }, [
+          h("span", { class: "home-hero-code__tag" }, "welcome"),
+          h("span", { class: "home-hero-code__tag" }, "no login first"),
+          h("span", { class: "home-hero-code__tag" }, "execution first"),
+        ]),
+      ])
+  },
+}
+
+const HomeHeroAfter = {
+  name: "HomeHeroAfter",
+  setup() {
+    return () =>
+      h("div", { class: "home-hero-note" }, [
+        h("div", { class: "home-hero-note__kicker" }, "Co-Build Program"),
+        h("p", { class: "home-hero-note__text" }, [
+          "我们正在寻找首批标杆共创客户。如果你正受困于 AI 落地过程中的管控、审计、集成或本地接入难题，欢迎继续沟通，",
+          h("strong", null, "一起把下一代企业智能工作流定义清楚。"),
+        ]),
+      ])
+  },
+}
+
 export default {
   ...DefaultTheme,
   Layout: () =>
     h(DefaultTheme.Layout, null, {
+      "home-hero-image": () => h(HomeHeroCode),
+      "home-hero-after": () => h(HomeHeroAfter),
       "layout-bottom": () => h(ThemeStateSync),
     }),
 }

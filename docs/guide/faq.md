@@ -69,11 +69,11 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>免费版是不是企业后台裁剪版</h3>
-        <p>不是。免费版当前固定口径是“我的技能库”入口，承担体验与增长，不直接等同于企业交付后台。</p>
+        <p>不是。免费版面向个人探索者，用来快速体验脚本接入、AI 调度与执行反馈；团队与企业场景再进入更完整的协作和治理路径。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>企业线和免费线是不是两套完全分裂的系统</h3>
-        <p>不是。两条线当前共用同一套可信执行底座，只是入口语义、交付边界和目标用户不同。</p>
+        <p>不是。它们共享同一套执行与安全底座，只是面向的使用规模、协作深度和交付方式不同。</p>
       </article>
     </div>
   </section>
@@ -91,8 +91,8 @@ lastUpdated: false
         <p>不能。当前正式交付模型是一个客户一个租户，客户默认只能看到自己租户内被授权的能力。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>public</code> 是不是普通租户</h3>
-        <p>不是。<code>public</code> 当前固定口径是平台治理域，不应被讲成普通客户租户。</p>
+        <h3>平台如何保证不同客户之间隔离</h3>
+        <p>平台默认按客户边界隔离能力、数据和权限，确保不同客户之间互不可见、互不干扰。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>AI 会不会跨租户推荐别的客户能力</h3>
@@ -160,8 +160,8 @@ lastUpdated: false
         <p>当前不应这样写。标准团队版、套餐化和更重的产品化能力仍属于 <code>2.0</code> 方向。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>体验页统计是不是按唯一 IP 去重</h3>
-        <p>不是。当前按浏览器会话记一次访问，同时后台记录访问日志字段。</p>
+        <h3>体验页适合帮我判断什么</h3>
+        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合个人注册、团队试用还是企业咨询。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>注册成功后会去哪里</h3>
