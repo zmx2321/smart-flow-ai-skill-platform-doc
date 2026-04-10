@@ -10,9 +10,9 @@ lastUpdated: false
     <p class="brand-kicker">FAQ</p>
     <h1>常见问题</h1>
     <div class="brand-hero__panel">
-      <span class="brand-pill">Expectation Setting</span>
-      <strong>很多沟通成本不是功能缺失，而是预期没对齐。</strong>
-      <p>这页就是用来减少这种沟通成本的。</p>
+      <span class="brand-pill">Key Questions</span>
+      <strong>很多疑问都集中在定位、隔离、热更新和 CLI 这些核心问题上。</strong>
+      <p>这页把常见问题集中说明清楚。</p>
     </div>
     <p class="brand-lead">
       这一页专门回答第一次沟通、第一次体验和第一次做交付时最容易问到的问题。
@@ -40,16 +40,16 @@ lastUpdated: false
         <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
         <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
         <div class="matrix-panel__stack">
-          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__fn">what it is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">what it is not</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__ident">tenant isolation</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">hot update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">public boundary</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__ident">cli status</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">local execution</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">team path</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__fn">positioning</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">boundary</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">current_stage</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__ident">tenant_isolation</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">hot_update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">public_safe_docs</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__ident">cli_bridge</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">local_execution</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">team_delivery</span></span>
         </div>
-        <div class="matrix-panel__callout">CLEAR BOUNDARIES CREATE BETTER EXPECTATIONS</div>
+        <div class="matrix-panel__callout">CLEAR BOUNDARIES SAVE EVERYONE TIME</div>
       </div>
       <div class="matrix-panel__footer">
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">faq</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">active</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">tone</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">precise</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public-safe</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">faq</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">current</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">tone</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">direct</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public_safe</span></span>
       </div>
     </div>
   </div>
@@ -61,7 +61,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>它是不是一个普通聊天系统</h3>
-        <p>不是。当前更准确的定义是：让 AI 在规则内裁决真实脚本执行、同时服务企业交付与个人入口的可信执行平台。</p>
+        <p>不是。它是一个让 AI 在规则内调用和执行真实能力的平台，当前最成熟的执行资产是 Python 脚本。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>它适合哪些人</h3>
@@ -69,7 +69,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>免费版是不是企业后台裁剪版</h3>
-        <p>不是。免费版面向个人探索者，用来快速体验脚本接入、AI 调度与执行反馈；团队与企业场景再进入更完整的协作和治理路径。</p>
+        <p>不是。免费版面向个人探索者，用来快速体验能力接入、AI 调度与执行反馈；团队与企业场景再进入更完整的协作和治理路径。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>企业线和免费线是不是两套完全分裂的系统</h3>
@@ -107,11 +107,11 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>是不是一定要私有化才能用</h3>
-        <p>不一定。当前更应该先看数据边界、客户规模和执行位置，再决定是单租户交付、平台治理组合，还是混合执行路径。</p>
+        <p>不一定。可以根据数据边界、客户规模和执行位置，选择单租户交付、平台治理组合或混合执行路径。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>热更新是不是要重部署整个平台</h3>
-        <p>不是。当前热更新的公开口径是：客户脚本通过审核、同步、注册和授权后在当前租户内生效，不需要整个平台重部署。</p>
+        <p>不是。客户脚本通过审核、同步、注册和授权后，可以在当前租户内生效，不需要整个平台重新部署。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>客户能不能自己上传脚本后直接正式上线</h3>
@@ -120,6 +120,14 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>热更新会不会影响其他客户</h3>
         <p>不会。脚本更新后只在所属租户范围内生效，其他租户不会自动获得可见或可执行权限。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>是不是所有项目都默认包含文件上传和结果下载</h3>
+        <p>不一定。如果项目需要处理输入文件和结果产物，平台可以提供文件上传、批次状态和结果下载链路；是否开放以具体项目范围为准。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>正式交付后客户通常会拿到哪些说明</h3>
+        <p>通常至少包括访问入口、账号方式、客户使用说明、客户脚本热更新说明；如果项目包含公告、客户须知或结果下载入口，也应一起交待清楚。</p>
       </article>
     </div>
   </section>
@@ -130,11 +138,11 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>CLI 现在是不是概念功能</h3>
-        <p>不是。<code>smartflow-cli</code> 当前已经覆盖 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>。</p>
+        <p>不是。<code>smartflow-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和试用。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>本地 Agent 是不是已经正式商用</h3>
-        <p>还不是。当前应明确写成骨架或下一阶段增强，不应对外表述成已完成的常驻本地执行产品。</p>
+        <p>还不是。本地 Agent 相关能力仍在持续完善，目前可以先按本地桥接与执行骨架理解。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>本地脚本和内网资源能不能接进来</h3>
@@ -142,7 +150,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>是不是所有脚本类型都已经完整支持远程入库</h3>
-        <p>当前真实远程注册主线主要围绕 Python 脚本，更多类型仍属于后续增强范围。</p>
+        <p>远程注册目前主要围绕 Python 脚本，更多类型会继续扩展。</p>
       </article>
     </div>
   </section>
@@ -152,12 +160,12 @@ lastUpdated: false
     <h2>当前阶段与升级路径</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
-        <h3>现在已经正式成立什么</h3>
-        <p>企业 <code>1.0</code> 交付主线、个人免费入口、CLI 最小桥梁能力和外部文档口径都已经成立。</p>
+        <h3>现在已经做出什么</h3>
+        <p>企业 <code>1.0</code> 交付主线、个人免费入口、CLI 最小桥梁能力和外部文档都已可用，可以支撑演示、试用和部分真实场景。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>标准团队版是不是已经完全产品化开放</h3>
-        <p>当前不应这样写。标准团队版、套餐化和更重的产品化能力仍属于 <code>2.0</code> 方向。</p>
+        <h3>标准化小团队方案是不是已经完全开放</h3>
+        <p>标准化小团队方案、套餐化和更完整的产品能力会继续扩展。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>体验页适合帮我判断什么</h3>

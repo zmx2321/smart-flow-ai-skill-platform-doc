@@ -8,24 +8,24 @@ lastUpdated: false
 <section class="brand-hero">
   <div>
     <p class="brand-kicker">External Materials</p>
-    <h1>对外资料</h1>
+    <h1>介绍资料</h1>
     <div class="brand-hero__panel">
-      <span class="brand-pill">Not Internal Runbooks</span>
-      <strong>对外资料的价值，不在于说得多，而在于说得准、说得一致、说得能转化。</strong>
-      <p>所以这组页面只保留公开安全且和当前代码状态一致的内容。</p>
+      <span class="brand-pill">Presentation Kit</span>
+      <strong>这组页面把平台介绍、演示提纲和价值说明分开整理，便于直接阅读、转发和沟通。</strong>
+      <p>你可以按目标选择最适合当前场景的页面。</p>
     </div>
     <p class="brand-lead">
-      这里收的不是内部操作手册，而是适合拿去做介绍、演示、沟通和对外表达的公开材料。
-      目标是把 <strong>怎么讲、怎么演示、怎么向决策者解释价值</strong> 这件事单独收成一组页面。
+      这里收录适合用于产品了解、方案沟通和演示准备的资料。
+      目标是把 <strong>平台介绍、价值说明和演示顺序</strong> 分别整理清楚。
     </p>
     <div class="brand-chip-list">
-      <span class="brand-chip">对外介绍</span>
+      <span class="brand-chip">平台介绍</span>
       <span class="brand-chip">演示提纲</span>
       <span class="brand-chip">价值表达</span>
-      <span class="brand-chip">公开安全</span>
+      <span class="brand-chip">决策沟通</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="./pitch.html">看对外介绍提纲</a>
+      <a class="cta-button cta-button--brand" href="./pitch.html">看介绍提纲</a>
       <a class="cta-button" href="./value.html">看价值说明</a>
     </div>
   </div>
@@ -40,16 +40,16 @@ lastUpdated: false
         <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
         <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
         <div class="matrix-panel__stack">
-          <span class="matrix-panel__line"><span class="matrix-panel__key">30s</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__fn">what it is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">what problem it solves</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">3min</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">why pay</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">why controllable</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">why now</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">10 slides</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__fn">pitch</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">demo</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">next step</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">30s</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__fn">what_it_is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">why_it_matters</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">3min</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">problem</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">control</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">delivery_value</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">deck</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__fn">pitch</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">demo</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">next_step</span></span>
         </div>
-        <div class="matrix-panel__callout">PUBLIC-SAFE MATERIALS SHOULD STILL MATCH REAL PRODUCT STATE</div>
+        <div class="matrix-panel__callout">MATERIALS SHOULD STAY CLEAR / USABLE</div>
       </div>
       <div class="matrix-panel__footer">
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">usage</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">pitch</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">usage</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">demo</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">usage</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">presales</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">scene</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">pitch</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">scene</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">demo</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">scene</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">presales</span></span>
       </div>
     </div>
   </div>
@@ -58,7 +58,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Pitch</p>
-      <h2>对外介绍提纲</h2>
+      <h2>介绍提纲</h2>
       <p>适合做官网说明、初次介绍、路演讲解和对外表达，把“它是什么、为什么值得听下去”快速讲清。</p>
     </article>
     <article class="brand-card">
@@ -67,9 +67,9 @@ lastUpdated: false
       <p>适合面向老板、业务负责人和交付负责人，把“省什么事、可不可控、值不值得投”讲清楚。</p>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Boundary</p>
-      <h2>公开资料边界</h2>
-      <p>不放内部台账、内部部署细节、内部报价和内部操作手册，只保留公开安全且可对外传播的内容。</p>
+      <p class="brand-kicker">Use Case</p>
+      <h2>适合哪些场景</h2>
+      <p>适合首次了解、演示沟通、方案说明和决策交流，帮助不同角色快速看懂平台。</p>
     </article>
   </section>
 
@@ -88,7 +88,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>第一次向别人解释 SmartFlow</td>
-          <td><a href="./pitch.html">对外介绍提纲</a></td>
+          <td><a href="./pitch.html">介绍提纲</a></td>
           <td>快速讲清楚平台是什么、解决什么问题、为什么不是普通聊天系统</td>
           <td>适合 30 秒到 3 分钟表达</td>
         </tr>
@@ -105,10 +105,10 @@ lastUpdated: false
           <td>适合正式进入项目沟通阶段</td>
         </tr>
         <tr>
-          <td>新同事快速对齐公开口径</td>
+          <td>第一次系统了解平台</td>
           <td><a href="../guide/index.html">开始使用</a></td>
-          <td>先统一入口、路径和阶段认知</td>
-          <td>避免一上来就口径跑偏</td>
+          <td>先建立入口、路径和阶段认知</td>
+          <td>适合需要快速看全局的人</td>
         </tr>
       </tbody>
     </table>
@@ -120,8 +120,8 @@ lastUpdated: false
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./pitch.html">
         <span>Step 01</span>
-        <strong>对外介绍提纲</strong>
-        <p>先把“如何对外介绍这套平台”讲顺。</p>
+        <strong>介绍提纲</strong>
+        <p>先把“如何介绍这套平台”讲顺。</p>
       </a>
       <a class="brand-link-card" href="./value.html">
         <span>Step 02</span>
@@ -151,7 +151,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./pitch.html">
           <span>Pitch</span>
-          <strong>对外介绍提纲</strong>
+          <strong>介绍提纲</strong>
         </a>
         <a class="brand-link-card" href="./value.html">
           <span>Value</span>

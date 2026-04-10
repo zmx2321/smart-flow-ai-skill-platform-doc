@@ -12,11 +12,17 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
         <strong>复杂工作，简单对话；私有部署，安全省人。</strong>
-        <p>先把产品定位讲清楚，再展开场景、能力、架构和版本路线，转化路径会更顺。</p>
+        <p>先把当前能做的事情讲清楚，再展开场景、能力、架构和当前阶段，沟通会更顺。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 当前最准确的定义是：
-        <strong>一个让 AI 在规则内裁决真实脚本执行、同时服务企业交付与个人入口，并逐步走向产品化和生态化的智能执行平台。</strong>
+        <strong>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+      </p>
+      <p class="brand-lead">
+        SmartFlow 让 AI 在规则内裁决真实能力执行，围绕试用、本地接入和正式交付提供连续路径。
+      </p>
+      <p>
+        当前最成熟的第一种执行资产是 Python 脚本，但平台长期管理的对象是
+        标准化、可调度、可审计的能力单元，而不只是某一类脚本文件。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">多租户治理</span>
@@ -40,14 +46,14 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                     <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">positioning</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'trusted_ai_execution_platform'</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">delivery</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'web_console'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_bridge'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">corePosition</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'controlled_ai_execution_platform'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">userPath</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_use'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_delivery'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">executionSurface</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'web_console'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli_bridge'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_env'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">EXECUTION FIRST / PRODUCT VIEW</div>
+          <div class="matrix-panel__callout">REAL EXECUTION / CLEAR POSITIONING</div>
         </div>
         <div class="matrix-panel__footer">
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">status</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">clear</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">status</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">current</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery</span><span class="matrix-panel__op"> + </span><span class="matrix-panel__value">product</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">docs</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public</span></span>
         </div>
@@ -57,23 +63,32 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Project Layer</p>
-      <h2>项目层口径</h2>
+      <p class="brand-kicker">Platform</p>
+      <h2>平台定位</h2>
+      <ul class="brand-list">
+        <li>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</li>
+        <li>当前最成熟的能力形态是脚本型能力接入、执行、审计和持续更新。</li>
+        <li>平台会继续扩展到 API、模板、连接器和审批流程等更多能力类型。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Project Name</p>
+      <h2>英文项目名</h2>
       <ul class="brand-list">
         <li>项目名：<code>SmartFlow AI Skill Platform</code></li>
         <li>定位：<code>An Open &amp; Secure AI Agent Execution Layer</code></li>
         <li>Slogan：<code>Make AI Work, Make Work Smart.</code></li>
-        <li>用于表达平台的技术定位和长期演进方向，从 1.0 执行底座逐步走向更强的生态协同。</li>
+        <li>便于在代码仓库、技术文档和工程协作中识别。</li>
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Product Layer</p>
-      <h2>产品层口径</h2>
+      <p class="brand-kicker">Product Name</p>
+      <h2>中文产品名</h2>
       <ul class="brand-list">
         <li>产品名：<code>智流·智能执行平台</code></li>
         <li>副标题：企业级业务自动化与安全执行系统</li>
         <li>Slogan：复杂工作，简单对话；私有部署，安全省人。</li>
-        <li>用于面向客户和用户表达产品价值，而不是只强调项目代号。</li>
+        <li>适合用于产品介绍、方案沟通和正式交付场景。</li>
       </ul>
     </article>
   </section>
@@ -92,7 +107,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>不是 demo 脚本拼装站</h3>
-        <p>它要承接企业交付、平台治理、产品升级和未来生态，不是临时脚本集合。</p>
+        <p>它要承接真实交付、平台治理和持续维护，不是临时脚本集合。</p>
       </article>
     </div>
   </section>
@@ -120,6 +135,38 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Future Asset Types</p>
+    <h2>未来优先会接入哪些能力形态</h2>
+    <p>下面这些方向是平台接下来会优先扩展的能力形态，帮助你判断长期匹配度。</p>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>API / SaaS 调用</h3>
+        <p>把第三方服务、企业内部接口和 Webhook 收成可治理的能力入口。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>数据连接器</h3>
+        <p>把数据库查询、数据仓库写入、CRM / ERP 读写收成标准化能力。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>文档模板服务</h3>
+        <p>把合同、报告、周报和标准文档生成流程纳入统一执行入口。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>审批 / 工作流</h3>
+        <p>把请假、采购、工单、状态流转等流程触发动作收成可审计的能力。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>专用模型服务</h3>
+        <p>把 OCR、文档解析、语音识别、图片生成等模型能力接入平台治理链路。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>运维与通知动作</h3>
+        <p>把巡检、告警、日志清理、备份、通知发送等高频动作继续纳入可信执行范围。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">How To Start</p>
     <h2>不同角色，推荐从这里开始</h2>
     <div class="brand-grid brand-grid--two">
@@ -127,17 +174,36 @@ lastUpdated: false
         <h3>个人探索者</h3>
         <ul class="brand-list">
           <li>先从免登录体验页开始，快速感受一次真实执行链路。</li>
-          <li>注册后进入个人智能执行台，把第一个脚本接进来。</li>
+          <li>注册后进入个人智能执行台，从技能库、脚本上传、公告、个人空间和社区广场继续往下走。</li>
           <li>适合先验证“AI 能不能真正帮我调度脚本”。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>团队与企业</h3>
         <ul class="brand-list">
-          <li>如果需要多人协作、权限控制、审计或本地接入，直接预约团队演示。</li>
+          <li>如果需要多人协作、权限控制、审计或本地接入，直接沟通场景和交付边界。</li>
           <li>如果涉及内网、合规或私有化交付，可继续咨询企业方案。</li>
           <li>先明确业务场景，再决定部署与交付方式，会比先比较功能表更有效。</li>
         </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Priority Customers</p>
+    <h2>当前优先服务哪三类客户</h2>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>电商 / 内容 / 运营数据自动化</h3>
+        <p>这类团队通常已经有很多散落脚本、表格和数据处理流程，最容易先从 Python 脚本能力切入，也最容易感受到统一入口和执行留痕的价值。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>技术团队脚本治理与自动化运维</h3>
+        <p>这类团队更能接受 CLI、本地执行、权限边界和审计记录，也最贴近平台当前已成熟的脚本治理和可信执行能力。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>需要内网或私有化的小型正式客户</h3>
+        <p>这类客户单客价值更高，也最能验证多租户隔离、平台超管治理和正式交付链路，但要控制定制深度，只接能反向沉淀平台能力的项目。</p>
       </article>
     </div>
   </section>
@@ -178,8 +244,30 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./editions.html">
         <span>Step 07</span>
-        <strong>版本路线</strong>
-        <p>最后看 1.0 到 4.0 的演进逻辑，以及为什么路线不是“多加几个菜单”。</p>
+        <strong>当前阶段</strong>
+        <p>最后看当前 1.0 在做什么、下一步重点放哪里，以及为什么现在不把路线讲得太远。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Delivery Extension</p>
+    <h2>如果你正从体验走向正式接入，再补看这三页</h2>
+    <div class="brand-link-grid">
+      <a class="brand-link-card" href="./file-results.html">
+        <span>Files</span>
+        <strong>文件上传 / 结果下载</strong>
+        <p>适合文件型任务、报表产物和需要批次状态的场景，先把输入文件和结果文件的链路讲清楚。</p>
+      </a>
+      <a class="brand-link-card" href="./deliverables.html">
+        <span>Deliverables</span>
+        <strong>交付物 / 文档入口</strong>
+        <p>适合正式交付沟通，明确客户到底会拿到哪些入口、说明和结果物。</p>
+      </a>
+      <a class="brand-link-card" href="./onboarding-checklist.html">
+        <span>Checklist</span>
+        <strong>客户接入准备清单</strong>
+        <p>适合售前、实施和客户一起对齐脚本目录、README、样例文件、依赖和风险边界。</p>
       </a>
     </div>
   </section>
@@ -190,18 +278,18 @@ lastUpdated: false
       <h2>这类平台为什么值得继续看</h2>
       <ul class="brand-list">
         <li>不是把模型接出来就结束，而是让 AI 在规则内真正执行。</li>
-        <li>不是一次性 demo，而是能持续沉淀脚本、流程和审计记录。</li>
-        <li>个人试用、团队协作和企业部署是一条连续成长路线。</li>
-        <li>支持网页入口、本地脚本和后续更完整的执行桥接路径。</li>
+        <li>不是一次性 demo，而是能持续沉淀能力资产、流程和审计记录。</li>
+        <li>个人试用、正式交付和本地接入能共用同一套可信执行底座。</li>
+        <li>支持网页入口、本地脚本接入，以及后续更完整的能力桥接路径。</li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Good Fit</p>
       <h2>当前适合谁</h2>
       <ul class="brand-list">
-        <li>需要把已有 Python / 自动化脚本接成 AI 可调度能力的个人或团队</li>
-        <li>需要一套兼顾试用入口、协作治理和企业交付的统一平台</li>
-        <li>需要保留本地环境、审计要求或更高安全边界的业务场景</li>
+        <li>电商、内容和运营数据自动化团队</li>
+        <li>要做脚本治理和自动化运维的技术团队</li>
+        <li>需要内网、私有化或更高安全边界的小型正式客户</li>
       </ul>
     </article>
   </section>

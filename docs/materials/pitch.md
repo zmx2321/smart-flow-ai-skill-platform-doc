@@ -8,21 +8,21 @@ lastUpdated: false
 <section class="brand-hero">
   <div>
     <p class="brand-kicker">Pitch Outline</p>
-    <h1>对外介绍提纲</h1>
+    <h1>介绍提纲</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Talking Point</span>
       <strong>真正有效的介绍，不是讲很多技术名词，而是让听的人快速知道它是什么、解决什么问题、为什么现在值得继续听。</strong>
       <p>这页就是按这个逻辑展开的。</p>
     </div>
     <p class="brand-lead">
-      这一页把 SmartFlow 的对外介绍收成可直接复用的提纲。
-      你可以把它当成官网讲稿、路演草稿、初次沟通提纲，或者 10 页 PPT 的骨架。
+      这一页把 SmartFlow 的平台介绍整理成可直接复用的提纲。
+      你可以把它当成官网讲稿、第一次沟通提纲，或者一份简短介绍页的骨架。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">30 秒版本</span>
       <span class="brand-chip">3 分钟版本</span>
-      <span class="brand-chip">10 页结构</span>
-      <span class="brand-chip">公开安全</span>
+      <span class="brand-chip">简短结构</span>
+      <span class="brand-chip">适合沟通</span>
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="./value.html">看价值说明</a>
@@ -40,16 +40,16 @@ lastUpdated: false
         <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
         <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
         <div class="matrix-panel__stack">
-          <span class="matrix-panel__line"><span class="matrix-panel__key">problem</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">scripts exist</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">entry does not</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">platform</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">ai judge</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">controlled execution</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">tenant</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">url</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">isolation</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">problem</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">scripts_exist</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">entry_is_fragmented</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">platform</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">intent_routing</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">controlled_execution</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">tenant</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">dedicated_url</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">isolation</span></span>
         </div>
-        <div class="matrix-panel__callout">A GOOD INTRO SHOULD REDUCE CONFUSION, NOT ADD BUZZWORDS</div>
+        <div class="matrix-panel__callout">GOOD PITCHES REDUCE CONFUSION FAST</div>
       </div>
       <div class="matrix-panel__footer">
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">pitch</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">short</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">pitch</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">medium</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">pitch</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">deck</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">format</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">30s</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">format</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">3min</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">format</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">deck</span></span>
       </div>
     </div>
   </div>
@@ -59,18 +59,18 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">30 Seconds</p>
       <h2>30 秒版本怎么讲</h2>
-      <p>SmartFlow 不是普通聊天系统，而是一套让 AI 在规则内调用真实脚本和流程的智能执行平台。它把分散在文件夹、服务器和个人经验里的能力，收成一个可控、可交付、可持续更新的统一入口。</p>
+      <p>SmartFlow 不是普通聊天系统，而是一套让 AI 在规则内调用真实能力和流程的智能执行平台。它把分散在文件夹、服务器和个人经验里的能力，收成一个可控、可交付、可持续更新的统一入口。当前最先落地、最成熟的第一种能力载体，是 Python 脚本。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">3 Minutes</p>
       <h2>3 分钟版本怎么讲</h2>
-      <p>先讲问题：很多企业已经有脚本和流程，但没有统一执行入口。再讲平台：AI 负责理解需求和推荐能力，平台负责边界、确认、执行和审计。最后讲价值：一个客户一个租户，一个客户一个网址，后续脚本还能持续热更新。</p>
+      <p>先讲问题：很多企业已经有脚本、接口和流程，但没有统一执行入口。再讲平台：AI 负责理解需求和推荐能力，平台负责边界、确认、执行和审计。最后讲价值：一个客户一个租户，一个客户一个网址，能力可以持续更新，而当前第一阶段主要以脚本型能力落地。现在更重要的是先把真实问题解决好，而不是把路线讲得很远。</p>
     </article>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Deck Structure</p>
-    <h2>10 页结构可以怎么排</h2>
+    <h2>简短介绍结构可以怎么排</h2>
     <table>
       <thead>
         <tr>
@@ -90,14 +90,14 @@ lastUpdated: false
         <tr>
           <td>02</td>
           <td>我们在解决什么问题</td>
-          <td>很多企业已有脚本和流程，但没有统一执行入口</td>
+          <td>很多企业已有脚本、接口和流程，但没有统一执行入口</td>
           <td>分散脚本汇入一个平台入口</td>
         </tr>
         <tr>
           <td>03</td>
           <td>平台是什么</td>
           <td>不是普通聊天系统，而是可信执行平台</td>
-          <td>上层对话、下层脚本与权限的分层图</td>
+          <td>上层对话、下层能力与权限的分层图</td>
         </tr>
         <tr>
           <td>04</td>
@@ -113,14 +113,14 @@ lastUpdated: false
         </tr>
         <tr>
           <td>06</td>
-          <td>平台内部闭环</td>
+      <td>执行闭环</td>
           <td>用户需求 -&gt; AI 理解 -&gt; 推荐能力 -&gt; 确认 -&gt; 执行 -&gt; 结果</td>
           <td>横向流程图</td>
         </tr>
         <tr>
           <td>07</td>
           <td>当前落地能力</td>
-          <td>多租户、脚本注册、智能大脑、热更新、CLI 已有真实基础</td>
+          <td>多租户、能力接入、智能大脑、热更新、CLI 已有真实基础</td>
           <td>能力卡片墙</td>
         </tr>
         <tr>
@@ -131,8 +131,8 @@ lastUpdated: false
         </tr>
         <tr>
           <td>09</td>
-          <td>商业路径</td>
-          <td>1.0 交付，2.0 产品化，3.0 生态化，4.0 基础设施化</td>
+          <td>当前阶段与下一步</td>
+          <td>先把 1.0 交付做稳，再看哪些部分值得进入 2.0 产品化</td>
           <td>版本路线图</td>
         </tr>
         <tr>
@@ -150,20 +150,22 @@ lastUpdated: false
       <p class="brand-kicker">Do Say</p>
       <h2>建议这样讲</h2>
       <ul class="brand-list">
-        <li>它把分散脚本收进统一入口</li>
+        <li>它把分散脚本、接口和流程收进统一入口</li>
         <li>AI 在规则内推荐和触发能力</li>
         <li>平台强调租户隔离、确认执行和审计留痕</li>
         <li>一个客户一个租户，一个客户一个网址</li>
+        <li>先讲当前可用能力，再讲后续扩展方向</li>
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Do Not Say</p>
-      <h2>不建议这样讲</h2>
+      <p class="brand-kicker">Current Stage</p>
+      <h2>当前阶段适合这样理解</h2>
       <ul class="brand-list">
-        <li>不要把它讲成普通聊天工具</li>
-        <li>不要把 Agent 骨架讲成已经成熟的本地执行产品</li>
-        <li>不要把团队版讲成已经完全标准化开放</li>
-        <li>不要把内部部署、内部台账和内部报价混进公开资料</li>
+        <li>平台当前最成熟的执行资产是 Python 脚本</li>
+        <li><code>smartflow-cli</code> 适合本地接入和试用，常驻 Agent 能力在持续完善</li>
+        <li>企业交付支持独立租户、独立网址和持续更新</li>
+        <li>更标准化的小团队协作能力会继续扩展</li>
+        <li>更多能力类型会逐步接入统一治理链路</li>
       </ul>
     </article>
     <article class="brand-card">

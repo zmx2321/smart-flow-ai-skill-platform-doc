@@ -10,22 +10,25 @@ lastUpdated: false
       <p class="brand-kicker">Editions &amp; Roadmap</p>
       <h1>版本路线</h1>
       <div class="brand-hero__panel">
-        <span class="brand-pill">Roadmap Signal</span>
-        <strong>不是一条“多做点功能”的路线，而是一条“平台身份变化”的路线。</strong>
-        <p>每一阶段都围绕交付能力、产品化能力、生态能力和治理能力继续上探。</p>
+        <span class="brand-pill">Version Plan</span>
+        <strong>当前路线分为三个阶段：1.0 做稳交付与执行，1.1 完成试用到续费闭环，2.0 扩展标准化协作与更多能力接入。</strong>
+        <p>不同阶段对应不同使用方式与升级路径。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 的版本路线不是单纯“菜单越来越多”，而是平台角色逐步变化：
-        <strong><code>1.0</code></strong> 先解决交付与可信执行，
-        <strong><code>2.0</code></strong> 解决标准产品化，
-        <strong><code>3.0</code></strong> 解决第三方生态，
-        <strong><code>4.0</code></strong> 解决更广泛的能力包、边缘执行和设备插件治理。
+        SmartFlow 当前的版本节奏可以这样理解：
+        <strong><code>1.0</code></strong> 先把真实交付、可信执行和本地接入做稳，
+        <strong><code>1.1</code></strong> 把自动注册、支付、续费和低客服闭环补起来，
+        <strong><code>2.0</code></strong> 再决定哪些部分值得继续产品化。
+      </p>
+      <p class="brand-lead">
+        <strong>当前 <code>1.0</code> 的核心定位是：智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">1.0 可信交付</span>
-        <span class="brand-chip">2.0 标准产品化</span>
-        <span class="brand-chip">3.0 生态开放</span>
-        <span class="brand-chip">4.0 执行基础设施</span>
+        <span class="brand-chip">1.1 低客服闭环</span>
+        <span class="brand-chip">2.0 下一步收敛</span>
+        <span class="brand-chip">持续升级</span>
+        <span class="brand-chip">按需扩展</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通版本合作</a>
@@ -44,65 +47,69 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
             <span class="matrix-panel__line"><span class="matrix-panel__key">1.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">delivery_ready</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">trusted_execution</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">2.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">team_saas</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">sellable</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">3.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">ecosystem</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">extensible</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">4.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">infra</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">edge_ready</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">1.1</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">self_serve_trial</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">renewal_loop</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">2.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">productize_proven_paths</span></span>
           </div>
-          <div class="matrix-panel__callout">ROADMAP / PLATFORM IDENTITY SHIFT</div>
+          <div class="matrix-panel__callout">ROADMAP SHOULD FOLLOW REAL DEMAND</div>
         </div>
         <div class="matrix-panel__footer">
           <span class="matrix-panel__tag"><span class="matrix-panel__key">now</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">1.0</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">2.0</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">long</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">4.0</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">1.1</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">later</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">2.0</span></span>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="brand-grid brand-grid--four">
+  <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">1.0</p>
       <h2>可信 AI 执行交付版</h2>
       <ul class="brand-list">
         <li>一个客户一个租户</li>
-        <li>脚本注册与 Skill 映射</li>
+        <li>统一能力目录、脚本接入与 Skill 映射</li>
+        <li>当前以 Python 脚本作为第一种成熟执行资产</li>
         <li>智能大脑推荐、确认、执行、审计</li>
         <li>模板分发、安装、回滚、日志</li>
-        <li>免登录体验页、登录 / 注册页和 <code>smartflow-cli</code> 最小闭环</li>
+        <li>免登录体验页、登录 / 注册页、个人技能库 / 上传 / 公告 / 个人空间 / 社区广场，以及 <code>smartflow-cli</code> 最小闭环</li>
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">2.0</p>
-      <h2>标准产品化版</h2>
+      <p class="brand-kicker">Next</p>
+      <h2>下一阶段先收敛这些</h2>
       <ul class="brand-list">
-        <li>套餐与配额产品化</li>
-        <li>团队版产品化</li>
-        <li>模板与技能包产品化</li>
-        <li>CLI + 本地 Agent 正式产品化</li>
-        <li>订单、转化、活跃度标准化</li>
-      </ul>
-    </article>
-    <article class="brand-card">
-      <p class="brand-kicker">3.0</p>
-      <h2>生态开放版</h2>
-      <ul class="brand-list">
-        <li>开发者接入</li>
-        <li>模板 / 技能市场</li>
-        <li>审核与上架</li>
-        <li>API / SDK / 文档中心</li>
-        <li>第三方分发与双边生态</li>
-      </ul>
-    </article>
-    <article class="brand-card">
-      <p class="brand-kicker">4.0</p>
-      <h2>智能执行基础设施版</h2>
-      <ul class="brand-list">
-        <li>插件包、设备动作包、边缘能力包</li>
-        <li>统一控制面管理安装、升级、回滚、授权和审计</li>
-        <li>控制面与执行端继续收敛到同一套治理逻辑</li>
+        <li>把自动注册、试用开通、支付、续费、到期提醒和停开流程补成低客服闭环</li>
+        <li>把小团队协作里真正高频的能力收成更稳的方案</li>
+        <li>把套餐、额度和交付边界收敛成更清楚的产品规则</li>
+        <li>把 CLI / 本地执行里值得产品化的部分继续补稳</li>
       </ul>
     </article>
   </section>
+
+<section class="brand-grid brand-grid--two">
+  <article class="brand-card">
+    <p class="brand-kicker">1.0 Core</p>
+    <h2><code>1.0</code> 当前重点</h2>
+    <ul class="brand-list">
+      <li>以 Python 脚本为第一种成熟执行资产</li>
+      <li>Skill 继续作为用户可见的能力单元</li>
+      <li>交付、执行、安全边界和持续更新形成闭环</li>
+      <li>单能力执行已经可用</li>
+      <li>本地桥接与 CLI 支撑更深接入</li>
+    </ul>
+  </article>
+  <article class="brand-card">
+    <p class="brand-kicker">2.0 Expansion</p>
+    <h2><code>2.0</code> 继续扩展什么</h2>
+    <ul class="brand-list">
+      <li>自动注册、支付、续费、提示和自助支持进一步产品化</li>
+      <li>更通用的能力资产注册模型</li>
+      <li>API、数据连接器、文档模板、审批流程等更多能力接入</li>
+      <li>安装、分发、升级和回滚策略进一步通用化</li>
+      <li>小团队协作、套餐化和标准产品能力继续收敛</li>
+    </ul>
+  </article>
+</section>
 
 <section class="brand-card">
   <p class="brand-kicker">Upgrade Route</p>
@@ -110,7 +117,7 @@ lastUpdated: false
   <div class="brand-grid brand-grid--four">
     <article class="brand-card brand-card--nested">
       <h3>01. 免费入口感知价值</h3>
-      <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么，确认“AI 调度脚本”这条链路是否成立。</p>
+      <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么；登录后的个人入口当前会继续落到技能库、上传、公告、个人空间和社区广场，确认“AI 调度能力”这条链路是否成立。</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>02. CLI 与更深使用开始接入</h3>
@@ -118,11 +125,11 @@ lastUpdated: false
     </article>
     <article class="brand-card brand-card--nested">
       <h3>03. 企业 1.0 正式交付承接收入</h3>
-      <p>当客户需要独立网址、独立租户、正式权限和交付验收时，当前真实主线是企业 <code>1.0</code> 单租户交付。</p>
+      <p>当客户需要独立网址、独立租户、正式权限和交付验收时，企业 <code>1.0</code> 单租户交付就是当前最适合的路径。</p>
     </article>
     <article class="brand-card brand-card--nested">
-      <h3>04. 2.0 才把团队梯度正式产品化</h3>
-      <p>标准团队版、套餐化、资源计量、正式升级路径和更完整的产品梯度，应放在 <code>2.0</code> 去收敛，而不是在当前口径里提前写满。</p>
+      <h3>04. 2.0 才把标准方案继续做厚</h3>
+        <p><code>2.0</code> 会继续扩展小团队协作、套餐化、资源计量和更完整的产品梯度。</p>
     </article>
   </div>
 </section>
@@ -130,12 +137,12 @@ lastUpdated: false
 <section class="brand-grid brand-grid--two">
   <article class="brand-card">
     <p class="brand-kicker">Current Upgrade Logic</p>
-    <h2>当前更真实的升级逻辑</h2>
+      <h2>升级路径怎么走</h2>
     <ul class="brand-list">
       <li>第一步先让用户通过免费入口感知价值</li>
       <li>第二步用 CLI、客户流程和部署文档承接更深问题</li>
-      <li>第三步当用户进入真实客户场景时，由企业 <code>1.0</code> 交付承接</li>
-      <li>第四步等 <code>2.0</code> 完成后，再把团队版和套餐化升级路径做成正式产品梯度</li>
+      <li>第三步当用户进入真实客户场景时，由企业 <code>1.0</code> 或小团队方案承接</li>
+      <li>第四步先把 <code>1.1</code> 的自动支付、续费和提示做成低客服闭环，再进入 <code>2.0</code> 的标准产品梯度</li>
     </ul>
     <p><a href="./deployment.html">回到部署方式</a></p>
   </article>
@@ -143,53 +150,51 @@ lastUpdated: false
     <p class="brand-kicker">What 2.0 Changes</p>
     <h2><code>2.0</code> 之后，这条路径会发生什么变化</h2>
     <ul class="brand-list">
-      <li>免费版、团队版、企业版的产品阶梯会更明确</li>
-      <li>套餐、配额、资源、转化和运营指标会正式产品化</li>
-      <li>CLI + 本地 Agent 会从桥梁能力进一步收成正式产品能力</li>
-      <li>“先体验，再团队协作，再企业交付”的路径才会真正收成标准化升级链路</li>
+      <li>免费入口、小团队方案和正式交付之间的边界会更明确</li>
+      <li>套餐、配额、资源、转化和运营指标会收敛得更清楚</li>
+      <li>CLI + 本地 Agent 里真正有价值的部分会继续往稳定方案靠拢</li>
+      <li>“先体验，再按场景升级”的路径才会真正收成标准化链路</li>
     </ul>
   </article>
 </section>
 
-  <section class="brand-grid brand-grid--two">
-    <article class="brand-card">
-      <p class="brand-kicker">Why 4.0 Is Plausible</p>
-      <h2>为什么 <code>4.0</code> 不是空想</h2>
-      <ul class="brand-list">
-        <li>能力要先注册，才能被调度</li>
-        <li>执行要有权限边界和风险控制</li>
-        <li>安装、升级、回滚都要可追踪</li>
-        <li>控制面和执行端要统一治理，而不是各跑各的</li>
-      </ul>
-      <p>从这个角度看，今天的脚本注册、Skill 调度、模板安装和日志审计，都是未来设备插件和边缘能力治理的前置基础。</p>
-    </article>
-    <article class="brand-card">
-      <p class="brand-kicker">Open Scenarios</p>
-      <h2><code>4.0</code> 可能承接的公开场景</h2>
-      <ul class="brand-list">
-        <li>边缘节点上的任务执行</li>
-        <li>设备能力包管理</li>
-        <li>本地 Agent 与设备执行端联动</li>
-        <li>需要统一控制面的多执行端系统</li>
-      </ul>
-    </article>
-  </section>
+<section class="brand-card">
+  <p class="brand-kicker">1.0 Companion Docs</p>
+  <h2>如果你关心的是 1.0 怎么真正落到项目里，继续看这 3 页</h2>
+  <div class="brand-link-grid">
+    <a class="brand-link-card" href="./file-results.html">
+      <span>Files</span>
+      <strong>文件上传 / 结果下载</strong>
+      <p>很多 1.0 项目不是只回文本，而是要承接输入文件、批次状态和结果文件，这条链路已经应该单独讲清楚。</p>
+    </a>
+    <a class="brand-link-card" href="./deliverables.html">
+      <span>Deliverables</span>
+      <strong>交付物 / 文档入口</strong>
+      <p>如果你想判断 1.0 是否真的可交付，就要看客户最终会拿到哪些入口、说明和结果物，而不是只看功能名。</p>
+    </a>
+    <a class="brand-link-card" href="./onboarding-checklist.html">
+      <span>Checklist</span>
+      <strong>客户接入准备清单</strong>
+      <p>如果你已经准备推进真实项目，先把脚本目录、README、样例文件、依赖和风险边界准备齐，会比继续空谈版本号更有价值。</p>
+    </a>
+  </div>
+</section>
 
   <section class="brand-card">
-    <p class="brand-kicker">Product Library</p>
-    <h2><code>1.0</code> 后面可以标准化出来的产品库</h2>
+    <p class="brand-kicker">Near-Term Focus</p>
+      <h2>当前阶段的标准服务包</h2>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>企业 AI 工作流搭建</h3>
-        <p>把现有脚本、审批和执行确认链收成正式交付包，面向中小团队快速落地。</p>
+        <p>把现有脚本、审批和执行确认链收成正式交付包，优先服务中小团队的真实自动化场景。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>自动化运维中枢</h3>
-        <p>围绕任务调度、日志留痕、模板分发和本地执行桥接，形成标准化服务包。</p>
+        <p>围绕任务调度、日志留痕、模板分发和本地执行桥接，形成最容易成交和复用的标准化服务包。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>行业模板与数据处理包</h3>
-        <p>把高频行业脚本沉淀成模板、技能包和后续可售卖能力目录，进入 2.0 与 3.0 的连接区。</p>
+        <h3>行业数据自动化交付包</h3>
+        <p>把高频行业数据采集、清洗、导出和报告链路沉淀成窄场景交付包，再逐步进入 2.0 的标准产品化。</p>
       </article>
     </div>
   </section>
@@ -206,13 +211,41 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Current Rhythm</p>
-      <h2>当前公开节奏</h2>
+      <h2>当前版本节奏</h2>
       <ul class="brand-list">
-        <li><code>1.0</code> 是当前已经成立的交付主线</li>
-        <li><code>2.0</code> 是下一阶段的标准产品化</li>
-        <li><code>3.0</code> 是开发者与市场生态</li>
-        <li><code>4.0</code> 是更长期的智能执行基础设施方向</li>
+        <li><code>1.0</code> 是当前已经有可用基础的交付主线</li>
+        <li><code>1.1</code> 优先把自动注册、支付、续费、提醒和低客服支持做稳</li>
+        <li><code>2.0</code> 是下一阶段的产品化收敛</li>
+        <li>更多能力会按需求逐步扩展</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card brand-card--cta">
+    <div class="brand-card__row">
+      <div>
+        <p class="brand-kicker">Next Read</p>
+        <h2>如果你已经理解版本路线，下一步通常不是继续聊概念</h2>
+        <p class="brand-lead">更有效的做法通常是回到当前 1.0 和 1.1 的真实交付链路，把文件场景、交付物、接入准备和自动化运营边界一次对齐，再决定是否要继续走 2.0 的产品化升级路径。</p>
+      </div>
+      <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./deployment.html">
+          <span>Deployment</span>
+          <strong>部署方式</strong>
+        </a>
+        <a class="brand-link-card" href="./file-results.html">
+          <span>Files</span>
+          <strong>文件上传 / 结果下载</strong>
+        </a>
+        <a class="brand-link-card" href="./deliverables.html">
+          <span>Deliverables</span>
+          <strong>交付物 / 文档入口</strong>
+        </a>
+        <a class="brand-link-card" href="./onboarding-checklist.html">
+          <span>Checklist</span>
+          <strong>客户接入准备清单</strong>
+        </a>
+      </div>
+    </div>
   </section>
 </div>

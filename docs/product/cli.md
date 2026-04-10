@@ -10,13 +10,13 @@ lastUpdated: false
       <p class="brand-kicker">CLI Guide</p>
       <h1>CLI 指引</h1>
       <div class="brand-hero__panel">
-        <span class="brand-pill">Current Boundary</span>
+        <span class="brand-pill">CLI Scope</span>
         <strong>CLI 已经能登录、注册脚本、读取 manifest、直接触发后端执行，并输出 Web 打开链接。</strong>
         <p>远程任务拉取、Agent 常驻执行和非 Python 脚本的真实远程上传，仍属于下一阶段。</p>
       </div>
       <p class="brand-lead">
-        <strong>smartflow-cli</strong> 是 SmartFlow 当前面向个人开发者、团队管理员和本地执行场景的命令行入口。
-        这条线的重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本、本地环境和平台控制面</strong> 接成一条真实可执行的桥。
+        <strong>smartflow-cli</strong> 是 SmartFlow 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
+        这条线的重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本、本地环境和平台控制面</strong> 接成一条现在能用的桥。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">login</span>
@@ -40,16 +40,16 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                     <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">auth</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'config'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">workspace</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'manifest'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'metadata'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'upload-register'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">return</span> <span class="matrix-panel__fn">runBridge</span><span class="matrix-panel__punct">(</span><span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent describe'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent start'</span><span class="matrix-panel__punct">]</span><span class="matrix-panel__punct">)</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">accountFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'config'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">workspaceFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'manifest'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'metadata'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'upload_register'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">executionFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent_describe'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent_start'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">LOCAL SCRIPTS / CONTROLLED EXECUTION BRIDGE</div>
+          <div class="matrix-panel__callout">LOCAL WORKSPACE / PLATFORM CONTROL</div>
         </div>
         <div class="matrix-panel__footer">
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">state</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">usable</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">agent runtime</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local_bridge</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">state</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">usable_now</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">agent_runtime</span></span>
         </div>
       </div>
     </div>
@@ -83,9 +83,9 @@ lastUpdated: false
       <p class="brand-kicker">Positioning</p>
       <h2>它在平台里的角色</h2>
       <ul class="brand-list">
-        <li>个人免费版的高级入口</li>
-        <li>团队版 / 企业版的本地脚本导入工具</li>
-        <li>未来本地 Agent 的正式起点</li>
+        <li>个人开发者和技术用户的本地接入入口</li>
+        <li>项目交付时整理脚本目录、生成 manifest 的工具</li>
+        <li>Agent 方向的骨架起点，而不是成熟产品</li>
         <li>把控制面和本地环境接起来的第一层桥接接口</li>
       </ul>
     </article>
@@ -102,10 +102,10 @@ lastUpdated: false
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Current Web Sync</p>
-      <h2>当前与 Web 页对齐的口径</h2>
+      <p class="brand-kicker">Web Entry</p>
+      <h2>CLI 与 Web 入口如何配合</h2>
       <ul class="brand-list">
-        <li>公开页当前已经有 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
+        <li>网页端已经提供 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
         <li>注册成功目前由成功提示框承接，再跳回登录页。</li>
         <li>体验页用于先感受执行链路，不承接真实业务写入。</li>
       </ul>
@@ -121,7 +121,7 @@ lastUpdated: false
         <pre><code class="language-bash">cd smartflow-cli
 python -m pip install -e .
 smartflow-cli --help</code></pre>
-        <p>这是当前最适合开发、自测和内部试用的安装方式。安装完成后就不必每次都写 <code>python -m smartflow_cli.cli</code>。</p>
+        <p>这是当前最适合开发、自测和本地接入的安装方式。安装完成后就不必每次都写 <code>python -m smartflow_cli.cli</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. 直接运行入口</h3>
@@ -202,7 +202,7 @@ python -m smartflow_cli.cli agent start</code></pre>
       <h2>需要提前知道的限制</h2>
       <ul class="brand-list">
         <li><code>register</code> 默认不是只落本地 manifest，而是会真正请求后端注册接口</li>
-        <li>当前真实远程入库范围仅限 Python 脚本</li>
+        <li>远程入库目前主要支持 Python 脚本</li>
         <li><code>run</code> 会直接调用后端手动执行接口，并输出可打开的 Web 链接</li>
         <li>远程任务拉取、本地常驻执行和日志回传属于下一阶段</li>
       </ul>

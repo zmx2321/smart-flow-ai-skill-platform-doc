@@ -36,16 +36,16 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__key">brand_core</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">intelligence</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">flow</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">control</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">visual_tokens</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">loop</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">boundary</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">trigger</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">usage</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">docs</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">admin</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">cli</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">favicon</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">brand_core</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">intelligence</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">execution</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">flow</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">visual_tokens</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">loop</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">control_boundary</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">trigger_point</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">usage</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">docs</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">admin</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">cli</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">app_icon</span></span>
           </div>
-          <div class="matrix-panel__callout">BRAND SYSTEM / CONTROLLED FLOW</div>
+          <div class="matrix-panel__callout">SYSTEMATIC BRAND / NOT DECORATION</div>
         </div>
         <div class="matrix-panel__footer">
           <span class="matrix-panel__tag"><span class="matrix-panel__key">tone</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">steady</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">shape</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">readable</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">product</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">shape</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">identifiable</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">multi_surface</span></span>
         </div>
       </div>
     </div>

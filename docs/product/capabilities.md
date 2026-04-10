@@ -41,16 +41,16 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                     <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'multi_tenant'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'template_ops'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'audit'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">execution</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'plan'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'confirm'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'trace'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">bridge</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'skill_registry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_agent'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_isolation'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'template_delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'audit_trail'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">execution</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'intent_plan'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'manual_confirm'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'skill_run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'result_trace'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">bridge</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'skill_registry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli_bridge'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_agent'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">CAPABILITY SYSTEM / TRUSTED EXECUTION</div>
+          <div class="matrix-panel__callout">EXECUTABLE / GOVERNED / REUSABLE</div>
         </div>
         <div class="matrix-panel__footer">
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">control</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">on</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">reuse</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">growing</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">local</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ready</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">control</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">built_in</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">reuse</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">expanding</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">local</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">connected</span></span>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ lastUpdated: false
         <li>平台当前采用 PostgreSQL schema 级多租户模型</li>
         <li><code>public</code> 负责平台治理和共享底座</li>
         <li>每个正式客户租户拥有自己的独立 schema</li>
-        <li>租户之间的脚本、Skill、日志和系统数据默认隔离</li>
+        <li>租户之间的执行资产、Skill、日志和系统数据默认隔离</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -74,18 +74,21 @@ lastUpdated: false
         <li>意图识别</li>
         <li>计划生成</li>
         <li>人工确认</li>
-        <li>脚本 / Skill 执行、结果回传、留痕与审计</li>
+        <li>能力执行、结果回传、留痕与审计</li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">03</p>
-      <h2>脚本注册与 Skill 映射</h2>
+      <h2>能力接入与 Skill 编排</h2>
       <ul class="brand-list">
-        <li>脚本注册入库</li>
+        <li>当前以 Python 脚本接入为主</li>
         <li>Skill 可视化查看与编辑</li>
-        <li>Skill 动作编排</li>
+        <li>当前已支持 Skill 动作定义与单能力执行闭环</li>
         <li>租户级启停与绑定</li>
+        <li>已为 API、模板和流程等后续接入预留扩展边界</li>
+        <li>后续会支持在规则内由一个 Skill 串联多个脚本或多个能力节点的编排能力</li>
       </ul>
+      <p>当前使用时，可以先按单能力执行理解；更复杂的多能力编排会逐步加入。</p>
     </article>
   </section>
 
@@ -97,7 +100,7 @@ lastUpdated: false
         <li>平台模板发布</li>
         <li>租户安装申请与确认安装</li>
         <li>版本管理、回滚和分发日志</li>
-        <li>为模板市场、团队版和企业版升级打底</li>
+        <li>为模板复用、交付复盘和后续稳定扩展打底</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -131,6 +134,7 @@ lastUpdated: false
         <li>智能大脑对话入口与手动执行入口</li>
         <li>AI 推荐后确认执行、执行结果查看、文件上传与结果下载</li>
         <li>平台公告与租户公告查看</li>
+        <li>个人免费入口当前包含技能库、脚本上传、个人空间与社区广场等连续使用入口</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -138,7 +142,7 @@ lastUpdated: false
       <h2>客户如何真正使用这些能力</h2>
       <ul class="brand-list">
         <li>手动执行路径：登录 -&gt; 找到能力 -&gt; 填写输入 -&gt; 提交执行 -&gt; 查看结果或产物</li>
-        <li>AI 对话路径：输入需求 -&gt; 平台在当前租户与权限范围内推荐能力 -&gt; 人工确认 -&gt; 执行脚本 -&gt; 返回结果</li>
+        <li>AI 对话路径：输入需求 -&gt; 平台在当前租户与权限范围内推荐能力 -&gt; 人工确认 -&gt; 执行对应能力 -&gt; 返回结果</li>
         <li>部分高风险能力会强制保留人工确认，不做无边界自动执行</li>
         <li>AI 不会跨租户推荐其他客户的能力</li>
       </ul>
@@ -169,6 +173,38 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Future Extension</p>
+    <h2>未来优先扩的不是“更多页面”，而是更多可治理能力类型</h2>
+    <p>当前公开能力仍以 Python 脚本接入为主，但平台已经明确预留下面这些扩展方向。这里表达的是演进边界，不是“已经全部标准商用”。</p>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>HTTP API / SaaS</h3>
+        <p>把第三方接口、内部服务、Webhook 和外部平台动作接成能力。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>数据连接器</h3>
+        <p>把数据库查询、数据仓库、业务系统数据写入等能力接成标准入口。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>文档模板</h3>
+        <p>把合同、周报、报告、表单和标准文档生成服务化。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>审批流</h3>
+        <p>把流程发起、状态查询和流程节点动作纳入权限与审计链路。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>专用模型服务</h3>
+        <p>把 OCR、文档解析、语音识别、图片生成等模型能力纳入统一治理。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>运维动作</h3>
+        <p>把巡检、日志清理、备份、告警联动、服务检查等动作继续标准化。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">Why These Matter Together</p>
     <h2>为什么这不是功能清单，而是一套系统</h2>
     <div class="brand-link-grid">
@@ -184,18 +220,28 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./editions.html">
         <span>Roadmap</span>
-        <strong>模板与审计决定能不能继续产品化</strong>
-        <p>如果没有模板分发、回滚和日志治理，团队版和企业版都很难成立。</p>
+        <strong>模板与审计决定能不能继续把交付做稳</strong>
+        <p>如果没有模板分发、回滚和日志治理，很多能力就很难持续复用，也很难做成稳定交付。</p>
       </a>
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Delivery</span>
         <strong>能力要能转成真实交付与更新流程</strong>
         <p>继续看客户怎么使用这些能力、平台怎么交付、热更新怎么走，避免只停留在功能名层面。</p>
       </a>
+      <a class="brand-link-card" href="./file-results.html">
+        <span>Files</span>
+        <strong>输入文件和结果产物怎么进入正式链路</strong>
+        <p>很多真实场景都不是只返回文本，而是要先接文件、处理文件，再把结果文件按交付边界交回来。</p>
+      </a>
+      <a class="brand-link-card" href="./deliverables.html">
+        <span>Deliverables</span>
+        <strong>客户最终拿到什么，决定能力是否真正可交付</strong>
+        <p>继续看正式交付里除了执行能力，还包括哪些说明文档、结果入口和客户长期使用入口。</p>
+      </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI</span>
-        <strong>本地桥接决定能不能把真实脚本接进来</strong>
-        <p>当前已经落地的 <code>register / list / run / agent</code> 命令，就是平台进入本地环境的第一层接口。</p>
+        <strong>本地桥接决定能不能把真实能力接进来</strong>
+        <p>当前已经落地的 <code>register / list / run / agent</code> 命令，就是平台进入本地环境并接入脚本型能力的第一层接口。</p>
       </a>
     </div>
   </section>

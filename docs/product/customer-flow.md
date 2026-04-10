@@ -41,14 +41,14 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                     <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">delivery</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'url'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'account'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'skills'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">usage</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'manual_run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'ai_recommend'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'confirm'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'result'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">return</span> <span class="matrix-panel__fn">hotUpdate</span><span class="matrix-panel__punct">(</span><span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'review'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'sync'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'authorize'</span><span class="matrix-panel__punct">]</span><span class="matrix-panel__punct">)</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">deliveryPack</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_space'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'dedicated_url'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'account'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'authorized_skills'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">userPath</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'manual_trigger'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'ai_recommend'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'confirm'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'result'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">updateFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'review'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'sync'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'authorize'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">DELIVERY SHOULD STAY OPERABLE AFTER GO-LIVE</div>
+          <div class="matrix-panel__callout">GO-LIVE IS THE START OF OPERATIONS</div>
         </div>
         <div class="matrix-panel__footer">
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">active</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ready</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">update</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">controlled</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">tenant</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">isolated</span></span>
         </div>
@@ -76,7 +76,7 @@ lastUpdated: false
         <li>一个客户一个租户，一个客户一个网址</li>
         <li>客户只在自己的租户空间里使用自己的专属能力</li>
         <li>平台优先保证安全隔离和稳定执行</li>
-        <li>当前不默认包含公共市场、客户自行发版、无审批高风险自动执行</li>
+        <li>当前不默认包含公开第三方能力市场、客户自行发版、无审批高风险自动执行</li>
       </ul>
     </article>
   </section>
@@ -195,7 +195,7 @@ lastUpdated: false
       <tr>
         <td>想先体验真实执行链路</td>
         <td>公开体验页 + 注册 / 登录</td>
-        <td>当前已成立</td>
+        <td>当前可用</td>
         <td>适合先感受 AI 推荐、确认、执行和结果返回，再决定是否进入正式交付。</td>
       </tr>
       <tr>
@@ -219,8 +219,8 @@ lastUpdated: false
       <tr>
         <td>希望直接买标准团队产品</td>
         <td>先按当前交付路径评估，再关注 <a href="./editions.html">版本路线</a></td>
-        <td>标准团队版属于 <code>2.0</code> 方向</td>
-        <td>当前公开已成立的是企业交付主线和个人免费入口，标准化团队版仍在下一阶段。</td>
+        <td>标准化小团队方案属于 <code>2.0</code> 方向</td>
+        <td>当前公开已经有可用基础的是企业交付主线和个人免费入口，标准化小团队方案仍在下一阶段。</td>
       </tr>
     </tbody>
   </table>
@@ -426,6 +426,28 @@ lastUpdated: false
     </article>
   </section>
 
+  <section class="brand-card">
+    <p class="brand-kicker">Related Reading</p>
+    <h2>如果你要把交付、文件链路和接入准备一次说清楚</h2>
+    <div class="brand-link-grid">
+      <a class="brand-link-card" href="./file-results.html">
+        <span>Files</span>
+        <strong>文件上传 / 结果下载</strong>
+        <p>适合上传输入文件、处理报表、下载结果产物这类文件型任务场景。</p>
+      </a>
+      <a class="brand-link-card" href="./deliverables.html">
+        <span>Deliverables</span>
+        <strong>交付物 / 文档入口</strong>
+        <p>适合明确客户到底会拿到什么网址、什么账号、什么说明和什么结果入口。</p>
+      </a>
+      <a class="brand-link-card" href="./onboarding-checklist.html">
+        <span>Checklist</span>
+        <strong>客户接入准备清单</strong>
+        <p>适合售前和实施沟通时，把脚本目录、README、样例文件和边界信息一次对齐。</p>
+      </a>
+    </div>
+  </section>
+
 <section class="brand-card">
   <p class="brand-kicker">FAQ</p>
   <h2>客户和售前最常问的几个问题</h2>
@@ -465,13 +487,13 @@ lastUpdated: false
         <li>是否能登录自己的网址</li>
         <li>是否只能看到自己的能力</li>
         <li>是否能执行自己的能力</li>
-        <li>是否能查看执行结果</li>
+        <li>是否能查看执行结果或结果文件</li>
         <li>是否可以按流程继续更新脚本</li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
-      <h2>一句话总结这页的核心口径</h2>
+      <h2>一句话总结这页的核心内容</h2>
       <p>SmartFlow 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
     </article>
   </section>
@@ -481,20 +503,24 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>如果你想继续看平台能力，或者直接沟通交付</h2>
-        <p class="brand-lead">建议继续看核心能力、部署方式和架构说明；如果你已经有真实脚本和客户场景，也可以直接带着目录结构和需求来聊。</p>
+        <p class="brand-lead">建议继续看核心能力、部署方式和架构说明；如果你已经有真实脚本型能力和客户场景，也可以直接带着目录结构和需求来聊。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./capabilities.html">
           <span>Capability</span>
           <strong>核心能力</strong>
         </a>
+        <a class="brand-link-card" href="./file-results.html">
+          <span>Files</span>
+          <strong>文件上传 / 结果下载</strong>
+        </a>
+        <a class="brand-link-card" href="./deliverables.html">
+          <span>Deliverables</span>
+          <strong>交付物 / 文档入口</strong>
+        </a>
         <a class="brand-link-card" href="./deployment.html">
           <span>Deployment</span>
           <strong>部署方式</strong>
-        </a>
-        <a class="brand-link-card" href="./architecture.html">
-          <span>Architecture</span>
-          <strong>架构说明</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

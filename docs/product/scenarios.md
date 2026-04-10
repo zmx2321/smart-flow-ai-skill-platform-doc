@@ -20,9 +20,9 @@ lastUpdated: false
         场景越真实，这套平台的边界和价值就越清楚。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">企业内部自动化</span>
-        <span class="brand-chip">多客户交付</span>
-        <span class="brand-chip">个人入口</span>
+        <span class="brand-chip">运营数据自动化</span>
+        <span class="brand-chip">脚本治理与运维</span>
+        <span class="brand-chip">私有化客户</span>
         <span class="brand-chip">混合执行</span>
       </div>
       <div class="brand-actions">
@@ -41,18 +41,37 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__string">enterprise_internal_automation</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__string">multi_customer_delivery</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__string">personal_entry</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">local_hybrid</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">template_ops</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">scenarioA</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'ops_automation_team'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">scenarioB</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'customer_delivery_project'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">scenarioC</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_bridge'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'template_ops'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">SCENARIOS SHOULD MAP TO REAL REVENUE</div>
+          <div class="matrix-panel__callout">SCENARIOS SHOULD MATCH REAL BUYING INTENT</div>
         </div>
         <div class="matrix-panel__footer">
           <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">product</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local execution</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ops</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local_bridge</span></span>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Priority Segments</p>
+    <h2>当前最值得优先打透的三类客户</h2>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>电商 / 内容 / 运营数据自动化</h3>
+        <p>适合已经有抓取、清洗、报表、导入导出脚本，但入口分散、执行混乱、结果追踪困难的团队。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>技术团队脚本治理与自动化运维</h3>
+        <p>适合日志清理、巡检、批量处理、定时报表、脚本权限管理和执行审计这类场景。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>需要内网或私有化的小型正式客户</h3>
+        <p>适合对租户隔离、权限边界、内网环境和正式交付有明确要求，但又不想上来就上重系统的客户。</p>
+      </article>
     </div>
   </section>
 
@@ -84,7 +103,7 @@ lastUpdated: false
         <li>把本地脚本整理成可描述、可调用的能力</li>
         <li>用统一入口展示和运行自己的工具</li>
         <li>用 CLI 把本地脚本接入平台</li>
-        <li>既是体验入口，也是后续团队协作的升级入口</li>
+        <li>既是体验入口，也是后续更深协作场景的升级入口</li>
       </ul>
     </article>
   </section>
@@ -112,12 +131,12 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">06</p>
-      <h2>未来边缘与设备场景</h2>
+      <h2>设备与边缘场景</h2>
       <ul class="brand-list">
         <li>边缘节点上的任务执行</li>
         <li>本地设备能力包管理</li>
         <li>设备动作模板与受控触发</li>
-        <li>Web 控制面统一管理不同执行端</li>
+        <li>适合需要设备联动、边缘执行或现场触发的项目</li>
       </ul>
     </article>
   </section>
@@ -138,6 +157,38 @@ lastUpdated: false
       <h2>它为什么值得持续投入</h2>
       <p>价值不只是做一次自动化，而是把零散脚本沉淀成可复用、可扩展、可继续接更多场景的管理底座。</p>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Future Scenarios</p>
+    <h2>如果你关心长期扩展，后续还可以往哪些能力场景走</h2>
+    <p>SmartFlow 现在最成熟的是 Python 脚本场景，但这套底座后续也适合继续承接下面这些方向。这里强调的是平台演进空间，不代表今天已经全部做成标准产品。</p>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>企业接口自动化</h3>
+        <p>把短信、邮件、ERP、CRM、OA、Webhook 等系统接口纳入统一入口和审计链路。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>数据读写与同步</h3>
+        <p>把数据库读写、报表同步、仓库回写和主数据更新纳入标准化能力。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>标准文档生成</h3>
+        <p>把合同、报价单、周报、项目计划书和行业文书生成纳入模板化执行流程。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>审批流与工单流转</h3>
+        <p>把审批单发起、工单推进、流程节点触发和状态查询纳入受控动作。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>专用 AI 能力服务</h3>
+        <p>把文档解析、OCR、语音识别、图片生成等专用模型服务接入统一治理链路。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>运维与告警联动</h3>
+        <p>把巡检、备份、日志清理、告警通知、服务状态检查等动作继续标准化。</p>
+      </article>
+    </div>
   </section>
 
   <section class="brand-card">
@@ -164,6 +215,56 @@ lastUpdated: false
         <strong>你手里已经有本地脚本，想先低成本接起来</strong>
         <p>直接看 CLI 指引，确认当前的登录、注册、执行和 Agent 骨架是否符合你的落地方式。</p>
       </a>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Scenario To Delivery</p>
+    <h2>如果场景已经确定，下一步通常要补这 3 页</h2>
+    <div class="brand-link-grid">
+      <a class="brand-link-card" href="./file-results.html">
+        <span>Files</span>
+        <strong>场景依赖文件输入和结果产物</strong>
+        <p>如果任务要先接 Excel、CSV、压缩包或其它输入文件，再产出结果文件，这页比抽象场景说明更直接。</p>
+      </a>
+      <a class="brand-link-card" href="./deliverables.html">
+        <span>Deliverables</span>
+        <strong>场景最终如何变成交付物</strong>
+        <p>如果你已经准备推进项目，下一步不只是说场景成立，还要明确客户最终拿到什么入口、什么说明和什么结果物。</p>
+      </a>
+      <a class="brand-link-card" href="./onboarding-checklist.html">
+        <span>Checklist</span>
+        <strong>场景接入前要准备哪些资料</strong>
+        <p>如果你已经有真实脚本型能力和真实样例，先把脚本目录、README、依赖和风险边界准备齐，再推进会更顺。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="brand-card brand-card--cta">
+    <div class="brand-card__row">
+      <div>
+        <p class="brand-kicker">Next Read</p>
+        <h2>场景确认后，继续看交付和接入资料会更有效</h2>
+        <p class="brand-lead">场景页适合先判断“值不值得做”；如果已经决定推进，下一步更该看文件链路、交付物和接入准备，而不是继续停留在抽象场景层面。</p>
+      </div>
+      <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./customer-flow.html">
+          <span>Flow</span>
+          <strong>客户流程 / 交付</strong>
+        </a>
+        <a class="brand-link-card" href="./file-results.html">
+          <span>Files</span>
+          <strong>文件上传 / 结果下载</strong>
+        </a>
+        <a class="brand-link-card" href="./deliverables.html">
+          <span>Deliverables</span>
+          <strong>交付物 / 文档入口</strong>
+        </a>
+        <a class="brand-link-card" href="./onboarding-checklist.html">
+          <span>Checklist</span>
+          <strong>客户接入准备清单</strong>
+        </a>
+      </div>
     </div>
   </section>
 </div>

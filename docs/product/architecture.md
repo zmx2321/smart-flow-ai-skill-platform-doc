@@ -15,6 +15,9 @@ lastUpdated: false
         <p>这样既能承接企业客户项目，也能保留免费入口和未来本地 Agent 的演进空间。</p>
       </div>
       <p class="brand-lead">
+        <strong>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+      </p>
+      <p class="brand-lead">
         平台当前采用 <strong>单仓多前端 + 统一后端能力中心</strong> 的结构。
         重点不是“组件堆多少”，而是把 <strong>平台治理</strong>、<strong>租户隔离</strong>、
         <strong>免费入口</strong> 和 <strong>本地接入</strong> 收进同一套架构逻辑。
@@ -41,18 +44,37 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                     <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">core</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'back-python'</span> <span class="matrix-panel__comment">// unified capability center</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'smart-flow-admin'</span> <span class="matrix-panel__comment">// public governance console</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">return</span> <span class="matrix-panel__ident">tenantFronts</span> <span class="matrix-panel__op">+</span> <span class="matrix-panel__ident">smartflowCli</span> <span class="matrix-panel__comment">// execution entrances</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">core</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'unified_python_backend'</span> <span class="matrix-panel__comment">// capability control center</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'public_admin_console'</span> <span class="matrix-panel__comment">// platform governance</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entries</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_fronts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'smartflow_cli'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">ONE CORE / MULTIPLE ENTRIES</div>
+          <div class="matrix-panel__callout">ONE CORE / MULTIPLE ENTRY SURFACES</div>
         </div>
         <div class="matrix-panel__footer">
           <span class="matrix-panel__tag"><span class="matrix-panel__key">schema</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">isolated</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">public</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">governance</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">cli</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">bridge</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">entry</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">multi_surface</span></span>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">1.0 Standard</p>
+    <h2>这句定位放到架构里怎么理解</h2>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>底座层</h3>
+        <p>多租户隔离、权限、公告、模板分发、日志和审计是通用底座，不只服务脚本。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>抽象层</h3>
+        <p>Skill 是能力单元，负责输入输出、风险、审批和可见范围，不应该只按脚本文件去理解。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>实现层</h3>
+        <p>当前第一种成熟执行资产仍然是 Python 脚本，所以上传、注册、运行时和 CLI 现在仍然以脚本优先。</p>
+      </article>
     </div>
   </section>
 
@@ -62,7 +84,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--four">
       <article class="brand-card brand-card--nested">
         <h3>统一后端能力中心</h3>
-        <p>统一后端能力中心，承接认证、租户、脚本、Skill、日志、模板等核心服务。</p>
+        <p>统一后端能力中心，承接认证、租户、能力目录、执行资产、日志、模板等核心服务。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>治理控制台</h3>
@@ -86,7 +108,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>CLI / Local Bridge</h3>
-        <p>本地接入与未来 Agent 入口，把平台控制面和本地环境连接起来。</p>
+        <p>本地接入与 Agent 骨架入口，把平台控制面和本地环境连接起来。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3><code>docs</code></h3>
@@ -112,11 +134,29 @@ lastUpdated: false
       <h2>tenant schema 负责什么</h2>
       <ul class="brand-list">
         <li>用户、角色、菜单、参数、公告</li>
-        <li>脚本与 Skill 注册</li>
+        <li>能力接入、Skill 绑定与租户授权</li>
         <li>执行记录与调度日志</li>
         <li>业务扩展表</li>
         <li>各租户自己的访问边界与数据边界</li>
       </ul>
+    </article>
+  </section>
+
+  <section class="brand-grid brand-grid--three">
+    <article class="brand-card">
+      <p class="brand-kicker">Concept 01</p>
+      <h2>Skill 是能力单元</h2>
+      <p>Skill 面向用户和 AI，负责描述能力名称、输入输出、可见范围、风险等级、审批要求和审计边界。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Concept 02</p>
+      <h2>执行资产是具体接入物</h2>
+      <p>执行资产描述能力到底连到什么对象。当前最成熟的是 Python 脚本，后续也可以扩到 API、模板、流程或连接器。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Concept 03</p>
+      <h2>执行器负责运行时适配</h2>
+      <p>执行器决定不同资产类型怎么被调用、怎么校验输入输出、怎么把结果统一回到平台审计链路里。</p>
     </article>
   </section>
 
@@ -146,7 +186,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>一个独立租户</li>
         <li>一个独立访问网址</li>
-        <li>一组客户专属脚本能力</li>
+        <li>一组客户专属能力，当前通常以脚本型能力为主</li>
         <li>平台账号与基础权限</li>
         <li>客户使用说明和客户脚本热更新说明</li>
       </ul>
@@ -161,6 +201,28 @@ lastUpdated: false
         <li>是否能按流程继续提交脚本更新，而不重部署整个平台</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Architecture To Delivery</p>
+    <h2>如果你要把“架构”转成“真实交付”，这 3 页最关键</h2>
+    <div class="brand-link-grid">
+      <a class="brand-link-card" href="./file-results.html">
+        <span>Files</span>
+        <strong>文件上传 / 结果下载</strong>
+        <p>如果项目依赖输入文件、批次状态和结果文件，这部分属于架构落地的一部分，不只是前端体验细节。</p>
+      </a>
+      <a class="brand-link-card" href="./deliverables.html">
+        <span>Deliverables</span>
+        <strong>交付物 / 文档入口</strong>
+        <p>如果客户最终要长期使用平台，正式架构就必须承接说明文档、结果入口和交付边界，而不是只画系统图。</p>
+      </a>
+      <a class="brand-link-card" href="./onboarding-checklist.html">
+        <span>Checklist</span>
+        <strong>客户接入准备清单</strong>
+        <p>如果项目已经准备接真实能力，先把脚本目录、README、样例文件和依赖准备齐，会比继续空谈模块边界更有效。</p>
+      </a>
+    </div>
   </section>
 
   <section class="brand-card">
@@ -180,7 +242,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./index.html">
         <span>Rule 03</span>
         <strong>变更可验证后再推广</strong>
-        <p>脚本、流程和前端改动都应先验证稳定，再逐步扩展到更大范围。</p>
+        <p>能力、流程和前端改动都应先验证稳定，再逐步扩展到更大范围。</p>
       </a>
       <a class="brand-link-card" href="./index.html">
         <span>Rule 04</span>
@@ -190,7 +252,12 @@ lastUpdated: false
       <a class="brand-link-card" href="./cli.html">
         <span>Rule 05</span>
         <strong><code>smartflow-cli</code> 负责连接本地环境与平台控制面</strong>
-        <p>本地脚本接入、manifest 生成和未来 Agent 常驻执行，都应该沿这条桥接链继续演进。</p>
+        <p>本地脚本接入、后续其他执行资产接入和 manifest 生成，当前都沿这条桥接链继续往前做；Agent 常驻执行仍属于后续增强。</p>
+      </a>
+      <a class="brand-link-card" href="./file-results.html">
+        <span>Rule 06</span>
+        <strong>文件链路要纳入正式架构，不应作为临时上传功能理解</strong>
+        <p>只要项目真实依赖输入文件和结果文件，上传、批次和结果入口就属于正式交付架构的一部分。</p>
       </a>
     </div>
   </section>
@@ -212,9 +279,37 @@ lastUpdated: false
         <p>免费版不是旁支，而是正式入口之一，可以持续沉淀线索和使用样本。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>能继续扩展到模板、Agent 与产品化</h3>
-        <p>控制面、执行端和能力单元已形成基础边界，未来扩展成本更低。</p>
+        <h3>能继续扩展到 API、模板、Agent 与产品化</h3>
+        <p>控制面、执行端和能力单元已形成基础边界，未来扩到更多能力资产的成本更低。</p>
       </article>
+    </div>
+  </section>
+
+  <section class="brand-card brand-card--cta">
+    <div class="brand-card__row">
+      <div>
+        <p class="brand-kicker">Next Read</p>
+        <h2>如果你已经理解架构图，下一步应该看交付落地</h2>
+        <p class="brand-lead">真正能把架构说明变成项目推进材料的，通常不是再看一遍概念，而是把文件链路、交付物和接入准备一起讲清楚。</p>
+      </div>
+      <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./deployment.html">
+          <span>Deployment</span>
+          <strong>部署方式</strong>
+        </a>
+        <a class="brand-link-card" href="./file-results.html">
+          <span>Files</span>
+          <strong>文件上传 / 结果下载</strong>
+        </a>
+        <a class="brand-link-card" href="./deliverables.html">
+          <span>Deliverables</span>
+          <strong>交付物 / 文档入口</strong>
+        </a>
+        <a class="brand-link-card" href="./onboarding-checklist.html">
+          <span>Checklist</span>
+          <strong>客户接入准备清单</strong>
+        </a>
+      </div>
     </div>
   </section>
 </div>

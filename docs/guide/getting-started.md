@@ -10,13 +10,13 @@ lastUpdated: false
     <p class="brand-kicker">Quick Start</p>
     <h1>快速开始</h1>
     <div class="brand-hero__panel">
-      <span class="brand-pill">Current Reality</span>
-      <strong>SmartFlow 现在不是单一聊天页面，而是一套已经有公开入口、交付主线和 CLI 桥梁能力的执行平台。</strong>
-      <p>先把这件事理解清楚，后面所有文档都会更好读。</p>
+      <span class="brand-pill">Quick Overview</span>
+      <strong>SmartFlow 不是单一聊天页面，而是一套已经有体验入口、交付路径和 CLI 桥接能力的执行平台。</strong>
+      <p>先从这里了解整体结构，后面会更容易找到适合自己的入口。</p>
     </div>
     <p class="brand-lead">
-      如果你只想用最短时间看懂 SmartFlow 当前到底能做什么、怎么开始、哪些已经正式成立，
-      这页就是给你的。它优先讲 <strong>当前真实路径</strong>，不讲未来想象图。
+      如果你想用最短时间看懂 SmartFlow 能做什么、怎么开始、接下来该看哪一页，
+      这页就是给你的。它优先讲 <strong>现在可以直接体验、接入和沟通的路径</strong>。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">10 分钟看懂</span>
@@ -42,14 +42,14 @@ lastUpdated: false
                 <div class="matrix-panel__stack">
           <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">publicEntry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'experience'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">]</span></span>
           <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">productRoute</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'docs'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'deployment'</span><span class="matrix-panel__punct">]</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__kw">return</span> <span class="matrix-panel__fn">openLocalBridge</span><span class="matrix-panel__punct">(</span><span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'cli'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent'</span><span class="matrix-panel__punct">]</span><span class="matrix-panel__punct">)</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">localBridge</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'cli_login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent'</span><span class="matrix-panel__punct">]</span></span>
         </div>
-        <div class="matrix-panel__callout">START FROM WHAT IS ALREADY REAL, NOT FROM WHAT MAY EXIST LATER</div>
+        <div class="matrix-panel__callout">START WITH WHAT YOU CAN USE NOW</div>
       </div>
       <div class="matrix-panel__footer">
         <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">state</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">current</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">mode</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">practical</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">state</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">live</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">goal</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">quick_start</span></span>
       </div>
     </div>
   </div>
@@ -64,7 +64,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">02</p>
       <h2>它已经有公开入口</h2>
-      <p>当前公开口径里已经有体验页、登录页、注册页和外部文档站，不只是内部样机。</p>
+      <p>你现在可以直接使用体验页、登录页、注册页和文档站，不需要从演示入口跳转。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">03</p>
@@ -158,7 +158,7 @@ lastUpdated: false
       <ol class="brand-list">
         <li>先看客户流程 / 交付，理解实际使用和热更新路径</li>
         <li>再看部署方式，判断是否要单租户、平台治理或混合执行</li>
-        <li>确认当前团队版 / 企业版的口径和阶段</li>
+        <li>确认适合你的版本与交付方式</li>
         <li>最后通过联系页进入试用或演示沟通</li>
       </ol>
     </article>
@@ -177,12 +177,12 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Current Stage</p>
-      <h2>现在已经成立什么，还没完全产品化什么</h2>
+      <h2>当前阶段覆盖哪些使用方式</h2>
       <ul class="brand-list">
         <li>企业 <code>1.0</code> 交付主线已经成立。</li>
         <li>个人免费入口已经成立。</li>
         <li>CLI 最小桥梁能力已经成立。</li>
-        <li>标准团队版和更重的产品化套餐仍属于 <code>2.0</code> 方向，而不是当前完全自助开放能力。</li>
+        <li>标准团队协作能力和更丰富的套餐能力会继续扩展。</li>
       </ul>
     </article>
   </section>

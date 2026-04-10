@@ -162,8 +162,8 @@ const HomeHeroCode = {
             h("span", { class: "home-hero-code__dot home-hero-code__dot--yellow" }),
             h("span", { class: "home-hero-code__dot home-hero-code__dot--green" }),
           ]),
-          h("span", { class: "home-hero-code__file" }, "demo/preview.flow.ts"),
-          h("span", { class: "home-hero-code__status" }, "welcome"),
+          h("span", { class: "home-hero-code__file" }, "demo/smart-execution.flow.ts"),
+          h("span", { class: "home-hero-code__status" }, "request"),
         ]),
         h("div", { class: "home-hero-code__body" }, [
           h("div", { class: "home-hero-code__line" }, [
@@ -171,11 +171,11 @@ const HomeHeroCode = {
             h("span", { class: "home-hero-code__line-text" }, [
               h("span", { class: "token-keyword" }, "const"),
               " ",
-              h("span", { class: "token-variable" }, "visitor"),
+              h("span", { class: "token-variable" }, "request"),
               " ",
               h("span", { class: "token-operator" }, "="),
               " ",
-              h("span", { class: "token-string" }, "'welcome_to_smartflow'"),
+              h("span", { class: "token-string" }, "'帮我清理服务器日志'"),
             ]),
           ]),
           h("div", { class: "home-hero-code__line" }, [
@@ -183,11 +183,11 @@ const HomeHeroCode = {
             h("span", { class: "home-hero-code__line-text" }, [
               h("span", { class: "token-keyword" }, "const"),
               " ",
-              h("span", { class: "token-variable" }, "message"),
+              h("span", { class: "token-variable" }, "matchedSkill"),
               " ",
               h("span", { class: "token-operator" }, "="),
               " ",
-              h("span", { class: "token-string" }, "'你好，欢迎来到智流'"),
+              h("span", { class: "token-string" }, "'log_cleanup'"),
             ]),
           ]),
           h("div", { class: "home-hero-code__line" }, [
@@ -195,25 +195,25 @@ const HomeHeroCode = {
             h("span", { class: "home-hero-code__line-text" }, [
               h("span", { class: "token-keyword" }, "const"),
               " ",
-              h("span", { class: "token-variable" }, "next"),
+              h("span", { class: "token-variable" }, "trace"),
               " ",
               h("span", { class: "token-operator" }, "="),
               " ",
               h("span", { class: "token-operator" }, "["),
-              h("span", { class: "token-string" }, "'free_trial'"),
+              h("span", { class: "token-string" }, "'audit_log'"),
               h("span", { class: "token-operator" }, ","),
               " ",
-              h("span", { class: "token-string" }, "'team_demo'"),
+              h("span", { class: "token-string" }, "'runtime_cost'"),
               h("span", { class: "token-operator" }, ","),
               " ",
-              h("span", { class: "token-string" }, "'private_deploy'"),
+              h("span", { class: "token-string" }, "'result_view'"),
               h("span", { class: "token-operator" }, "]"),
             ]),
           ]),
           h("div", { class: "home-hero-code__line" }, [
             h("span", { class: "home-hero-code__line-no" }, "04"),
             h("span", { class: "home-hero-code__line-text" }, [
-              h("span", { class: "token-comment" }, "// 先看体验入口，再继续看产品、CLI 和部署方式"),
+              h("span", { class: "token-comment" }, "// 先看体验入口，再决定继续注册、沟通场景还是正式交付"),
             ]),
           ]),
           h("div", { class: "home-hero-code__line" }, [
@@ -221,15 +221,15 @@ const HomeHeroCode = {
             h("span", { class: "home-hero-code__line-text" }, [
               h("span", { class: "token-keyword" }, "return"),
               " ",
-              h("span", { class: "token-function" }, "showExecutionFeel"),
+              h("span", { class: "token-function" }, "smartExecution"),
               h("span", { class: "token-operator" }, "("),
-              h("span", { class: "token-accent" }, "'smartflow_docs'"),
+              h("span", { class: "token-accent" }, "'public_entry'"),
               h("span", { class: "token-operator" }, ")"),
             ]),
           ]),
         ]),
         h("div", { class: "home-hero-code__footer" }, [
-          h("span", { class: "home-hero-code__tag" }, "welcome"),
+          h("span", { class: "home-hero-code__tag" }, "request in"),
           h("span", { class: "home-hero-code__tag" }, "no login first"),
           h("span", { class: "home-hero-code__tag" }, "execution first"),
         ]),

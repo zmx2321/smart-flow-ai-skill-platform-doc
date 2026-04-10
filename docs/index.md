@@ -4,17 +4,17 @@ layout: home
 hero:
   name: SmartFlow
   text: 智流·智能执行平台
-  tagline: 让 AI 在规则内可靠执行真实工作，而不是停留在聊天层。智流帮助团队安全调度脚本、连接本地能力，并为试用、团队演示与私有化部署提供清晰路径。
+  tagline: 先看一次“输入一句话 -> AI 匹配技能 -> 调度脚本 -> 返回结果并留痕”的真实链路，再决定要不要把你的脚本、本地能力和线上服务接进来。
   actions:
     - theme: brand
-      text: 立即免费体验
+      text: 立即免费体验（免登录）
       link: /guide/getting-started
     - theme: alt
-      text: 预约团队演示
+      text: 沟通具体场景
       link: /contact#lead-form
     - theme: alt
-      text: 咨询私有化部署
-      link: /contact#lead-form
+      text: 了解构建者
+      link: /#founder-note
 
 features:
   - title: 多租户治理
@@ -24,7 +24,7 @@ features:
   - title: 本地与云端协同
     details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面连接起来。
   - title: 清晰演进路线
-    details: 从个人试用到团队协作，再到企业部署与生态扩展，路线稳定可预期。
+    details: 围绕试用、接入和正式交付持续扩展，帮助个人、团队和企业找到合适路径。
 ---
 
 <div class="landing-shell">
@@ -32,32 +32,36 @@ features:
     <div class="landing-brand">
       <div class="landing-brand__copy">
         <p class="landing-kicker">Brand Signal</p>
-        <h2>让 AI 真正进入工作流，而不是停在演示里</h2>
+        <h2>先判断它能不能替你省事，再决定要不要继续聊</h2>
         <p class="landing-lead">
-          “智流”对应的是 <strong>智能调度</strong>、<strong>流程资产化</strong> 和 <strong>安全可控执行</strong>。
-          它不是单纯展示模型回答的页面，而是把脚本、流程和规则组织成真正可落地的智能执行平台。
-          你可以先从公开体验入口感受一次执行链路，再根据团队规模和安全要求选择下一步。
+          <strong>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+        </p>
+        <p class="landing-lead">
+          “智流”想解决的不是“模型会不会说”，而是
+          <strong>脚本、本地资源和线上能力能不能在规则里稳定执行</strong>。
+          现在先把最常见也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
+          你可以先从公开体验入口感受一次简化流程，再决定是否继续接自己的真实场景。
         </p>
         <div class="landing-brand__chips">
-          <span>申请试用</span>
-          <span>预约演示</span>
-          <span>智能调度</span>
+          <span>免登录体验</span>
+          <span>一句话调度</span>
+          <span>审计留痕</span>
+          <span>本地桥接</span>
           <span>安全可控</span>
-          <span>Open &amp; Secure</span>
         </div>
         <div class="landing-brand__quick-grid">
           <article class="landing-brand__quick-card">
-            <span>场景</span>
-            <strong>个人试用、团队演示、企业部署</strong>
+            <span>第一步</span>
+            <strong>60 秒先感受核心执行链路</strong>
           </article>
           <article class="landing-brand__quick-card">
-            <span>价值</span>
-            <strong>安全调度、可审计执行、本地桥接</strong>
+            <span>适合接入</span>
+            <strong>脚本、本地能力、线上服务</strong>
           </article>
         </div>
         <p class="landing-lead">
           无论你是个人开发者、团队负责人还是企业 IT 管理者，这里都会先告诉你
-          <strong>这套平台解决什么问题</strong>、<strong>适合谁</strong>，以及 <strong>下一步怎么开始</strong>。
+          <strong>它能帮你解决什么问题</strong>、<strong>适合先走哪条入口</strong>，以及 <strong>下一步怎么开始最省力</strong>。
         </p>
       </div>
       <div class="landing-brand__panel">
@@ -66,11 +70,11 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">从公开体验到团队演示，再到企业部署，所有入口都围绕“安全、可控、可审计执行”展开。</p>
+          <p class="landing-brand__signal-summary">从免登录体验到场景沟通，再到正式交付，入口设计的目标都是让你先看到价值，再决定是不是继续接入自己的能力。</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
-              <strong>上手</strong>
-              <span>体验、试用、演示、咨询</span>
+              <strong>入口</strong>
+              <span>体验、试用、咨询、交付</span>
             </div>
             <div class="landing-brand__signal-item">
               <strong>能力</strong>
@@ -123,10 +127,11 @@ features:
   <section class="landing-band landing-band--commercial">
     <div class="landing-section-head">
       <p class="landing-kicker">Commercial Route</p>
-      <h2>针对三类访客，给出三条清晰入口</h2>
+      <h2>面对哪类问题，先走哪条入口</h2>
       <p class="landing-lead">
-        个人开发者先低门槛体验执行链路，团队负责人优先确认协作与治理方案，企业决策者直接判断部署与合规路径。
-        这不是三套分裂产品，而是一套平台面向不同阶段用户的三种进入方式。
+        想先低成本感受产品核心价值，可以直接走免登录体验；
+        已经有一些脚本、流程和小团队协作问题，可以直接沟通场景；
+        如果你已经明确需要正式交付、私有化或内网接入，就直接谈部署和边界。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
@@ -138,7 +143,7 @@ features:
       <article class="mode-card">
         <span class="link-panel-label">Team</span>
         <h3>团队管理者 / 技术负责人</h3>
-        <p>优先确认多人协作、审批、权限控制与执行审计是否匹配团队实际场景，而不是先被一堆模块名淹没。</p>
+        <p>优先确认多人协作、审批、权限控制与执行审计是否匹配当前场景，而不是先被一堆产品名词淹没。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Enterprise</span>
@@ -147,10 +152,37 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="./guide/getting-started.html">立即免费体验</a>
-      <a href="./contact.html#lead-form">预约团队演示</a>
-      <a href="./contact.html#lead-form">咨询私有化部署</a>
-      <a href="./product/editions.html">查看版本路线</a>
+      <a href="./guide/getting-started.html">立即免费体验（免登录）</a>
+      <a href="./contact.html#lead-form">沟通具体场景</a>
+      <a href="./#founder-note">了解构建者</a>
+      <a href="./product/editions.html">看当前阶段</a>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Best Fit</p>
+      <h2>当前优先服务这三类客户</h2>
+      <p class="landing-lead">
+        现在不适合把战线铺得太开。对一个单人持续推进的平台来说，先把最容易成交、最容易复用、最贴近现有代码能力的三类客户打透更重要。
+      </p>
+    </div>
+    <div class="landing-grid landing-grid--three">
+      <article class="mode-card">
+        <span class="link-panel-label">01</span>
+        <h3>电商 / 内容 / 运营数据自动化</h3>
+        <p>适合已经有大量表格、报表、抓取、清洗、导入导出脚本，但入口分散、执行混乱、结果难追踪的团队。</p>
+      </article>
+      <article class="mode-card">
+        <span class="link-panel-label">02</span>
+        <h3>技术团队脚本治理与自动化运维</h3>
+        <p>适合要做日志清理、巡检、批量处理、定时报表、脚本治理和执行留痕的技术与运维团队。</p>
+      </article>
+      <article class="mode-card">
+        <span class="link-panel-label">03</span>
+        <h3>需要内网或私有化的小型正式客户</h3>
+        <p>适合对租户隔离、权限边界、内网环境和私有部署有明确要求，但又不想上来就买重系统的正式客户。</p>
+      </article>
     </div>
   </section>
 
@@ -159,7 +191,7 @@ features:
       <p class="landing-kicker">Identity</p>
       <h2>项目名与产品名</h2>
       <p class="landing-lead">
-        文档同时使用项目名和产品名。前者表达平台的技术定位和长期演进方向，后者用于面向客户和用户的产品表达。
+        文档同时使用英文项目名和中文产品名。前者便于识别代码仓库与技术上下文，后者便于理解产品定位和使用场景。
       </p>
     </div>
     <div class="landing-grid landing-grid--two">
@@ -168,14 +200,14 @@ features:
         <h3>SmartFlow AI Skill Platform</h3>
         <p><strong>定位：</strong>An Open &amp; Secure AI Agent Execution Layer</p>
         <p><strong>Slogan：</strong>Make AI Work, Make Work Smart.</p>
-        <p>用于表达平台的技术定位和长期方向，可理解为从 1.0 执行底座逐步走向 2.0 生态协同的项目名。</p>
+        <p>用于标识项目仓库、工程结构和技术背景。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Product</span>
         <h3>智流·智能执行平台</h3>
         <p><strong>副标题：</strong>企业级业务自动化与安全执行系统</p>
         <p><strong>Slogan：</strong>复杂工作，简单对话；私有部署，安全省人。</p>
-        <p>一个用 AI 调度脚本的平台，复杂工作一句话搞定。</p>
+        <p>一个用 AI 调度真实能力的平台，复杂工作一句话搞定；当前第一阶段以脚本型能力为主。</p>
       </article>
     </div>
   </section>
@@ -185,9 +217,14 @@ features:
       <p class="landing-kicker">Founder Note</p>
       <h2>谁在构建智流，为什么这套平台值得继续聊</h2>
       <p class="landing-lead">
-        智流由一位拥有 <strong>10+ 年政企交付经验</strong> 的独立架构师持续打造。
-        核心目标不是做一个会聊天的演示页，而是构建真正
-        <strong>可交付</strong>、<strong>可运维</strong>、<strong>可审计</strong> 的 AI 执行层。
+        我现在在杭州，以微创业方式继续把这件事往前做。
+        核心目标不是讲一个很大的平台故事，而是把过去交付里反复碰到的
+        <strong>脚本接入</strong>、<strong>权限边界</strong>、<strong>执行留痕</strong> 和 <strong>本地桥接</strong>
+        这些问题，尽量做成真能帮人省时间、少返工的产品。
+      </p>
+      <p class="landing-lead">
+        如果要把这件事再收成一句话，就是：
+        <strong>先把平台做成一个能持续解决真实问题、也能支撑一个人稳定经营的小生意。</strong>
       </p>
       <div class="landing-inline-links">
         <a href="./contact.html#lead-form">继续沟通合作</a>
@@ -196,22 +233,22 @@ features:
     </div>
     <div class="landing-metrics">
       <article class="metric-card">
-        <span class="metric-value">10+</span>
-        <span class="metric-label">年交付与架构视角</span>
-        <p>从脚本接入、权限、审计、部署到多租户治理，平台不是只做一个漂亮前台。</p>
+        <span class="metric-value">杭州</span>
+        <span class="metric-label">微创业在做</span>
+        <p>现在不是融资驱动的大项目，而是先靠解决真实问题，把平台一步步做成可以独立养活自己的生意。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">隔离与治理</span>
-        <span class="metric-label">边界先行</span>
-        <p>从权限到审计，先把边界立起来，再谈规模扩展和持续交付。</p>
+        <span class="metric-value">10+</span>
+        <span class="metric-label">年交付经验</span>
+        <p>从脚本接入、权限、审计到多租户治理，优先做真实项目里会踩坑的部分。</p>
       </article>
       <article class="metric-card">
         <span class="metric-value">Web + CLI + Local</span>
-        <span class="metric-label">执行入口持续扩展</span>
-        <p>今天先打通网页入口和本地接入，后续继续增强更完整的混合执行能力。</p>
+        <span class="metric-label">先做可用桥接</span>
+        <p>当前先把网页入口和本地接入这条线做通，其他更远的能力暂时不讲太满。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">试用 → 演示 → 部署</span>
+        <span class="metric-value">试用 → 沟通 → 交付</span>
         <span class="metric-label">合作路径清晰</span>
         <p>先让价值被感知，再根据协作深度、安全边界与部署要求继续推进合作。</p>
       </article>
@@ -237,13 +274,46 @@ features:
       <article class="flow-card">
         <span class="flow-index">03</span>
         <h3>人工确认与真实执行</h3>
-        <p>关键动作需要确认，执行端可以在云端、本地或未来的边缘节点。</p>
+        <p>关键动作需要确认，当前重点是把云端和本地这两种执行位置讲清楚。</p>
       </article>
       <article class="flow-card">
         <span class="flow-index">04</span>
         <h3>结果回传与审计留痕</h3>
         <p>从结果产出到日志和审计，平台强调可追踪，而不是一次性跑完就结束。</p>
       </article>
+    </div>
+  </section>
+
+  <section class="landing-band">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Delivery Toolkit</p>
+      <h2 class="landing-heading--nowrap-desktop">如果你已经准备进入正式接入，先看这 3 页</h2>
+      <p class="landing-lead">
+        这组内容专门承接“不是只想了解平台，而是已经开始准备真实项目”的访客。
+        重点不是再看抽象定位，而是把<strong>文件链路、交付物和接入准备</strong>一次说清楚。
+      </p>
+    </div>
+    <div class="landing-grid landing-grid--three">
+      <a class="link-panel" href="./product/file-results.html">
+        <span class="link-panel-label">Files</span>
+        <strong>文件上传 / 结果下载</strong>
+        <p>适合报表、Excel、批量处理和需要结果文件回传的任务，先把输入文件和结果产物链路讲明白。</p>
+      </a>
+      <a class="link-panel" href="./product/deliverables.html">
+        <span class="link-panel-label">Deliverables</span>
+        <strong>交付物 / 文档入口</strong>
+        <p>适合正式交付沟通，明确客户会拿到什么网址、什么账号、什么说明和什么结果入口。</p>
+      </a>
+      <a class="link-panel" href="./product/onboarding-checklist.html">
+        <span class="link-panel-label">Checklist</span>
+        <strong>客户接入准备清单</strong>
+        <p>适合售前、实施和客户一起对齐脚本目录、README、样例文件、依赖和风险边界。</p>
+      </a>
+    </div>
+    <div class="landing-inline-links">
+      <a href="./product/customer-flow.html">客户流程 / 交付</a>
+      <a href="./product/file-results.html">文件上传 / 结果下载</a>
+      <a href="./product/onboarding-checklist.html">客户接入准备清单</a>
     </div>
   </section>
 
@@ -263,7 +333,7 @@ features:
       </article>
       <article class="landing-card">
         <h3>开发者与小团队</h3>
-        <p>需要把已有脚本整理成可调用、可描述、可分享的能力，并保留本地执行路径。</p>
+        <p>需要把已有脚本整理成可调用、可描述、可维护的能力，并保留本地执行路径。</p>
       </article>
     </div>
   </section>
@@ -288,7 +358,7 @@ features:
       </article>
       <article class="mode-card">
         <h3>本地与边缘执行</h3>
-        <p>保留本地环境、CLI、未来 Agent 与边缘节点的执行空间，让控制面与执行端继续统一。</p>
+        <p>当前重点覆盖本地环境与 CLI 桥接，适合需要连接本地脚本和内网资源的场景。</p>
       </article>
     </div>
     <div class="landing-inline-links">
@@ -298,35 +368,28 @@ features:
     </div>
   </section>
 
-  <section class="landing-band landing-band--roadmap">
+  <section class="landing-band landing-band--roadmap landing-band--roadmap-home">
     <div class="landing-section-head">
       <p class="landing-kicker">Roadmap</p>
-      <h2>为什么是现在，以及它会如何继续演进</h2>
+      <h2>为什么是现在，以及下一步先做什么</h2>
+      <p class="landing-lead">
+        当前路线分为两步：先把交付、体验和接入链路做稳，再继续扩展协作、能力类型和产品化支持。
+      </p>
     </div>
     <div class="roadmap-grid">
       <article class="roadmap-card">
         <span class="roadmap-stage">1.0</span>
-        <h3>可信 AI 执行交付版</h3>
-        <p>先把客户交付、平台治理、免费入口和 CLI 最小闭环做稳。</p>
+        <h3>先把当前交付版做稳</h3>
+        <p>先把客户交付、公开体验、个人入口和 CLI 最小链路做成真实可用的东西。</p>
       </article>
       <article class="roadmap-card">
-        <span class="roadmap-stage">2.0</span>
-        <h3>标准产品化版</h3>
-        <p>形成免费版、团队版、企业版的正式产品梯度和配额体系。</p>
-      </article>
-      <article class="roadmap-card">
-        <span class="roadmap-stage">3.0</span>
-        <h3>生态开放版</h3>
-        <p>让第三方模板、技能、审核和分发开始进入正式平台生态。</p>
-      </article>
-      <article class="roadmap-card roadmap-card--accent">
-        <span class="roadmap-stage">4.0</span>
-        <h3>智能执行基础设施版</h3>
-        <p>把脚本与 Skill 的治理逻辑继续扩展到插件包、边缘能力包和未来设备插件。</p>
+        <span class="roadmap-stage">Next</span>
+        <h3>再决定哪些值得产品化</h3>
+        <p>小团队协作、额度套餐和更通用的能力接入，会在下一阶段持续完善。</p>
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="./product/editions.html">查看完整版本路线</a>
+      <a href="./product/editions.html">查看当前阶段说明</a>
     </div>
   </section>
 
@@ -360,17 +423,32 @@ features:
     <a class="link-panel" href="./product/cli.html">
       <span class="link-panel-label">CLI</span>
       <strong>CLI 指引</strong>
-      <p>直接看本地登录、脚本注册、Skill 执行和 Agent 骨架目前已经打通到哪一步。</p>
+      <p>直接看本地登录、能力接入、Skill 执行和 Agent 骨架现在到底做到哪一步。</p>
     </a>
     <a class="link-panel" href="./product/customer-flow.html">
       <span class="link-panel-label">Delivery</span>
       <strong>客户流程 / 交付</strong>
       <p>单独看客户怎么使用平台、平台怎么交付，以及脚本热更新如何形成正式闭环。</p>
     </a>
+    <a class="link-panel" href="./product/file-results.html">
+      <span class="link-panel-label">Files</span>
+      <strong>文件上传 / 结果下载</strong>
+      <p>适合文件型任务、报表结果和需要下载产物的项目，不再把“结果只是一段文本”当默认前提。</p>
+    </a>
+    <a class="link-panel" href="./product/deliverables.html">
+      <span class="link-panel-label">Deliverables</span>
+      <strong>交付物 / 文档入口</strong>
+      <p>把客户最终拿到的入口、说明和结果物单独讲清楚，方便交付和后续使用。</p>
+    </a>
+    <a class="link-panel" href="./product/onboarding-checklist.html">
+      <span class="link-panel-label">Checklist</span>
+      <strong>客户接入准备清单</strong>
+      <p>适合已经准备真实脚本型能力和真实场景的人，先把接入资料补完整，再继续推进交付或试用。</p>
+    </a>
     <a class="link-panel" href="./materials/">
       <span class="link-panel-label">Materials</span>
-      <strong>对外资料</strong>
-      <p>把对外介绍、价值表达和演示提纲单独收成一组公开资料，不再混在产品页里。</p>
+      <strong>介绍资料</strong>
+      <p>把平台介绍、价值表达和演示提纲单独整理，便于阅读、转发和方案沟通。</p>
     </a>
   </div>
 </section>
@@ -379,16 +457,16 @@ features:
     <div class="cta-card">
       <div>
         <p class="landing-kicker">Contact</p>
-        <h2>现在开放免费体验、团队演示预约和企业版私有化咨询。</h2>
+        <h2>现在开放免费体验、场景沟通和正式交付咨询。</h2>
         <p class="landing-lead">
-          如果你在做企业交付、自动化平台、本地执行能力接入，或者希望把已有脚本整理成正式产品，
-          这里就是当前最直接的入口。我们也欢迎首批标杆客户以共创方式一起打磨真实场景。
+          如果你手上已经有脚本、本地环境、权限边界或交付问题要处理，
+          这里就是当前最直接的入口。我会优先接真实问题，而不是只聊很远的想象图。
         </p>
       </div>
       <div class="cta-actions">
         <a class="cta-button cta-button--brand" href="./guide/getting-started.html">立即免费体验</a>
-        <a class="cta-button" href="./contact.html#lead-form">预约团队演示</a>
-        <a class="cta-button" href="./contact.html#lead-form">咨询私有化部署</a>
+        <a class="cta-button" href="./contact.html#lead-form">沟通具体场景</a>
+        <a class="cta-button" href="./contact.html#lead-form">咨询交付方案</a>
       </div>
     </div>
   </section>

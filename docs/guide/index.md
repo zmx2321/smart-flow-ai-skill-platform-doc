@@ -40,15 +40,15 @@ lastUpdated: false
         <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
         <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                 <div class="matrix-panel__stack">
-          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">pathA</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'experience'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'product docs'</span><span class="matrix-panel__punct">]</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">pathB</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'local scripts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'manifest'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">]</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">pathC</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'customer delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'tenant'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'hot update'</span><span class="matrix-panel__punct">]</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">firstVisit</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'core_docs'</span><span class="matrix-panel__punct">]</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">localPath</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'local_scripts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli_bridge'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'manifest'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">]</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">deliveryPath</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'delivery_docs'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'hot_update'</span><span class="matrix-panel__punct">]</span></span>
         </div>
-        <div class="matrix-panel__callout">START WITH THE RIGHT PATH, NOT WITH RANDOM MENU EXPLORATION</div>
+        <div class="matrix-panel__callout">PICK THE PATH THAT MATCHES YOUR STAGE</div>
       </div>
       <div class="matrix-panel__footer">
         <span class="matrix-panel__tag"><span class="matrix-panel__key">entry</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public</span></span>
-        <span class="matrix-panel__tag"><span class="matrix-panel__key">docs</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ready</span></span>
+        <span class="matrix-panel__tag"><span class="matrix-panel__key">docs</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">mapped</span></span>
         <span class="matrix-panel__tag"><span class="matrix-panel__key">route</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">guided</span></span>
       </div>
     </div>
@@ -59,7 +59,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path A</p>
       <h2>先体验一遍执行链路</h2>
-      <p>如果你还在判断这套平台到底是不是你需要的东西，建议先走公开体验路径，再决定是否继续注册、登录或预约演示。</p>
+      <p>如果你还在判断这套平台到底是不是你需要的东西，建议先走公开体验路径，再决定是否继续注册、登录或进一步沟通场景。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path B</p>
@@ -88,7 +88,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>公开体验链路</td>
-          <td>当前正式公开口径里已经包含 <code>/experience</code>、<code>/login</code>、<code>/register</code></td>
+          <td>现在可以直接从 <code>/experience</code>、<code>/login</code>、<code>/register</code> 进入体验和注册流程</td>
           <td>第一次接触平台的人</td>
           <td><a href="./getting-started.html">快速开始</a></td>
         </tr>
@@ -100,7 +100,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>CLI 文档</td>
-          <td>说明本地登录、脚本注册、执行和 Agent 骨架的当前边界</td>
+          <td>说明本地登录、能力接入、执行和 Agent 骨架的当前边界</td>
           <td>开发者、本地接入场景</td>
           <td><a href="../product/cli.html">CLI 指引</a></td>
         </tr>
@@ -112,7 +112,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>联系入口</td>
-          <td>用于试用、演示预约、交付沟通和合作咨询</td>
+          <td>用于试用咨询、场景沟通和正式交付咨询</td>
           <td>需要继续推进的人</td>
           <td><a href="../contact.html#lead-form">联系我</a></td>
         </tr>
@@ -134,7 +134,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>售前 / 方案人员</h3>
-        <p>先看对外资料，再回到产品概览、部署方式和客户流程，保证口径一致。</p>
+        <p>先看介绍资料，再回到产品概览、部署方式和客户流程，建立统一认知。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>企业客户</h3>
@@ -150,32 +150,64 @@ lastUpdated: false
       <a class="brand-link-card" href="./getting-started.html">
         <span>Step 01</span>
         <strong>快速开始</strong>
-        <p>先确认现在公开的正式入口、体验路径和当前已成立的能力边界。</p>
+        <p>先确认现在公开的正式入口、体验路径和当前可用的能力边界。</p>
       </a>
       <a class="brand-link-card" href="../product/index.html">
         <span>Step 02</span>
         <strong>产品概览</strong>
-        <p>再理解平台到底是什么，不是什么，以及现在最准确的公开定义。</p>
+        <p>再理解平台是什么、适合什么场景，以及当前能提供哪些能力。</p>
       </a>
       <a class="brand-link-card" href="../product/customer-flow.html">
         <span>Step 03</span>
         <strong>客户流程 / 交付</strong>
         <p>如果你关心客户怎么用、平台怎么交付、脚本怎么热更新，直接看这页。</p>
       </a>
-      <a class="brand-link-card" href="../product/cli.html">
+      <a class="brand-link-card" href="../product/onboarding-checklist.html">
         <span>Step 04</span>
+        <strong>客户接入准备清单</strong>
+        <p>如果你已经准备真实项目，下一步应该把脚本目录、README、样例文件和边界信息一次准备清楚。</p>
+      </a>
+      <a class="brand-link-card" href="../product/file-results.html">
+        <span>Step 05</span>
+        <strong>文件上传 / 结果下载</strong>
+        <p>如果你的任务依赖输入文件、结果文件或报表产物，这页会比泛泛的产品说明更直接。</p>
+      </a>
+      <a class="brand-link-card" href="../product/cli.html">
+        <span>Step 06</span>
         <strong>CLI 指引</strong>
         <p>如果你已经有本地脚本目录，这页比泛泛介绍更有价值。</p>
       </a>
       <a class="brand-link-card" href="./faq.html">
-        <span>Step 05</span>
+        <span>Step 07</span>
         <strong>常见问题</strong>
         <p>把“是不是聊天系统、会不会串租户、能不能直接上线”这类问题一次看清。</p>
       </a>
       <a class="brand-link-card" href="../materials/index.html">
-        <span>Step 06</span>
-        <strong>对外资料</strong>
-        <p>如果你要做介绍、讲解、演示或对外表达，可以继续看这里。</p>
+        <span>Step 08</span>
+        <strong>介绍资料</strong>
+        <p>如果你要做介绍、讲解、演示或方案沟通，可以继续看这里。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Project Ready</p>
+    <h2>如果你已经不是“先随便看看”</h2>
+    <div class="brand-link-grid">
+      <a class="brand-link-card" href="../product/deliverables.html">
+        <span>Deliverables</span>
+        <strong>交付物 / 文档入口</strong>
+        <p>先明确客户最终会拿到什么入口、什么说明、什么结果物，方便后续交付和使用。</p>
+      </a>
+      <a class="brand-link-card" href="../product/onboarding-checklist.html">
+        <span>Checklist</span>
+        <strong>客户接入准备清单</strong>
+        <p>适合售前、实施和客户一起对齐脚本目录、README、样例文件、依赖和风险边界。</p>
+      </a>
+      <a class="brand-link-card" href="../product/file-results.html">
+        <span>Files</span>
+        <strong>文件上传 / 结果下载</strong>
+        <p>如果项目是文件型任务、报表型任务或结果产物型任务，这页应该提前看，而不是上线后再补说明。</p>
       </a>
     </div>
   </section>
@@ -195,6 +227,10 @@ lastUpdated: false
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
           <strong>客户流程 / 交付</strong>
+        </a>
+        <a class="brand-link-card" href="../product/onboarding-checklist.html">
+          <span>Checklist</span>
+          <strong>客户接入准备清单</strong>
         </a>
         <a class="brand-link-card" href="../product/cli.html">
           <span>CLI</span>

@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>控制面可以统一，执行位置不必统一。</strong>
-        <p>这正是 SmartFlow 能同时承接企业交付、产品体验和本地执行的关键原因。</p>
+        <p>这正是 SmartFlow 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
       </div>
       <p class="brand-lead">
         SmartFlow 的部署思路不是只有一种，而是根据
@@ -40,17 +40,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-                    <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">deliveryMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'single_tenant_delivery'</span></span>
+          <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">enterpriseMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'single_tenant_delivery'</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">platformMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'public_governance'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">futureMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'local_hybrid'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'edge_ready'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">hybridMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'local_execution'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli_bridge'</span><span class="matrix-panel__punct">]</span></span>
           </div>
-          <div class="matrix-panel__callout">SAME GOVERNANCE / DIFFERENT EXECUTION POSITIONS</div>
+          <div class="matrix-panel__callout">ONE GOVERNANCE / MULTIPLE DEPLOYMENTS</div>
         </div>
         <div class="matrix-panel__footer">
-          <span class="matrix-panel__tag"><span class="matrix-panel__value">cloud</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__value">local</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__value">edge</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">surface</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">cloud</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">surface</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">surface</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">hybrid</span></span>
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>适合产品体验入口和个人开发者试用</li>
         <li>更强调上手速度和体验路径</li>
-        <li>为后续团队版、企业版升级提供前置入口</li>
+        <li>为后续更深沟通和正式交付提供前置入口</li>
       </ul>
     </article>
   </section>
@@ -101,12 +101,12 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">05</p>
-      <h2>未来边缘与设备模式</h2>
+      <h2>更远路线这里先不展开</h2>
       <ul class="brand-list">
-        <li>这是 <code>4.0</code> 的公开方向之一</li>
-        <li>能力单元不再局限于脚本</li>
-        <li>执行端可能是本地 Agent、边缘节点或设备插件</li>
-        <li>Web 控制面继续作为统一治理入口</li>
+        <li>当前公开重点不是设备、边缘或插件治理</li>
+        <li>Agent 常驻执行仍属于后续增强，不是现在的公开卖点</li>
+        <li>先把真实项目里的本地执行和内网接入做好更重要</li>
+        <li>更远路线等有真实需求再继续展开</li>
       </ul>
     </article>
   </section>
@@ -138,7 +138,7 @@ lastUpdated: false
       </tr>
       <tr>
         <td>03. 方案评估期</td>
-        <td>开始带着真实脚本、真实场景、真实权限问题来沟通</td>
+        <td>开始带着真实脚本型能力、真实场景、真实权限问题来沟通</td>
         <td>这时通常要同时看 <a href="./customer-flow.html">客户流程 / 交付</a>、<a href="./cli.html">CLI 指引</a> 和部署方式，而不是只看免费线路</td>
         <td>如果需要独立网址、独立租户和正式验收，就进入单租户交付</td>
       </tr>
@@ -166,20 +166,42 @@ lastUpdated: false
       <li>需要一个客户自己的正式访问网址</li>
       <li>需要独立租户和更明确的数据 / 能力隔离</li>
       <li>需要正式账号、权限、验收和后续更新说明</li>
-      <li>需要把真实脚本、真实业务场景和真实审批边界接进来</li>
+      <li>需要把真实脚本型能力、真实业务场景和真实审批边界接进来</li>
       <li>需要把平台从体验入口变成可持续交付空间</li>
     </ul>
   </article>
   <article class="brand-card">
-    <p class="brand-kicker">Current Truth</p>
-    <h2>当前外部口径里要说清的现实</h2>
+    <p class="brand-kicker">Recommended Path</p>
+    <h2>当前推荐的升级路径</h2>
     <ul class="brand-list">
-      <li>免费入口当前承担的是体验和增长，不是正式企业交付的最终形态</li>
-      <li>当前真实收入主线仍然是企业 <code>1.0</code> 单租户交付</li>
-      <li>标准团队版 / 套餐化梯度属于 <code>2.0</code> 方向，不应讲成已经完全自助开放</li>
-      <li>所以当前最真实的升级路线是：免费入口感知价值，再进入正式交付沟通</li>
+      <li>免费入口适合先体验平台与执行链路</li>
+      <li>正式交付适合需要独立网址、租户隔离和长期使用的场景</li>
+      <li>标准化小团队方案和更完整的套餐能力会继续扩展</li>
+      <li>常见路径是先体验，再进入试用或正式交付</li>
     </ul>
   </article>
+</section>
+
+<section class="brand-card">
+  <p class="brand-kicker">Deployment Prep</p>
+  <h2>在决定部署路径前，最好先把这 3 件事对齐</h2>
+  <div class="brand-link-grid">
+    <a class="brand-link-card" href="./file-results.html">
+      <span>Files</span>
+      <strong>文件上传 / 结果下载</strong>
+      <p>如果项目依赖输入文件、批次状态、Excel 结果或导出产物，先把文件链路说明清楚，再谈部署方式会更稳。</p>
+    </a>
+    <a class="brand-link-card" href="./deliverables.html">
+      <span>Deliverables</span>
+      <strong>交付物 / 文档入口</strong>
+      <p>如果你已经进入正式交付沟通，先明确客户最终拿到什么网址、什么账号、什么说明和什么结果入口。</p>
+    </a>
+    <a class="brand-link-card" href="./onboarding-checklist.html">
+      <span>Checklist</span>
+      <strong>客户接入准备清单</strong>
+      <p>如果你已经有真实脚本型能力和真实场景，先把脚本目录、README、样例文件、依赖和风险边界准备好。</p>
+    </a>
+  </div>
 </section>
 
   <section class="brand-grid brand-grid--two">
@@ -189,16 +211,16 @@ lastUpdated: false
       <ul class="brand-list">
         <li>一个独立租户</li>
         <li>一个独立访问网址</li>
-        <li>一组客户专属脚本能力</li>
+        <li>一组客户专属能力，当前通常以脚本型能力为主</li>
         <li>平台账号与基础权限</li>
         <li>客户使用说明与脚本热更新说明</li>
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Current Boundary</p>
+      <p class="brand-kicker">Standard Scope</p>
       <h2>当前默认不包含什么</h2>
       <ul class="brand-list">
-        <li>面向所有客户开放的公共市场</li>
+        <li>公开第三方能力市场</li>
         <li>客户绕过平台自行发布脚本</li>
         <li>无审批的高风险自动执行</li>
         <li>打破租户边界的跨客户能力共享</li>
@@ -225,20 +247,35 @@ lastUpdated: false
         <strong>如果你要看客户到底怎么上线和后续怎么更新</strong>
         <p>直接看客户流程 / 交付页，把标准交付包、使用路径、热更新和验收重点一次看清。</p>
       </a>
+      <a class="brand-link-card" href="./file-results.html">
+        <span>File Flow</span>
+        <strong>如果项目核心是文件处理和结果产物</strong>
+        <p>先把上传输入文件、批次状态和结果下载的公开链路讲清楚，再决定是云端处理还是混合执行。</p>
+      </a>
+      <a class="brand-link-card" href="./deliverables.html">
+        <span>Delivery Kit</span>
+        <strong>如果你要把正式交付包说完整</strong>
+        <p>继续看交付物 / 文档入口页，把客户长期使用时真正能拿到的说明和入口一次说清。</p>
+      </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Growth Entry</span>
         <strong>如果你当前重点是获客与试用</strong>
-        <p>加上免费入口模式，让访客可以先体验，再进入团队版或企业版路径。</p>
+        <p>加上免费入口模式，让访客可以先体验，再进入场景沟通或正式交付路径。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI Bridge</span>
         <strong>如果你当前重点是本地环境、内网和私有数据执行</strong>
         <p>先看 CLI 指引，把 <code>login / register / run / agent</code> 的当前接入边界和落地路径跑通。</p>
       </a>
+      <a class="brand-link-card" href="./onboarding-checklist.html">
+        <span>Ready First</span>
+        <strong>如果你还没把接入资料准备齐</strong>
+        <p>先回到接入准备清单，而不是急着先选私有化、平台治理或本地桥接其中一种部署标签。</p>
+      </a>
       <a class="brand-link-card" href="./editions.html">
-        <span>Long Term</span>
-        <strong>如果你还要考虑长期设备化延伸</strong>
-        <p>提前预留边缘与设备模式，为 4.0 的能力包与设备插件治理做准备。</p>
+        <span>Current Stage</span>
+        <strong>如果你想先看当前阶段和下一步重点</strong>
+        <p>先回到当前阶段说明，确认哪些是现在能做的，哪些还不该讲太满。</p>
       </a>
     </div>
   </section>
