@@ -8,32 +8,32 @@ lastUpdated: false
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Customer Flow &amp; Delivery</p>
-      <h1>客户使用流程 / 交付与热更新</h1>
+      <h1>客户使用流程 / 交付</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Practical View</span>
         <strong>交付不是把页面上线就结束，而是让客户后续还能继续安全地新增、更新和使用能力。</strong>
-        <p>这正是“客户使用流程”和“热更新流程”需要单独写清楚的原因。</p>
+        <p>客户使用路径、交付边界和后续更新机制都需要清晰定义，项目才能稳定运行。</p>
       </div>
       <p class="brand-lead">
-        这页把 SmartFlow 当前最容易被问到的几件事一次讲清楚：
-        <strong>客户拿到什么、客户怎么用、平台怎么交付、脚本怎么持续更新。</strong>
-        它不是再讲一遍概念，而是把“真实落地时到底怎么跑”直接展开。
+        ExecGov 当前最需要先讲清楚的几件事是：
+        <strong>客户拿到什么、客户怎么用、平台怎么交付。</strong>
+        脚本持续更新流程已拆到《热更新说明》，这里先把“真实交付时到底怎么跑”直接展开。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">一个客户一个网址</span>
         <span class="brand-chip">手动执行 + AI 推荐</span>
-        <span class="brand-chip">热更新</span>
+        <span class="brand-chip">交付清单</span>
         <span class="brand-chip">租户隔离</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通交付 / 试用</a>
-        <a class="cta-button" href="./deployment.html">查看部署方式</a>
+        <a class="cta-button" href="./hot-update.html">查看热更新说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // CUSTOMER FLOW</span>
+          <span>EXECGOV // CUSTOMER FLOW</span>
           <span>DOC 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -313,122 +313,33 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-card">
-    <p class="brand-kicker">Hot Update Flow</p>
-    <h2>客户脚本热更新怎么走</h2>
-    <div class="brand-grid brand-grid--three">
-      <article class="brand-card brand-card--nested">
-        <h3>1. 准备脚本目录</h3>
-        <p>按约定准备脚本目录，至少包含 <code>main.py</code> 和 <code>README.md</code>。README 至少说明脚本作用、输入、输出和执行前置条件。</p>
-      </article>
-      <article class="brand-card brand-card--nested">
-        <h3>2. 上传到所属租户目录</h3>
-        <p>客户把脚本放到自己的租户目录，不同客户不能混用目录，<code>public/</code> 仅由平台维护。</p>
-      </article>
-      <article class="brand-card brand-card--nested">
-        <h3>3. 平台审核</h3>
-        <p>平台确认该脚本属于哪个租户、是否允许 AI 调用、是否允许手动执行、是否需要人工确认。</p>
-      </article>
-      <article class="brand-card brand-card--nested">
-        <h3>4. 平台同步到执行目录</h3>
-        <p>平台运行时使用的是受控相对路径，而不是执行脚本仓库外的任意绝对路径。</p>
-      </article>
-      <article class="brand-card brand-card--nested">
-        <h3>5. 平台完成注册与授权</h3>
-        <p>平台会完成 Script 注册、Script 版本登记、Skill 关联、Skill 版本登记和租户授权绑定。</p>
-      </article>
-      <article class="brand-card brand-card--nested">
-        <h3>6. 权限验证后正式可用</h3>
-        <p>平台会验证当前租户可见可执行、其他租户不可见不可执行，确认 AI 推荐范围没有串租户。</p>
-      </article>
-    </div>
-  </section>
 
-  <section class="brand-card">
-    <p class="brand-kicker">Hot Update Submit</p>
-    <h2>客户发起热更新时，建议一次给齐这些信息</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>提交项</th>
-          <th>是否必须</th>
-          <th>用途</th>
-          <th>说明</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>脚本文件</td>
-          <td>必须</td>
-          <td>作为实际执行内容</td>
-          <td>至少包含 <code>main.py</code></td>
-        </tr>
-        <tr>
-          <td>README.md</td>
-          <td>必须</td>
-          <td>给平台审核和后续维护使用</td>
-          <td>建议写明作用、输入、输出、前置条件、是否生成文件</td>
-        </tr>
-        <tr>
-          <td>所属租户</td>
-          <td>必须</td>
-          <td>决定脚本最终授权范围</td>
-          <td>不同客户不能混用目录和授权</td>
-        </tr>
-        <tr>
-          <td>业务场景说明</td>
-          <td>必须</td>
-          <td>帮助平台判断接入方式和命名</td>
-          <td>建议说明脚本解决什么问题、面向谁使用</td>
-        </tr>
-        <tr>
-          <td>是否允许 AI 调用</td>
-          <td>建议提供</td>
-          <td>决定智能大脑是否可推荐该能力</td>
-          <td>不是所有脚本都默认进入 AI 推荐范围</td>
-        </tr>
-        <tr>
-          <td>是否允许手动执行</td>
-          <td>建议提供</td>
-          <td>决定页面是否开放手动入口</td>
-          <td>可与 AI 调用分开控制</td>
-        </tr>
-        <tr>
-          <td>是否需要人工确认</td>
-          <td>建议提供</td>
-          <td>控制高风险动作的确认环节</td>
-          <td>适用于会改写数据或触发外部动作的能力</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <section class="brand-grid brand-grid--two">
-    <article class="brand-card">
-      <p class="brand-kicker">Why Hot Update</p>
-      <h2>热更新真正带来的效果</h2>
-      <ul class="brand-list">
-        <li>平台本身不需要重新部署</li>
-        <li>当前租户可以直接看到新能力或新版本</li>
-        <li>其他租户不会受到影响</li>
-        <li>平台方仍保留审核、注册和授权控制权</li>
-      </ul>
-    </article>
-    <article class="brand-card">
-      <p class="brand-kicker">Misunderstanding</p>
-      <h2>几个常见误解，最好提前说清楚</h2>
-      <ul class="brand-list">
-        <li>热更新不等于客户可以绕过平台直接上线</li>
-        <li>热更新不等于一更新就对所有租户开放</li>
-        <li>AI 推荐也受租户授权约束，不会跨租户推荐</li>
-        <li>本地执行需求通常是接 CLI / Agent，不是直接暴露内网执行路径</li>
-      </ul>
-    </article>
-  </section>
+<section class="brand-card">
+  <p class="brand-kicker">Hot Update</p>
+  <h2>热更新说明已经单独拆页</h2>
+  <p>客户脚本如何准备目录、补齐提交信息、进入审核、完成注册和在当前租户内正式生效，已经拆到单独页面，便于售前、交付和培训分别引用。</p>
+  <div class="brand-link-grid">
+    <a class="brand-link-card" href="./hot-update.html">
+      <span>Hot Update</span>
+      <strong>热更新说明</strong>
+      <p>集中看目录准备、审核同步、注册授权和租户内生效边界。</p>
+    </a>
+    <a class="brand-link-card" href="./file-results.html">
+      <span>Files</span>
+      <strong>文件上传 / 结果下载</strong>
+      <p>适合上传输入文件、处理报表、下载结果产物这类文件型任务场景。</p>
+    </a>
+    <a class="brand-link-card" href="./onboarding-checklist.html">
+      <span>Checklist</span>
+      <strong>客户接入准备清单</strong>
+      <p>适合售前和实施沟通时，把脚本目录、README、样例文件和边界信息一次对齐。</p>
+    </a>
+  </div>
+</section>
 
   <section class="brand-card">
     <p class="brand-kicker">Related Reading</p>
-    <h2>如果你要把交付、文件链路和接入准备一次说清楚</h2>
+    <h2>交付、文件链路和接入准备可继续看这三页</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
@@ -470,7 +381,7 @@ lastUpdated: false
     </article>
     <article class="brand-card brand-card--nested">
       <h3>本地脚本和内网资源能不能接进来</h3>
-      <p>可以，但通常不是让浏览器直接碰本地路径，而是通过 <code>smartflow-cli</code> 和后续 Agent 路线承接本地执行桥接。</p>
+      <p>可以，但通常不是让浏览器直接碰本地路径，而是通过 <code>execgov-cli</code> 和后续 Agent 路线承接本地执行桥接。</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>免费版和企业交付是不是两套完全无关的系统</h3>
@@ -482,7 +393,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Acceptance</p>
-      <h2>客户验收时建议重点确认</h2>
+      <h2>客户验收重点</h2>
       <ul class="brand-list">
         <li>是否能登录自己的网址</li>
         <li>是否只能看到自己的能力</li>
@@ -493,8 +404,8 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
-      <h2>一句话总结这页的核心内容</h2>
-      <p>SmartFlow 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
+      <h2>一句话总结交付主线</h2>
+      <p>ExecGov 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
     </article>
   </section>
 
@@ -502,8 +413,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>如果你想继续看平台能力，或者直接沟通交付</h2>
-        <p class="brand-lead">建议继续看核心能力、部署方式和架构说明；如果你已经有真实脚本型能力和客户场景，也可以直接带着目录结构和需求来聊。</p>
+        <h2>继续查看平台能力，或直接进入交付沟通</h2>
+        <p class="brand-lead">可继续查看核心能力、部署方式和架构说明；已有真实脚本型能力和客户场景时，也可直接带着目录结构和需求进入沟通。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./capabilities.html">

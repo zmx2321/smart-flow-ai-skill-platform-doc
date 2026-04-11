@@ -8,7 +8,7 @@ lastUpdated: false
   <section class="brand-hero brand-hero--logo">
     <div>
       <p class="brand-kicker">Brand System</p>
-      <h1>智流 Logo 设计方向</h1>
+      <h1>ExecGov Logo 设计方向</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Direction Note</span>
         <strong>不是做一个炫图标，而是建立一套能复用的产品识别系统。</strong>
@@ -28,7 +28,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // BRAND SYSTEM</span>
+          <span>EXECGOV // BRAND SYSTEM</span>
           <span>BRAND 02</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -123,7 +123,7 @@ lastUpdated: false
       <article class="brand-direction-card">
         <span class="brand-pill">方向三</span>
         <h3>无限门径</h3>
-        <p>强调工作流、通道、可控流转和无限扩展，最贴近“智流”的产品语义。</p>
+        <p>强调工作流、通道、可控流转和无限扩展，最贴近“ExecGov”的产品语义。</p>
         <ul class="brand-list">
           <li>核心画面：莫比乌斯环或 <code>∞</code> 变体 + 门 / 桥隐喻 + 穿透光束</li>
           <li>设计语言：优雅、循环、流线型、具有路径哲学感</li>
@@ -140,7 +140,7 @@ lastUpdated: false
       <p class="brand-lead">
         建议以“无限门径”的整体结构为骨架，吸收“神经涌流”的智能连接感，再加入“智慧立方”的局部几何控制感。
       </p>
-      <p>这样更适合“智流”当前的平台语义：不是纯工具，也不是纯聊天产品，而是一套在可控边界内调度真实能力流转的执行平台。</p>
+      <p>这样更适合“ExecGov”当前的平台语义：不是纯工具，也不是纯聊天产品，而是一套在可控边界内调度真实能力流转的执行平台。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Next Assets</p>

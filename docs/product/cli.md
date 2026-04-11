@@ -4,7 +4,7 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
+<div class="brand-page-shell brand-page-shell--cli">
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">CLI Guide</p>
@@ -15,7 +15,7 @@ lastUpdated: false
         <p>远程任务拉取、Agent 常驻执行和非 Python 脚本的真实远程上传，仍属于下一阶段。</p>
       </div>
       <p class="brand-lead">
-        <strong>smartflow-cli</strong> 是 SmartFlow 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
+        <strong>execgov-cli</strong> 是 ExecGov 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
         这条线的重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本、本地环境和平台控制面</strong> 接成一条现在能用的桥。
       </p>
       <div class="brand-chip-list">
@@ -32,7 +32,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // CLI BRIDGE</span>
+          <span>EXECGOV // CLI BRIDGE</span>
           <span>DOC 07</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -66,7 +66,7 @@ lastUpdated: false
         <li><code>run</code></li>
         <li><code>agent describe</code> / <code>agent start</code></li>
         <li>sidecar JSON 覆盖、注释 / docstring / 文件名元数据提取</li>
-        <li><code>.smartflow-manifest.json</code> 生成</li>
+        <li><code>.execgov-manifest.json</code> 生成</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -120,28 +120,28 @@ lastUpdated: false
         <h3>1. 开发环境安装</h3>
         <pre><code class="language-bash">cd smartflow-cli
 python -m pip install -e .
-smartflow-cli --help</code></pre>
-        <p>这是当前最适合开发、自测和本地接入的安装方式。安装完成后就不必每次都写 <code>python -m smartflow_cli.cli</code>。</p>
+execgov-cli --help</code></pre>
+        <p>这是当前最适合开发、自测和本地接入的安装方式。安装完成后就不必每次都写 <code>python -m execgov_cli.cli</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. 直接运行入口</h3>
         <pre><code class="language-bash">cd smartflow-cli
-python -m smartflow_cli.cli --help</code></pre>
+python -m execgov_cli.cli --help</code></pre>
         <p>如果你还没做本地安装，可以先直接用模块方式运行。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. 保存登录配置</h3>
         <pre><code class="language-bash">cd smartflow-cli
-python -m smartflow_cli.cli login \
+python -m execgov_cli.cli login \
   --token YOUR_API_TOKEN \
   --api-base http://localhost:6089/dev-api \
   --web-base http://localhost:80</code></pre>
-        <p>默认配置文件路径是 <code>~/.smartflow/config.json</code>，也可以通过 <code>SMARTFLOW_CONFIG_DIR</code> 覆盖。</p>
+        <p>默认配置文件路径是 <code>~/.execgov/config.json</code>，也可以通过 <code>EXECGOV_CONFIG_DIR</code> 覆盖。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. 注册脚本目录</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli register ./examples/scripts</code></pre>
-        <p>命令会扫描目录、生成 <code>.smartflow-manifest.json</code>，并默认调用后端 <code>upload-register</code> 完成 Python 脚本入库。</p>
+        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts</code></pre>
+        <p>命令会扫描目录、生成 <code>.execgov-manifest.json</code>，并默认调用后端 <code>upload-register</code> 完成 Python 脚本入库。</p>
       </article>
     </div>
   </section>
@@ -152,35 +152,35 @@ python -m smartflow_cli.cli login \
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>只看结果，不落盘</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli register ./examples/scripts --dry-run --print-json</code></pre>
+        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts --dry-run --print-json</code></pre>
         <p>适合先确认提取出的 Skill 元数据是否符合预期。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>只生成 manifest</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli register ./examples/scripts --manifest-only</code></pre>
+        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts --manifest-only</code></pre>
         <p>如果你当前不想请求后端接口，可以先只生成本地清单。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>查看 manifest 摘要</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli list ./examples/scripts</code></pre>
-        <p><code>list</code> 当前必须显式传入 workspace，而且该目录下需要已存在 <code>.smartflow-manifest.json</code>。</p>
+        <pre><code class="language-bash">python -m execgov_cli.cli list ./examples/scripts</code></pre>
+        <p><code>list</code> 当前必须显式传入 workspace，而且该目录下需要已存在 <code>.execgov-manifest.json</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>直接触发 Skill 执行</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli run backup_local \
+        <pre><code class="language-bash">python -m execgov_cli.cli run backup_local \
   --request-text "CLI 手动执行备份" \
   --input-json '{"sourcePath":"/tmp/demo"}'</code></pre>
         <p>如果登录时保存了 <code>--web-base</code>，CLI 会额外输出对应的 Web 打开链接。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>查看 Agent 描述</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli agent describe</code></pre>
+        <pre><code class="language-bash">python -m execgov_cli.cli agent describe</code></pre>
         <p>当前主要用于输出本地 Agent 描述信息，方便平台侧对接后续执行端。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>预留本地 Agent 模式</h3>
-        <pre><code class="language-bash">python -m smartflow_cli.cli register ./examples/scripts --execution-mode local-agent
-python -m smartflow_cli.cli agent start</code></pre>
+        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts --execution-mode local-agent
+python -m execgov_cli.cli agent start</code></pre>
         <p>现在会把 <code>execution_mode</code> 写入 manifest，并保留本地 Agent 入口，但还不会真的接管执行。</p>
       </article>
     </div>
@@ -191,7 +191,7 @@ python -m smartflow_cli.cli agent start</code></pre>
       <p class="brand-kicker">Metadata</p>
       <h2>元数据提取规则</h2>
       <ul class="brand-list">
-        <li>优先读取同名 sidecar 文件：<code>&lt;script_stem&gt;.smartflow-skill.json</code></li>
+        <li>优先读取同名 sidecar 文件：<code>&lt;script_stem&gt;.execgov-skill.json</code></li>
         <li>其次读取脚本顶部注释或 Python 顶部 docstring</li>
         <li>最后再从文件名自动推断</li>
       </ul>
@@ -213,8 +213,8 @@ python -m smartflow_cli.cli agent start</code></pre>
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>想继续看产品定位，或者直接进入试用路径</h2>
-        <p class="brand-lead">建议继续看产品概览、核心能力和部署方式；如果你已经有脚本目录，也可以直接带着接入问题来聊。</p>
+        <h2>继续查看产品定位，或直接进入本地接入沟通</h2>
+        <p class="brand-lead">可继续查看产品概览、核心能力和部署方式；已有脚本目录时，也可直接带着接入问题进入沟通。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./index.html">

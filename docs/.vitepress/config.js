@@ -1,10 +1,10 @@
 export default {
   lang: "zh-CN",
-  title: "SmartFlow AI Skill Platform",
-  description: "SmartFlow AI Skill Platform / 智流·智能执行平台，An Open & Secure AI Agent Execution Layer。",
+  title: "ExecGov（执治）",
+  description: "ExecGov（执治），企业级 AI 执行与治理平台。",
   appearance: {
     initialValue: "dark",
-    storageKey: "smartflow-doc-theme-appearance",
+    storageKey: "execgov-doc-theme-appearance",
   },
   base: "/smart-flow-ai-skill-platform-doc/",
   head: [
@@ -14,7 +14,7 @@ export default {
       "script",
       {},
       `(() => {
-        const siteKey = "smartflow-doc-theme-appearance";
+        const siteKey = "execgov-doc-theme-appearance";
         const globalKey = "vitepress-theme-appearance";
         const saved = localStorage.getItem(siteKey);
         const normalized = saved === "light" || saved === "dark" || saved === "auto" ? saved : "dark";
@@ -28,7 +28,7 @@ export default {
   },
   lastUpdated: true,
   themeConfig: {
-    siteTitle: "SmartFlow Docs",
+    siteTitle: "ExecGov Docs",
     outlineTitle: "本页目录",
     nav: [
       { text: "首页", link: "/" },
@@ -50,6 +50,7 @@ export default {
           { text: "核心能力", link: "/product/capabilities" },
           { text: "能力编排", link: "/product/orchestration" },
           { text: "客户流程 / 交付", link: "/product/customer-flow" },
+          { text: "热更新说明", link: "/product/hot-update" },
           { text: "文件上传 / 结果下载", link: "/product/file-results" },
           { text: "交付物 / 文档入口", link: "/product/deliverables" },
           { text: "客户接入准备清单", link: "/product/onboarding-checklist" },
@@ -66,6 +67,10 @@ export default {
           { text: "资料总览", link: "/materials/" },
           { text: "介绍提纲", link: "/materials/pitch" },
           { text: "价值说明", link: "/materials/value" },
+          { text: "合作方式 / 服务包", link: "/materials/service-packages" },
+          { text: "交付背景与项目经历", link: "/materials/founder-profile" },
+          { text: "背景概览", link: "/materials/founder-card" },
+          { text: "项目与履历", link: "/materials/resume-public" },
         ],
       },
       // { text: "Logo 设计", link: "/logo-design/" },
@@ -92,6 +97,7 @@ export default {
             { text: "核心能力", link: "/product/capabilities" },
             { text: "能力编排", link: "/product/orchestration" },
             { text: "客户流程 / 交付", link: "/product/customer-flow" },
+            { text: "热更新说明", link: "/product/hot-update" },
             { text: "文件上传 / 结果下载", link: "/product/file-results" },
             { text: "交付物 / 文档入口", link: "/product/deliverables" },
             { text: "客户接入准备清单", link: "/product/onboarding-checklist" },
@@ -109,6 +115,10 @@ export default {
             { text: "资料总览", link: "/materials/" },
             { text: "介绍提纲", link: "/materials/pitch" },
             { text: "价值说明", link: "/materials/value" },
+            { text: "合作方式 / 服务包", link: "/materials/service-packages" },
+            { text: "交付背景与项目经历", link: "/materials/founder-profile" },
+            { text: "背景概览", link: "/materials/founder-card" },
+            { text: "项目与履历", link: "/materials/resume-public" },
           ],
         },
       ],
@@ -138,7 +148,7 @@ export default {
       ],
     },
     footer: {
-      message: "Make AI Work, Make Work Smart.",
+      message: "让每次自动化，都可靠且可控。",
       copyright: "Copyright © 2026 zmx2321 | zmx2321@163.com",
     },
     search: {

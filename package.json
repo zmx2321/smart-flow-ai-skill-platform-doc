@@ -1,8 +1,8 @@
 {
-  "name": "smart-flow-ai-skill-platform-doc",
+  "name": "execgov-docs",
   "version": "1.0.0",
   "private": true,
-  "description": "SmartFlow 平台文档站",
+  "description": "ExecGov（执治）文档站",
   "scripts": {
     "dev": "vitepress dev docs --host 0.0.0.0 --port 7080",
     "docs:dev": "npm run dev",
@@ -16,7 +16,7 @@
   },
   "keywords": [
     "vitepress",
-    "smartflow",
+    "execgov",
     "docs"
   ],
   "author": "zmx2321",

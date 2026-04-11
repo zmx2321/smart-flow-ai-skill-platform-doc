@@ -7,15 +7,15 @@ lastUpdated: false
 <div class="brand-page-shell">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Value Narrative</p>
-      <h1>价值说明</h1>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Decision Layer</span>
-        <strong>客户最终不会为“有个 AI 页面”买单，而会为效率、可控性和眼前能不能解决问题买单。</strong>
-        <p>这页就按这三个维度展开。</p>
-      </div>
+    <p class="brand-kicker">Value Narrative</p>
+    <h1>价值说明</h1>
+    <div class="brand-hero__panel">
+      <span class="brand-pill">Decision Layer</span>
+      <strong>客户最终不会为“有个 AI 页面”买单，而会为效率、可控性和眼前能不能解决问题买单。</strong>
+      <p>价值判断的重点通常集中在效率、可控性和当前是否值得启动试点。</p>
+    </div>
       <p class="brand-lead">
-        这一页专门回答决策者最常问的三个问题：
+        价值判断通常集中在决策者最常问的三个问题：
         <strong>它到底省什么事、它到底安不安全、它到底值不值得现在拿一个真实场景试起来。</strong>
         如果产品能在这三件事上讲不清，后面的技术细节就很难继续推进。
       </p>
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // VALUE NARRATIVE</span>
+          <span>EXECGOV // VALUE NARRATIVE</span>
           <span>MAT 03</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -70,7 +70,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Question 03</p>
       <h2>它到底值不值得现在就试</h2>
-      <p>如果你现在已经有脚本、接口、报表处理或本地流程，这套平台可以先帮你把最痛的一段接进统一入口，再判断是不是值得继续扩。</p>
+      <p>已有脚本、接口、报表处理或本地流程时，这套平台可以先把最痛的一段接进统一入口，再判断是否要继续扩展。</p>
     </article>
   </section>
 
@@ -142,12 +142,12 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>一句话怎么讲价值</h2>
-      <p>SmartFlow 不是再造一个聊天框，而是把你已经有的脚本、API、模板和流程收成统一入口，让 AI 在规则内帮你更快、更稳、更可控地完成真实工作。</p>
+      <p>ExecGov 不是再造一个聊天框，而是把你已经有的脚本，以及后续可接入的 API、模板和流程收成统一入口，让 AI 在规则内帮你更快、更稳、更可控地完成真实工作。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Longer Version</p>
       <h2>一段话怎么讲价值</h2>
-      <p>很多企业并不缺脚本、接口、模板和流程，真正缺的是统一入口、权限边界和可持续交付能力。SmartFlow 的价值，是把这些分散能力收进一个可控执行平台里，让客户通过一个网址使用自己的能力，让平台在边界内完成推荐、确认、执行和留痕。当前最成熟的第一种执行资产仍然是 Python 脚本，但平台现在更重要的任务不是讲大故事，而是先把这些能力单元稳定地接进真实项目。</p>
+      <p>很多企业并不缺脚本、接口、模板和流程，真正缺的是统一入口、权限边界和可持续交付能力。ExecGov 的价值，是把这些分散能力收进一个可控执行平台里，让客户通过一个网址使用自己的能力，让平台在边界内完成推荐、确认、执行和留痕。当前最成熟的第一种执行资产仍然是 Python 脚本，但平台现在更重要的任务不是讲大故事，而是先把这些能力单元稳定地接进真实项目。</p>
     </article>
   </section>
 
@@ -155,8 +155,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>如果价值已经讲清，下一步就要讲事实</h2>
-        <p class="brand-lead">最好的表达，不是只讲愿景，而是让价值表达和真实交付路径接上。</p>
+        <h2>价值判断之后，需要继续看交付事实</h2>
+        <p class="brand-lead">价值表达如果不能接到真实交付路径上，项目判断通常不会继续往下走。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/customer-flow.html">
@@ -173,7 +173,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>联系我</strong>
+          <strong>沟通真实场景</strong>
         </a>
       </div>
     </div>

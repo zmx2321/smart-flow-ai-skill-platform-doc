@@ -4,7 +4,7 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
+<div class="brand-page-shell brand-page-shell--deliverables">
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Delivery Assets &amp; Entry Points</p>
@@ -12,10 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Delivery Package</span>
         <strong>交付不是只给一个账号，而是要把客户后续怎么用、怎么看结果、怎么继续更新，一起交待清楚。</strong>
-        <p>这页聚焦客户会实际拿到的入口、说明和结果入口。</p>
+        <p>重点覆盖客户会实际拿到的入口、说明和结果入口。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 的标准交付通常包括：
+        ExecGov 的标准交付通常包括：
         <strong>一个独立访问入口 + 一组客户专属能力 + 一套可继续使用和更新的说明入口。</strong>
         也就是说，交付物不只是一张账号表，还包括
         <strong>结果入口、公告入口、客户说明和后续更新说明。</strong>
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // DELIVERY KIT</span>
+          <span>EXECGOV // DELIVERY KIT</span>
           <span>DOC 10</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -83,7 +83,7 @@ lastUpdated: false
   <section class="brand-card">
     <p class="brand-kicker">Delivery Table</p>
     <h2>标准交付时，客户通常会拿到什么</h2>
-    <table>
+    <table class="deliverables-table">
       <thead>
         <tr>
           <th>交付项</th>
@@ -152,7 +152,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Key Points</p>
-      <h2>这页重点覆盖什么</h2>
+      <h2>交付包的核心覆盖范围</h2>
       <ul class="brand-list">
         <li>客户会拿到哪些入口和说明</li>
         <li>上线后如何查看公告、文档和结果</li>
@@ -189,8 +189,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>想继续看文件链路、接入准备或部署方式</h2>
-        <p class="brand-lead">如果你已经进入正式沟通阶段，下一步通常不是回去看抽象定位，而是把交付、上传链路和接入准备一次说清楚。</p>
+        <h2>继续核对文件链路、接入准备和部署方式</h2>
+        <p class="brand-lead">进入正式沟通阶段后，重点通常不是回到抽象定位，而是把交付、上传链路和接入准备一次说清楚。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">

@@ -11,12 +11,12 @@ lastUpdated: false
     <h1>快速开始</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Quick Overview</span>
-      <strong>SmartFlow 不是单一聊天页面，而是一套已经有体验入口、交付路径和 CLI 桥接能力的执行平台。</strong>
-      <p>先从这里了解整体结构，后面会更容易找到适合自己的入口。</p>
+      <strong>ExecGov 不是单一聊天页面，而是一套已经有体验入口、交付路径和 CLI 桥接能力的执行平台。</strong>
+      <p>先从这里了解整体结构与入口选择。</p>
     </div>
     <p class="brand-lead">
-      如果你想用最短时间看懂 SmartFlow 能做什么、怎么开始、接下来该看哪一页，
-      这页就是给你的。它优先讲 <strong>现在可以直接体验、接入和沟通的路径</strong>。
+      这份快速开始用于在最短路径内判断
+      <strong>当前可直接体验、接入和沟通的路线</strong>。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">10 分钟看懂</span>
@@ -32,7 +32,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>SMARTFLOW // QUICK START</span>
+        <span>EXECGOV // QUICK START</span>
         <span>GUIDE 02</span>
       </div>
       <div class="matrix-panel__canvas">
@@ -74,7 +74,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">04</p>
       <h2>它已经有 CLI 桥接</h2>
-      <p><code>smartflow-cli</code> 当前已经能覆盖登录、注册、列清单、执行和 Agent 骨架入口。</p>
+      <p><code>execgov-cli</code> 当前已经能覆盖登录、注册、列清单、执行和 Agent 骨架入口。</p>
     </article>
   </section>
 
@@ -134,19 +134,19 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Try First</p>
-      <h2>如果你只是想先试一遍</h2>
+      <h2>体验路径</h2>
       <ol class="brand-list">
         <li>先走公开体验路径，感受 AI 推荐与执行闭环</li>
         <li>再看产品概览，判断这是不是你想要的平台类型</li>
         <li>如果需要长期使用，再注册并登录</li>
-        <li>最后再决定是否继续看 CLI 或团队 / 企业交付路径</li>
+        <li>再判断是否需要进入 CLI 或团队 / 企业交付路径</li>
       </ol>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Local Script</p>
-      <h2>如果你已经有本地脚本目录</h2>
+      <h2>本地脚本接入路径</h2>
       <ol class="brand-list">
-        <li>先看 <code>smartflow-cli</code> 当前已经支持哪些命令</li>
+        <li>先看 <code>execgov-cli</code> 当前已经支持哪些命令</li>
         <li>再准备你的脚本目录与 README</li>
         <li>按当前规则理解 <code>register / list / run / agent</code> 的边界</li>
         <li>如果涉及真实项目，再看混合执行和交付边界</li>
@@ -154,7 +154,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Delivery</p>
-      <h2>如果你要推进客户或团队试用</h2>
+      <h2>团队 / 客户交付路径</h2>
       <ol class="brand-list">
         <li>先看客户流程 / 交付，理解实际使用和热更新路径</li>
         <li>再看部署方式，判断是否要单租户、平台治理或混合执行</li>
@@ -171,7 +171,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
-        <li><code>smartflow-cli</code> 当前已可用，本地接入能力会继续增强。</li>
+        <li><code>execgov-cli</code> 当前已可用，本地接入能力会继续增强。</li>
         <li>如果你从一开始就是团队或企业场景，直接走试用 / 演示沟通通常更高效。</li>
       </ul>
     </article>
@@ -191,8 +191,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>如果你已经完成入门判断，下一页看什么</h2>
-        <p class="brand-lead">按目标继续看产品概览、客户交付、CLI 文档或常见问题，不要一开始就在所有页面之间来回切换。</p>
+        <h2>完成入门判断后的常用入口</h2>
+        <p class="brand-lead">可按目标继续查看产品概览、客户交付、CLI 文档或常见问题，避免在所有页面之间反复切换。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/index.html">

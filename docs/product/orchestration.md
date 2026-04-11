@@ -1,46 +1,125 @@
-# 能力编排
+---
+aside: false
+outline: false
+lastUpdated: false
+---
 
-能力编排用于把多个能力节点按顺序接成一条可执行工作链，适合那些不是一步完成、而是需要连续处理的任务。
+<div class="brand-page-shell brand-page-shell--orchestration">
+  <section class="brand-hero">
+    <div>
+      <p class="brand-kicker">Orchestration</p>
+      <h1>能力编排</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Orchestration Signal</span>
+        <strong>把多个能力节点按顺序接成一条可确认、可追踪、可审计的执行链。</strong>
+        <p>适合那些不是一步完成，而是需要连续处理、参数衔接和结果回传的任务。</p>
+      </div>
+      <p class="brand-lead">
+        能力编排不是把更多按钮堆在一起，而是把多个执行步骤收成一条能落在规则里的真实工作链。
+      </p>
+      <div class="brand-chip-list">
+        <span class="brand-chip">多步骤执行</span>
+        <span class="brand-chip">参数传递</span>
+        <span class="brand-chip">人工确认</span>
+        <span class="brand-chip">结果回传</span>
+        <span class="brand-chip">全链路留痕</span>
+      </div>
+      <div class="brand-actions">
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通能力接入</a>
+        <a class="cta-button" href="./capabilities.html">查看核心能力</a>
+      </div>
+      <div class="orchestration-signal-grid">
+        <article class="brand-card brand-card--nested orchestration-signal-card">
+          <p class="brand-kicker">Now</p>
+          <h3>先按单能力闭环理解</h3>
+          <p>当前已经可以稳定完成“识别需求 -&gt; 推荐能力 -&gt; 确认执行 -&gt; 返回结果”的单能力闭环。</p>
+        </article>
+        <article class="brand-card brand-card--nested orchestration-signal-card">
+          <p class="brand-kicker">Next</p>
+          <h3>后续扩到多步骤任务链</h3>
+          <p>下一步重点在步骤衔接、参数传递、失败记录和整条任务链的审计留痕。</p>
+        </article>
+      </div>
+    </div>
+    <div class="brand-hero__media brand-hero__media--compact">
+      <div class="matrix-panel matrix-panel--contact">
+        <div class="matrix-panel__hud">
+          <span>EXECGOV // ORCHESTRATION</span>
+          <span>DOC 04</span>
+        </div>
+        <div class="matrix-panel__canvas">
+          <div class="matrix-panel__trace matrix-panel__trace--top"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
+          <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">step01</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'identify_need'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">step02</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'match_skill'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">step03</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'confirm_then_run'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">step04</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'pass_result_forward'</span></span>
+          </div>
+          <div class="matrix-panel__callout">MULTI STEP / CONFIRMED / TRACEABLE</div>
+        </div>
+        <div class="matrix-panel__footer">
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">now</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">single_step</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">multi_step</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">audit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">whole_chain</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-## 当前可用基础
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Available Now</p>
+      <h2>当前可用基础</h2>
+      <ul class="brand-list">
+        <li>AI 识别需求</li>
+        <li>在权限范围内推荐 Skill</li>
+        <li>人工确认</li>
+        <li>执行单个能力</li>
+        <li>返回结果并保留审计</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">What It Adds</p>
+      <h2>能力编排会带来什么</h2>
+      <ul class="brand-list">
+        <li>一个任务拆成多个步骤</li>
+        <li>多个 Skill 或多个能力节点按顺序执行</li>
+        <li>步骤之间传递参数、结果或文件引用</li>
+        <li>对高风险步骤追加确认</li>
+        <li>对整条任务链保留日志、审计和失败记录</li>
+      </ul>
+    </article>
+  </section>
 
-SmartFlow 现在已经具备这些基础能力：
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Best Fit</p>
+      <h2>适合哪些场景</h2>
+      <ul class="brand-list">
+        <li>先采集，再清洗，再生成报告</li>
+        <li>先读取数据，再转换，再写入目标系统</li>
+        <li>先生成结果文件，再通知或归档</li>
+        <li>把多个可复用能力组织成一条稳定任务链</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Current Phase</p>
+      <h2>当前阶段怎么理解</h2>
+      <ul class="brand-list">
+        <li>当前已经可以稳定完成单能力执行</li>
+        <li>多步骤能力编排会在现有执行基础上继续扩展</li>
+        <li>当任务涉及多次确认、参数传递、文件衔接或跨步骤追踪时，这条能力会更有价值</li>
+      </ul>
+    </article>
+  </section>
 
-1. AI 识别需求
-2. 在权限范围内推荐 Skill
-3. 人工确认
-4. 执行单个能力
-5. 返回结果并保留审计
-
-这意味着平台已经可以稳定完成“识别需求 -> 推荐能力 -> 确认执行 -> 返回结果”的单能力闭环。
-
-## 能力编排会带来什么
-
-随着能力编排持续加入，平台会进一步支持：
-
-1. 一个任务拆成多个步骤
-2. 多个 Skill 或多个能力节点按顺序执行
-3. 步骤之间传递参数、结果或文件引用
-4. 对高风险步骤追加确认
-5. 对整条任务链保留日志、审计和失败记录
-
-## 适合哪些场景
-
-当任务天然需要多步处理时，能力编排会更有价值，例如：
-
-1. 先采集，再清洗，再生成报告
-2. 先读取数据，再转换，再写入目标系统
-3. 先生成结果文件，再通知或归档
-4. 把多个可复用能力组织成一条稳定任务链
-
-## 当前阶段怎么理解
-
-如果你现在在评估这条方向，可以先这样理解：
-
-1. 当前已经可以稳定完成单能力执行
-2. 多步骤能力编排会在现有执行基础上继续扩展
-3. 当任务涉及多次确认、参数传递、文件衔接或跨步骤追踪时，这条能力会更有价值
-
-## 一句话总结
-
-SmartFlow 会在现有单能力执行基础上，继续扩展为可确认、可追踪、可审计的多步骤能力编排平台。
+  <section class="brand-card">
+    <p class="brand-kicker">Summary</p>
+    <h2>一句话总结</h2>
+    <p class="brand-lead">
+      ExecGov 会在现有单能力执行基础上，继续扩展为可确认、可追踪、可审计的多步骤能力编排平台。
+    </p>
+  </section>
+</div>

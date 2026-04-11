@@ -12,11 +12,11 @@ lastUpdated: false
     <div class="brand-hero__panel">
       <span class="brand-pill">Guide First</span>
       <strong>第一次来最容易浪费时间的，不是功能不够，而是不知道该从哪条路开始。</strong>
-      <p>所以这里先把入口、角色和阅读顺序分清楚。</p>
+      <p>这里先把入口、角色和阅读路径分清楚。</p>
     </div>
     <p class="brand-lead">
-      这组页面不是再讲一遍产品概念，而是帮第一次接触 SmartFlow 的人快速判断：
-      <strong>我该先体验、先看文档、先接 CLI，还是直接走交付沟通。</strong>
+      这组页面帮助第一次接触 ExecGov 的访客快速判断：
+      <strong>更适合先体验、先看文档、先接 CLI，还是直接进入交付沟通。</strong>
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">先体验</span>
@@ -32,7 +32,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>SMARTFLOW // START HERE</span>
+        <span>EXECGOV // START HERE</span>
         <span>GUIDE 01</span>
       </div>
       <div class="matrix-panel__canvas">
@@ -64,7 +64,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path B</p>
       <h2>你已经有本地脚本</h2>
-      <p>如果你手上已经有本地脚本目录，重点就不是继续看营销介绍，而是直接看 <code>smartflow-cli</code> 当前已经能打通到哪一步。</p>
+      <p>手上已经有本地脚本目录时，重点应转到 <code>execgov-cli</code> 当前已经能打通到哪一步。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path C</p>
@@ -114,7 +114,7 @@ lastUpdated: false
           <td>联系入口</td>
           <td>用于试用咨询、场景沟通和正式交付咨询</td>
           <td>需要继续推进的人</td>
-          <td><a href="../contact.html#lead-form">联系我</a></td>
+          <td><a href="../contact.html#lead-form">联系与试用</a></td>
         </tr>
       </tbody>
     </table>
@@ -145,7 +145,7 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Reading Order</p>
-    <h2>建议阅读顺序</h2>
+    <h2>按目标进入</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./getting-started.html">
         <span>Step 01</span>
@@ -160,22 +160,22 @@ lastUpdated: false
       <a class="brand-link-card" href="../product/customer-flow.html">
         <span>Step 03</span>
         <strong>客户流程 / 交付</strong>
-        <p>如果你关心客户怎么用、平台怎么交付、脚本怎么热更新，直接看这页。</p>
+        <p>客户怎么使用、平台怎么交付、脚本怎么热更新，可从这里集中查看。</p>
       </a>
       <a class="brand-link-card" href="../product/onboarding-checklist.html">
         <span>Step 04</span>
         <strong>客户接入准备清单</strong>
-        <p>如果你已经准备真实项目，下一步应该把脚本目录、README、样例文件和边界信息一次准备清楚。</p>
+        <p>准备真实项目时，可把脚本目录、README、样例文件和边界信息一次准备清楚。</p>
       </a>
       <a class="brand-link-card" href="../product/file-results.html">
         <span>Step 05</span>
         <strong>文件上传 / 结果下载</strong>
-        <p>如果你的任务依赖输入文件、结果文件或报表产物，这页会比泛泛的产品说明更直接。</p>
+        <p>任务依赖输入文件、结果文件或报表产物时，这页会比泛泛的产品说明更直接。</p>
       </a>
       <a class="brand-link-card" href="../product/cli.html">
         <span>Step 06</span>
         <strong>CLI 指引</strong>
-        <p>如果你已经有本地脚本目录，这页比泛泛介绍更有价值。</p>
+        <p>已有本地脚本目录时，这页比泛泛介绍更有价值。</p>
       </a>
       <a class="brand-link-card" href="./faq.html">
         <span>Step 07</span>
@@ -185,15 +185,15 @@ lastUpdated: false
       <a class="brand-link-card" href="../materials/index.html">
         <span>Step 08</span>
         <strong>介绍资料</strong>
-        <p>如果你要做介绍、讲解、演示或方案沟通，可以继续看这里。</p>
+        <p>介绍、讲解、演示或方案沟通需要的资料，可从这里继续查看。</p>
       </a>
     </div>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Project Ready</p>
-    <h2>如果你已经不是“先随便看看”</h2>
-    <div class="brand-link-grid">
+    <h2>进入真实项目时常看的资料</h2>
+    <div class="brand-link-grid brand-link-grid--three">
       <a class="brand-link-card" href="../product/deliverables.html">
         <span>Deliverables</span>
         <strong>交付物 / 文档入口</strong>
@@ -207,7 +207,7 @@ lastUpdated: false
       <a class="brand-link-card" href="../product/file-results.html">
         <span>Files</span>
         <strong>文件上传 / 结果下载</strong>
-        <p>如果项目是文件型任务、报表型任务或结果产物型任务，这页应该提前看，而不是上线后再补说明。</p>
+        <p>项目属于文件型任务、报表型任务或结果产物型任务时，这页应提前查看，而不是上线后再补说明。</p>
       </a>
     </div>
   </section>
@@ -238,7 +238,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>联系我</strong>
+          <strong>联系与试用</strong>
         </a>
       </div>
     </div>

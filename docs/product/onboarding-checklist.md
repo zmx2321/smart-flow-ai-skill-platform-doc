@@ -4,7 +4,7 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
+<div class="brand-page-shell brand-page-shell--onboarding-checklist">
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Onboarding Checklist</p>
@@ -12,11 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Before Delivery</span>
         <strong>真正拖慢接入速度的，往往不是功能不够，而是脚本、说明、样例和边界信息给得不完整。</strong>
-        <p>这页聚焦接入前需要准备的信息，方便客户、售前和实施一起对齐。</p>
+        <p>重点说明接入前需要准备的信息，方便客户、售前和实施一起对齐。</p>
       </div>
       <p class="brand-lead">
-        如果你已经不是“先体验一下”，而是准备把真实场景接进 SmartFlow，
-        最好先把
+        进入真实场景接入前，最好先把
         <strong>脚本目录、README、样例文件、运行依赖、结果形式和风险边界</strong>
         准备清楚。这样后续无论走客户交付、文件处理还是 CLI / 本地桥接，都会顺很多。
       </p>
@@ -34,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // ONBOARDING CHECKLIST</span>
+          <span>EXECGOV // ONBOARDING CHECKLIST</span>
           <span>DOC 11</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -157,7 +156,7 @@ lastUpdated: false
           <td>数据安全边界</td>
           <td>建议先给</td>
           <td>决定是云端执行还是本地桥接</td>
-          <td>如果涉及内网或私有资源，通常要继续看 CLI / Agent 路线。</td>
+          <td>涉及内网或私有资源时，通常需要补充 CLI / Agent 路线。</td>
         </tr>
       </tbody>
     </table>
@@ -166,12 +165,12 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">If Not Ready Yet</p>
-      <h2>如果你现在还没有准备这么完整</h2>
+      <h2>资料暂未齐备时，可先从这几项开始</h2>
       <ul class="brand-list">
         <li>可以先用公开体验入口感受平台链路。</li>
         <li>可以先只带一份最小脚本目录和 README 来沟通。</li>
-        <li>如果你还在判断平台定位，先看产品概览和常见问题更合适。</li>
-        <li>如果你已经确定要接文件场景，再补样例文件和结果预期会更高效。</li>
+        <li>仍在判断平台定位时，优先查看产品概览和常见问题。</li>
+        <li>已确定要接文件场景时，补充样例文件和结果预期会更高效。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -192,8 +191,8 @@ lastUpdated: false
     <table>
       <thead>
         <tr>
-          <th>你当前的状态</th>
-          <th>更适合继续看</th>
+          <th>当前状态</th>
+          <th>适合查看</th>
           <th>为什么</th>
           <th>说明</th>
         </tr>
@@ -232,7 +231,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>把准备清单、交付流程和文件链路连起来看</h2>
-        <p class="brand-lead">如果你已经在准备真实接入，现在最有效的方式通常不是继续看抽象愿景，而是把交付流程、文件链路和本地桥接边界一次对齐。</p>
+        <p class="brand-lead">进入真实接入阶段后，更有效的做法通常不是继续停留在抽象愿景，而是把交付流程、文件链路和本地桥接边界一次对齐。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">

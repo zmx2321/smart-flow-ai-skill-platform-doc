@@ -4,24 +4,42 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
+<div class="brand-page-shell brand-page-shell--editions">
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Editions &amp; Roadmap</p>
       <h1>版本路线</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Version Plan</span>
-        <strong>当前路线分为三个阶段：1.0 做稳交付与执行，1.1 完成试用到续费闭环，2.0 扩展标准化协作与更多能力接入。</strong>
-        <p>不同阶段对应不同使用方式与升级路径。</p>
+        <strong>当前先分三段：1.0 把真实交付和执行做稳，1.1 把续费闭环补齐，2.0 再看哪些部分值得继续做厚。</strong>
+        <p>不同阶段对应不同使用方式，也对应不同的投入重点。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 当前的版本节奏可以这样理解：
+        ExecGov 当前的版本节奏可以这样理解：
         <strong><code>1.0</code></strong> 先把真实交付、可信执行和本地接入做稳，
         <strong><code>1.1</code></strong> 把自动注册、支付、续费和低客服闭环补起来，
-        <strong><code>2.0</code></strong> 再决定哪些部分值得继续产品化。
+        <strong><code>2.0</code></strong> 再决定哪些部分值得继续做成更稳定的标准方案。
       </p>
       <p class="brand-lead">
-        <strong>当前 <code>1.0</code> 的核心定位是：智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+        <strong>当前 <code>1.0</code> 的核心定位是：ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+      </p>
+      <p class="brand-lead">
+        更后面的 <code>3.0 / 4.0</code> 仍保留在内部长期规划里，但当前公开路线只讲 <code>1.0 / 1.1 / 2.0</code>，避免把长期设想说成眼前能力。
+      </p>
+      <p class="brand-lead">
+        截止当前版本，<code>1.0</code> 已经完成第一轮兼容式升级：通用资源层和执行器注册层已落地，
+        第一种非脚本能力样板是 <code>public</code> 超管侧的 <code>HTTP 能力接入</code>。
+        但下一步优先级仍然不是横向铺更多能力，而是先把 <code>1.1</code> 的自动注册、支付、续费和停开恢复做成低客服闭环。
+      </p>
+      <p class="brand-lead">
+        这一轮还额外收了一次边界：
+        <code>HTTP 能力接入</code> 继续只在 <code>public</code> 超管治理域开放，
+        白名单租户 admin 只保留最小跨租户控制台；
+        同时系统也不再用 <code>user_id == 1</code> 这种条件去误判管理员。
+      </p>
+      <p class="brand-lead">
+        当前 <code>1.1</code> 已先落一段真实骨架：<code>public</code> 超管订单中心支持建单、确认支付、执行开通、续费提醒扫描、到期停开扫描。
+        但用户自助下单 / 支付页、真实支付网关、外发提醒渠道仍未完成。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">1.0 可信交付</span>
@@ -31,14 +49,14 @@ lastUpdated: false
         <span class="brand-chip">按需扩展</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通版本合作</a>
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通版本与场景</a>
         <a class="cta-button" href="./deployment.html">查看部署方式</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // ROADMAP</span>
+          <span>EXECGOV // ROADMAP</span>
           <span>DOC 06</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -58,6 +76,18 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">later</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">2.0</span></span>
         </div>
       </div>
+      <div class="roadmap-signal-grid">
+        <article class="brand-hero__panel roadmap-signal-card">
+          <span class="link-panel-label">Public Scope</span>
+          <strong>公开路线只讲 1.0 / 1.1 / 2.0</strong>
+          <p>长期方向会继续保留，但当前对外只讲已经进入真实推进节奏的三个阶段。</p>
+        </article>
+        <article class="brand-hero__panel roadmap-signal-card">
+          <span class="link-panel-label">Decision Rule</span>
+          <strong>先把已验证路径继续做深</strong>
+          <p>优先把交付、试用闭环和可复用能力做稳，再决定哪些部分值得继续做厚。</p>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -69,9 +99,13 @@ lastUpdated: false
         <li>一个客户一个租户</li>
         <li>统一能力目录、脚本接入与 Skill 映射</li>
         <li>当前以 Python 脚本作为第一种成熟执行资产</li>
+        <li>通用资源层和执行器注册层已经落地</li>
+        <li>public 超管侧已先落一版 HTTP 能力接入样板，租户侧只开放只读台账</li>
+        <li>白名单租户 admin 当前只开放最小跨租户控制台，不直接开放平台治理页</li>
+        <li>管理员判定已按显式 admin / 超管标记收口，不再依赖 <code>user_id == 1</code></li>
         <li>智能大脑推荐、确认、执行、审计</li>
         <li>模板分发、安装、回滚、日志</li>
-        <li>免登录体验页、登录 / 注册页、个人技能库 / 上传 / 公告 / 个人空间 / 社区广场，以及 <code>smartflow-cli</code> 最小闭环</li>
+        <li>免登录体验页、登录 / 注册页、个人技能库 / 上传 / 公告 / 个人空间 / 社区广场、本地脚本位轻量自助增购，以及 <code>execgov-cli</code> 最小闭环</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -81,10 +115,32 @@ lastUpdated: false
         <li>把自动注册、试用开通、支付、续费、到期提醒和停开流程补成低客服闭环</li>
         <li>把小团队协作里真正高频的能力收成更稳的方案</li>
         <li>把套餐、额度和交付边界收敛成更清楚的产品规则</li>
-        <li>把 CLI / 本地执行里值得产品化的部分继续补稳</li>
+        <li>把 CLI / 本地执行里真正值得长期维护的部分继续补稳</li>
       </ul>
     </article>
   </section>
+
+<section class="brand-grid brand-grid--two">
+  <article class="brand-card">
+    <p class="brand-kicker">1.1 Now</p>
+    <h2><code>1.1</code> 已经落地的第一段</h2>
+    <ul class="brand-list">
+      <li><code>public</code> 超管订单中心已经切到真实生命周期模式</li>
+      <li>已支持建单、确认支付、执行开通、续费单预填、续费提醒扫描、到期停开扫描</li>
+      <li>个人免费版前台也已经接通本地脚本位轻量自助增购</li>
+      <li>订单、客户和租户状态会联动回写，不再只是样例展示</li>
+    </ul>
+  </article>
+  <article class="brand-card">
+    <p class="brand-kicker">1.1 Pending</p>
+    <h2><code>1.1</code> 还没完成的部分</h2>
+    <ul class="brand-list">
+      <li>终端用户自助账单中心和通用自助续费入口</li>
+      <li>真实第三方支付网关、签名验签和正式支付回调</li>
+      <li>邮件 / 企业微信 / 短信等外发提醒渠道</li>
+    </ul>
+  </article>
+</section>
 
 <section class="brand-grid brand-grid--two">
   <article class="brand-card">
@@ -93,6 +149,7 @@ lastUpdated: false
     <ul class="brand-list">
       <li>以 Python 脚本为第一种成熟执行资产</li>
       <li>Skill 继续作为用户可见的能力单元</li>
+      <li>资源层和执行器注册层已经补上，后面接第二、第三种能力不该再大改库</li>
       <li>交付、执行、安全边界和持续更新形成闭环</li>
       <li>单能力执行已经可用</li>
       <li>本地桥接与 CLI 支撑更深接入</li>
@@ -100,13 +157,13 @@ lastUpdated: false
   </article>
   <article class="brand-card">
     <p class="brand-kicker">2.0 Expansion</p>
-    <h2><code>2.0</code> 继续扩展什么</h2>
+    <h2><code>2.0</code> 再继续扩什么</h2>
     <ul class="brand-list">
-      <li>自动注册、支付、续费、提示和自助支持进一步产品化</li>
+      <li>在 1.1 低客服闭环稳定后，再继续把自动注册、支付、续费、提示和自助支持做成更稳的标准方案</li>
       <li>更通用的能力资产注册模型</li>
       <li>API、数据连接器、文档模板、审批流程等更多能力接入</li>
       <li>安装、分发、升级和回滚策略进一步通用化</li>
-      <li>小团队协作、套餐化和标准产品能力继续收敛</li>
+      <li>小团队协作、套餐化和标准能力边界继续收敛</li>
     </ul>
   </article>
 </section>
@@ -117,19 +174,19 @@ lastUpdated: false
   <div class="brand-grid brand-grid--four">
     <article class="brand-card brand-card--nested">
       <h3>01. 免费入口感知价值</h3>
-      <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么；登录后的个人入口当前会继续落到技能库、上传、公告、个人空间和社区广场，确认“AI 调度能力”这条链路是否成立。</p>
+      <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么；登录后的个人入口当前会继续落到技能库、上传、公告、个人空间、社区广场和本地脚本位轻量扩容入口，确认“AI 调度能力”这条链路是否成立。</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>02. CLI 与更深使用开始接入</h3>
-      <p>更深一层的用户会继续看到 <code>smartflow-cli</code>、本地脚本接入和混合执行桥梁能力，这些已经属于当前 <code>1.0</code> 的一部分。</p>
+      <p>更深一层的用户会继续看到 <code>execgov-cli</code>、本地脚本接入和混合执行桥梁能力，这些已经属于当前 <code>1.0</code> 的一部分。</p>
     </article>
     <article class="brand-card brand-card--nested">
-      <h3>03. 企业 1.0 正式交付承接收入</h3>
-      <p>当客户需要独立网址、独立租户、正式权限和交付验收时，企业 <code>1.0</code> 单租户交付就是当前最适合的路径。</p>
+      <h3>03. 正式客户先走企业 <code>1.0</code> 交付</h3>
+      <p>当客户需要独立网址、独立租户、正式权限和交付验收时，企业 <code>1.0</code> 单租户交付就是当前最合适的路径。</p>
     </article>
     <article class="brand-card brand-card--nested">
-      <h3>04. 2.0 才把标准方案继续做厚</h3>
-        <p><code>2.0</code> 会继续扩展小团队协作、套餐化、资源计量和更完整的产品梯度。</p>
+      <h3>04. 复用价值明确后再做厚</h3>
+        <p><code>2.0</code> 再继续扩展小团队协作、套餐化、资源计量和更清楚的服务梯度。</p>
     </article>
   </div>
 </section>
@@ -142,7 +199,7 @@ lastUpdated: false
       <li>第一步先让用户通过免费入口感知价值</li>
       <li>第二步用 CLI、客户流程和部署文档承接更深问题</li>
       <li>第三步当用户进入真实客户场景时，由企业 <code>1.0</code> 或小团队方案承接</li>
-      <li>第四步先把 <code>1.1</code> 的自动支付、续费和提示做成低客服闭环，再进入 <code>2.0</code> 的标准产品梯度</li>
+      <li>第四步先把 <code>1.1</code> 的自动支付、续费和提示做成低客服闭环，再决定 <code>2.0</code> 该把哪些部分做成更标准的梯度</li>
     </ul>
     <p><a href="./deployment.html">回到部署方式</a></p>
   </article>
@@ -160,7 +217,7 @@ lastUpdated: false
 
 <section class="brand-card">
   <p class="brand-kicker">1.0 Companion Docs</p>
-  <h2>如果你关心的是 1.0 怎么真正落到项目里，继续看这 3 页</h2>
+  <h2>1.0 落地判断可继续看这 3 页</h2>
   <div class="brand-link-grid">
     <a class="brand-link-card" href="./file-results.html">
       <span>Files</span>
@@ -170,12 +227,12 @@ lastUpdated: false
     <a class="brand-link-card" href="./deliverables.html">
       <span>Deliverables</span>
       <strong>交付物 / 文档入口</strong>
-      <p>如果你想判断 1.0 是否真的可交付，就要看客户最终会拿到哪些入口、说明和结果物，而不是只看功能名。</p>
+      <p>判断 1.0 是否真的可交付时，需要看客户最终会拿到哪些入口、说明和结果物，而不是只看功能名。</p>
     </a>
     <a class="brand-link-card" href="./onboarding-checklist.html">
       <span>Checklist</span>
       <strong>客户接入准备清单</strong>
-      <p>如果你已经准备推进真实项目，先把脚本目录、README、样例文件、依赖和风险边界准备齐，会比继续空谈版本号更有价值。</p>
+      <p>准备推进真实项目时，先把脚本目录、README、样例文件、依赖和风险边界准备齐，会比继续空谈版本号更有价值。</p>
     </a>
   </div>
 </section>
@@ -185,28 +242,29 @@ lastUpdated: false
       <h2>当前阶段的标准服务包</h2>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
-        <h3>企业 AI 工作流搭建</h3>
-        <p>把现有脚本、审批和执行确认链收成正式交付包，优先服务中小团队的真实自动化场景。</p>
+        <h3>电商 / 内容 / 运营数据自动化</h3>
+        <p>先把散落脚本、表格处理和数据整理任务收成稳定入口，这类场景最容易先成交，也最容易复用。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>自动化运维中枢</h3>
-        <p>围绕任务调度、日志留痕、模板分发和本地执行桥接，形成最容易成交和复用的标准化服务包。</p>
+        <h3>技术团队脚本治理与自动化运维</h3>
+        <p>围绕脚本治理、任务调度、日志留痕和本地执行桥接，形成最贴近当前能力边界的一条交付线。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>行业数据自动化交付包</h3>
-        <p>把高频行业数据采集、清洗、导出和报告链路沉淀成窄场景交付包，再逐步进入 2.0 的标准产品化。</p>
+        <h3>需要内网或私有化的小型正式客户</h3>
+        <p>这类客户最能验证多租户隔离、权限边界和正式交付链路，但要控制定制深度，只接能沉淀平台能力的项目。</p>
       </article>
     </div>
+    <p><a href="../materials/service-packages.html">查看完整合作方式 / 服务包说明</a></p>
   </section>
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Why Both Lines</p>
-      <h2>为什么企业线和免费版要并行</h2>
+      <h2>为什么正式客户线和免费版要并行</h2>
       <ul class="brand-list">
-        <li>只做企业线：增长依赖人工接单，用户反馈样本不足</li>
-        <li>只做免费线：交付场景不足，现金流不足</li>
-        <li>所以当前路线保持为：企业交付 <code>1.0</code> 承接收入，个人免费版承接入口，两条线共用同一套可信执行底座</li>
+        <li>只做企业线：个人与小团队缺少低门槛验证入口</li>
+        <li>只做免费线：正式交付、隔离治理和长期使用能力不够完整</li>
+        <li>因此当前路线保持为：正式客户交付 <code>1.0</code> 承接正式场景，个人免费版承接体验与升级入口，两条线共用同一套可信执行底座</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -215,18 +273,18 @@ lastUpdated: false
       <ul class="brand-list">
         <li><code>1.0</code> 是当前已经有可用基础的交付主线</li>
         <li><code>1.1</code> 优先把自动注册、支付、续费、提醒和低客服支持做稳</li>
-        <li><code>2.0</code> 是下一阶段的产品化收敛</li>
+        <li><code>2.0</code> 是下一阶段的标准化收敛</li>
         <li>更多能力会按需求逐步扩展</li>
       </ul>
     </article>
   </section>
 
-  <section class="brand-card brand-card--cta">
+  <section class="brand-card brand-card--cta editions-next-read">
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>如果你已经理解版本路线，下一步通常不是继续聊概念</h2>
-        <p class="brand-lead">更有效的做法通常是回到当前 1.0 和 1.1 的真实交付链路，把文件场景、交付物、接入准备和自动化运营边界一次对齐，再决定是否要继续走 2.0 的产品化升级路径。</p>
+        <h2>理解版本路线后，重点应转向真实交付链路</h2>
+        <p class="brand-lead">更有效的做法通常是先把当前 1.0 和 1.1 的真实交付链路对齐，再决定要不要继续把它做成更标准的升级路径。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./deployment.html">

@@ -11,12 +11,12 @@ lastUpdated: false
     <h1>介绍提纲</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Talking Point</span>
-      <strong>真正有效的介绍，不是讲很多技术名词，而是让听的人快速知道它是什么、解决什么问题、为什么现在值得继续听。</strong>
-      <p>这页就是按这个逻辑展开的。</p>
+      <strong>真正有效的介绍，不是讲很多技术名词，而是让听的人快速知道它是什么、解决什么问题、为什么值得继续往下看。</strong>
+      <p>重点是先把定位、问题和交付方式讲清楚，再进入更深的产品和技术判断。</p>
     </div>
     <p class="brand-lead">
-      这一页把 SmartFlow 的平台介绍整理成可直接复用的提纲。
-      你可以把它当成官网讲稿、第一次沟通提纲，或者一份简短介绍页的骨架。
+      这一页集中说明 ExecGov 的核心介绍结构，覆盖平台定位、问题定义、交付方式和当前落地重点。
+      适合用于第一次接触、演示开场和正式沟通前的统一表达。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">30 秒版本</span>
@@ -32,7 +32,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>SMARTFLOW // PITCH OUTLINE</span>
+        <span>EXECGOV // PITCH OUTLINE</span>
         <span>MAT 02</span>
       </div>
       <div class="matrix-panel__canvas">
@@ -59,7 +59,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">30 Seconds</p>
       <h2>30 秒版本怎么讲</h2>
-      <p>SmartFlow 不是普通聊天系统，而是一套让 AI 在规则内调用真实能力和流程的智能执行平台。它把分散在文件夹、服务器和个人经验里的能力，收成一个可控、可交付、可持续更新的统一入口。当前最先落地、最成熟的第一种能力载体，是 Python 脚本。</p>
+      <p>ExecGov 不是普通聊天系统，而是一套让 AI 在规则内调用真实能力和流程的智能执行平台。它把分散在文件夹、服务器和个人经验里的能力，收成一个可控、可交付、可持续更新的统一入口。当前最先落地、最成熟的第一种能力载体，是 Python 脚本。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">3 Minutes</p>
@@ -132,7 +132,7 @@ lastUpdated: false
         <tr>
           <td>09</td>
           <td>当前阶段与下一步</td>
-          <td>先把 1.0 交付做稳，再看哪些部分值得进入 2.0 产品化</td>
+          <td>先把 1.0 交付做稳，再决定哪些部分值得进入 2.0 标准化扩展</td>
           <td>版本路线图</td>
         </tr>
         <tr>
@@ -148,7 +148,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Do Say</p>
-      <h2>建议这样讲</h2>
+      <h2>对外表达要点</h2>
       <ul class="brand-list">
         <li>它把分散脚本、接口和流程收进统一入口</li>
         <li>AI 在规则内推荐和触发能力</li>
@@ -162,15 +162,16 @@ lastUpdated: false
       <h2>当前阶段适合这样理解</h2>
       <ul class="brand-list">
         <li>平台当前最成熟的执行资产是 Python 脚本</li>
-        <li><code>smartflow-cli</code> 适合本地接入和试用，常驻 Agent 能力在持续完善</li>
-        <li>企业交付支持独立租户、独立网址和持续更新</li>
-        <li>更标准化的小团队协作能力会继续扩展</li>
+        <li><code>execgov-cli</code> 适合本地接入和试用，常驻 Agent 能力在持续完善</li>
+        <li>正式客户交付支持独立租户、独立网址和持续更新</li>
+        <li>public 超管侧已先落下一版 HTTP 能力接入样板，验证第二种能力如何进入治理链路</li>
+        <li>更标准的小团队使用方式会继续收敛</li>
         <li>更多能力类型会逐步接入统一治理链路</li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Demo Order</p>
-      <h2>如果要演示，顺序建议</h2>
+      <h2>演示顺序</h2>
       <ol class="brand-list">
         <li>先讲问题和平台定义</li>
         <li>再展示产品概览或体验路径</li>
@@ -184,8 +185,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>如果你要继续把“价值”讲得更清楚</h2>
-        <p class="brand-lead">建议再看一页价值说明，把老板、业务负责人和交付负责人最关心的问题一起收口。</p>
+        <h2>价值判断可继续在下一页展开</h2>
+        <p class="brand-lead">继续阅读价值说明，可以把老板、业务负责人和交付负责人最关心的问题一起收口。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./value.html">
@@ -202,7 +203,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>联系我</strong>
+          <strong>沟通真实场景</strong>
         </a>
       </div>
     </div>

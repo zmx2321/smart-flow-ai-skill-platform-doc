@@ -12,10 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>控制面可以统一，执行位置不必统一。</strong>
-        <p>这正是 SmartFlow 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
+        <p>这正是 ExecGov 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 的部署思路不是只有一种，而是根据
+        ExecGov 的部署思路不是只有一种，而是根据
         <strong>数据边界、客户规模和执行位置</strong> 做组合。
         平台的目标不是强迫所有用户走同一条路径，而是用同一套治理逻辑覆盖不同落地形态。
       </p>
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // DEPLOYMENT MATRIX</span>
+          <span>EXECGOV // DEPLOYMENT MATRIX</span>
           <span>DOC 05</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -101,7 +101,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">05</p>
-      <h2>更远路线这里先不展开</h2>
+      <h2>当前公开重点之外的路线</h2>
       <ul class="brand-list">
         <li>当前公开重点不是设备、边缘或插件治理</li>
         <li>Agent 常驻执行仍属于后续增强，不是现在的公开卖点</li>
@@ -172,7 +172,7 @@ lastUpdated: false
   </article>
   <article class="brand-card">
     <p class="brand-kicker">Recommended Path</p>
-    <h2>当前推荐的升级路径</h2>
+    <h2>常见升级路径</h2>
     <ul class="brand-list">
       <li>免费入口适合先体验平台与执行链路</li>
       <li>正式交付适合需要独立网址、租户隔离和长期使用的场景</li>
@@ -184,7 +184,7 @@ lastUpdated: false
 
 <section class="brand-card">
   <p class="brand-kicker">Deployment Prep</p>
-  <h2>在决定部署路径前，最好先把这 3 件事对齐</h2>
+  <h2>部署评估前，通常先对齐这 3 件事</h2>
   <div class="brand-link-grid">
     <a class="brand-link-card" href="./file-results.html">
       <span>Files</span>
@@ -194,12 +194,12 @@ lastUpdated: false
     <a class="brand-link-card" href="./deliverables.html">
       <span>Deliverables</span>
       <strong>交付物 / 文档入口</strong>
-      <p>如果你已经进入正式交付沟通，先明确客户最终拿到什么网址、什么账号、什么说明和什么结果入口。</p>
+      <p>正式交付评估通常会先明确客户最终拿到什么网址、什么账号、什么说明和什么结果入口。</p>
     </a>
     <a class="brand-link-card" href="./onboarding-checklist.html">
       <span>Checklist</span>
       <strong>客户接入准备清单</strong>
-      <p>如果你已经有真实脚本型能力和真实场景，先把脚本目录、README、样例文件、依赖和风险边界准备好。</p>
+      <p>已有真实脚本型能力和真实场景时，先把脚本目录、README、样例文件、依赖和风险边界准备好，会更容易完成部署判断。</p>
     </a>
   </div>
 </section>
@@ -230,21 +230,21 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">How To Choose</p>
-    <h2>如何选择当前最适合你的部署路径</h2>
+    <h2>按项目重点进入合适的部署路径</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Customer Delivery</span>
-        <strong>如果你当前重点是客户交付</strong>
+        <strong>客户交付型项目</strong>
         <p>优先单租户交付模式，再视情况补统一治理能力。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Platform Ops</span>
-        <strong>如果你当前重点是平台运营</strong>
+        <strong>平台治理与运营</strong>
         <p>在租户隔离之上叠加平台治理模式，统一公告、模板、日志和台账。</p>
       </a>
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Delivery Ops</span>
-        <strong>如果你要看客户到底怎么上线和后续怎么更新</strong>
+        <strong>客户上线与后续更新</strong>
         <p>直接看客户流程 / 交付页，把标准交付包、使用路径、热更新和验收重点一次看清。</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">
@@ -254,27 +254,27 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./deliverables.html">
         <span>Delivery Kit</span>
-        <strong>如果你要把正式交付包说完整</strong>
+        <strong>正式交付包与说明入口</strong>
         <p>继续看交付物 / 文档入口页，把客户长期使用时真正能拿到的说明和入口一次说清。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Growth Entry</span>
-        <strong>如果你当前重点是获客与试用</strong>
+        <strong>获客与试用入口</strong>
         <p>加上免费入口模式，让访客可以先体验，再进入场景沟通或正式交付路径。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI Bridge</span>
-        <strong>如果你当前重点是本地环境、内网和私有数据执行</strong>
+        <strong>本地环境与内网执行</strong>
         <p>先看 CLI 指引，把 <code>login / register / run / agent</code> 的当前接入边界和落地路径跑通。</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
         <span>Ready First</span>
-        <strong>如果你还没把接入资料准备齐</strong>
+        <strong>接入资料尚未齐备</strong>
         <p>先回到接入准备清单，而不是急着先选私有化、平台治理或本地桥接其中一种部署标签。</p>
       </a>
       <a class="brand-link-card" href="./editions.html">
         <span>Current Stage</span>
-        <strong>如果你想先看当前阶段和下一步重点</strong>
+        <strong>当前阶段与下一步重点</strong>
         <p>先回到当前阶段说明，确认哪些是现在能做的，哪些还不该讲太满。</p>
       </a>
     </div>

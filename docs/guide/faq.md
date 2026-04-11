@@ -12,7 +12,7 @@ lastUpdated: false
     <div class="brand-hero__panel">
       <span class="brand-pill">Key Questions</span>
       <strong>很多疑问都集中在定位、隔离、热更新和 CLI 这些核心问题上。</strong>
-      <p>这页把常见问题集中说明清楚。</p>
+      <p>集中回答公开沟通中最常见的问题。</p>
     </div>
     <p class="brand-lead">
       这一页专门回答第一次沟通、第一次体验和第一次做交付时最容易问到的问题。
@@ -26,7 +26,7 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">看产品概览</a>
-      <a class="cta-button" href="../contact.html#lead-form">联系我</a>
+      <a class="cta-button" href="../contact.html#lead-form">联系与试用</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -138,7 +138,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>CLI 现在是不是概念功能</h3>
-        <p>不是。<code>smartflow-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和试用。</p>
+        <p>不是。<code>execgov-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和试用。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>本地 Agent 是不是已经正式商用</h3>
@@ -182,8 +182,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>如果 FAQ 已经解决了大部分疑问</h2>
-        <p class="brand-lead">接下来就按你的目标继续看产品概览、客户交付、CLI，或者直接联系沟通。</p>
+        <h2>FAQ 后的常用入口</h2>
+        <p class="brand-lead">可按目标继续查看产品概览、客户交付、CLI，或直接提交试用 / 咨询线索。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/index.html">
@@ -200,7 +200,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>联系我</strong>
+          <strong>联系与试用</strong>
         </a>
       </div>
     </div>

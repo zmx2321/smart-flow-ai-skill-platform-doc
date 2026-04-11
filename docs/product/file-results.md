@@ -12,10 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Execution Input / Output</span>
         <strong>很多真实任务不是只返回一段文本，而是要接文件、处理文件，再交回结果文件。</strong>
-        <p>这页聚焦用户会实际接触到的上传、处理和下载体验。</p>
+        <p>重点说明用户会实际接触到的上传、处理和下载体验。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 当前已经支持把
+        ExecGov 当前已经支持把
         <strong>输入文件、批次状态、处理产物和结果下载</strong>
         接成一条对客户可理解的执行链路。重点不是“能不能传文件”，而是
         <strong>文件进入后如何被受控处理，并把结果按交付边界交回来。</strong>
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // FILE FLOW</span>
+          <span>EXECGOV // FILE FLOW</span>
           <span>DOC 09</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -179,8 +179,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>想继续看交付物或接入准备</h2>
-        <p class="brand-lead">文件链路只是入口之一。继续看客户流程、交付物与文档入口、客户接入准备清单，会更容易把真实项目理解完整。</p>
+        <h2>交付物与接入资料</h2>
+        <p class="brand-lead">文件链路只是交付链的一部分。结合客户流程、交付物与文档入口、客户接入准备清单查看，更容易完整评估项目。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">

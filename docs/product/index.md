@@ -11,24 +11,45 @@ lastUpdated: false
       <h1>产品概览</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
-        <strong>复杂工作，简单对话；私有部署，安全省人。</strong>
-        <p>先把当前能做的事情讲清楚，再展开场景、能力、架构和当前阶段，沟通会更顺。</p>
+        <strong>先把真实任务接稳，再谈扩展边界。</strong>
+        <p>把当前能做的、还没做完的、后面可能扩的分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
-        <strong>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+        <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
       </p>
       <p class="brand-lead">
-        SmartFlow 让 AI 在规则内裁决真实能力执行，围绕试用、本地接入和正式交付提供连续路径。
+        ExecGov 让 AI 在规则内调用真实能力，先把个人试用、脚本接入和小型正式客户这几条路径走稳。
       </p>
       <p>
         当前最成熟的第一种执行资产是 Python 脚本，但平台长期管理的对象是
         标准化、可调度、可审计的能力单元，而不只是某一类脚本文件。
+      </p>
+      <p>
+        这件事现在已经不只停留在概念层。平台已经完成第一轮兼容式升级：
+        新增了通用资源层与执行器注册层，第一种非脚本能力样板
+        <code>HTTP 能力接入</code> 已先在 <code>public</code> 超管侧落地。
+        当前租户侧也已经有只读可见台账，可查看自己当前被授权的 HTTP 资源摘要、鉴权方式和写边界；
+        但这仍不代表租户侧已经全面开放多能力自助接入，更不代表已经做成“万能 API 平台”。
+        这类资源的配置、凭据治理和试跑，目前仍只放在 <code>public</code> 超管治理域。
+      </p>
+      <p>
+        这轮实现还顺手收了一次安全口径：
+        白名单租户 admin 只保留最小化的跨租户控制台入口，
+        不会直接看到 <code>HTTP 能力接入</code> 这类平台治理页；
+        同时菜单、权限和运行时也不再用 <code>user_id == 1</code> 这种不安全条件来误判管理员。
+      </p>
+      <p>
+        同一时间，<code>1.1</code> 的低客服闭环也已经先落了第一段：
+        <code>public</code> 超管侧的订单中心已支持建单、确认支付、执行开通、续费提醒扫描和到期停开扫描。
+        个人免费版前台也已经接通本地脚本位的轻量自助增购，但当前仍不能把它说成“完整支付中心”。
+        真实第三方支付网关、用户账单中心和外发提醒渠道仍在继续补。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">多租户治理</span>
         <span class="brand-chip">可信执行</span>
         <span class="brand-chip">试用入口</span>
         <span class="brand-chip">CLI / Agent 路线</span>
+        <span class="brand-chip">HTTP 样板已落地</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../guide/getting-started.html">立即免费体验</a>
@@ -38,7 +59,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // PRODUCT SIGNAL</span>
+          <span>EXECGOV // PRODUCT SIGNAL</span>
           <span>DOC 01</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -58,37 +79,53 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">docs</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public</span></span>
         </div>
       </div>
+      <div class="product-signal-grid">
+        <article class="brand-hero__panel product-signal-card">
+          <span class="link-panel-label">Current Asset</span>
+          <strong>先把脚本型能力做成熟</strong>
+          <p>先把接入、执行、审计和交付这条主链路做稳，再逐步扩到更多能力形态。</p>
+        </article>
+        <article class="brand-hero__panel product-signal-card">
+          <span class="link-panel-label">Near Term</span>
+          <strong>先把能落地的一条线做稳</strong>
+          <p>免费体验、租户治理和正式交付共用一套底座，后面扩展才不容易返工。</p>
+        </article>
+      </div>
     </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Platform</p>
+    <h2>平台定位</h2>
+      <ul class="brand-list">
+        <li>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</li>
+        <li>当前最成熟的能力形态是脚本型能力接入、执行、审计和持续更新。</li>
+        <li>平台已经落下通用资源层和执行器注册层，第一种非脚本样板是 public 超管侧的 HTTP 能力接入；租户侧也已经有只读可见台账。</li>
+        <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在 public 超管侧，不把它包装成万能 API 平台。</li>
+        <li>1.1 已先在 public 超管侧落下订单与生命周期骨架，并在个人免费版前台落下一条轻量自助增购链路，但仍未对外承诺完整用户自助支付。</li>
+        <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
+      </ul>
   </section>
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Platform</p>
-      <h2>平台定位</h2>
+      <p class="brand-kicker">Brand</p>
+      <h2>品牌口径</h2>
       <ul class="brand-list">
-        <li>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</li>
-        <li>当前最成熟的能力形态是脚本型能力接入、执行、审计和持续更新。</li>
-        <li>平台会继续扩展到 API、模板、连接器和审批流程等更多能力类型。</li>
+        <li>品牌名：<code>ExecGov（执治）</code></li>
+        <li>副标题：面向真实任务的多租户能力治理与执行系统</li>
+        <li>Slogan：让每次自动化，都可靠且可控。</li>
+        <li>适合用于产品介绍、场景沟通和当前交付说明。</li>
       </ul>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Project Name</p>
-      <h2>英文项目名</h2>
+      <p class="brand-kicker">Method</p>
+      <h2>当前使用原则</h2>
       <ul class="brand-list">
-        <li>项目名：<code>SmartFlow AI Skill Platform</code></li>
-        <li>定位：<code>An Open &amp; Secure AI Agent Execution Layer</code></li>
-        <li>Slogan：<code>Make AI Work, Make Work Smart.</code></li>
-        <li>便于在代码仓库、技术文档和工程协作中识别。</li>
-      </ul>
-    </article>
-    <article class="brand-card">
-      <p class="brand-kicker">Product Name</p>
-      <h2>中文产品名</h2>
-      <ul class="brand-list">
-        <li>产品名：<code>智流·智能执行平台</code></li>
-        <li>副标题：企业级业务自动化与安全执行系统</li>
-        <li>Slogan：复杂工作，简单对话；私有部署，安全省人。</li>
-        <li>适合用于产品介绍、方案沟通和正式交付场景。</li>
+        <li>对外统一使用 <code>ExecGov（执治）</code>，不再拆成英文项目名和中文产品名两套说法。</li>
+        <li>治理为先，执行落地；先把脚本型能力做稳，再逐步扩到更多能力形态。</li>
+        <li>仓库 slug 与目录路径 <code>smartflow-cli/</code> 先保留，CLI 对外命令已统一为 <code>execgov-cli</code>，避免影响现有工程路径和发布链路。</li>
+        <li>便于统一品牌认知，同时不打断当前代码、文档和交付节奏。</li>
       </ul>
     </article>
   </section>
@@ -118,7 +155,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <span class="brand-pill">01</span>
-        <h3>企业交付问题</h3>
+        <h3>正式客户隔离问题</h3>
         <p>不同客户、团队和环境不能混在一起，需要一套能隔离、治理并持续交付的执行平台。</p>
       </article>
       <article class="brand-card brand-card--nested">
@@ -137,11 +174,11 @@ lastUpdated: false
   <section class="brand-card">
     <p class="brand-kicker">Future Asset Types</p>
     <h2>未来优先会接入哪些能力形态</h2>
-    <p>下面这些方向是平台接下来会优先扩展的能力形态，帮助你判断长期匹配度。</p>
+    <p>下面这些方向是平台接下来会优先扩展的能力形态，帮助你判断长期匹配度。这里说的是扩展边界，不是说这些都已经完整商用。</p>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>API / SaaS 调用</h3>
-        <p>把第三方服务、企业内部接口和 Webhook 收成可治理的能力入口。</p>
+        <p>把第三方服务、企业内部接口和 Webhook 收成可治理的能力入口。当前第一轮样板已经先做成 public 超管侧的 HTTP 能力接入。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>数据连接器</h3>
@@ -203,14 +240,14 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>需要内网或私有化的小型正式客户</h3>
-        <p>这类客户单客价值更高，也最能验证多租户隔离、平台超管治理和正式交付链路，但要控制定制深度，只接能反向沉淀平台能力的项目。</p>
+        <p>这类客户最能验证多租户隔离、平台超管治理和正式交付链路，但要控制定制深度，只接能反向沉淀平台能力的项目。</p>
       </article>
     </div>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Reading Order</p>
-    <h2>公开文档建议阅读顺序</h2>
+    <h2>公开文档阅读路径</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./scenarios.html">
         <span>Step 01</span>
@@ -252,7 +289,7 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Delivery Extension</p>
-    <h2>如果你正从体验走向正式接入，再补看这三页</h2>
+    <h2>从体验走向正式接入时，重点补齐这三页</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
@@ -274,8 +311,8 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Why SmartFlow</p>
-      <h2>这类平台为什么值得继续看</h2>
+      <p class="brand-kicker">Why ExecGov</p>
+      <h2>这类平台的项目价值</h2>
       <ul class="brand-list">
         <li>不是把模型接出来就结束，而是让 AI 在规则内真正执行。</li>
         <li>不是一次性 demo，而是能持续沉淀能力资产、流程和审计记录。</li>
@@ -298,8 +335,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Step</p>
-        <h2>想继续看细节，或者直接进入转化路径</h2>
-        <p class="brand-lead">你可以继续看应用场景、CLI 接入和核心能力，也可以直接提交试用 / 演示线索。</p>
+        <h2>继续深入产品细节，或直接进入试用与沟通</h2>
+        <p class="brand-lead">可继续查看应用场景、CLI 接入和核心能力，也可直接提交试用 / 演示线索。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./scenarios.html">

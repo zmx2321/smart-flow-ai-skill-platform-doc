@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: SmartFlow
-  text: 智流·智能执行平台
+  name: ExecGov
+  text: ExecGov（执治）
   tagline: 先看一次“输入一句话 -> AI 匹配技能 -> 调度脚本 -> 返回结果并留痕”的真实链路，再决定要不要把你的脚本、本地能力和线上服务接进来。
   actions:
     - theme: brand
@@ -14,7 +14,7 @@ hero:
       link: /contact#lead-form
     - theme: alt
       text: 了解构建者
-      link: /#founder-note
+      link: /materials/founder-profile
 
 features:
   - title: 多租户治理
@@ -24,7 +24,7 @@ features:
   - title: 本地与云端协同
     details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面连接起来。
   - title: 清晰演进路线
-    details: 围绕试用、接入和正式交付持续扩展，帮助个人、团队和企业找到合适路径。
+    details: 先把能落地的一条线做稳，再决定哪些能力和场景值得继续扩。
 ---
 
 <div class="landing-shell">
@@ -34,13 +34,24 @@ features:
         <p class="landing-kicker">Brand Signal</p>
         <h2>先判断它能不能替你省事，再决定要不要继续聊</h2>
         <p class="landing-lead">
-          <strong>智流是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+          <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
         </p>
         <p class="landing-lead">
-          “智流”想解决的不是“模型会不会说”，而是
+          “ExecGov”想解决的不是“模型会不会说”，而是
           <strong>脚本、本地资源和线上能力能不能在规则里稳定执行</strong>。
           现在先把最常见也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
           你可以先从公开体验入口感受一次简化流程，再决定是否继续接自己的真实场景。
+        </p>
+        <p class="landing-lead">
+          当前已经完成第一轮兼容式升级：平台新增了通用资源层和执行器注册层，第一种非脚本能力样板
+          <strong>HTTP 能力接入</strong> 已先在 <strong>public 超管</strong> 侧落地，用来验证“资源模型 + 执行器 + 审计链路”这条新路径。
+          当前租户侧只开放<strong>只读台账</strong>，用于查看自己已获授权的 HTTP 资源摘要、鉴权方式和写边界；
+          配置、凭据治理和试跑仍然只放在 <strong>public 超管治理域</strong>。
+          这不等于现在已经开放成万能 API 平台，现阶段更高优先级仍然是把 <strong>1.1 自动注册、支付、续费和停开恢复</strong> 做成低客服闭环。
+        </p>
+        <p class="landing-lead">
+          这条 <strong>1.1</strong> 现在已经先落到 <strong>public 超管</strong> 侧：订单创建、确认支付、开通 / 续费、续费提醒扫描、到期停开扫描都会回写客户与租户状态。
+          但这还不是“终端用户已经可以完整自助支付”的意思。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
         </p>
         <div class="landing-brand__chips">
           <span>免登录体验</span>
@@ -70,7 +81,7 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">从免登录体验到场景沟通，再到正式交付，入口设计的目标都是让你先看到价值，再决定是不是继续接入自己的能力。</p>
+          <p class="landing-brand__signal-summary">从免登录体验到场景沟通，再到真实接入，入口设计的目标都是让你先看到价值，再决定是不是继续接入自己的能力。</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>入口</strong>
@@ -86,6 +97,23 @@ features:
             <span>Policy Inside</span>
           </div>
         </article>
+        <div class="landing-brand__meta-grid">
+          <article class="landing-brand__meta">
+            <span class="link-panel-label">Mature Asset</span>
+            <strong>Python 脚本先跑通</strong>
+            <p>先把接入、执行、回传和留痕这条链路做稳，再逐步扩到更多能力类型。</p>
+          </article>
+          <article class="landing-brand__meta">
+            <span class="link-panel-label">Next Step</span>
+            <strong>先体验，再决定怎么接入</strong>
+            <p>可以先走免登录体验；需要真实场景时，再进入沟通、交付和部署确认。</p>
+          </article>
+          <article class="landing-brand__meta landing-brand__meta--wide">
+            <span class="link-panel-label">Current Focus</span>
+            <strong>当前更高优先级仍然是把 1.1 低客服闭环做稳</strong>
+            <p>先把自动注册、支付、续费提醒和停开恢复这条路径继续收口，再决定哪些能力值得往下一阶段扩展。</p>
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -95,9 +123,24 @@ features:
       <p class="landing-kicker">Platform Thesis</p>
       <h2>把“会聊天”升级成“会在规则里执行”</h2>
       <p class="landing-lead">
-        <strong>SmartFlow AI Skill Platform</strong> 的项目层定位是 <strong>An Open &amp; Secure AI Agent Execution Layer</strong>。
-        落到产品层，它对外呈现为“智流·智能执行平台”。它真正想解决的，不是聊天体验，而是
+        <strong>ExecGov</strong> 的项目层定位是 <strong>An Open &amp; Secure AI Agent Execution Layer</strong>。
+        落到产品层，它对外呈现为“ExecGov（执治）”。它真正想解决的，不是聊天体验，而是
         <strong>真实任务如何在规则里被稳定执行</strong>。
+      </p>
+      <p class="landing-lead">
+        对当前官网口径来说，最稳的理解方式是三层：
+        <strong>底座层</strong> 负责多租户、安全、权限和审计，
+        <strong>抽象层</strong> 用 Skill 表达能力单元，
+        <strong>实现层</strong> 当前以 Python 脚本为主，并开始用 HTTP 资源样板验证第二种能力接入方式。
+      </p>
+      <p class="landing-lead">
+        这轮还额外收了一次权限边界：
+        <strong>白名单租户 admin</strong> 只保留最小跨租户控制台入口，
+        不会看到 <strong>HTTP 能力接入</strong> 这类平台治理页；
+        同时运行时与菜单侧也不再使用 <code>user_id == 1</code> 这类不安全条件来误判管理员。
+      </p>
+      <p class="landing-lead">
+        从商业化主线看，当前最实际的进度不是“已经做成完整 SaaS 收费台”，而是“已经先把平台运营侧的收费与生命周期骨架跑起来”，后面再继续补用户自助链路。
       </p>
     </div>
     <div class="landing-metrics">
@@ -148,13 +191,13 @@ features:
       <article class="mode-card">
         <span class="link-panel-label">Enterprise</span>
         <h3>企业决策者 / IT 管理者</h3>
-        <p>优先判断私有化、内网接入、数据安全和合规要求能否落地，再进入正式部署与交付沟通。</p>
+        <p>优先判断私有化、内网接入、数据安全和合规要求能否落地，再决定要不要进入正式部署和交付。</p>
       </article>
     </div>
     <div class="landing-inline-links">
       <a href="./guide/getting-started.html">立即免费体验（免登录）</a>
       <a href="./contact.html#lead-form">沟通具体场景</a>
-      <a href="./#founder-note">了解构建者</a>
+      <a href="./materials/founder-profile.html">了解构建者</a>
       <a href="./product/editions.html">看当前阶段</a>
     </div>
   </section>
@@ -188,26 +231,27 @@ features:
 
   <section class="landing-band">
     <div class="landing-section-head">
-      <p class="landing-kicker">Identity</p>
-      <h2>项目名与产品名</h2>
+      <p class="landing-kicker">Brand Position</p>
+      <h2>品牌定位</h2>
       <p class="landing-lead">
-        文档同时使用英文项目名和中文产品名。前者便于识别代码仓库与技术上下文，后者便于理解产品定位和使用场景。
+        对外统一使用 <strong>ExecGov（执治）</strong> 这一套品牌，不再区分“项目名”和“产品名”两套说法；
+        代码仓库 slug 和现有技术标识暂时保留历史命名。
       </p>
     </div>
     <div class="landing-grid landing-grid--two">
       <article class="mode-card">
-        <span class="link-panel-label">Project</span>
-        <h3>SmartFlow AI Skill Platform</h3>
-        <p><strong>定位：</strong>An Open &amp; Secure AI Agent Execution Layer</p>
-        <p><strong>Slogan：</strong>Make AI Work, Make Work Smart.</p>
-        <p>用于标识项目仓库、工程结构和技术背景。</p>
+        <span class="link-panel-label">Brand</span>
+        <h3>ExecGov（执治）</h3>
+        <p><strong>定位：</strong>企业级 AI 执行与治理平台</p>
+        <p><strong>Slogan：</strong>让每次自动化，都可靠且可控。</p>
+        <p>用于官网、演示、方案、合同和正式交付沟通。</p>
       </article>
       <article class="mode-card">
-        <span class="link-panel-label">Product</span>
-        <h3>智流·智能执行平台</h3>
-        <p><strong>副标题：</strong>企业级业务自动化与安全执行系统</p>
-        <p><strong>Slogan：</strong>复杂工作，简单对话；私有部署，安全省人。</p>
-        <p>一个用 AI 调度真实能力的平台，复杂工作一句话搞定；当前第一阶段以脚本型能力为主。</p>
+        <span class="link-panel-label">Method</span>
+        <h3>治理为先，执行落地</h3>
+        <p><strong>当前策略：</strong>先把脚本型能力做稳，再逐步扩到 API、模板、连接器和审批流。</p>
+        <p><strong>说明：</strong><code>smart-flow-ai-skill-platform</code> 仓库 slug 与 <code>smartflow-cli/</code> 目录路径暂时保留历史命名；CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
+        <p>这样可以先统一对外品牌，同时避免影响现有仓库路径、CLI 和交付链路。</p>
       </article>
     </div>
   </section>
@@ -215,7 +259,7 @@ features:
   <section id="founder-note" class="landing-band landing-band--overview landing-band--founder">
     <div class="landing-section-head">
       <p class="landing-kicker">Founder Note</p>
-      <h2>谁在构建智流，为什么这套平台值得继续聊</h2>
+      <h2>谁在构建 ExecGov，为什么这套平台值得继续聊</h2>
       <p class="landing-lead">
         我现在在杭州，以微创业方式继续把这件事往前做。
         核心目标不是讲一个很大的平台故事，而是把过去交付里反复碰到的
@@ -227,7 +271,8 @@ features:
         <strong>先把平台做成一个能持续解决真实问题、也能支撑一个人稳定经营的小生意。</strong>
       </p>
       <div class="landing-inline-links">
-        <a href="./contact.html#lead-form">继续沟通合作</a>
+        <a href="./contact.html#lead-form">继续沟通场景</a>
+        <a href="./materials/founder-profile.html">查看完整履历背景</a>
         <a href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">查看公开博客</a>
       </div>
     </div>
@@ -249,8 +294,8 @@ features:
       </article>
       <article class="metric-card">
         <span class="metric-value">试用 → 沟通 → 交付</span>
-        <span class="metric-label">合作路径清晰</span>
-        <p>先让价值被感知，再根据协作深度、安全边界与部署要求继续推进合作。</p>
+        <span class="metric-label">进入路径清晰</span>
+        <p>先让价值被感知，再根据协作深度、安全边界与部署要求继续推进接入。</p>
       </article>
     </div>
   </section>
@@ -287,10 +332,10 @@ features:
   <section class="landing-band">
     <div class="landing-section-head">
       <p class="landing-kicker">Delivery Toolkit</p>
-      <h2 class="landing-heading--nowrap-desktop">如果你已经准备进入正式接入，先看这 3 页</h2>
+      <h2 class="landing-heading--nowrap-desktop">正式接入常看的 3 页</h2>
       <p class="landing-lead">
-        这组内容专门承接“不是只想了解平台，而是已经开始准备真实项目”的访客。
-        重点不是再看抽象定位，而是把<strong>文件链路、交付物和接入准备</strong>一次说清楚。
+        这组内容面向已经准备推进真实项目的访客，
+        重点是把<strong>文件链路、交付物和接入准备</strong>一次说清楚。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
@@ -354,7 +399,7 @@ features:
       </article>
       <article class="mode-card">
         <h3>免费体验入口</h3>
-        <p>面向个人用户和小团队作为体验前台，承接增长样本和未来升级路径。</p>
+        <p>面向个人用户和小团队提供低门槛体验与升级入口。</p>
       </article>
       <article class="mode-card">
         <h3>本地与边缘执行</h3>
@@ -398,7 +443,7 @@ features:
     <a class="link-panel" href="./guide/">
       <span class="link-panel-label">Guide</span>
       <strong>开始使用</strong>
-      <p>先把入口、角色和建议阅读顺序对齐，避免一上来就在各页之间乱跳。</p>
+      <p>先把入口、角色和阅读路径对齐，避免一上来就在各页之间来回跳转。</p>
     </a>
     <a class="link-panel" href="./guide/getting-started.html">
       <span class="link-panel-label">Quick Start</span>
@@ -448,7 +493,7 @@ features:
     <a class="link-panel" href="./materials/">
       <span class="link-panel-label">Materials</span>
       <strong>介绍资料</strong>
-      <p>把平台介绍、价值表达和演示提纲单独整理，便于阅读、转发和方案沟通。</p>
+      <p>把平台介绍、价值表达和演示提纲单独整理，便于阅读、评审和方案沟通。</p>
     </a>
   </div>
 </section>
@@ -459,8 +504,8 @@ features:
         <p class="landing-kicker">Contact</p>
         <h2>现在开放免费体验、场景沟通和正式交付咨询。</h2>
         <p class="landing-lead">
-          如果你手上已经有脚本、本地环境、权限边界或交付问题要处理，
-          这里就是当前最直接的入口。我会优先接真实问题，而不是只聊很远的想象图。
+          对于已有脚本、本地环境、权限边界或交付问题需要处理的场景，
+          这里是当前最直接的公开入口，重点承接真实试用、评估与交付咨询。
         </p>
       </div>
       <div class="cta-actions">

@@ -15,7 +15,7 @@ lastUpdated: false
         <p>每个场景都围绕“入口、确认、执行、留痕、治理”这条主链路展开。</p>
       </div>
       <p class="brand-lead">
-        SmartFlow 不是抽象概念站点，它解决的是
+        ExecGov 不是抽象概念站点，它解决的是
         <strong>真实任务如何被 AI 安全调度执行</strong>。
         场景越真实，这套平台的边界和价值就越清楚。
       </p>
@@ -26,14 +26,14 @@ lastUpdated: false
         <span class="brand-chip">混合执行</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">预约场景演示</a>
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通真实场景</a>
         <a class="cta-button" href="./capabilities.html">查看核心能力</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // SCENARIO MAP</span>
+          <span>EXECGOV // SCENARIO MAP</span>
           <span>DOC 02</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -78,17 +78,17 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">01</p>
-      <h2>企业内部自动化</h2>
+      <h2>团队内部流程自动化</h2>
       <ul class="brand-list">
         <li>已有 Python / 自动化脚本，但使用方式分散</li>
         <li>希望把脚本收成统一入口，而不是每个人手工跑环境</li>
         <li>需要执行可留痕、可确认、可审计</li>
-        <li>适合数据整理、批量处理、周期报表、规则型触发任务</li>
+        <li>适合电商、内容、运营数据这类数据整理、批量处理和周期报表任务</li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">02</p>
-      <h2>多客户交付型平台</h2>
+      <h2>正式客户隔离交付</h2>
       <ul class="brand-list">
         <li>一个客户一套隔离环境</li>
         <li>平台方统一管理客户、模板、日志和公告</li>
@@ -98,7 +98,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">03</p>
-      <h2>个人开发者与小团队入口</h2>
+      <h2>个人与小团队入口</h2>
       <ul class="brand-list">
         <li>把本地脚本整理成可描述、可调用的能力</li>
         <li>用统一入口展示和运行自己的工具</li>
@@ -121,7 +121,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">05</p>
-      <h2>平台治理与模板运营</h2>
+      <h2>超管治理与模板分发</h2>
       <ul class="brand-list">
         <li>模板分发</li>
         <li>公告投放</li>
@@ -131,12 +131,12 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">06</p>
-      <h2>设备与边缘场景</h2>
+      <h2>脚本治理与自动化运维</h2>
       <ul class="brand-list">
-        <li>边缘节点上的任务执行</li>
-        <li>本地设备能力包管理</li>
-        <li>设备动作模板与受控触发</li>
-        <li>适合需要设备联动、边缘执行或现场触发的项目</li>
+        <li>适合日志清理、巡检、批量处理和定时任务</li>
+        <li>强调脚本入口统一、人工确认和执行留痕</li>
+        <li>适合本地环境、本地脚本或内网资源受控调度</li>
+        <li>更贴近平台当前已经成熟的脚本优先能力边界</li>
       </ul>
     </article>
   </section>
@@ -154,15 +154,15 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Boss View 03</p>
-      <h2>它为什么值得持续投入</h2>
-      <p>价值不只是做一次自动化，而是把零散脚本沉淀成可复用、可扩展、可继续接更多场景的管理底座。</p>
+      <h2>它为什么值得先继续投入</h2>
+      <p>价值不只是做一次自动化，而是把零散脚本沉淀成可复用、可持续更新、后面少返工的能力底座。</p>
     </article>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Future Scenarios</p>
-    <h2>如果你关心长期扩展，后续还可以往哪些能力场景走</h2>
-    <p>SmartFlow 现在最成熟的是 Python 脚本场景，但这套底座后续也适合继续承接下面这些方向。这里强调的是平台演进空间，不代表今天已经全部做成标准产品。</p>
+    <h2>长期可扩展的能力场景</h2>
+    <p>ExecGov 现在最成熟的是 Python 脚本场景，但这套底座后续也适合继续承接下面这些方向。这里强调的是平台演进空间，不代表今天已经全部做成标准产品。</p>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>企业接口自动化</h3>
@@ -193,49 +193,49 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">How To Judge Fit</p>
-    <h2>如果你属于下面任一类，SmartFlow 的场景匹配度就很高</h2>
+    <h2>高匹配度场景判断</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./capabilities.html">
         <span>Capability Fit</span>
         <strong>你已经有脚本，但没有统一治理</strong>
-        <p>继续看核心能力，确认多租户、执行闭环和模板治理是否契合。</p>
+        <p>核心能力页用于确认多租户、执行闭环和模板治理是否契合。</p>
       </a>
       <a class="brand-link-card" href="./deployment.html">
         <span>Deployment Fit</span>
         <strong>你担心本地环境、内网或混合执行</strong>
-        <p>继续看部署方式，理解平台如何把控制面和执行端拆开治理。</p>
+        <p>部署方式页说明平台如何把控制面和执行端拆开治理。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Lead Fit</span>
         <strong>你想直接拿真实场景来沟通</strong>
-        <p>直接提交试用 / 演示线索，比空泛介绍更高效。</p>
+        <p>可直接提交试用 / 演示线索，进入真实场景沟通。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI Fit</span>
         <strong>你手里已经有本地脚本，想先低成本接起来</strong>
-        <p>直接看 CLI 指引，确认当前的登录、注册、执行和 Agent 骨架是否符合你的落地方式。</p>
+        <p>CLI 指引用于确认当前登录、注册、执行和 Agent 骨架是否符合落地方式。</p>
       </a>
     </div>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Scenario To Delivery</p>
-    <h2>如果场景已经确定，下一步通常要补这 3 页</h2>
+    <h2>场景确认后的关键资料</h2>
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
         <strong>场景依赖文件输入和结果产物</strong>
-        <p>如果任务要先接 Excel、CSV、压缩包或其它输入文件，再产出结果文件，这页比抽象场景说明更直接。</p>
+        <p>任务涉及 Excel、CSV、压缩包或其它输入文件并需要结果文件时，文件链路说明更直接。</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
         <span>Deliverables</span>
         <strong>场景最终如何变成交付物</strong>
-        <p>如果你已经准备推进项目，下一步不只是说场景成立，还要明确客户最终拿到什么入口、什么说明和什么结果物。</p>
+        <p>推进项目时，除了证明场景成立，还需要明确客户最终拿到什么入口、什么说明和什么结果物。</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
         <span>Checklist</span>
         <strong>场景接入前要准备哪些资料</strong>
-        <p>如果你已经有真实脚本型能力和真实样例，先把脚本目录、README、依赖和风险边界准备齐，再推进会更顺。</p>
+        <p>已有真实脚本能力和样例时，先把脚本目录、README、依赖和风险边界准备齐，推进会更顺畅。</p>
       </a>
     </div>
   </section>
@@ -244,8 +244,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>场景确认后，继续看交付和接入资料会更有效</h2>
-        <p class="brand-lead">场景页适合先判断“值不值得做”；如果已经决定推进，下一步更该看文件链路、交付物和接入准备，而不是继续停留在抽象场景层面。</p>
+        <h2>场景确认后，建议同时查看交付与接入资料</h2>
+        <p class="brand-lead">场景页适合先判断项目是否成立；进入推进阶段后，更关键的是文件链路、交付物和接入准备。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
