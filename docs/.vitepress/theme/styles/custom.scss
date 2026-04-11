@@ -948,12 +948,17 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 }
 
 .VPHero .action .VPButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   min-width: 0;
+  min-height: 48px;
   border-radius: 999px;
   border-width: 1px;
   font-weight: 600;
-  justify-content: center;
+  text-align: center;
+  line-height: 1.2;
   box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
 }
 
@@ -967,12 +972,16 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .cta-button--brand {
   border: none;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
+  color: #333 !important;
+  text-shadow: none;
 }
 
 .dark .VPHero .action .VPButton.brand,
 .dark .cta-button--brand {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
+  color: #333 !important;
+  text-shadow: none;
 }
 
 .VPHero .action .VPButton.alt {
@@ -2121,6 +2130,7 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
   align-items: center;
   justify-content: center;
   min-width: 156px;
+  min-height: 48px;
   padding: 14px 18px;
   border: 1px solid var(--smartflow-line-strong);
   border-radius: 999px;
@@ -2129,6 +2139,8 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
   text-decoration: none;
   font-weight: 600;
   font: inherit;
+  text-align: center;
+  line-height: 1.2;
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
@@ -2145,7 +2157,8 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .cta-button--brand:visited {
   border-color: transparent;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
-  color: #fff !important;
+  color: #333 !important;
+  text-shadow: none;
 }
 
 .dark .cta-button--brand,
@@ -2153,6 +2166,8 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .dark .cta-button--brand:visited {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
+  color: #333 !important;
+  text-shadow: none;
 }
 
 .brand-page-shell {
@@ -3339,7 +3354,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-card {
-  padding: 18px 18px 16px;
+  padding: 14px 14px 12px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(241, 248, 250, 0.92)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.06), rgba(37, 99, 235, 0.05));
@@ -3354,18 +3369,18 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--founder-profile .founder-profile-action-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 12px;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link {
   display: flex;
-  min-height: 88px;
-  padding: 12px 14px;
+  min-height: 74px;
+  padding: 10px 12px;
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid var(--smartflow-line);
-  border-radius: 18px;
+  border-radius: 16px;
   background: rgba(255, 255, 255, 0.5);
   color: inherit;
   text-decoration: none;
@@ -3386,18 +3401,18 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   display: block;
   color: var(--smartflow-kicker);
   font-family: var(--smartflow-mono-font);
-  font-size: 0.66rem;
+  font-size: 0.62rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link strong {
   display: block;
-  margin-top: 8px;
+  margin-top: 6px;
   color: var(--smartflow-title);
-  font-size: 0.88rem;
-  line-height: 1.36;
+  font-size: 0.84rem;
+  line-height: 1.3;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary {
@@ -3411,9 +3426,19 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
 }
 
-.brand-page-shell--founder-profile .founder-profile-action-link--primary span,
+.brand-page-shell--founder-profile .founder-profile-action-card > strong {
+  margin-top: 8px;
+  font-size: 0.96rem;
+  line-height: 1.3;
+}
+
+.brand-page-shell--founder-profile .founder-profile-action-link--primary span {
+  color: #1c6d67;
+  text-shadow: none;
+}
+
 .brand-page-shell--founder-profile .founder-profile-action-link--primary strong {
-  color: #062b27;
+  color: #333;
   text-shadow: none;
 }
 
