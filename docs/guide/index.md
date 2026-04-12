@@ -16,13 +16,14 @@ lastUpdated: false
     </div>
     <p class="brand-lead">
       这组页面帮助第一次接触 ExecGov 的访客快速判断：
-      <strong>更适合先体验、先看文档、先接 CLI，还是直接进入交付沟通。</strong>
+      <strong>更适合先走免费线、先扩容个人空间、先进入标准团队版，还是直接进入企业交付沟通。</strong>
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">先体验</span>
-      <span class="brand-chip">再登录</span>
+      <span class="brand-chip">本地脚本位</span>
+      <span class="brand-chip">标准团队版</span>
       <span class="brand-chip">CLI 接入</span>
-      <span class="brand-chip">交付沟通</span>
+      <span class="brand-chip">企业交付</span>
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="./getting-started.html">看快速开始</a>
@@ -55,21 +56,26 @@ lastUpdated: false
   </div>
 </section>
 
-  <section class="brand-grid brand-grid--three">
+  <section class="brand-grid brand-grid--four">
     <article class="brand-card">
       <p class="brand-kicker">Path A</p>
-      <h2>先体验一遍执行链路</h2>
+      <h2>先走免费线</h2>
       <p>如果你还在判断这套平台到底是不是你需要的东西，建议先走公开体验路径，再决定是否继续注册、登录或进一步沟通场景。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path B</p>
-      <h2>你已经有本地脚本</h2>
-      <p>手上已经有本地脚本目录时，重点应该放在 <code>execgov-cli</code> 当前已经打通到哪一步。</p>
+      <h2>个人继续使用 / 本地脚本位</h2>
+      <p>如果你已经在个人空间持续接脚本，但还没进入多人协作，先看本地脚本位增购和 CLI 边界，而不是直接套企业交付口径。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path C</p>
-      <h2>你要正式交付客户</h2>
-      <p>如果你是带着客户项目、团队协作或交付需求来的，重点应该放在客户流程、部署方式和交付边界，而不是免费入口细节。</p>
+      <h2>你要标准团队版</h2>
+      <p>如果你的重点是多人协作、正式租户和稳定使用周期，先看支付与会员、客户流程和共享 SaaS 边界。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Path D</p>
+      <h2>你要企业交付</h2>
+      <p>如果你是带着客户项目、内网、私有化或正式验收需求来的，重点应该放在客户流程、部署方式和交付边界，而不是免费入口细节。</p>
     </article>
   </section>
 
@@ -112,9 +118,9 @@ lastUpdated: false
         </tr>
         <tr>
           <td>联系入口</td>
-          <td>用于试用咨询、场景沟通和正式交付咨询</td>
+          <td>用于四层分流：免费线判断、本地脚本位、标准团队版和企业交付</td>
           <td>需要继续推进的人</td>
-          <td><a href="../contact.html#lead-form">联系与试用</a></td>
+          <td><a href="../contact.html#lead-form">线索与分流</a></td>
         </tr>
       </tbody>
     </table>
@@ -130,7 +136,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>小团队负责人</h3>
-        <p>先看产品概览和客户流程 / 交付，再决定是否需要演示或交付沟通。</p>
+        <p>先看产品概览、支付与会员和客户流程 / 交付，再决定是先走标准团队版还是继续上探到企业交付。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>售前 / 方案人员</h3>
@@ -217,7 +223,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>想继续推进，就按你的目标选下一页</h2>
-        <p class="brand-lead">先体验、先接 CLI、先做客户交付，这三条路都成立，但建议不要混着看。</p>
+        <p class="brand-lead">免费线、本地脚本位、标准团队版和企业交付都成立，但建议不要混着看。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./getting-started.html">
@@ -238,7 +244,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>联系与试用</strong>
+          <strong>线索与分流</strong>
         </a>
       </div>
     </div>

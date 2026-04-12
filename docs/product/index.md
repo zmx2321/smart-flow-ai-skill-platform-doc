@@ -76,7 +76,7 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
                     <div class="matrix-panel__stack">
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">corePosition</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'controlled_ai_execution_platform'</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">userPath</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_use'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_delivery'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">userPath</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_slots'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_saas'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_delivery'</span><span class="matrix-panel__punct">]</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">executionSurface</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'web_console'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli_bridge'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_env'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">REAL EXECUTION / CLEAR POSITIONING</div>
@@ -142,6 +142,47 @@ lastUpdated: false
         <li><code>exec-gov-shell</code> 主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口。</li>
         <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
       </ul>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Current Paths</p>
+    <h2>当前对外更稳定的四层路径</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>层级</th>
+          <th>适合谁</th>
+          <th>当前怎么理解</th>
+          <th>建议入口</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>免费线</td>
+          <td>第一次接触平台的人</td>
+          <td>先感知产品定位、执行链路和个人入口价值</td>
+          <td><a href="../guide/getting-started.html">快速开始</a></td>
+        </tr>
+        <tr>
+          <td>本地脚本位增购</td>
+          <td>已经在个人空间持续接脚本的人</td>
+          <td>这是个人空间扩容，不是正式团队订阅</td>
+          <td><a href="./personal-billing-membership.html">支付与会员</a></td>
+        </tr>
+        <tr>
+          <td>标准团队版</td>
+          <td>开始进入多人协作的团队</td>
+          <td>当前由共享 SaaS 正式租户入口承接，不再默认复制一套新前端工程</td>
+          <td><a href="./customer-flow.html">客户流程 / 交付</a></td>
+        </tr>
+        <tr>
+          <td>企业交付</td>
+          <td>需要更强隔离、内网或正式项目验收的客户</td>
+          <td>继续走单租户交付、私有化或更深部署控制</td>
+          <td><a href="./deployment.html">部署方式</a></td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section class="brand-grid brand-grid--two">
@@ -249,6 +290,7 @@ lastUpdated: false
         <ul class="brand-list">
           <li>先从免登录体验页开始，快速感受一次真实执行链路。</li>
           <li>注册后进入个人智能执行台，从技能库、脚本上传、公告、个人空间和社区广场继续往下走。</li>
+          <li>如果只是个人继续使用，优先看本地脚本位轻量扩容，不要急着切企业交付口径。</li>
           <li>适合先验证“AI 能不能真正帮我调度脚本”。</li>
         </ul>
       </article>
@@ -256,7 +298,8 @@ lastUpdated: false
         <h3>团队与企业</h3>
         <ul class="brand-list">
           <li>如果只是标准能力和较轻协作，可优先评估共享 SaaS 共享租户路径。</li>
-          <li>如果需要多人协作、权限控制、审计或本地接入，直接沟通场景和交付边界。</li>
+          <li>如果重点是标准团队协作，先走团队版正式租户入口，不要直接跳成企业项目。</li>
+          <li>如果需要多人协作、权限控制、审计或本地接入，继续沟通场景和交付边界。</li>
           <li>如果涉及内网、合规或私有化交付，可继续咨询企业方案。</li>
           <li>先明确业务场景，再决定部署与交付方式，会比先比较功能表更有效。</li>
         </ul>
@@ -378,8 +421,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Step</p>
-        <h2>继续深入产品细节，或直接进入试用与沟通</h2>
-        <p class="brand-lead">可继续查看应用场景、CLI 接入和核心能力，也可直接提交试用 / 演示线索。</p>
+        <h2>继续深入产品细节，或直接进入四层分流沟通</h2>
+        <p class="brand-lead">可继续查看应用场景、CLI 接入和核心能力，也可直接提交线索，判断该继续走免费线、本地脚本位、标准团队版还是企业交付。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./scenarios.html">
@@ -404,7 +447,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>申请试用 / 演示</strong>
+          <strong>提交线索 / 分流</strong>
         </a>
       </div>
     </div>

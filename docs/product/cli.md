@@ -28,7 +28,7 @@ lastUpdated: false
         <span class="brand-chip">agent describe / start</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">申请试用 / 接入咨询</a>
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">本地接入 / 线索分流</a>
         <a class="cta-button" href="./capabilities.html">查看核心能力</a>
       </div>
     </div>
@@ -100,7 +100,7 @@ lastUpdated: false
       <h2>CLI 和公开入口的关系</h2>
       <ul class="brand-list">
         <li>陌生用户先从 Web 免登录体验页感受执行链路，再决定是否继续注册 / 登录。</li>
-        <li>CLI 是更深一层的本地接入入口，不替代 <code>/experience</code> 这条公开演示路径。</li>
+        <li>CLI 是更深一层的本地接入入口，不替代 <code>/experience</code> 这条公开体验路径。</li>
         <li>适合已经确认要把本地脚本、本地环境和平台控制面接起来的用户继续往下走。</li>
       </ul>
     </article>
@@ -113,6 +113,42 @@ lastUpdated: false
         <li>体验页用于先感受执行链路，不承接真实业务写入。</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">CLI In Path</p>
+    <h2>CLI 在四层路径里更偏哪一层</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>路径</th>
+          <th>CLI 的角色</th>
+          <th>该怎么理解</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>免费线</td>
+          <td>不是默认入口</td>
+          <td>第一次接触平台的人先走 Web 体验和注册，不需要一上来就用 CLI。</td>
+        </tr>
+        <tr>
+          <td>本地脚本位增购</td>
+          <td>个人持续使用的本地桥接工具</td>
+          <td>适合已经在个人空间持续接脚本的人继续整理目录、生成 manifest 和测试执行。</td>
+        </tr>
+        <tr>
+          <td>标准团队版</td>
+          <td>辅助接入和补充本地执行能力</td>
+          <td>团队版主入口仍是正式租户前端，CLI 更像桥接工具，不是正式团队入口本身。</td>
+        </tr>
+        <tr>
+          <td>企业交付</td>
+          <td>本地环境 / 内网资源桥接层</td>
+          <td>当项目涉及本地环境、内网资源或混合执行时，CLI / Agent 才会变得更关键。</td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section class="brand-card">
@@ -234,7 +270,7 @@ python -m execgov_cli.cli agent start</code></pre>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>申请试用 / 接入咨询</strong>
+          <strong>本地接入 / 线索分流</strong>
         </a>
       </div>
     </div>

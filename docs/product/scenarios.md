@@ -208,7 +208,7 @@ lastUpdated: false
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Lead Fit</span>
         <strong>你想直接拿真实场景来沟通</strong>
-        <p>可直接提交试用 / 演示线索，进入真实场景沟通。</p>
+        <p>可直接提交线索，先判断该继续走标准团队版还是企业交付沟通。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI Fit</span>

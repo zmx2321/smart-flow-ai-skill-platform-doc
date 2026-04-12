@@ -11,18 +11,19 @@ lastUpdated: false
     <h1>快速开始</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Quick Overview</span>
-      <strong>ExecGov 不是单一聊天页面，而是一套已经有体验入口、交付路径和 CLI 桥接能力的执行平台。</strong>
-      <p>先从这里了解整体结构和入口选择。</p>
+      <strong>ExecGov 不是单一聊天页面，而是一套已经形成免费线、本地脚本位、正式团队版和企业交付四层路径的执行平台。</strong>
+      <p>先从这里判断你现在更适合走哪一层，再决定看哪些页面。</p>
     </div>
     <p class="brand-lead">
       这份快速开始用于在最短路径内判断
-      <strong>当前可直接体验、接入和沟通的路线</strong>。
+      <strong>当前可直接体验、扩容、升级和沟通的路线</strong>。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">10 分钟看懂</span>
       <span class="brand-chip">公开入口</span>
+      <span class="brand-chip">本地脚本位</span>
       <span class="brand-chip">CLI 路线</span>
-      <span class="brand-chip">交付沟通</span>
+      <span class="brand-chip">团队 / 企业</span>
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">看产品概览</a>
@@ -79,6 +80,47 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Path First</p>
+    <h2>先判断你现在在哪一层</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>当前状态</th>
+          <th>更适合的路径</th>
+          <th>先看什么</th>
+          <th>不要急着做什么</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>第一次接触平台</td>
+          <td>先走免费线</td>
+          <td>体验页、注册页、快速开始</td>
+          <td>不要一开始就按企业项目方式理解</td>
+        </tr>
+        <tr>
+          <td>已经在个人空间持续接脚本</td>
+          <td>先判断本地脚本位是否要扩容</td>
+          <td>支付与会员、本地脚本位说明</td>
+          <td>不要把轻量增购当成正式团队订阅</td>
+        </tr>
+        <tr>
+          <td>准备进入多人协作</td>
+          <td>先走团队版正式租户入口</td>
+          <td>支付与会员、客户流程 / 交付</td>
+          <td>不要默认自己一定要直接私有化</td>
+        </tr>
+        <tr>
+          <td>涉及内网、更强隔离或正式项目验收</td>
+          <td>直接进入企业交付沟通</td>
+          <td>部署方式、客户流程 / 交付、联系页</td>
+          <td>不要继续沿用个人入口或标准会员页口径</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">Current Entry</p>
     <h2>当前公开入口怎么理解</h2>
     <table>
@@ -131,7 +173,7 @@ lastUpdated: false
           <td>联系页</td>
           <td>当前正式入口</td>
           <td>要继续推进的人</td>
-          <td>用于试用、演示预约、交付沟通和合作咨询。</td>
+          <td>用于判断是继续免费线、本地脚本位、团队版还是企业交付，不再是泛咨询入口。</td>
         </tr>
       </tbody>
     </table>
@@ -165,7 +207,7 @@ lastUpdated: false
         <li>先看客户流程 / 交付，理解实际使用和热更新路径</li>
         <li>再看部署方式，判断是否要共享 SaaS、单租户、平台治理或混合执行</li>
         <li>确认适合你的版本与交付方式</li>
-        <li>最后通过联系页进入试用或演示沟通</li>
+        <li>最后通过联系页判断是标准团队版继续推进，还是直接进入企业交付沟通</li>
       </ol>
     </article>
   </section>
@@ -177,9 +219,10 @@ lastUpdated: false
       <ul class="brand-list">
         <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
+        <li>如果只是个人继续使用但还没进入多人协作，先看本地脚本位增购，不要急着跳企业路径。</li>
         <li>如果只是标准能力和较轻协作，可以优先评估共享 SaaS 共享租户路径。</li>
         <li><code>execgov-cli</code> 当前已可用，本地接入能力会继续增强。</li>
-        <li>如果你本来就是团队或企业场景，直接走试用 / 演示沟通通常更高效。</li>
+        <li>如果已经明确是团队正式协作或企业项目，直接走团队版 / 企业沟通通常更高效。</li>
       </ul>
     </article>
     <article class="brand-card">

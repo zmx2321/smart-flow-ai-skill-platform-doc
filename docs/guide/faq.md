@@ -26,7 +26,7 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">看产品概览</a>
-      <a class="cta-button" href="../contact.html#lead-form">联系与试用</a>
+      <a class="cta-button" href="../contact.html#lead-form">线索与分流</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -75,6 +75,10 @@ lastUpdated: false
         <h3>企业线和免费线是不是两套完全分裂的系统</h3>
         <p>不是。它们共享同一套执行与安全底座，只是面向的使用规模、协作深度和交付方式不同。</p>
       </article>
+      <article class="brand-card brand-card--nested">
+        <h3>现在是不是只有一条正式路径</h3>
+        <p>不是。当前公开口径已经拆成四层：免费线、本地脚本位增购、标准团队版正式租户入口，以及企业版 / 私有化交付。</p>
+      </article>
     </div>
   </section>
 
@@ -88,7 +92,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>一个客户能不能看到另一个客户的能力</h3>
-        <p>不能。当前正式交付模型是一个客户一个租户，客户默认只能看到自己租户内被授权的能力。</p>
+        <p>不能。无论是共享 SaaS 还是企业单租户交付，客户默认都只能看到自己租户内被授权的能力。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>平台如何保证不同客户之间隔离</h3>
@@ -107,7 +111,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>是不是一定要私有化才能用</h3>
-        <p>不一定。可以根据数据边界、客户规模和执行位置，选择单租户交付、平台治理组合或混合执行路径。</p>
+        <p>不一定。标准团队协作当前可以先走共享 SaaS 正式租户入口；只有涉及更强隔离、内网、本地桥接或正式项目验收时，才更适合继续走企业交付或私有化。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>热更新是不是要重部署整个平台</h3>
@@ -116,6 +120,10 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>客户能不能自己上传脚本后直接正式上线</h3>
         <p>当前 <code>1.0</code> 默认不这样做。平台仍保留审核、注册、授权和权限验证流程，不支持绕过平台直接正式上线。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>客户能不能自己上传任意前端页面直接上线</h3>
+        <p>不能。当前菜单可挂已有页面、外链和 iframe，但新增正式前端页面仍需要开发、打包和部署；共享 SaaS 不支持租户自行上传任意 Vue / JS 成为正式页面。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>热更新会不会影响其他客户</h3>
@@ -169,11 +177,15 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>体验页适合帮我判断什么</h3>
-        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合个人注册、团队试用还是企业咨询。</p>
+        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合继续走免费线、本地脚本位、标准团队版还是企业咨询。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>注册成功后会去哪里</h3>
         <p>当前注册成功后会先进入独立结果页，再回到登录与个人主链路，不再只是靠提示框承接。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3><code>exec-gov-shell</code> 是不是客户正式入口</h3>
+        <p>不是。它主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口；客户正式入口还是个人免费端、共享 SaaS 正式租户或企业交付前端。</p>
       </article>
     </div>
   </section>
@@ -200,7 +212,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>联系与试用</strong>
+          <strong>线索与分流</strong>
         </a>
       </div>
     </div>

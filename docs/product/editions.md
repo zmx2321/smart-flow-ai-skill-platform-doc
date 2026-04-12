@@ -11,8 +11,8 @@ lastUpdated: false
       <h1>版本路线</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Version Plan</span>
-        <strong>当前先分三段：1.0 把真实交付和执行做稳，1.1 把续费闭环补齐，2.0 再看哪些部分值得继续标准化。</strong>
-        <p>不同阶段对应不同使用方式，也对应不同的投入重点。</p>
+        <strong>当前公开版本先讲 1.0 / 1.1 / 2.0，但现实使用路径已经拆成免费线、本地脚本位、标准团队版和企业交付四层。</strong>
+        <p>版本阶段讲的是平台建设节奏，四层路径讲的是用户该走哪条路，这两件事不要混着讲。</p>
       </div>
       <p class="brand-lead">
         ExecGov 当前的版本节奏可以这样理解：
@@ -171,6 +171,47 @@ lastUpdated: false
   </article>
 </section>
 
+<section class="brand-card">
+  <p class="brand-kicker">Path Ladder</p>
+  <h2>版本阶段之上，当前真实使用路径怎么分层</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>层级</th>
+        <th>当前承接方式</th>
+        <th>和版本路线的关系</th>
+        <th>建议入口</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>免费线</td>
+        <td>公开体验、登录 / 注册、个人入口</td>
+        <td>属于 1.0 已成立的获客与体验入口</td>
+        <td><a href="../guide/getting-started.html">快速开始</a></td>
+      </tr>
+      <tr>
+        <td>本地脚本位增购</td>
+        <td>个人空间轻量扩容</td>
+        <td>属于 1.1 已落地的第一段闭环，不等于完整账单中心</td>
+        <td><a href="./personal-billing-membership.html">支付与会员</a></td>
+      </tr>
+      <tr>
+        <td>标准团队版</td>
+        <td>共享 SaaS 正式租户入口</td>
+        <td>当前依托 1.0 交付底座和 1.1 升级路径继续收口</td>
+        <td><a href="./customer-flow.html">客户流程 / 交付</a></td>
+      </tr>
+      <tr>
+        <td>企业交付</td>
+        <td>单租户交付、私有化或更深部署控制</td>
+        <td>属于 1.0 当前最成熟的正式交付主线</td>
+        <td><a href="./deployment.html">部署方式</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
 <section class="brand-grid brand-grid--two">
   <article class="brand-card">
     <p class="brand-kicker">1.0 Core</p>
@@ -207,16 +248,16 @@ lastUpdated: false
       <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么；登录后的个人入口当前会继续落到技能库、上传、公告、个人空间、社区广场和本地脚本位轻量扩容入口，确认“AI 调度能力”这条链路是否成立。</p>
     </article>
     <article class="brand-card brand-card--nested">
-      <h3>02. CLI 与更深使用开始接入</h3>
-      <p>更深一层的用户会继续看到 <code>execgov-cli</code>、本地脚本接入和混合执行桥梁能力，这些已经属于当前 <code>1.0</code> 的一部分。</p>
+      <h3>02. 个人继续使用先走本地脚本位</h3>
+      <p>如果用户已经在个人空间持续接脚本，但还没进入多人协作，当前更适合先走本地脚本位轻量增购；CLI 和本地桥接属于支撑能力，不是另一套独立商业路径。</p>
     </article>
     <article class="brand-card brand-card--nested">
-      <h3>03. 正式客户先走标准 SaaS 或企业 <code>1.0</code> 交付</h3>
-      <p>如果客户只是标准能力和较轻协作，当前可以先走共享租户前端；如果需要更强隔离、专属页面、专属品牌和更深交付控制，再走企业 <code>1.0</code> 单租户交付。</p>
+      <h3>03. 多人协作先走标准团队版</h3>
+      <p>如果客户只是标准能力和较轻协作，当前可以先走共享租户前端承接的正式租户入口，先验证标准团队路径是否够用。</p>
     </article>
     <article class="brand-card brand-card--nested">
-      <h3>04. 复用价值明确后再做厚</h3>
-        <p><code>2.0</code> 再继续扩展小团队协作、套餐化、资源计量和更清楚的服务梯度。</p>
+      <h3>04. 更强边界再进入企业交付</h3>
+        <p>如果涉及内网、更强隔离、专属品牌、专属页面或正式项目验收，再继续走企业 <code>1.0</code> 单租户交付；<code>2.0</code> 才是后续继续把复用路径做厚。</p>
     </article>
   </div>
 </section>
@@ -227,9 +268,9 @@ lastUpdated: false
       <h2>升级路径怎么走</h2>
     <ul class="brand-list">
       <li>第一步先让用户通过免费入口感知价值</li>
-      <li>第二步用 CLI、客户流程和部署文档承接更深问题</li>
-      <li>第三步当用户进入真实客户场景时，由企业 <code>1.0</code> 或小团队方案承接</li>
-      <li>第四步先把 <code>1.1</code> 的自动支付、续费和提示做成低客服闭环，再决定 <code>2.0</code> 该把哪些部分做成更标准的梯度</li>
+      <li>第二步如果还停留在个人持续使用，就先承接本地脚本位轻量扩容</li>
+      <li>第三步当用户进入多人协作时，先由标准团队版正式租户入口承接</li>
+      <li>第四步如果进入更强隔离和正式验收，再转企业 <code>1.0</code> 交付；同时继续把 <code>1.1</code> 的低客服闭环补稳</li>
     </ul>
     <p><a href="./deployment.html">回到部署方式</a></p>
   </article>

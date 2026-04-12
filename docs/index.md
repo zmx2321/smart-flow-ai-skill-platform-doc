@@ -125,7 +125,7 @@ features:
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>入口</strong>
-              <span>体验、试用、咨询、交付</span>
+              <span>免费线、本地扩容、团队版、企业交付</span>
             </div>
             <div class="landing-brand__signal-item">
               <strong>能力</strong>
@@ -229,7 +229,7 @@ features:
       <article class="metric-card">
         <span class="metric-value">可演进</span>
         <span class="metric-label">成长路径清晰</span>
-        <p>从个人试用到团队协作，再到企业部署，逐步扩展而非推倒重来。</p>
+        <p>从免费线到本地脚本位、标准团队版，再到企业部署，逐步扩展而非推倒重来。</p>
       </article>
     </div>
   </section>
@@ -239,9 +239,12 @@ features:
       <p class="landing-kicker">Commercial Route</p>
       <h2>面对哪类问题，先走哪条入口</h2>
       <p class="landing-lead">
-        想先低成本感受产品核心价值，可以直接走免登录体验；
-        已经有一些脚本、流程和小团队协作问题，可以直接沟通场景；
-        如果你已经明确需要正式交付、私有化或内网接入，就直接谈部署和边界。
+        当前更稳的理解方式不是笼统地说“先试用再看”，而是先判断自己属于
+        <strong>免费线</strong>、
+        <strong>本地脚本位扩容</strong>、
+        <strong>标准团队版</strong>，
+        还是
+        <strong>企业交付</strong>。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
@@ -253,7 +256,7 @@ features:
       <article class="mode-card">
         <span class="link-panel-label">Team</span>
         <h3>团队管理者 / 技术负责人</h3>
-        <p>优先确认多人协作、审批、权限控制与执行审计是否匹配当前场景，而不是先被一堆产品术语干扰判断。</p>
+        <p>先判断自己是只需要个人空间继续扩容，还是已经进入标准团队协作；多人协作优先看共享 SaaS 正式租户路径。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Enterprise</span>
@@ -393,9 +396,9 @@ features:
         <p>当前先把网页入口和本地接入这条线做通，其他更远的能力暂时不讲太满。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">试用 → 沟通 → 交付</span>
+        <span class="metric-value">四层路径</span>
         <span class="metric-label">进入路径清晰</span>
-        <p>先让价值被感知，再根据协作深度、安全边界与部署要求继续推进接入。</p>
+        <p>先走免费线，再按本地脚本位、标准团队版和企业交付逐步推进，不把所有人都塞进同一条路。</p>
       </article>
     </div>
   </section>
@@ -552,7 +555,7 @@ features:
     <a class="link-panel" href="./guide/getting-started.html">
       <span class="link-panel-label">Quick Start</span>
       <strong>快速开始</strong>
-      <p>用最短时间看懂如何试用、如何接脚本，以及何时该走团队或企业路径。</p>
+      <p>用最短时间看懂如何从免费线开始、如何接脚本，以及何时该走团队版或企业路径。</p>
     </a>
     <a class="link-panel" href="./guide/faq.html">
       <span class="link-panel-label">FAQ</span>
@@ -597,7 +600,7 @@ features:
     <a class="link-panel" href="./product/onboarding-checklist.html">
       <span class="link-panel-label">Checklist</span>
       <strong>客户接入准备清单</strong>
-      <p>适合已经准备真实脚本型能力和真实场景的人，先把接入资料补完整，再继续推进交付或试用。</p>
+      <p>适合已经准备真实脚本型能力和真实场景的人，先把接入资料补完整，再继续推进团队版或企业交付。</p>
     </a>
     <a class="link-panel" href="./materials/">
       <span class="link-panel-label">Materials</span>
@@ -611,10 +614,10 @@ features:
     <div class="cta-card">
       <div>
         <p class="landing-kicker">Contact</p>
-        <h2>现在开放免费体验、场景沟通和正式交付咨询。</h2>
+        <h2>现在开放免费线体验、团队版判断和正式交付咨询。</h2>
         <p class="landing-lead">
           对于已有脚本、本地环境、权限边界或交付问题需要处理的场景，
-          这里是当前最直接的公开入口，重点承接真实试用、评估与交付咨询。
+          这里是当前最直接的公开入口，重点承接免费线判断、本地脚本位扩容判断、团队版评估与交付咨询。
         </p>
       </div>
       <div class="cta-actions">

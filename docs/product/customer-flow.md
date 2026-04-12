@@ -17,16 +17,16 @@ lastUpdated: false
       <p class="brand-lead">
         ExecGov 当前最需要先讲清楚的几件事是：
         <strong>客户拿到什么、客户怎么用、平台怎么交付。</strong>
-        脚本持续更新流程已拆到《热更新说明》，这里先把“真实交付时到底怎么跑”直接展开。
+        脚本持续更新流程已拆到《热更新说明》，这里主要面向标准团队版和企业交付阶段，先把“真实交付时到底怎么跑”直接展开。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">一个客户一个网址</span>
+        <span class="brand-chip">标准团队 / 企业交付</span>
         <span class="brand-chip">手动执行 + AI 推荐</span>
         <span class="brand-chip">交付清单</span>
         <span class="brand-chip">租户隔离</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通交付 / 试用</a>
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通团队版 / 企业交付</a>
         <a class="cta-button" href="./hot-update.html">查看热更新说明</a>
       </div>
     </div>
@@ -59,7 +59,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Delivery Package</p>
-      <h2>标准交付时，客户会拿到什么</h2>
+      <h2>正式团队版或企业交付时，客户会拿到什么</h2>
       <ul class="brand-list">
         <li>一个独立租户</li>
         <li>一个独立访问网址</li>
@@ -73,7 +73,7 @@ lastUpdated: false
       <p class="brand-kicker">Boundary</p>
       <h2>交付边界当前怎么定</h2>
       <ul class="brand-list">
-        <li>一个客户一个租户，一个客户一个网址</li>
+        <li>正式团队版和企业交付都按租户隔离，访问入口按 Host 绑定到对应租户</li>
         <li>客户只在自己的租户空间里使用自己的专属能力</li>
         <li>平台优先保证安全隔离和稳定执行</li>
         <li>标准 SaaS 场景下，共享的是前端发版节奏，不共享租户数据和权限</li>
@@ -221,10 +221,22 @@ lastUpdated: false
         <td>适合先感受 AI 推荐、确认、执行和结果返回，再决定是否进入正式交付。</td>
       </tr>
       <tr>
+        <td>只是个人继续接脚本，但还没进入多人协作</td>
+        <td>先看 <a href="./personal-billing-membership.html">支付与会员</a> 里的本地脚本位增购</td>
+        <td>当前可用</td>
+        <td>这属于个人空间扩容，不属于这页的正式团队版 / 企业交付主线。</td>
+      </tr>
+      <tr>
+        <td>已经开始多人协作，但需求仍偏标准</td>
+        <td>标准 SaaS 共享租户路径</td>
+        <td>当前已有共享租户骨架，仍在继续收口</td>
+        <td>更适合标准能力和较轻协作；运行时仍按 Host 绑定到自己的租户，不共享数据和权限。</td>
+      </tr>
+      <tr>
         <td>已经有明确客户，要正式上线交付</td>
         <td>单租户交付</td>
         <td>当前主线</td>
-        <td>一个客户一个网址、一个客户一个租户、客户只看自己的专属能力。</td>
+        <td>面向更强隔离、专属页面、专属品牌或正式验收要求的客户。</td>
       </tr>
       <tr>
         <td>需要统一运营多个客户</td>
