@@ -222,7 +222,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path 02</p>
       <h2>团队版 SaaS</h2>
-      <p>承接多人协作、共享执行能力、审批、权限控制和更稳定的产品订阅，是当前最值得重点转化的一条线。</p>
+      <p>承接多人协作、共享执行能力、审批、权限控制和更稳定的产品订阅。当前优先走标准 SaaS 正式租户入口；如果需要更强隔离或更深定制，再转企业版 / 私有化。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>
@@ -239,6 +239,7 @@ lastUpdated: false
         <li>先把一个重复流程做成最小自动化交付</li>
         <li>把已有 Python 脚本或 Skill 接入统一执行入口</li>
         <li>承接团队版 / 企业版试点、正式交付和私有轻部署</li>
+        <li>帮助判断是先走共享 SaaS 正式租户路径，还是直接进入企业交付</li>
         <li>本地脚本、CLI、本地环境桥接和受控执行方案</li>
       </ul>
       <p><a href="./materials/service-packages.html">查看合作方式 / 标准服务包</a></p>

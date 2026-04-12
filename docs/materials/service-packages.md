@@ -19,6 +19,11 @@ lastUpdated: false
         <strong>一个高频、重复、规则相对明确的流程</strong>
         建立最小闭环。这样更容易验证投入产出，也更容易形成后续扩展的基础。
       </p>
+      <p class="brand-lead">
+        这页回答的是“什么时候该进入项目交付沟通”，不是“所有用户下一步都应该买什么”。
+        如果对方还处在免费体验、个人空间脚本位扩容或标准团队版月租 / 年租阶段，优先看会员与支付路径；
+        只有进入更强隔离、内网、本地桥接或正式项目边界时，才该切到这页。
+      </p>
       <div class="brand-chip-list">
         <span class="brand-chip">先做一个点</span>
         <span class="brand-chip">先收口范围</span>
@@ -80,13 +85,49 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Package C</p>
       <h2>内网 / 私有化小型正式交付</h2>
-      <p>面向多人协作、本地数据或本地脚本接入、正式治理要求和企业 1.0 单租户交付。</p>
+      <p>面向已经超出标准团队版边界，需要更强隔离、本地数据或本地脚本接入、正式治理要求和企业 1.0 单租户交付的场景。</p>
       <ul class="brand-list">
         <li>独立租户与权限边界</li>
         <li>本地执行桥接与审计</li>
         <li>支持正式项目交付</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Entry Split</p>
+    <h2>哪些场景先不要直接按项目交付谈</h2>
+    <table class="cooperation-start-table">
+      <thead>
+        <tr>
+          <th>当前状态</th>
+          <th>更适合的路径</th>
+          <th>为什么</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>还在第一次体验平台</td>
+          <td>先走免费线</td>
+          <td>先确认这是不是值得继续了解的平台，不急着进入项目报价</td>
+        </tr>
+        <tr>
+          <td>只是个人继续接脚本</td>
+          <td>先走本地脚本位增购</td>
+          <td>这属于轻量扩容，不等于正式团队协作或企业交付</td>
+        </tr>
+        <tr>
+          <td>已经开始多人协作，但需求仍偏标准</td>
+          <td>先走团队版月租 / 年租正式租户入口</td>
+          <td>先用标准 SaaS 路径验证协作是否成立，再决定要不要进入更重交付</td>
+        </tr>
+        <tr>
+          <td>需要更强隔离、内网、本地执行桥接或正式项目验收</td>
+          <td>进入项目交付沟通</td>
+          <td>这时才真正需要谈部署、交付边界、里程碑和服务包</td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section class="brand-grid brand-grid--two">
@@ -97,7 +138,7 @@ lastUpdated: false
         <li>报表、文件、数据处理这类高频重复流程</li>
         <li>已有 Python 脚本，需要接成统一入口的场景</li>
         <li>本地环境、本地脚本或内网资源需要被受控调度的场景</li>
-        <li>小团队已经有真实需求，准备先做一个最小闭环验证价值</li>
+        <li>标准团队版已经不够，需要更强隔离、定制页面或正式交付边界的场景</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -156,7 +197,7 @@ lastUpdated: false
         <li>第一阶段边界更清晰，便于评估和验收</li>
         <li>更容易在短周期内看到真实结果</li>
         <li>能先验证流程价值，再决定是否进入第二阶段扩展</li>
-        <li>适合团队版、企业版和私有化场景逐步推进</li>
+        <li>适合从标准团队版继续上探到企业版和私有化场景</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -179,6 +220,10 @@ lastUpdated: false
       <p class="brand-lead">进入具体沟通后，重点通常不是继续讨论抽象概念，而是尽快把流程范围、输入输出、周期和第一阶段目标对齐。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./membership-benefits-pricing.html">
+          <span>Pricing</span>
+          <strong>先看会员与价格路径</strong>
+        </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通真实场景</strong>

@@ -109,7 +109,7 @@ lastUpdated: false
       <h2>CLI 与 Web 入口如何配合</h2>
       <ul class="brand-list">
         <li>网页端已经提供 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
-        <li>注册成功目前由成功提示框承接，再跳回登录页。</li>
+        <li>注册成功当前会先进入 <code>/register/result</code> 结果页，再回到登录与个人主链路。</li>
         <li>体验页用于先感受执行链路，不承接真实业务写入。</li>
       </ul>
     </article>

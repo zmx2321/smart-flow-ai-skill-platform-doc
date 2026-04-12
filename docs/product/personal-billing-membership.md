@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>个人免费版支付与会员说明</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Payment Status</span>
-        <strong>当前已经可以对外明确讲清楚两条付费路径：个人免费版本地脚本位自助增购，以及从个人免费版跳到标准 SaaS 单独租户的团队版月租 / 年租注册入口。</strong>
+        <strong>当前已经可以对外明确讲清楚两条付费路径：个人免费版本地脚本位自助增购，以及从个人免费版跳到标准 SaaS 正式租户入口的团队版月租 / 年租注册路径。</strong>
         <p>这页专门回答：个人免费页怎么付款、月费 / 年费会员怎么注册、升级后能得到什么，以及当前哪些能力已经完成、哪些还没完成。</p>
       </div>
       <p class="brand-lead">
@@ -23,7 +23,7 @@ lastUpdated: false
         <span class="brand-chip">个人免费版支付</span>
         <span class="brand-chip">团队版月租</span>
         <span class="brand-chip">团队版年租</span>
-        <span class="brand-chip">标准 SaaS 单独租户</span>
+        <span class="brand-chip">标准 SaaS 正式租户</span>
         <span class="brand-chip">当前边界已写清</span>
       </div>
       <div class="brand-actions">
@@ -73,7 +73,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li><strong>团队版月租</strong>：适合先启动正式协作，再决定长期周期。</li>
         <li><strong>团队版年租</strong>：适合已经确认长期使用的团队，当前默认推荐。</li>
-        <li>两条路径都会跳到标准 SaaS 单独租户注册页，不再继续留在个人免费隐藏租户里。</li>
+        <li>两条路径都会跳到标准 SaaS 正式租户注册页，当前由共享租户前端承接入口，不再继续留在个人免费隐藏租户里。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -81,7 +81,7 @@ lastUpdated: false
       <h2>价格与付款页以哪里为准</h2>
       <ul class="brand-list">
         <li>个人免费版本地脚本位价格以上面 3 个固定套餐为准。</li>
-        <li>团队版月租 / 年租的最终价格、付款页和正式服务周期，以目标租户端注册页当页展示为准。</li>
+        <li>团队版月租 / 年租的最终价格、付款页和正式服务周期，以目标正式租户注册页当页展示为准。</li>
         <li>如果你要的是企业版、私有化或定制交付，仍建议直接沟通场景，不走这页标准入口。</li>
       </ul>
     </article>
@@ -135,8 +135,8 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>月租怎么走</h3>
         <ul class="brand-list">
-          <li>从个人免费版的“升级方案”页面点击<strong>去月租开通</strong>。</li>
-          <li>系统会带着 <code>source=personal_free_upgrade</code> 和月租方案参数跳到标准 SaaS 单独租户注册页。</li>
+          <li>从个人免费版的“升级正式版”页面点击<strong>去月租开通</strong>。</li>
+          <li>系统会带着 <code>source=personal_free_upgrade</code> 和月租方案参数跳到标准 SaaS 正式租户注册页。</li>
           <li>适合先验证一个月真实团队使用，再决定是否长期续用。</li>
           <li>后续仍可继续续费，或切换到更稳定的年租节奏。</li>
         </ul>
@@ -145,7 +145,7 @@ lastUpdated: false
         <h3>年租怎么走</h3>
         <ul class="brand-list">
           <li>从同一页点击<strong>去年租开通</strong>。</li>
-          <li>同样会跳到标准 SaaS 单独租户注册页，但带的是年租方案参数。</li>
+          <li>同样会跳到标准 SaaS 正式租户注册页，但带的是年租方案参数。</li>
           <li>适合已经明确会长期使用 ExecGov 的团队。</li>
           <li>优点是正式服务周期更稳定，也减少月度反复处理续期开通动作。</li>
         </ul>
@@ -155,7 +155,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>注册后会得到什么</h3>
         <ul class="brand-list">
-          <li>正式单独租户工作台，不再继续停留在个人免费隐藏租户的页面语义里。</li>
+          <li>正式租户工作台，不再继续停留在个人免费隐藏租户的页面语义里。</li>
           <li>更适合继续接成员、角色、共享技能、审批和治理能力。</li>
           <li>后续如果要走私有化、内网、本地 Agent 或更高审计要求，也更容易继续转正式方案。</li>
         </ul>
@@ -179,7 +179,7 @@ lastUpdated: false
 | --- | --- | --- | --- |
 | 个人免费版 | 个人探索者、自动化爱好者 | 先用公开入口、技能库、上传、执行历史、社区和 CLI 指引感知价值 | 默认脚本位有限，不适合作为正式团队协作空间 |
 | 本地脚本位增购 | 已经开始在个人空间持续接脚本的人 | 在原有个人空间里继续扩容本地脚本位，付款后额度立即回填 | 这是一次性脚本位增购，不是完整订阅中心 |
-| 团队版月租 | 想先用一个月验证正式协作的人 | 切到标准 SaaS 单独租户，开始正式多人协作和更稳定的租户使用 | 最终价格与付款页以目标租户端为准 |
+| 团队版月租 | 想先用一个月验证正式协作的人 | 切到标准 SaaS 正式租户入口，开始正式多人协作和更稳定的租户使用 | 最终价格与付款页以目标租户端为准 |
 | 团队版年租 | 已明确长期使用的团队 | 正式租户周期更稳，减少月度反复续期开通动作 | 仍不是私有化默认入口，涉及更深边界建议直接沟通 |
 
   </section>
@@ -189,7 +189,7 @@ lastUpdated: false
     <h2>当前支付这条线，应该怎么对外描述</h2>
     <ul class="brand-list">
       <li>可以说：个人免费版本地脚本位支付已经完成最小闭环，<code>public</code> 超管订单生命周期也已经完成最小闭环。</li>
-      <li>可以说：免费页已经开放团队版月租 / 年租注册入口，并明确引导到标准 SaaS 单独租户。</li>
+      <li>可以说：免费页已经开放团队版月租 / 年租注册入口，并明确引导到标准 SaaS 正式租户入口。</li>
       <li>不能说：整个系统已经有完整通用自助账单中心。</li>
       <li>不能说：所有支付都已经接通正式第三方网关。</li>
       <li>更准确的公开口径是：<strong>个人轻量增购 + 正式租户注册升级路径已经成立，完整通用计费中心仍在继续收敛。</strong></li>

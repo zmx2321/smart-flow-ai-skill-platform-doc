@@ -165,7 +165,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>标准化小团队方案是不是已经完全开放</h3>
-        <p>标准化小团队方案、套餐化和更完整的产品能力会继续扩展。</p>
+        <p>还没有完全开放成最终完成态，但标准 SaaS 共享租户前端已经建立，月租 / 年租升级路径也已经存在，后续继续收口的是品牌化、初始化和更细菜单边界。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>体验页适合帮我判断什么</h3>
@@ -173,7 +173,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>注册成功后会去哪里</h3>
-        <p>当前成功后由提示框承接，再跳回登录页，而不是跳到独立欢迎页。</p>
+        <p>当前注册成功后会先进入独立结果页，再回到登录与个人主链路，不再只是靠提示框承接。</p>
       </article>
     </div>
   </section>

@@ -19,6 +19,14 @@ lastUpdated: false
       <strong>创始人故事、样板案例、产品介绍、价值说明、会员权益与价格说明、启动方式、交付背景</strong>。
       这样可以在尽量短的路径里，先完成定位判断，再进入项目评估和交付判断。
     </p>
+    <p class="brand-lead">
+      如果按销售或沟通路径来理解，当前最稳的四层梯度是：
+      <strong>免费线</strong>、
+      <strong>本地脚本位轻量增购</strong>、
+      <strong>团队版月租 / 年租正式租户入口</strong>、
+      <strong>企业版 / 私有化项目交付</strong>。
+      后面的资料都应该围绕这四层去讲，避免把个人扩容、标准团队协作和企业项目交付混成一套说法。
+    </p>
     <div class="brand-chip-list">
       <span class="brand-chip">创始人故事</span>
       <span class="brand-chip">样板案例</span>
@@ -135,6 +143,47 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Sales Ladder</p>
+    <h2>当前销售口径的四层梯度</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>层级</th>
+          <th>更适合谁</th>
+          <th>该怎么讲</th>
+          <th>建议入口</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01. 免费线</td>
+          <td>第一次接触平台的人</td>
+          <td>先感知价值，不急着报价，不急着讲复杂交付</td>
+          <td><a href="../guide/getting-started.html">快速开始</a> / <a href="../product/index.html">产品概览</a></td>
+        </tr>
+        <tr>
+          <td>02. 轻量增购</td>
+          <td>已经在个人空间持续接脚本的人</td>
+          <td>这是脚本位扩容，不是正式团队订阅</td>
+          <td><a href="./membership-benefits-pricing.html">会员权益与价格说明</a></td>
+        </tr>
+        <tr>
+          <td>03. 团队版</td>
+          <td>开始进入多人协作、正式租户使用的团队</td>
+          <td>走月租 / 年租正式租户入口，当前由共享 SaaS 前端承接，不把价格写死在资料页</td>
+          <td><a href="./membership-benefits-pricing.html">会员权益与价格说明</a> / <a href="../product/personal-billing-membership.html">支付与会员说明</a></td>
+        </tr>
+        <tr>
+          <td>04. 企业交付</td>
+          <td>需要更强隔离、内网、私有化或正式项目交付的客户</td>
+          <td>不走标准会员口径，直接按场景、部署和交付边界沟通</td>
+          <td><a href="./service-packages.html">启动方式 / 服务包</a> / <a href="../product/deployment.html">部署方式</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">Page Guide</p>
     <h2>按问题进入</h2>
     <table>
@@ -174,7 +223,7 @@ lastUpdated: false
         <tr>
           <td>该怎么讲会员权益和价格</td>
           <td><a href="./membership-benefits-pricing.html">会员权益与价格说明</a></td>
-          <td>免费线、脚本位增购、团队版月租 / 年租和企业项目的口径拆分</td>
+          <td>免费线、脚本位增购、团队版月租 / 年租正式租户入口和企业项目的口径拆分</td>
           <td>客户、售前、朋友试用引导者</td>
         </tr>
         <tr>
@@ -238,7 +287,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./membership-benefits-pricing.html">
         <span>Step 05</span>
         <strong>会员权益与价格说明</strong>
-        <p>进入试用、报价或销售沟通时，先把免费线、增购和团队版口径拆开。</p>
+        <p>进入试用、报价或销售沟通时，先把免费线、增购、团队版和企业交付口径拆开。</p>
       </a>
       <a class="brand-link-card" href="./service-packages.html">
         <span>Step 06</span>
