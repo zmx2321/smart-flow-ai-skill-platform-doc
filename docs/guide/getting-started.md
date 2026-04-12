@@ -137,7 +137,7 @@ lastUpdated: false
           <td><code>/experience</code></td>
           <td>当前正式公开体验页</td>
           <td>第一次体验的人</td>
-          <td>它是真实入口，不是只用于截图展示的占位页。</td>
+          <td>它是真实入口，不是只用于截图展示的占位页；当前左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`。</td>
         </tr>
         <tr>
           <td><code>/login</code></td>
@@ -218,7 +218,9 @@ lastUpdated: false
       <h2>开始前先知道这些</h2>
       <ul class="brand-list">
         <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
+        <li>体验页 demo 当前来自 <code>exec-gov-ai-skill-platform-script/testing/tenant_1000/experience/</code>，由 manifest 热插拔映射。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
+        <li>当前 Web 上传注册已支持 <code>.py / .sh / .bash</code>。</li>
         <li>如果只是个人继续使用但还没进入多人协作，先看本地脚本位增购，不要急着跳企业路径。</li>
         <li>如果只是标准能力和较轻协作，可以优先评估共享 SaaS 共享租户路径。</li>
         <li><code>execgov-cli</code> 当前已可用，本地接入能力会继续增强。</li>

@@ -84,7 +84,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>1. 准备脚本目录</h3>
-        <p>按约定准备脚本目录，至少包含 <code>main.py</code> 和 <code>README.md</code>。README 至少说明脚本作用、输入、输出和执行前置条件。</p>
+        <p>按约定准备脚本目录，至少包含入口脚本和 <code>README.md</code>。当前 Python / Shell 文本脚本默认入口分别是 <code>main.py</code> / <code>main.sh</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. 提交到所属租户范围</h3>
@@ -126,7 +126,7 @@ lastUpdated: false
           <td>脚本文件</td>
           <td>必须</td>
           <td>作为实际执行内容</td>
-          <td>至少包含 <code>main.py</code></td>
+          <td>至少包含约定入口文件；当前 Python / Shell 默认是 <code>main.py</code> / <code>main.sh</code></td>
         </tr>
         <tr>
           <td>README.md</td>

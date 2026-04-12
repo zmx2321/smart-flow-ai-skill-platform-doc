@@ -4,7 +4,7 @@ layout: home
 hero:
   name: ExecGov
   text: 执治
-  tagline: 以 Python 脚本为第一种成熟执行资产，帮你把团队里那些散装的、危险的脚本管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录。
+  tagline: 以 Python 脚本为第一种成熟执行资产，Web 端已支持 Python / Shell 脚本接入，帮你把团队里那些散装的、危险的脚本管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录。
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
@@ -76,6 +76,12 @@ features:
         <p class="landing-lead">
           ExecGov 当前先把最常见、也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
           你可以先从公开体验入口走完一条简化流程，再决定是否接入自己的真实场景。
+        </p>
+        <p class="landing-lead">
+          当前 Web 上传注册入口已经统一支持 <strong>Python / Shell</strong> 文本脚本；公开体验页固定展示
+          <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
+          真实体验脚本来自 <code>exec-gov-ai-skill-platform-script/testing/tenant_1000/experience/</code>，
+          由 manifest 做热插拔映射。
         </p>
         <p class="landing-lead">
           当前已经完成第一轮兼容式升级：平台新增了通用资源层和执行器注册层，第一种非脚本能力样板

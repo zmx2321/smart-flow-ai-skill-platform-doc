@@ -61,7 +61,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>它是不是一个普通聊天系统</h3>
-        <p>不是。它是一个让 AI 在规则内调用和执行真实能力的平台，当前最成熟的执行资产是 Python 脚本。</p>
+        <p>不是。它是一个让 AI 在规则内调用和执行真实能力的平台，当前最成熟的执行资产是 Python 脚本；同时 Web 端上传注册已经支持 Python / Shell。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>它适合哪些人</h3>
@@ -162,7 +162,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>是不是所有脚本类型都已经完整支持远程入库</h3>
-        <p>远程注册目前主要围绕 Python 脚本，更多类型会继续扩展。</p>
+        <p>网页端上传注册现在已经支持 Python / Shell 文本脚本；但 CLI 远程注册目前仍主要围绕 Python，更多类型会继续扩展。</p>
       </article>
     </div>
   </section>
@@ -181,7 +181,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>体验页适合帮我判断什么</h3>
-        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合继续走免费线、本地脚本位、标准团队版还是企业咨询。</p>
+        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合继续走免费线、本地脚本位、标准团队版还是企业咨询。当前体验页左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>注册成功后会去哪里</h3>
