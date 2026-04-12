@@ -88,12 +88,17 @@ features:
           这条 <strong>1.1</strong> 路线已经先落到 <strong>public 超管</strong> 侧：订单创建、确认支付、开通 / 续费、续费提醒扫描、到期停开扫描都会回写客户与租户状态。
           但这并不等于终端用户已经可以完整自助支付。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
         </p>
+        <p class="landing-lead">
+          同时，标准 SaaS 共享租户前端骨架也已经建立：从 <strong>tenant_1003+</strong> 开始，标准 SaaS 客户不再默认一客户复制一套前端工程，
+          而是优先走共享租户前端。它当前已经能承接正式租户入口，但品牌化、初始化和更细菜单边界仍在继续收口。
+        </p>
         <div class="landing-brand__chips">
           <span>脚本治理</span>
           <span>执行留痕</span>
           <span>审计留痕</span>
           <span>本地桥接</span>
           <span>安全可控</span>
+          <span>共享 SaaS</span>
         </div>
         <div class="landing-brand__quick-grid">
           <article class="landing-brand__quick-card">
@@ -199,6 +204,10 @@ features:
       </p>
       <p class="landing-lead">
         从商业化主线看，当前最实际的进度不是“已经做成完整 SaaS 收费台”，而是“已经先把平台运营侧的收费与生命周期骨架跑起来”；用户自助链路仍在继续补齐。
+      </p>
+      <p class="landing-lead">
+        对正式客户来说，当前已经不是只有“一客户一套前端代码副本”这一条路。标准 SaaS 客户可以先走共享租户前端；
+        如果需要更强隔离、专属页面、专属品牌或更深部署控制，再继续走单租户交付或私有化。
       </p>
     </div>
     <div class="landing-metrics">
@@ -469,7 +478,7 @@ features:
       </article>
       <article class="landing-card">
         <h3>开发者与小团队</h3>
-        <p>需要把已有脚本整理成可调用、可描述、可维护的能力，并保留本地执行路径。</p>
+        <p>需要把已有脚本整理成可调用、可描述、可维护的能力，并在免费入口、共享 SaaS 或本地执行路径之间找到合适的起步方式。</p>
       </article>
     </div>
   </section>
@@ -482,7 +491,11 @@ features:
     <div class="landing-grid landing-grid--two">
       <article class="mode-card">
         <h3>单租户交付</h3>
-        <p>面向企业客户交付，一个客户一个租户，一个入口，一套可持续维护的能力边界。</p>
+        <p>面向需要更强隔离、专属页面、专属品牌或更深部署控制的企业客户，一个客户一个租户，一个入口，一套可持续维护的能力边界。</p>
+      </article>
+      <article class="mode-card">
+        <h3>标准 SaaS 共享租户</h3>
+        <p>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户优先进入共享租户前端。共享的是正式发版节奏，不共享租户数据、权限和结果。</p>
       </article>
       <article class="mode-card">
         <h3>平台总控治理</h3>
@@ -565,6 +578,11 @@ features:
       <span class="link-panel-label">Delivery</span>
       <strong>客户流程 / 交付</strong>
       <p>单独看客户怎么使用平台、平台怎么交付，以及脚本热更新如何形成正式闭环。</p>
+    </a>
+    <a class="link-panel" href="./product/personal-billing-membership.html">
+      <span class="link-panel-label">Billing</span>
+      <strong>支付与会员</strong>
+      <p>单独看个人免费页怎么付款、团队版月租 / 年租怎么注册，以及当前支付这条线已经完成到哪。</p>
     </a>
     <a class="link-panel" href="./product/file-results.html">
       <span class="link-panel-label">Files</span>

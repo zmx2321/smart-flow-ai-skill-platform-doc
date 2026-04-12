@@ -102,6 +102,8 @@
   --smartflow-matrix-token-value: #081118;
   --smartflow-matrix-token-sep: #0284c7;
   --smartflow-matrix-token-glow: rgba(2, 132, 199, 0.1);
+  --smartflow-gradient-button-text: #666;
+  --smartflow-gradient-button-text-hover: #1f2937;
 }
 
 html {
@@ -209,6 +211,8 @@ html:not(.dark) {
   --smartflow-matrix-token-value: #f4fffb;
   --smartflow-matrix-token-sep: #41ecff;
   --smartflow-matrix-token-glow: rgba(65, 236, 255, 0.18);
+  --smartflow-gradient-button-text: #666;
+  --smartflow-gradient-button-text-hover: #1f2937;
 }
 
 body {
@@ -873,13 +877,46 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 }
 
 .VPHome .VPHero.has-image .text {
-  display: block;
-  max-width: none;
-  line-height: 1.08;
+  display: inline-flex;
+  width: auto;
+  max-width: 100%;
+  min-height: 0;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-wrap: nowrap;
+  text-align: left;
+  font-size: clamp(1.32rem, 2.1vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.VPHome .VPHero.has-image .text::before {
+  content: none;
 }
 
 .VPHome .VPHero.has-image .text::after {
-  content: none;
+  content: "Execution Governance";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 14px;
+  border: 1px solid rgba(83, 235, 196, 0.18);
+  border-radius: 999px;
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.18), rgba(37, 99, 235, 0.16)),
+    rgba(7, 20, 17, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 10px 24px rgba(0, 0, 0, 0.18);
+  color: rgba(226, 255, 246, 0.92);
+  font-family: var(--smartflow-mono-font);
+  font-size: clamp(0.66rem, 0.88vw, 0.78rem);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .VPHome .VPHero.has-image .name::before {
@@ -972,7 +1009,7 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .cta-button--brand {
   border: none;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
-  color: #333 !important;
+  color: var(--smartflow-gradient-button-text) !important;
   text-shadow: none;
 }
 
@@ -980,8 +1017,13 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .dark .cta-button--brand {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
-  color: #333 !important;
+  color: var(--smartflow-gradient-button-text) !important;
   text-shadow: none;
+}
+
+.VPHero .action .VPButton.brand:hover,
+.cta-button--brand:hover {
+  color: var(--smartflow-gradient-button-text-hover) !important;
 }
 
 .VPHero .action .VPButton.alt {
@@ -2144,7 +2186,7 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
 }
 
 .cta-button:hover {
@@ -2157,7 +2199,7 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .cta-button--brand:visited {
   border-color: transparent;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
-  color: #333 !important;
+  color: var(--smartflow-gradient-button-text) !important;
   text-shadow: none;
 }
 
@@ -2166,8 +2208,13 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 .dark .cta-button--brand:visited {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
-  color: #333 !important;
+  color: var(--smartflow-gradient-button-text) !important;
   text-shadow: none;
+}
+
+.cta-button--brand:hover,
+.cta-button--brand:focus-visible {
+  color: var(--smartflow-gradient-button-text-hover) !important;
 }
 
 .brand-page-shell {
@@ -3384,7 +3431,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   background: rgba(255, 255, 255, 0.5);
   color: inherit;
   text-decoration: none;
-  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
 }
 
 .dark .brand-page-shell--founder-profile .founder-profile-action-link {
@@ -3435,11 +3482,21 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--founder-profile .founder-profile-action-link--primary span {
   color: #1c6d67;
   text-shadow: none;
+  transition: color 0.18s ease;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary strong {
-  color: #333;
+  color: var(--smartflow-gradient-button-text);
   text-shadow: none;
+  transition: color 0.18s ease;
+}
+
+.brand-page-shell--founder-profile .founder-profile-action-link--primary:hover span {
+  color: #0f5d58;
+}
+
+.brand-page-shell--founder-profile .founder-profile-action-link--primary:hover strong {
+  color: var(--smartflow-gradient-button-text-hover);
 }
 
 @media (max-width: 520px) {
@@ -3811,6 +3868,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   }
 
   .VPHome .VPHero.has-image .text {
+    gap: 10px;
     margin-bottom: 12px;
   }
 
@@ -3919,6 +3977,18 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
   .VPHero .text {
     font-size: 1.04rem;
+  }
+
+  .VPHome .VPHero.has-image .text {
+    gap: 8px;
+    font-size: 1.18rem;
+  }
+
+  .VPHome .VPHero.has-image .text::after {
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 0.58rem;
+    letter-spacing: 0.1em;
   }
 
   .landing-section-head h2,

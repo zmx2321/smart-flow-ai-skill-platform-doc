@@ -76,9 +76,25 @@ lastUpdated: false
         <li>一个客户一个租户，一个客户一个网址</li>
         <li>客户只在自己的租户空间里使用自己的专属能力</li>
         <li>平台优先保证安全隔离和稳定执行</li>
+        <li>标准 SaaS 场景下，共享的是前端发版节奏，不共享租户数据和权限</li>
         <li>当前不默认包含公开第三方能力市场、客户自行发版、无审批高风险自动执行</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Shared SaaS Boundary</p>
+    <h2>标准 SaaS 共享租户怎么理解</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>当前成立的部分</h3>
+        <p>标准 SaaS 客户当前可以走共享租户前端。运行时仍按 Host 绑定租户 schema，所以客户看到的仍然是自己的菜单、账号、能力和数据边界。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>当前不该误判的部分</h3>
+        <p>这不等于每个客户都拥有一套独立前端代码副本。共享的是正式前端包与发版节奏，真正更重的专属前端、品牌化和深度定制仍然要走正式迭代或单独交付。</p>
+      </article>
+    </div>
   </section>
 
   <section class="brand-card">
@@ -143,7 +159,7 @@ lastUpdated: false
           <td>独立访问网址</td>
           <td>自己的访问入口</td>
           <td>开通访问地址与登录入口</td>
-          <td>一个客户一个网址</td>
+          <td>单租户和共享 SaaS 都成立；共享 SaaS 当前按 Host 绑定租户</td>
         </tr>
         <tr>
           <td>登录账号</td>
@@ -168,6 +184,12 @@ lastUpdated: false
           <td>脚本新增 / 更新的接入流程</td>
           <td>给出目录规范、审核流程和授权方式</td>
           <td>默认仍由平台审核</td>
+        </tr>
+        <tr>
+          <td>菜单扩展</td>
+          <td>已有页面入口、外链或 iframe 菜单</td>
+          <td>配置菜单、校验边界、控制发版节奏</td>
+          <td>新增正式前端页面仍需开发、打包和部署</td>
         </tr>
         <tr>
           <td>本地混合执行</td>
@@ -218,13 +240,24 @@ lastUpdated: false
       </tr>
       <tr>
         <td>希望直接买标准团队产品</td>
-        <td>先按当前交付路径评估，再关注 <a href="./editions.html">版本路线</a></td>
-        <td>标准化小团队方案属于 <code>2.0</code> 方向</td>
-        <td>当前公开已经有可用基础的是企业交付主线和个人免费入口，标准化小团队方案仍在下一阶段。</td>
+        <td>优先看标准 SaaS 共享租户路径，再结合 <a href="./editions.html">版本路线</a> 判断是否够用</td>
+        <td>当前已有共享租户骨架，仍在继续收口</td>
+        <td>如果只是标准能力和较轻协作，可先走共享 SaaS；如果要专属页面、专属品牌或更重隔离，再转单租户或私有化。</td>
       </tr>
     </tbody>
   </table>
 </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Menu Rules</p>
+    <h2>菜单定制边界</h2>
+    <ul class="brand-list">
+      <li>已有正式页面可以通过数据库菜单直接挂载</li>
+      <li>外链和 iframe 入口也可以纳入菜单体系</li>
+      <li>如果客户要的是当前前端包里没有的新页面，仍然要进入正式前端开发和重新部署流程</li>
+      <li>当前共享 SaaS 不支持让租户自行上传任意 Vue / JS 成为正式产品页面</li>
+    </ul>
+  </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Customer Usage</p>

@@ -115,7 +115,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>多租户交付站点</h3>
-        <p>用于承接不同客户或不同环境的交付前端，保持边界清晰、互不混用。</p>
+        <p>用于承接不同客户或不同环境的交付前端。当前已经分出单租户前端和共享 SaaS 租户前端两条现实路径，不再默认每来一个客户就复制一套前端工程。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>个人体验入口</h3>
@@ -199,6 +199,29 @@ lastUpdated: false
         <p><code>public</code> 负责平台治理与共享底座，客户不会直接把它当成自己的业务租户来用。</p>
       </article>
     </div>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Shared Tenant Front</p>
+      <h2>共享 SaaS 租户前端</h2>
+      <ul class="brand-list">
+        <li>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户会优先进入共享租户前端骨架</li>
+        <li>共享的是前端工程和发版节奏，不共享租户数据、菜单权限和执行结果</li>
+        <li>运行时仍按访问 Host 切到对应 schema</li>
+        <li>这条路径适合标准能力和较轻团队协作场景</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Shell Role</p>
+      <h2><code>exec-gov-shell</code> 的真实定位</h2>
+      <ul class="brand-list">
+        <li>它主要用于多入口聚合、联调和最终同步</li>
+        <li>它不是客户长期正式运行入口</li>
+        <li>客户正式使用时，仍以正式单项目或共享租户前端为准</li>
+        <li>这能减少“壳层成真相、正式工程反而漂移”的问题</li>
+      </ul>
+    </article>
   </section>
 
   <section class="brand-grid brand-grid--two">

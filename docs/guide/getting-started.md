@@ -69,7 +69,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">03</p>
       <h2>它已经有交付主线</h2>
-      <p>企业方向当前以“一个客户一个租户、一个客户一个网址”的交付模型为主线。</p>
+      <p>当前已经形成“标准 SaaS 共享租户 + 企业单租户交付”两条现实路径，不再只有一种正式接入方式。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">04</p>
@@ -107,7 +107,13 @@ lastUpdated: false
           <td><code>/register</code></td>
           <td>当前正式注册页</td>
           <td>还没有账号的人</td>
-          <td>注册成功当前由成功提示框承接，然后返回登录页，不是独立成功页。</td>
+          <td>注册成功后当前会进入独立结果页，再回到登录与个人主链路。</td>
+        </tr>
+        <tr>
+          <td><code>/register/result</code></td>
+          <td>当前正式结果页</td>
+          <td>刚注册完成的人</td>
+          <td>专门承接注册成功后的下一步，不再只靠成功提示框。</td>
         </tr>
         <tr>
           <td>产品文档</td>
@@ -157,7 +163,7 @@ lastUpdated: false
       <h2>团队 / 客户交付路径</h2>
       <ol class="brand-list">
         <li>先看客户流程 / 交付，理解实际使用和热更新路径</li>
-        <li>再看部署方式，判断是否要单租户、平台治理或混合执行</li>
+        <li>再看部署方式，判断是否要共享 SaaS、单租户、平台治理或混合执行</li>
         <li>确认适合你的版本与交付方式</li>
         <li>最后通过联系页进入试用或演示沟通</li>
       </ol>
@@ -171,6 +177,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
+        <li>如果只是标准能力和较轻协作，可以优先评估共享 SaaS 共享租户路径。</li>
         <li><code>execgov-cli</code> 当前已可用，本地接入能力会继续增强。</li>
         <li>如果你本来就是团队或企业场景，直接走试用 / 演示沟通通常更高效。</li>
       </ul>
@@ -181,6 +188,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>企业 <code>1.0</code> 交付主线已经成立。</li>
         <li>个人免费入口已经成立。</li>
+        <li>标准 SaaS 共享租户前端已经建立，并在继续收口。</li>
         <li>CLI 最小桥梁能力已经成立。</li>
         <li>标准团队协作能力和更丰富的套餐能力会继续扩展。</li>
       </ul>

@@ -112,6 +112,26 @@ lastUpdated: false
   </section>
 
 <section class="brand-card">
+  <p class="brand-kicker">Shared SaaS</p>
+  <h2>标准 SaaS 共享租户模式</h2>
+  <div class="brand-grid brand-grid--two">
+    <article class="brand-card brand-card--nested">
+      <h3>当前怎么运行</h3>
+      <p>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户会优先进入共享租户前端骨架。运行时按访问 Host 绑定 schema，所以仍然是租户隔离，不是把所有客户塞进同一个后台账号里混用。</p>
+    </article>
+    <article class="brand-card brand-card--nested">
+      <h3>适合什么场景</h3>
+      <p>更适合标准能力、较轻团队协作和不需要深度前端定制的场景。如果客户需要更重的隔离、专属页面、专属品牌或更深部署控制，再继续走单租户交付或私有化。</p>
+    </article>
+  </div>
+  <ul class="brand-list">
+    <li>共享的是前端工程与正式发版节奏，不共享租户数据、账号和权限</li>
+    <li>标准 SaaS 客户仍然按自己的租户空间使用能力、菜单、公告和结果</li>
+    <li>当前共享租户前端已经建立，但按租户动态品牌化和更细部署参数还在继续收口</li>
+  </ul>
+</section>
+
+<section class="brand-card">
   <p class="brand-kicker">Upgrade Path</p>
   <h2>从免费入口到正式交付，当前更真实的升级路径</h2>
   <table>
@@ -145,8 +165,8 @@ lastUpdated: false
       <tr>
         <td>04. 正式交付期</td>
         <td>客户要拿到自己的访问地址、自己的能力边界和正式交付包</td>
-        <td>当前主线是单租户交付：一个客户一个租户，一个客户一个网址</td>
-        <td>如果要统一管理多个客户，再叠加平台治理能力</td>
+        <td>当前有两条更现实的路径：标准 SaaS 共享租户，或企业单租户交付。前者偏标准化，后者偏更强隔离与更深定制。</td>
+        <td>如果只是标准协作与标准菜单，优先共享 SaaS；如果需要专属环境和更深定制，再走单租户交付</td>
       </tr>
       <tr>
         <td>05. 本地扩展期</td>
@@ -222,10 +242,22 @@ lastUpdated: false
       <ul class="brand-list">
         <li>公开第三方能力市场</li>
         <li>客户绕过平台自行发布脚本</li>
+        <li>客户自行上传任意 Vue / JS 当成正式前端页面</li>
         <li>无审批的高风险自动执行</li>
         <li>打破租户边界的跨客户能力共享</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Menu Boundary</p>
+    <h2>菜单定制边界</h2>
+    <ul class="brand-list">
+      <li>客户可以通过数据库菜单挂已有页面</li>
+      <li>客户可以挂外链或 iframe 类型入口</li>
+      <li>如果要新增当前前端包里不存在的新页面，仍需要正式前端开发、打包和部署</li>
+      <li>共享 SaaS 当前不支持让租户自行上传任意前端代码直接变成正式页面</li>
+    </ul>
   </section>
 
   <section class="brand-card">

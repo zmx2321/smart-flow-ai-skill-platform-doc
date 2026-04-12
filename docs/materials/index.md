@@ -11,12 +11,12 @@ lastUpdated: false
     <h1>介绍资料</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Presentation Kit</span>
-      <strong>ExecGov 对外资料覆盖创始人故事、样板案例、平台定位、价值判断、启动方式和交付背景，方便第一次接触时快速判断是否值得继续往下看。</strong>
+      <strong>ExecGov 对外资料覆盖创始人故事、样板案例、平台定位、价值判断、会员权益与价格说明、启动方式和交付背景，方便第一次接触时快速判断是否值得继续往下看。</strong>
       <p>资料按判断问题组织，便于快速进入对应内容。</p>
     </div>
     <p class="brand-lead">
-      ExecGov 的对外资料分成六条主线：
-      <strong>创始人故事、样板案例、产品介绍、价值说明、启动方式、交付背景</strong>。
+      ExecGov 的对外资料分成七条主线：
+      <strong>创始人故事、样板案例、产品介绍、价值说明、会员权益与价格说明、启动方式、交付背景</strong>。
       这样可以在尽量短的路径里，先完成定位判断，再进入项目评估和交付判断。
     </p>
     <div class="brand-chip-list">
@@ -24,6 +24,7 @@ lastUpdated: false
       <span class="brand-chip">样板案例</span>
       <span class="brand-chip">产品介绍</span>
       <span class="brand-chip">价值判断</span>
+      <span class="brand-chip">会员权益与价格说明</span>
       <span class="brand-chip">启动方式</span>
       <span class="brand-chip">交付背景</span>
     </div>
@@ -32,6 +33,7 @@ lastUpdated: false
       <a class="cta-button" href="./case-studies.html">看样板案例</a>
       <a class="cta-button" href="./pitch.html">看介绍提纲</a>
       <a class="cta-button" href="./value.html">看价值说明</a>
+      <a class="cta-button" href="./membership-benefits-pricing.html">看会员权益与价格说明</a>
       <a class="cta-button" href="./service-packages.html">看启动方式</a>
     </div>
   </div>
@@ -106,6 +108,11 @@ lastUpdated: false
       <p>回答效率、可控性、治理边界和长期价值，适合老板、业务负责人和技术决策者。</p>
     </article>
     <article class="brand-card">
+      <p class="brand-kicker">Membership</p>
+      <h2>会员权益与价格说明</h2>
+      <p>把免费线、本地脚本位增购、团队版月租 / 年租和企业项目的销售口径拆开，避免把价格和路径讲乱。</p>
+    </article>
+    <article class="brand-card">
       <p class="brand-kicker">Cooperation</p>
       <h2>启动方式 / 服务包</h2>
       <p>回答项目应该如何起步、如何收口第一阶段，以及更适合按什么方式启动。</p>
@@ -165,6 +172,12 @@ lastUpdated: false
           <td>老板、业务负责人、技术决策者</td>
         </tr>
         <tr>
+          <td>该怎么讲会员权益和价格</td>
+          <td><a href="./membership-benefits-pricing.html">会员权益与价格说明</a></td>
+          <td>免费线、脚本位增购、团队版月租 / 年租和企业项目的口径拆分</td>
+          <td>客户、售前、朋友试用引导者</td>
+        </tr>
+        <tr>
           <td>项目该怎么开始谈</td>
           <td><a href="./service-packages.html">启动方式 / 服务包</a></td>
           <td>第一阶段怎么收口、适合什么合作模式、如何降低启动风险</td>
@@ -222,23 +235,28 @@ lastUpdated: false
         <strong>价值说明</strong>
         <p>再判断为什么值得推进，以及价值来自哪里。</p>
       </a>
-      <a class="brand-link-card" href="./service-packages.html">
+      <a class="brand-link-card" href="./membership-benefits-pricing.html">
         <span>Step 05</span>
+        <strong>会员权益与价格说明</strong>
+        <p>进入试用、报价或销售沟通时，先把免费线、增购和团队版口径拆开。</p>
+      </a>
+      <a class="brand-link-card" href="./service-packages.html">
+        <span>Step 06</span>
         <strong>启动方式 / 服务包</strong>
         <p>已经接近真实项目时，先看合作结构和第一阶段收口方式。</p>
       </a>
       <a class="brand-link-card" href="./founder-profile.html">
-        <span>Step 06</span>
+        <span>Step 07</span>
         <strong>交付背景与项目经历</strong>
         <p>继续判断交付可信度和平台能力来源。</p>
       </a>
       <a class="brand-link-card" href="../product/index.html">
-        <span>Step 07</span>
+        <span>Step 08</span>
         <strong>产品概览</strong>
         <p>进一步深挖真实能力、模块结构和产品主线。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
-        <span>Step 08</span>
+        <span>Step 09</span>
           <strong>沟通真实场景</strong>
         <p>进入真实沟通、评估和演示阶段。</p>
       </a>
@@ -290,6 +308,10 @@ lastUpdated: false
         <a class="brand-link-card" href="./value.html">
           <span>Value</span>
           <strong>价值说明</strong>
+        </a>
+        <a class="brand-link-card" href="./membership-benefits-pricing.html">
+          <span>Pricing</span>
+          <strong>会员权益与价格说明</strong>
         </a>
         <a class="brand-link-card" href="./service-packages.html">
           <span>Cooperation</span>

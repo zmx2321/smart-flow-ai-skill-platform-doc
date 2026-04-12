@@ -47,12 +47,17 @@ lastUpdated: false
         个人免费版前台也已经接通本地脚本位的轻量自助增购，但当前还不能把它定义为“完整支付中心”。
         真实第三方支付网关、用户账单中心和外发提醒渠道仍在继续补。
       </p>
+      <p>
+        同时，标准 SaaS 共享租户前端骨架也已经建立：从 <code>tenant_1003+</code> 开始，标准 SaaS 客户不再默认一客户复制一套前端工程，
+        而是优先走共享租户前端。它当前已经能承接正式租户入口，但品牌化、初始化和更细菜单边界还在继续收口。
+      </p>
       <div class="brand-chip-list">
         <span class="brand-chip">多租户治理</span>
         <span class="brand-chip">可信执行</span>
         <span class="brand-chip">试用入口</span>
         <span class="brand-chip">CLI / Agent 路线</span>
         <span class="brand-chip">HTTP 样板已落地</span>
+        <span class="brand-chip">共享 SaaS</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../guide/getting-started.html">立即免费体验</a>
@@ -114,6 +119,10 @@ lastUpdated: false
               <span>生命周期</span>
               <strong>1.1 的订单、开通、续费和停开骨架已先落第一段</strong>
             </div>
+            <div class="product-signal-check">
+              <span>标准团队路径</span>
+              <strong>标准 SaaS 共享租户前端已经建立，不再默认复制新前端工程</strong>
+            </div>
           </div>
         </article>
       </div>
@@ -129,6 +138,8 @@ lastUpdated: false
         <li>平台已经落下通用资源层和执行器注册层，第一种非脚本样板是 public 超管侧的 HTTP 能力接入；租户侧也已经有只读可见台账。</li>
         <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在 public 超管侧，不把它包装成通用 API 平台。</li>
         <li>1.1 已先在 public 超管侧落下订单与生命周期骨架，并在个人免费版前台落下一条轻量自助增购链路，但仍未对外承诺完整用户自助支付。</li>
+        <li>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户当前优先走共享租户前端；需要更强隔离或更深定制时，再走单租户交付或私有化。</li>
+        <li><code>exec-gov-shell</code> 主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口。</li>
         <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
       </ul>
   </section>
@@ -244,6 +255,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>团队与企业</h3>
         <ul class="brand-list">
+          <li>如果只是标准能力和较轻协作，可优先评估共享 SaaS 共享租户路径。</li>
           <li>如果需要多人协作、权限控制、审计或本地接入，直接沟通场景和交付边界。</li>
           <li>如果涉及内网、合规或私有化交付，可继续咨询企业方案。</li>
           <li>先明确业务场景，再决定部署与交付方式，会比先比较功能表更有效。</li>
@@ -290,23 +302,28 @@ lastUpdated: false
         <strong>客户流程 / 交付</strong>
         <p>直接看客户怎么用、平台怎么交付，以及脚本热更新当前如何闭环。</p>
       </a>
-      <a class="brand-link-card" href="./architecture.html">
+      <a class="brand-link-card" href="./personal-billing-membership.html">
         <span>Step 04</span>
+        <strong>支付与会员</strong>
+        <p>单独看个人免费页怎么付款、团队版月租 / 年租怎么注册，以及当前支付这条线到底完成到哪。</p>
+      </a>
+      <a class="brand-link-card" href="./architecture.html">
+        <span>Step 05</span>
         <strong>架构说明</strong>
         <p>理解后端、超管、免费版、交付前端和本地接入之间的关系。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
-        <span>Step 05</span>
+        <span>Step 06</span>
         <strong>CLI 指引</strong>
         <p>直接看当前已经落地的 <code>login / register / list / run / agent</code> 命令边界。</p>
       </a>
       <a class="brand-link-card" href="./deployment.html">
-        <span>Step 06</span>
+        <span>Step 07</span>
         <strong>部署方式</strong>
-        <p>看平台如何覆盖单租户交付、平台治理、免费入口和本地混合执行。</p>
+        <p>看平台如何覆盖共享 SaaS、单租户交付、平台治理、免费入口和本地混合执行。</p>
       </a>
       <a class="brand-link-card" href="./editions.html">
-        <span>Step 07</span>
+        <span>Step 08</span>
         <strong>当前阶段</strong>
         <p>最后看当前 1.0 在做什么、下一步重点放哪里，以及为什么现在不把路线讲得太远。</p>
       </a>
@@ -376,6 +393,10 @@ lastUpdated: false
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
           <strong>客户流程 / 交付</strong>
+        </a>
+        <a class="brand-link-card" href="./personal-billing-membership.html">
+          <span>Billing</span>
+          <strong>支付与会员</strong>
         </a>
         <a class="brand-link-card" href="./capabilities.html">
           <span>Capability</span>
