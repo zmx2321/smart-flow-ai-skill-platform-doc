@@ -536,6 +536,15 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
   transform: translateX(2px);
 }
 
+@media (min-width: 1280px) {
+  .VPNavBarTranslations .menu {
+    top: calc(100% + 10px);
+    right: auto;
+    left: 50%;
+    translate: -50% 0;
+  }
+}
+
 .VPSidebar {
   background: transparent !important;
 }
