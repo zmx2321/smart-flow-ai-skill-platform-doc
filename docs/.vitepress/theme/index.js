@@ -12,16 +12,16 @@ const themeCopy = {
   root: {
     heroRequest: "'帮我清理服务器日志'",
     heroComment: "// 先看体验入口，再决定继续注册、沟通场景还是正式交付",
-    noteKicker: "Co-Build Program",
-    noteLead: "我们正在寻找首批标杆共创客户。如果你正受困于 AI 落地过程中的管控、审计、集成或本地接入难题，欢迎继续沟通，",
-    noteEmphasis: "一起把下一代企业智能工作流定义清楚。",
+    noteKicker: "Scenario Entry",
+    noteLead: "如果你想判断现有脚本、文件流程或本地执行任务是否适合接入 ExecGov，可以先带一个真实场景来沟通，",
+    noteEmphasis: "先把边界、执行方式和结果回传讲清楚。",
   },
   en: {
     heroRequest: "'Help me clean up the server logs'",
     heroComment: "// Start with the public entry, then decide on signup, a scoped conversation, or formal delivery",
-    noteKicker: "Co-Build Program",
-    noteLead: "We are looking for the first design partners who want to shape governed AI execution in production. If you are dealing with control, audit, integration, or local-bridge challenges, let's keep talking and ",
-    noteEmphasis: "define the next generation of enterprise workflows together.",
+    noteKicker: "Scenario Entry",
+    noteLead: "If you want to judge whether your current scripts, file workflows, or local execution tasks fit ExecGov, bring one real scenario first and ",
+    noteEmphasis: "clarify the boundary, execution path, and result return.",
   },
 }
 
@@ -118,6 +118,20 @@ const syncNavbarTopState = () => {
   })
 }
 
+const syncSidebarLayoutState = () => {
+  if (!inBrowser) {
+    return
+  }
+
+  const value = document.querySelector(".VPSidebar") ? "true" : "false"
+
+  document.documentElement.setAttribute("data-smartflow-has-sidebar", value)
+
+  document.querySelectorAll(".VPNavBar").forEach((node) => {
+    node.setAttribute("data-smartflow-has-sidebar", value)
+  })
+}
+
 const useThemeCopy = () => {
   const route = useRoute()
 
@@ -137,6 +151,7 @@ const ThemeStateSync = {
 
       frame = 0
       syncCurrentMenuState()
+      syncSidebarLayoutState()
       syncNavbarTopState()
     }
 

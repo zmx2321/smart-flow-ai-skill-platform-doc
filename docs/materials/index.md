@@ -140,6 +140,11 @@ lastUpdated: false
       <h2>项目与履历</h2>
       <p>提供更标准的技能栈、项目经历、代表项目和公开联系方式，适合需要进一步核实背景的人查看。</p>
     </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Boundary</p>
+      <h2>源码交付与授权边界</h2>
+      <p>说明标准交付、私有化部署和源码授权之间的区别，避免对交付范围产生误解。</p>
+    </article>
   </section>
 
   <section class="brand-card">
@@ -251,6 +256,12 @@ lastUpdated: false
           <td>技术负责人、需要核实背景的人</td>
         </tr>
         <tr>
+          <td>如果想确认源码、私有化和授权边界，应该看哪里</td>
+          <td><a href="./source-delivery-boundaries.html">源码交付与授权边界说明</a></td>
+          <td>标准交付、私有化部署、源码授权三种边界说明</td>
+          <td>客户、项目负责人、合作方</td>
+        </tr>
+        <tr>
           <td>想看产品主线文档</td>
           <td><a href="../guide/index.html">开始使用</a></td>
           <td>平台结构、能力组织方式和文档主入口</td>
@@ -330,6 +341,11 @@ lastUpdated: false
         <span>Resume</span>
         <strong>项目与履历</strong>
         <p>适合看更标准的履历、技能和代表项目信息。</p>
+      </a>
+      <a class="brand-link-card" href="./source-delivery-boundaries.html">
+        <span>Boundary</span>
+        <strong>源码交付与授权边界</strong>
+        <p>适合需要确认“是否包含源码”或“独立部署是否含源码”时阅读。</p>
       </a>
     </div>
   </section>

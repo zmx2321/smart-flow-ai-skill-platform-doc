@@ -173,7 +173,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Partner</span>
-          <strong>Apply as a design partner</strong>
+          <strong>Discuss your scenario</strong>
         </a>
         <a class="brand-link-card" href="./case-studies.html">
           <span>Cases</span>

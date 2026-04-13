@@ -28,6 +28,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通团队版 / 企业交付</a>
         <a class="cta-button" href="./hot-update.html">查看热更新说明</a>
+        <a class="cta-button" href="./implementation-training.html">查看培训与实施安排</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -199,6 +200,23 @@ lastUpdated: false
         </tr>
       </tbody>
     </table>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Training &amp; Support</p>
+      <h2>交付以后，培训和支持也要一起交待清楚</h2>
+      <ul class="brand-list">
+        <li>业务负责人、租户管理员、普通使用人和 IT 运维最好按角色培训，不要混成一套大课。</li>
+        <li>上线后支持哪些问题、哪些属于新增需求，最好在项目交付前就先说清楚。</li>
+        <li>这部分如果不单独讲，项目容易在上线后进入“人人都来问、谁都没边界”的状态。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Implementation Page</p>
+      <h2>继续看实施步骤、培训对象和支持边界</h2>
+      <p><a href="./implementation-training.html">查看培训与实施服务说明</a></p>
+    </article>
   </section>
 
 <section class="brand-card">

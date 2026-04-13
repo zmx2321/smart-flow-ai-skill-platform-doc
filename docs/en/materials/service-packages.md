@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>Kickoff Options / Standard Service Packages</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Service Entry</span>
-        <strong>ExecGov's current kickoff options revolve around three project shapes: organizing a real workflow, onboarding governed execution, and small formal delivery. The focus is making the first phase verifiable, deliverable, and reusable.</strong>
+        <strong>ExecGov's current kickoff modes revolve around three project shapes: organizing one real workflow, onboarding governed execution, and delivering a small formal project. The focus is making phase one verifiable, deliverable, and reusable.</strong>
         <p>The key to judging cooperation is not how many feature names exist. It is whether the current scenario is clear, whether the boundary is clear, and whether phase one can produce a stable result.</p>
       </div>
       <p class="brand-lead">
@@ -27,15 +27,20 @@ lastUpdated: false
         If the other side is still in the free path, local script-slot expansion, or the standard team monthly or annual path, prioritize the membership and billing route first.
         Move to this page only when stronger isolation, intranet access, local bridging, or formal project boundaries have entered the discussion.
       </p>
+      <p class="brand-lead">
+        The public experience flow, the standard team path, formal delivery, and private deployment should currently be explained as distinct routes,
+        so different customers can find the right entry quickly.
+      </p>
       <div class="brand-chip-list">
         <span class="brand-chip">Start with one point</span>
-        <span class="brand-chip">Close the scope early</span>
+        <span class="brand-chip">Close scope early</span>
         <span class="brand-chip">Fit real scenarios</span>
         <span class="brand-chip">Support formal delivery</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a specific scenario</a>
         <a class="cta-button" href="../product/editions.html">View the edition roadmap</a>
+        <a class="cta-button" href="../product/implementation-training.html">View implementation &amp; training</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -67,8 +72,8 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Package A</p>
-      <h2>E-commerce, content, and operations data automation</h2>
-      <p>For high-frequency repeatable flows such as report consolidation, data cleaning, file processing, and import/export work, stabilize one painful flow first.</p>
+      <h2>Workflow automation starter</h2>
+      <p>Best for high-frequency repeatable flows such as report consolidation, data cleaning, file processing, and import / export work where one painful point should be stabilized first.</p>
       <ul class="brand-list">
         <li>Close scope around one painful workflow first</li>
         <li>Prioritize proving actual time savings</li>
@@ -77,8 +82,8 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Package B</p>
-      <h2>Technical-team script governance and automation operations</h2>
-      <p>For environments where scripts or ops actions already exist but there is still no unified entry, no pre-execution confirmation, no clear history, and no governance boundary.</p>
+      <h2>Script onboarding and governance package</h2>
+      <p>Best for environments where scripts or ops actions already exist but there is still no unified entry, no pre-execution confirmation, no clear history, and no governance boundary.</p>
       <ul class="brand-list">
         <li>Script / Skill onboarding</li>
         <li>Pre-execution confirmation and risk grading</li>
@@ -87,8 +92,8 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Package C</p>
-      <h2>Intranet / private-deployment formal delivery</h2>
-      <p>For scenarios that have already moved beyond the standard team edition and need stronger isolation, local data or local script access, stricter governance requirements, and formal 1.0 enterprise single-tenant delivery.</p>
+      <h2>Small private-deployment delivery package</h2>
+      <p>Best for scenarios that have moved beyond the standard team edition and now need stronger isolation, local data or local script access, stricter governance requirements, and formal 1.0 enterprise single-tenant delivery.</p>
       <ul class="brand-list">
         <li>Independent tenants and explicit permission boundaries</li>
         <li>Local execution bridge plus audit</li>
@@ -112,7 +117,7 @@ lastUpdated: false
         <tr>
           <td>Still touching the platform for the first time</td>
           <td>Start with the free path</td>
-          <td>First confirm whether this is a platform worth understanding further instead of rushing into a project quote</td>
+          <td>First confirm whether this is even worth understanding further instead of rushing into a project quote</td>
         </tr>
         <tr>
           <td>Only continuing personal script onboarding</td>
@@ -121,7 +126,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>Multi-user collaboration has started, but the requirement is still fairly standard</td>
-          <td>Use the formal team monthly or annual tenant path first</td>
+          <td>Use the standard team monthly or annual tenant path first</td>
           <td>Validate collaboration through the standard SaaS route first, then decide whether heavier delivery is really necessary</td>
         </tr>
         <tr>
@@ -149,7 +154,9 @@ lastUpdated: false
       <h2>Things that should not be started directly right now</h2>
       <ul class="brand-list">
         <li>A huge all-in-one platform customization with no clear phase-one boundary</li>
-        <li>"An AI chat shell" with no real execution scenario behind it</li>
+        <li>Each customer demanding deep customization while no reuse space or out-of-scope line exists</li>
+        <li>Default full-repository source delivery while still expecting the platform to remain reusable and upgradeable later</li>
+        <li>An "AI chat shell" with no real execution scenario behind it</li>
         <li>Very low budget combined with an expectation of long-term resident support</li>
         <li>No scripts, no workflows, and no concrete problem to solve, but still wanting to build a large system first</li>
       </ul>
@@ -192,15 +199,84 @@ lastUpdated: false
     </table>
   </section>
 
+  <section class="brand-card">
+    <p class="brand-kicker">Cooperation Ladder</p>
+    <h2>How to choose among the five current cooperation modes</h2>
+    <table class="cooperation-start-table">
+      <thead>
+        <tr>
+          <th>Cooperation mode</th>
+          <th>Best for whom</th>
+          <th>What it is better suited to solve now</th>
+          <th>What it does not mean by default</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Free demo</td>
+          <td>People who are learning the platform for the first time</td>
+          <td>Confirm the execution chain, product position, and whether the platform is worth exploring further</td>
+          <td>Not a formal enterprise production environment</td>
+        </tr>
+        <tr>
+          <td>Paid consultation / POC</td>
+          <td>Teams that already have a scenario but have not closed the scope yet</td>
+          <td>Clarify the goal, scope, budget, and implementation order first</td>
+          <td>Not a full formal delivery or unlimited rounds of requirement discussion</td>
+        </tr>
+        <tr>
+          <td>Team-edition SaaS</td>
+          <td>Teams that need standard capabilities, lighter collaboration, and lower budget</td>
+          <td>Enter formal usage and standard team collaboration at a lower threshold</td>
+          <td>Not isolated private deployment or a deep custom project</td>
+        </tr>
+        <tr>
+          <td>Lightweight private deployment</td>
+          <td>Small teams that want one formal isolated environment first</td>
+          <td>Run one formal closed loop with a smaller scope</td>
+          <td>Not complex custom development or long-term resident support</td>
+        </tr>
+        <tr>
+          <td>Standard private deployment</td>
+          <td>Customers that need intranet deployment, compliance, stronger boundaries, and formal acceptance</td>
+          <td>Carry isolated deployment, formal training, and long-term baseline support</td>
+          <td>Not unlimited new features or unlimited support by default</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Implementation</p>
+      <h2>How implementation and training are arranged right now</h2>
+      <ul class="brand-list">
+        <li>Projects are usually pushed in five steps: scope confirmation, environment preparation, capability onboarding, joint testing and acceptance, then training and go-live.</li>
+        <li>Training is role-based instead of turning business owners, admins, general users, and IT operations into one oversized class.</li>
+        <li>Go-live does not mean handing over just one account. It also includes usage notes, delivery notes, hot-update notes, and result-entry notes.</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Support Boundary</p>
+      <h2>Clarify the follow-up support boundary early</h2>
+      <ul class="brand-list">
+        <li>Troubleshooting inside the delivered scope, baseline Q&amp;A, and a small amount of script updates usually belong to standard support.</li>
+        <li>New features, large page redesigns, deep third-party integrations, and resident support should be evaluated separately.</li>
+        <li>The current default assumption is a workday support window. Higher response levels should be agreed separately.</li>
+      </ul>
+      <p><a href="../product/implementation-training.html">View implementation &amp; training notes</a></p>
+    </article>
+  </section>
+
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Why This Structure</p>
       <h2>The direct value of this cooperation structure</h2>
       <ul class="brand-list">
-        <li>The phase-one boundary is clearer, which makes evaluation and acceptance easier.</li>
-        <li>It is easier to see a real result in a shorter cycle.</li>
-        <li>You can validate workflow value first, then decide whether a second-phase expansion is worth it.</li>
-        <li>It works well for cases that are growing from the standard team edition into enterprise or private deployment.</li>
+        <li>The phase-one boundary is clearer, which makes evaluation and acceptance easier</li>
+        <li>It is easier to see a real result in a shorter cycle</li>
+        <li>You can validate workflow value first, then decide whether a second-phase expansion is worth it</li>
+        <li>It works well for cases that are growing from the standard team edition into enterprise or private deployment</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -219,8 +295,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Step</p>
-      <h2>Bring one real workflow into evaluation for a faster discussion</h2>
-      <p class="brand-lead">Once the conversation becomes concrete, the focus usually should not stay on abstract concepts. It should move quickly into scope, inputs and outputs, cycle length, and the phase-one objective.</p>
+        <h2>Bring one real workflow into evaluation for a faster discussion</h2>
+        <p class="brand-lead">Once the conversation becomes concrete, the focus usually should not stay on abstract concepts. It should move quickly into scope, inputs and outputs, cycle length, and the phase-one objective.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./membership-benefits-pricing.html">
@@ -235,9 +311,17 @@ lastUpdated: false
           <span>Delivery</span>
           <strong>Customer Flow / Delivery</strong>
         </a>
+        <a class="brand-link-card" href="../product/implementation-training.html">
+          <span>Training</span>
+          <strong>Implementation &amp; Training</strong>
+        </a>
+        <a class="brand-link-card" href="./source-delivery-boundaries.html">
+          <span>Boundary</span>
+          <strong>Source &amp; Authorization Boundaries</strong>
+        </a>
         <a class="brand-link-card" href="../product/onboarding-checklist.html">
           <span>Checklist</span>
-          <strong>Customer Onboarding Checklist</strong>
+          <strong>Onboarding Checklist</strong>
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>

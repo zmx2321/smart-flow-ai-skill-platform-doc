@@ -15,7 +15,7 @@ lastUpdated: false
         <p>合作判断的重点不是功能名有多少，而是当前场景是否明确、边界是否清晰、第一阶段是否能形成稳定结果。</p>
       </div>
       <p class="brand-lead">
-        更常见的启动方式，不是直接定制一个大平台，而是围绕
+        更常见的启动方式，是围绕
         <strong>一个高频、重复、规则相对明确的流程</strong>
         建立最小闭环。这样更容易验证投入产出，也更容易形成后续扩展的基础。
       </p>
@@ -23,6 +23,10 @@ lastUpdated: false
         这页回答的是“什么时候该进入项目交付沟通”，不是“所有用户下一步都应该买什么”。
         如果对方还处在免费体验、个人空间脚本位扩容或标准团队版月租 / 年租阶段，优先看会员与支付路径；
         只有进入更强隔离、内网、本地桥接或正式项目边界时，才该切到这页。
+      </p>
+      <p class="brand-lead">
+        当前更适合把公开体验、标准团队版、正式项目交付和私有化边界分开讲清楚，
+        让不同阶段的客户都能快速找到合适入口。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">先做一个点</span>
@@ -33,6 +37,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通具体场景</a>
         <a class="cta-button" href="../product/editions.html">查看版本路线</a>
+        <a class="cta-button" href="../product/implementation-training.html">查看培训与实施安排</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -64,7 +69,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Package A</p>
-      <h2>电商 / 内容 / 运营数据自动化</h2>
+      <h2>流程自动化启动包</h2>
       <p>面向报表汇总、数据清洗、文件处理、导入导出等高频重复流程，先把单点流程稳定跑通。</p>
       <ul class="brand-list">
         <li>先按一个最痛流程收口</li>
@@ -74,7 +79,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Package B</p>
-      <h2>技术团队脚本治理与自动化运维</h2>
+      <h2>脚本接入与治理包</h2>
       <p>面向已存在脚本或运维动作，但缺少统一入口、执行前确认、历史留痕和治理边界的场景。</p>
       <ul class="brand-list">
         <li>脚本 / Skill 接入</li>
@@ -84,7 +89,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Package C</p>
-      <h2>内网 / 私有化小型正式交付</h2>
+      <h2>小型私有化交付包</h2>
       <p>面向已经超出标准团队版边界，需要更强隔离、本地数据或本地脚本接入、正式治理要求和企业 1.0 单租户交付的场景。</p>
       <ul class="brand-list">
         <li>独立租户与权限边界</li>
@@ -145,7 +150,9 @@ lastUpdated: false
       <p class="brand-kicker">Not A Good Start</p>
       <h2>当前不建议直接启动的事项</h2>
       <ul class="brand-list">
-        <li>大而全平台定制，没有明确第一阶段边界</li>
+        <li>范围过宽、没有明确第一阶段边界的定制需求</li>
+        <li>每个客户都要求深度定制，却没有复用空间和不包含项</li>
+        <li>默认整仓源码交付，但又希望平台后面还能持续复用和升级</li>
         <li>只想做一个“AI 聊天壳”，没有真实执行场景</li>
         <li>预算极低、但预期长期驻场式支持</li>
         <li>没有脚本、没有流程、没有要解决的具体问题，却先想做大系统</li>
@@ -187,6 +194,75 @@ lastUpdated: false
         </tr>
       </tbody>
     </table>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Cooperation Ladder</p>
+    <h2>当前五种合作方式怎么选</h2>
+    <table class="cooperation-start-table">
+      <thead>
+        <tr>
+          <th>合作方式</th>
+          <th>适合谁</th>
+          <th>当前更适合解决什么</th>
+          <th>默认不等于什么</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>免费演示</td>
+          <td>第一次了解平台的人</td>
+          <td>先确认执行链路、产品定位和是否值得继续深入</td>
+          <td>不等于企业正式生产环境</td>
+        </tr>
+        <tr>
+          <td>付费咨询 / POC</td>
+          <td>已有场景，但范围还没收口的团队</td>
+          <td>先把目标、范围、预算和实施顺序说清楚</td>
+          <td>不等于完整正式交付或无限轮需求沟通</td>
+        </tr>
+        <tr>
+          <td>团队版 SaaS</td>
+          <td>标准能力、较轻协作、预算有限的团队</td>
+          <td>低门槛进入正式使用和标准团队协作</td>
+          <td>不等于独立私有化或深度定制项目</td>
+        </tr>
+        <tr>
+          <td>轻量私有化部署</td>
+          <td>想先落一个正式独立环境的小微团队</td>
+          <td>用较小范围先跑通一个正式闭环</td>
+          <td>不等于复杂定制开发或长期驻场</td>
+        </tr>
+        <tr>
+          <td>标准私有化部署</td>
+          <td>需要内网、合规、更强边界和正式验收的客户</td>
+          <td>承接独立部署、正式培训和长期基础支持</td>
+          <td>不等于默认包含全部新增功能和无限支持</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Implementation</p>
+      <h2>实施和培训当前怎么安排</h2>
+      <ul class="brand-list">
+        <li>先按范围确认、环境准备、能力接入、联调验收、培训上线这五步推进。</li>
+        <li>培训按角色讲，不把业务负责人、管理员、普通使用人和 IT 运维混成一套大课。</li>
+        <li>上线时不只交一个账号，还会同时交付使用说明、交付说明、热更新说明和结果入口说明。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Support Boundary</p>
+      <h2>后续支持边界先讲清楚</h2>
+      <ul class="brand-list">
+        <li>已交付范围内问题排查、基础答疑和少量脚本更新通常属于标准支持。</li>
+        <li>新增功能、大范围页面改造、深度第三方集成和驻场陪跑应单独评估。</li>
+        <li>当前建议默认按工作日支持窗口理解，更高响应等级应单独约定。</li>
+      </ul>
+      <p><a href="../product/implementation-training.html">查看培训与实施服务说明</a></p>
+    </article>
   </section>
 
   <section class="brand-grid brand-grid--two">
@@ -231,6 +307,14 @@ lastUpdated: false
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
           <strong>客户流程 / 交付</strong>
+        </a>
+        <a class="brand-link-card" href="../product/implementation-training.html">
+          <span>Training</span>
+          <strong>培训与实施安排</strong>
+        </a>
+        <a class="brand-link-card" href="./source-delivery-boundaries.html">
+          <span>Boundary</span>
+          <strong>源码与授权边界</strong>
         </a>
         <a class="brand-link-card" href="../product/onboarding-checklist.html">
           <span>Checklist</span>

@@ -54,29 +54,30 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">asset</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">python scripts</span></span>
         </div>
       </div>
-      <article class="brand-hero__panel why-execgov-guide-card">
-        <span class="link-panel-label">When To Read</span>
-        <strong>这页更适合拿来判断“这件事是不是从真实问题长出来的”</strong>
-        <p>如果你第一次接触 ExecGov，这页不是给你背功能列表，而是帮你先判断：这是不是一个建立在真实交付痛点上的产品方向。</p>
-        <div class="why-execgov-guide-list">
-          <div class="why-execgov-guide-item">
-            <span>适合先看</span>
-            <strong>技术决策者、项目负责人和第一次接触的人</strong>
-          </div>
-          <div class="why-execgov-guide-item">
-            <span>想确认的事</span>
-            <strong>它为什么不是聊天壳，而是治理加执行的产品判断</strong>
-          </div>
-          <div class="why-execgov-guide-item">
-            <span>下一步</span>
-            <strong>如果认同问题定义，再去看样板案例和产品概览更合适</strong>
-          </div>
-          <div class="why-execgov-guide-item">
-            <span>不看什么</span>
-            <strong>这页不负责展开所有模块细节，也不替代场景讲解</strong>
-          </div>
-        </div>
-      </article>
+    </div>
+  </section>
+
+  <section class="brand-card why-execgov-guide-card">
+    <span class="link-panel-label">When To Read</span>
+    <strong>这页更适合拿来判断“这件事是不是从真实问题长出来的”</strong>
+    <p>如果你第一次接触 ExecGov，这页不是给你背功能列表，而是帮你先判断：这是不是一个建立在真实交付痛点上的产品方向。</p>
+    <div class="why-execgov-guide-list">
+      <div class="why-execgov-guide-item">
+        <span>适合先看</span>
+        <strong>技术决策者、项目负责人和第一次接触的人</strong>
+      </div>
+      <div class="why-execgov-guide-item">
+        <span>想确认的事</span>
+        <strong>它为什么不是聊天壳，而是治理加执行的产品判断</strong>
+      </div>
+      <div class="why-execgov-guide-item">
+        <span>下一步</span>
+        <strong>如果认同问题定义，再去看样板案例和产品概览更合适</strong>
+      </div>
+      <div class="why-execgov-guide-item">
+        <span>不看什么</span>
+        <strong>这页不负责展开所有模块细节，也不替代场景讲解</strong>
+      </div>
     </div>
   </section>
 
@@ -116,7 +117,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>真正有价值的是把散装脚本收成统一入口</li>
         <li>真正有说服力的是谁执行、何时执行、结果如何都能回看</li>
-        <li>真正能卖出去的是“这条流程已经可以稳定跑起来”</li>
+        <li>真正有说服力的是“这条流程已经可以稳定跑起来”</li>
       </ul>
     </article>
   </section>
@@ -161,6 +162,28 @@ lastUpdated: false
     </article>
   </section>
 
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Current Judgment</p>
+      <h2>为什么现在更适合先从明确场景进入</h2>
+      <p class="brand-lead">对客户来说，先看一个明确场景是否能落地，比先理解完整平台结构更直接，也更容易判断 ExecGov 是否匹配当前问题。</p>
+      <ul class="brand-list">
+        <li>明确场景更容易说明输入、输出、权限边界和结果回传。</li>
+        <li>先看一条真实链路，能更快判断治理和执行是否同时成立。</li>
+        <li>场景验证通过后，再继续看团队协作、共享 SaaS 或私有化路径会更稳。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Next Reading</p>
+      <h2>如果你认同这个判断</h2>
+      <ul class="brand-list">
+        <li>先看 <a href="./case-studies.html">样板案例</a>，看 ExecGov 如何承接真实流程。</li>
+        <li>再看 <a href="./service-packages.html">启动方式 / 标准服务包</a>，看第一阶段如何启动。</li>
+        <li>需要继续判断当前能力边界时，再看 <a href="../product/index.html">产品概览</a>。</li>
+      </ul>
+    </article>
+  </section>
+
   <section class="brand-card brand-card--cta">
     <div class="brand-card__row">
       <div>
@@ -170,8 +193,8 @@ lastUpdated: false
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../contact.html#lead-form">
-          <span>Partner</span>
-          <strong>申请设计合作伙伴</strong>
+          <span>Next Step</span>
+          <strong>带一个真实流程来沟通</strong>
         </a>
         <a class="brand-link-card" href="./case-studies.html">
           <span>Cases</span>

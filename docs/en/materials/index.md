@@ -11,26 +11,26 @@ lastUpdated: false
     <h1>Materials Overview</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Presentation Kit</span>
-      <strong>ExecGov's external materials cover the founder story, flagship cases, product positioning, value framing, membership and pricing notes, kickoff options, and delivery background so new readers can decide quickly whether this is worth taking further.</strong>
-      <p>The materials are organized by the question a reader is trying to answer so they can enter the right page directly.</p>
+      <strong>ExecGov's external materials cover the founder story, showroom cases, product introduction, value framing, membership and pricing notes, kickoff options, and delivery background so first-time readers can judge quickly whether it is worth continuing.</strong>
+      <p>The materials are organized by the question a reader is trying to answer, so it is easier to jump straight into the right page.</p>
     </div>
     <p class="brand-lead">
-      ExecGov's external materials currently follow seven main lines:
-      <strong>founder story, flagship cases, product introduction, value framing, membership and pricing notes, kickoff options, and delivery background</strong>.
-      The goal is to complete the positioning judgment first, then move into project-fit and delivery-fit judgment through the shortest reasonable path.
+      ExecGov's external materials currently split into seven main lines:
+      <strong>founder story, showroom cases, product introduction, value framing, membership and pricing notes, kickoff options, and delivery background</strong>.
+      That structure shortens the path so the positioning judgment can happen first, then project-fit and delivery-fit judgment can happen next.
     </p>
     <p class="brand-lead">
-      If you look at it from a sales or communication path, the four most stable layers right now are:
+      If you read it from a sales or communication path, the four most stable layers right now are:
       <strong>the free path</strong>,
       <strong>lightweight local script-slot expansion</strong>,
-      <strong>the formal team edition with monthly or annual subscription</strong>,
+      <strong>the formal team-edition path with monthly or annual subscription</strong>,
       and
       <strong>enterprise delivery or private deployment</strong>.
-      Everything in this section should be explained around those four layers so personal expansion, standard team collaboration, and enterprise project delivery do not get mixed into one story.
+      The materials should revolve around those four layers so personal expansion, standard team collaboration, and enterprise delivery do not get mixed into one narrative.
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">Founder story</span>
-      <span class="brand-chip">Flagship cases</span>
+      <span class="brand-chip">Showroom cases</span>
       <span class="brand-chip">Product introduction</span>
       <span class="brand-chip">Value framing</span>
       <span class="brand-chip">Membership and pricing</span>
@@ -39,11 +39,11 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="./why-execgov.html">Why I Am Building ExecGov</a>
-      <a class="cta-button" href="./case-studies.html">View Case Studies</a>
-      <a class="cta-button" href="./pitch.html">View the Pitch</a>
-      <a class="cta-button" href="./value.html">View the Value Framing</a>
-      <a class="cta-button" href="./membership-benefits-pricing.html">View Membership and Pricing</a>
-      <a class="cta-button" href="./service-packages.html">View Kickoff Options</a>
+      <a class="cta-button" href="./case-studies.html">View the showroom cases</a>
+      <a class="cta-button" href="./pitch.html">View the pitch</a>
+      <a class="cta-button" href="./value.html">View the value framing</a>
+      <a class="cta-button" href="./membership-benefits-pricing.html">View membership and pricing</a>
+      <a class="cta-button" href="./service-packages.html">View kickoff options</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -71,24 +71,24 @@ lastUpdated: false
     </div>
     <article class="brand-hero__panel materials-guide-card">
       <span class="link-panel-label">How To Use</span>
-      <strong>When someone is new to ExecGov, choosing materials by decision stage is faster than reading from top to bottom.</strong>
-      <p>This set is not meant to be read cover to cover. It is meant to let different readers jump straight to the page that answers the question they have right now, make a judgment, and then decide whether to continue.</p>
+      <strong>When someone is new to ExecGov, choosing material by decision stage is faster</strong>
+      <p>This set is not meant to be read from the beginning all the way to the end. It is meant to let different readers jump directly into the page that fits their current stage, make a judgment, and then decide whether to continue.</p>
       <div class="materials-guide-list">
         <div class="materials-guide-item">
-          <span>Start with the problem</span>
-          <strong>Read the founder story and the pitch first to understand what problem this is really solving</strong>
+          <span>Judge the problem first</span>
+          <strong>Start with the founder story and the pitch to understand what this is really solving</strong>
         </div>
         <div class="materials-guide-item">
           <span>Then test credibility</span>
-          <strong>Read the flagship cases and the value framing to judge whether the story can support real project conversations</strong>
+          <strong>Then read the showroom cases and the value framing to judge whether the narrative can support real project conversations</strong>
         </div>
         <div class="materials-guide-item">
           <span>Prepare to kick off</span>
-          <strong>As the conversation becomes real, use kickoff options to understand how phase one can be scoped and closed</strong>
+          <strong>When the conversation becomes real, move into kickoff options and how phase one should close</strong>
         </div>
         <div class="materials-guide-item">
           <span>Verify the background</span>
-          <strong>When deeper due diligence is needed, move to the delivery background, project history, and public resume pages</strong>
+          <strong>When deeper background checking is needed, move into delivery background, project history, and the public resume page</strong>
         </div>
       </div>
     </article>
@@ -99,53 +99,58 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Why</p>
       <h2>Why I Am Building ExecGov</h2>
-      <p>Explains what pain I kept seeing, why governance and execution must be discussed together, and why Python scripts are the first landing point.</p>
+      <p>Explains what pain I kept seeing, why governance and execution have to be discussed together, and why the product starts with Python scripts first.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Showroom</p>
-      <h2>Case Studies</h2>
-      <p>Shows 2-3 end-to-end execution examples that go beyond a hello demo and can be used directly in project conversations.</p>
+      <h2>Showroom Cases</h2>
+      <p>Shows 2-3 end-to-end execution examples beyond a hello demo that can be taken directly into project discussions.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Pitch</p>
       <h2>Pitch</h2>
-      <p>Answers what ExecGov is, what problem it solves, and how it differs from a generic chat page or a loose script tool.</p>
+      <p>Answers what ExecGov is, what it solves, and how it differs from a generic chat page or a loose script tool.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Value</p>
       <h2>Value Framing</h2>
-      <p>Explains efficiency, controllability, governance boundary, and long-term value for business owners, operators, and technical decision makers.</p>
+      <p>Explains efficiency, controllability, governance boundaries, and long-term value for business owners, operators, and technical decision makers.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Membership</p>
       <h2>Membership and Pricing</h2>
-      <p>Separates the free path, local script-slot expansion, formal team subscription, and enterprise delivery so pricing and entry paths do not get tangled.</p>
+      <p>Separates the sales framing of the free path, local script-slot expansion, monthly or annual team plans, and enterprise projects so pricing and path do not get tangled.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Cooperation</p>
       <h2>Kickoff Options / Service Packages</h2>
-      <p>Explains how a project should start, how the first phase should close, and which cooperation pattern is the better fit.</p>
+      <p>Answers how a project should start, how phase one should close, and what cooperation mode is a better fit.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Delivery</p>
       <h2>Delivery Background and Project History</h2>
-      <p>Answers whether there is real delivery experience behind the platform and whether the work understands access control, release, audit, and handover.</p>
+      <p>Answers whether there is real delivery accumulation behind the platform and whether the work understands permissions, release, audit, and handover.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Overview</p>
       <h2>Background Overview</h2>
-      <p>Summarizes the long-term direction, current scope, and present boundary so new readers can scan quickly.</p>
+      <p>Summarizes the long-term mainline, the current entry range, and the present boundary so new readers can scan quickly.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Resume</p>
       <h2>Projects and Resume</h2>
-      <p>Provides a more standard resume view, skill stack, representative projects, and public contact information for deeper verification.</p>
+      <p>Provides a more standard resume view, skill stack, project history, representative work, and public contact information for deeper verification.</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Boundary</p>
+      <h2>Source Delivery and Licensing Boundary</h2>
+      <p>Explains the difference between standard delivery, private deployment, and source-code licensing so the delivery scope is not misunderstood.</p>
     </article>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Sales Ladder</p>
-    <h2>The four layers of the current commercial narrative</h2>
+    <h2>The four-layer commercial framing in the current stage</h2>
     <table>
       <thead>
         <tr>
@@ -159,25 +164,25 @@ lastUpdated: false
         <tr>
           <td>01. Free path</td>
           <td>People touching the platform for the first time</td>
-          <td>Let them feel the value first. Do not jump into pricing or complex delivery too early.</td>
+          <td>Let them feel the value first. Do not rush into pricing or complex delivery too early.</td>
           <td><a href="../guide/getting-started.html">Getting Started</a> / <a href="../product/index.html">Product Overview</a></td>
         </tr>
         <tr>
           <td>02. Lightweight expansion</td>
-          <td>People already using scripts continuously in their personal space</td>
+          <td>People already using scripts continuously in personal space</td>
           <td>This is script-slot expansion, not a formal team subscription.</td>
           <td><a href="./membership-benefits-pricing.html">Membership and Pricing</a></td>
         </tr>
         <tr>
           <td>03. Team edition</td>
           <td>Teams entering multi-user collaboration and formal tenant usage</td>
-          <td>Move into the formal monthly or annual team-tenant path, currently carried by the shared-SaaS frontend, without fixing pricing too early on the materials page.</td>
-          <td><a href="./membership-benefits-pricing.html">Membership and Pricing</a> / <a href="../product/personal-billing-membership.html">Billing and Membership</a></td>
+          <td>Move into the formal monthly or annual team-tenant path carried by the shared-SaaS frontend, without fixing pricing on the materials page itself</td>
+          <td><a href="./membership-benefits-pricing.html">Membership and Pricing</a> / <a href="../product/personal-billing-membership.html">Billing &amp; Membership</a></td>
         </tr>
         <tr>
           <td>04. Enterprise delivery</td>
-          <td>Customers who need stronger isolation, intranet deployment, private deployment, or formal project delivery</td>
-          <td>Do not use the standard membership narrative. Discuss the scenario, deployment boundary, and delivery boundary directly.</td>
+          <td>Customers that need stronger isolation, intranet access, private deployment, or formal project delivery</td>
+          <td>Do not use the standard membership framing. Discuss scenario, deployment, and delivery boundary directly.</td>
           <td><a href="./service-packages.html">Kickoff Options / Service Packages</a> / <a href="../product/deployment.html">Deployment</a></td>
         </tr>
       </tbody>
@@ -190,54 +195,78 @@ lastUpdated: false
     <table>
       <thead>
         <tr>
-          <th>Question you are trying to answer</th>
-          <th>Recommended page</th>
-          <th>What you will find there</th>
+          <th>What you are trying to judge</th>
+          <th>Suggested page</th>
+          <th>What you will see</th>
           <th>Best for</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Why is this worth building</td>
+          <td>Why this should be built</td>
           <td><a href="./why-execgov.html">Why I Am Building ExecGov</a></td>
-          <td>The origin of the pain, the core judgment, and why this is governance plus execution</td>
+          <td>The pain source, the core judgment, and why this is governance plus execution</td>
           <td>Technical decision makers and first-time readers</td>
         </tr>
         <tr>
-          <td>Are there examples strong enough for project conversations</td>
-          <td><a href="./case-studies.html">Case Studies</a></td>
+          <td>Whether there are examples strong enough for project discussion</td>
+          <td><a href="./case-studies.html">Showroom Cases</a></td>
           <td>End-to-end examples, governance boundaries, execution chains, and delivery outcomes</td>
           <td>Customers, presales, and technical leads</td>
         </tr>
         <tr>
-          <td>What exactly is ExecGov</td>
+          <td>What ExecGov actually is</td>
           <td><a href="./pitch.html">Pitch</a></td>
-          <td>Platform position, problem definition, and how it differs from a generic chat system</td>
+          <td>Platform positioning, problem definition, and the difference from a generic chat system</td>
           <td>First-time readers</td>
         </tr>
         <tr>
-          <td>Is it worth moving forward</td>
+          <td>Whether it is worth pushing forward</td>
           <td><a href="./value.html">Value Framing</a></td>
           <td>Efficiency, controllability, governance value, and long-term significance</td>
           <td>Business owners, operators, and technical decision makers</td>
         </tr>
         <tr>
-          <td>How should membership and pricing be explained</td>
+          <td>How membership and pricing should be explained</td>
           <td><a href="./membership-benefits-pricing.html">Membership and Pricing</a></td>
-          <td>Separate framing for the free path, script-slot expansion, the formal team subscription path, and enterprise delivery</td>
-          <td>Customers, presales, and people guiding free users</td>
+          <td>Separate framing for the free path, slot expansion, the formal team path, and enterprise projects</td>
+          <td>Customers, presales, and people guiding free-path users</td>
         </tr>
         <tr>
-          <td>How should a real project begin</td>
+          <td>How a project should begin</td>
           <td><a href="./service-packages.html">Kickoff Options / Service Packages</a></td>
-          <td>How phase one can close, what cooperation modes fit, and how startup risk can be reduced</td>
+          <td>How phase one closes, what cooperation mode fits, and how startup risk is reduced</td>
           <td>Customers, project owners, and scenario leads</td>
         </tr>
         <tr>
-          <td>Is there real delivery capability behind it</td>
+          <td>Whether there is real delivery capability behind it</td>
           <td><a href="./founder-profile.html">Delivery Background and Project History</a></td>
           <td>The long-term capability line, project accumulation, and where the platform ability comes from</td>
           <td>Technical leads and project owners</td>
+        </tr>
+        <tr>
+          <td>Whether the technical background looks compatible at a glance</td>
+          <td><a href="./founder-card.html">Background Overview</a></td>
+          <td>The current mainline capability, project types that fit, and the present boundary</td>
+          <td>Customers and project owners</td>
+        </tr>
+        <tr>
+          <td>Whether a more standard technical resume is needed</td>
+          <td><a href="./resume-public.html">Projects and Resume</a></td>
+          <td>Skill stack, work history, representative projects, and public information</td>
+          <td>Technical leads and people verifying background</td>
+        </tr>
+        <tr>
+          <td>Where to confirm source-code, private-deployment, and licensing boundaries</td>
+          <td><a href="./source-delivery-boundaries.html">Source Delivery and Licensing Boundary</a></td>
+          <td>The difference between standard delivery, private deployment, and source licensing</td>
+          <td>Customers, project owners, and partners</td>
+        </tr>
+        <tr>
+          <td>Where to read the main product line</td>
+          <td><a href="../guide/index.html">Guide</a></td>
+          <td>The platform structure, the way capabilities are organized, and the main doc entry</td>
+          <td>People who need a more systematic understanding of the product</td>
         </tr>
       </tbody>
     </table>
@@ -250,32 +279,32 @@ lastUpdated: false
       <a class="brand-link-card" href="./why-execgov.html">
         <span>Step 01</span>
         <strong>Why I Am Building ExecGov</strong>
-        <p>Start with the founder story and the source of the pain so you can judge whether the platform grows out of a real problem.</p>
+        <p>Start with the founder story and source of the problem so you can judge whether this grows out of real pain.</p>
       </a>
       <a class="brand-link-card" href="./case-studies.html">
         <span>Step 02</span>
-        <strong>Case Studies</strong>
-        <p>Then read 2-3 end-to-end examples that can be used in real project discussions and judge whether the execution chain is convincing.</p>
+        <strong>Showroom Cases</strong>
+        <p>Then look at 2-3 end-to-end examples that can support real project conversations and judge whether the execution chain is convincing enough.</p>
       </a>
       <a class="brand-link-card" href="./pitch.html">
         <span>Step 03</span>
         <strong>Pitch</strong>
-        <p>Use it to lock down the platform position and problem definition.</p>
+        <p>Lock down the platform positioning and problem definition.</p>
       </a>
       <a class="brand-link-card" href="./value.html">
         <span>Step 04</span>
         <strong>Value Framing</strong>
-        <p>Then judge why this is worth moving forward and where the value comes from.</p>
+        <p>Then judge why it is worth pushing and where the value really comes from.</p>
       </a>
       <a class="brand-link-card" href="./membership-benefits-pricing.html">
         <span>Step 05</span>
         <strong>Membership and Pricing</strong>
-        <p>When the conversation reaches free-path guidance, quoting, or sales discussion, separate the narratives for free usage, expansion, the team edition, and enterprise delivery first.</p>
+        <p>When the conversation reaches free-path guidance, quoting, or sales discussion, split the narratives for free usage, expansion, the team edition, and enterprise delivery first.</p>
       </a>
       <a class="brand-link-card" href="./service-packages.html">
         <span>Step 06</span>
         <strong>Kickoff Options / Service Packages</strong>
-        <p>When the conversation is approaching a real project, use this page to understand the cooperation structure and how phase one should close.</p>
+        <p>When the conversation is approaching a real project, move here to see the cooperation structure and phase-one closure logic.</p>
       </a>
       <a class="brand-link-card" href="./founder-profile.html">
         <span>Step 07</span>
@@ -285,7 +314,7 @@ lastUpdated: false
       <a class="brand-link-card" href="../product/index.html">
         <span>Step 08</span>
         <strong>Product Overview</strong>
-        <p>Go deeper into the real capabilities, module structure, and current product mainline.</p>
+        <p>Go deeper into real capabilities, module structure, and the current product mainline.</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Step 09</span>
@@ -302,17 +331,22 @@ lastUpdated: false
       <a class="brand-link-card" href="./founder-card.html">
         <span>Overview</span>
         <strong>Background Overview</strong>
-        <p>Best for a quick first-pass judgment on the current capability and scope.</p>
+        <p>Best when you want a quick first-pass judgment on the current capability and entry range.</p>
       </a>
       <a class="brand-link-card" href="./founder-profile.html">
         <span>Background</span>
         <strong>Delivery Background and Project History</strong>
-        <p>Best for a deeper look at the long-term mainline, project accumulation, and how the platform formed.</p>
+        <p>Best when you want a deeper look at the long-term mainline, project accumulation, and how the platform formed.</p>
       </a>
       <a class="brand-link-card" href="./resume-public.html">
         <span>Resume</span>
         <strong>Projects and Resume</strong>
-        <p>Best for a more standard view of resume history, skills, and representative projects.</p>
+        <p>Best when you want a more standard view of resume history, skills, and representative projects.</p>
+      </a>
+      <a class="brand-link-card" href="./source-delivery-boundaries.html">
+        <span>Boundary</span>
+        <strong>Source Delivery and Licensing Boundary</strong>
+        <p>Best when you need to confirm whether source code is included or whether independent deployment also includes source-code transfer.</p>
       </a>
     </div>
   </section>
@@ -322,7 +356,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>Finish the positioning judgment first, then move into cooperation and delivery judgment</h2>
-        <p class="brand-lead">When you are entering real project discussion, prioritize kickoff options and delivery background. If you are still deciding whether the platform position makes sense, start from the pitch and the value framing.</p>
+        <p class="brand-lead">When you enter real project discussion, prioritize kickoff options and delivery background. If you are still judging the platform position, start from the pitch and the value framing.</p>
       </div>
     <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./why-execgov.html">
@@ -331,7 +365,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./case-studies.html">
           <span>Cases</span>
-          <strong>Case Studies</strong>
+          <strong>Showroom Cases</strong>
         </a>
         <a class="brand-link-card" href="./pitch.html">
           <span>Pitch</span>

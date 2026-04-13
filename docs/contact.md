@@ -12,22 +12,23 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
         <strong>提交线索前，先判断你当前属于免费线、本地脚本位扩容、正式团队协作，还是企业项目交付。</strong>
-        <p>当前平台已具备多租户治理、可信执行、免费入口和 CLI 演进路径，但不同阶段应该进入不同沟通入口，不再混成一个大而全咨询口。</p>
+        <p>当前更适合先沟通一个明确场景和第一阶段范围，再判断是走免费线、标准团队版还是正式交付。</p>
       </div>
       <p class="brand-lead">
-        面向企业业务自动化、平台化交付、私有部署，以及已有脚本与流程的治理升级场景，
+        面向高频重复流程自动化、已有脚本治理、文件与数据处理、小型正式交付和选择性私有化场景，
         当前承接免费线判断、本地脚本位增购判断、团队版路径判断和企业版咨询。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">免费线判断</span>
         <span class="brand-chip">本地脚本位增购</span>
         <span class="brand-chip">团队版月租 / 年租</span>
-        <span class="brand-chip">企业版 / 私有化咨询</span>
-        <span class="brand-chip">本地脚本、CLI 与模板方案</span>
+        <span class="brand-chip">小型私有化咨询</span>
+        <span class="brand-chip">脚本治理 / 文件处理</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="#lead-form">填写线索表单</a>
         <a class="cta-button" href="./materials/service-packages.html">查看当前可承接服务</a>
+        <a class="cta-button" href="./product/implementation-training.html">看培训与实施安排</a>
         <a class="cta-button" href="./materials/founder-profile.html">查看构建者背景</a>
         <a class="cta-button" href="./product/">先看产品概览</a>
         <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">查看 GitHub</a>
@@ -41,7 +42,7 @@ lastUpdated: false
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">What You Get</span>
           <strong>沟通后会更快判断该先走免费线、先扩容、先走标准团队版，还是直接进入企业交付</strong>
-          <p>重点不是聊大而全的平台故事，而是尽快明确下一步入口、准备材料和第一条治理样板怎么启动。</p>
+          <p>重点是尽快明确下一步入口、准备材料和第一阶段怎么启动。</p>
         </article>
       </div>
     </div>
@@ -72,7 +73,7 @@ lastUpdated: false
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Reply Path</span>
           <strong>先留场景，再进入四层对应跟进</strong>
-          <p>会按免费线判断、本地脚本位、团队版路径判断和企业咨询四个方向继续跟进，不会一开始就拉成大而全的项目讨论。</p>
+          <p>会按免费线判断、本地脚本位、团队版路径判断和企业咨询四个方向继续跟进，不会在第一轮就把问题谈得过宽。</p>
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Before Send</span>
@@ -85,13 +86,13 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
-      <p class="brand-kicker">Design Partner</p>
-      <h2>当前开放 1-3 个设计合作伙伴名额</h2>
+      <p class="brand-kicker">Good Fit</p>
+      <h2>这些情况更适合继续沟通</h2>
       <ul class="brand-list">
-        <li>适合团队里已经有大量脚本、定时任务或自动化流程的人</li>
-        <li>目标不是先卖一套大系统，而是先把一条真实流程做成治理样板</li>
-        <li>默认按真实付费、真实场景、真实边界推进，不做纯展示型合作</li>
-        <li>如果适合，会一起梳理脚本目录、风险动作、结果回传和审计记录</li>
+        <li>团队里已经有脚本、定时任务或文件流程，需要统一入口和权限边界</li>
+        <li>希望确认执行留痕、结果回传、本地接入或私有化边界</li>
+        <li>希望先判断第一阶段怎么启动、需要准备哪些环境和交付输入</li>
+        <li>需要基于真实场景评估是走标准路径还是正式项目交付</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -228,11 +229,12 @@ lastUpdated: false
       <p class="brand-kicker">Topics</p>
       <h2>适合继续沟通的事项</h2>
       <ul class="brand-list">
-        <li>企业级自动化与 AI 执行平台交付</li>
-        <li>团队版 / 企业版的能力规划与落地路径</li>
-        <li>私有化部署、数据自动化与本地执行方案</li>
+        <li>流程自动化交付与脚本治理接入</li>
+        <li>团队版 / 小型私有化的边界判断</li>
+        <li>数据自动化、文件处理与本地执行方案</li>
         <li>脚本整理、Skill 接入、CLI / Agent 桥接能力</li>
-        <li>判断当前应停留在共享 SaaS 正式租户，还是转企业交付</li>
+        <li>判断当前应停留在共享 SaaS 正式租户，还是转正式项目交付</li>
+        <li>实施步骤、培训对象、交付物和后续支持边界如何安排</li>
       </ul>
       <p class="brand-kicker">What To Prepare</p>
       <ul class="brand-list">
@@ -253,6 +255,13 @@ lastUpdated: false
           <p>通常会先收口一个最小闭环，确认是否真的省时间、是否能稳定交付，再决定是否进入第二阶段。</p>
         </article>
       </div>
+      <p class="brand-lead">
+        如果你现在最关心的不是“能不能做”，而是“怎么实施、怎么培训、后续支持到哪里”，
+        可以先看
+        <a href="./product/implementation-training.html">培训与实施服务说明</a>
+        和
+        <a href="./product/deliverables.html">交付物 / 文档入口</a>。
+      </p>
     </article>
   </section>
 
@@ -274,8 +283,8 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 04</p>
-      <h2>企业版 / 私有化</h2>
-      <p>承接更高隔离、更高安全要求、内网、本地 Agent 和正式交付需求。</p>
+      <h2>正式项目 / 私有化</h2>
+      <p>承接更高隔离、更高安全要求、内网、本地 Agent 和正式交付需求，但只适合边界清晰的项目。</p>
     </article>
   </section>
 

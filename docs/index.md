@@ -4,17 +4,17 @@ layout: home
 hero:
   name: ExecGov
   text: 执治
-  tagline: 以 Python 脚本为第一种成熟执行资产，Web 端已支持 Python / Shell 脚本接入，帮你把团队里那些散装的、危险的脚本管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录。
+  tagline: 把散装脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
       link: /guide/getting-started
     - theme: alt
-      text: 申请设计合作伙伴
+      text: 沟通真实场景
       link: /contact#lead-form
     - theme: alt
-      text: 为什么我要做 ExecGov
-      link: /materials/why-execgov
+      text: 查看产品概览
+      link: /product/
 
 features:
   - title: 脚本管得明白
@@ -31,22 +31,21 @@ features:
   <section class="landing-band landing-band--partner">
     <div class="partner-banner">
       <div class="partner-banner__copy">
-        <p class="landing-kicker">Design Partners</p>
-        <h2>寻找 1-3 个设计合作伙伴</h2>
+        <p class="landing-kicker">Scenario First</p>
+        <h2>先拿一个真实场景，判断是否适合接入 ExecGov</h2>
         <p class="landing-lead">
-          如果您正为管理团队内大量脚本和自动化任务而烦恼，我们当前开放限时深度协作计划。
-          重点不是先卖一套大平台，而是一起把一条真实流程做成
-          <strong>可申请、可确认、可执行、可回看的样板</strong>。
+          如果您正在处理报表、文件、日志、脚本或内网流程这类高频任务，可以先带一个明确场景来沟通。
+          先把输入输出、执行边界、确认方式和结果回传讲清楚，再判断是否进入试点或正式交付。
         </p>
         <div class="partner-banner__chips">
-          <span>1-3 个真实付费名额</span>
-          <span>适合已有大量脚本的团队</span>
-          <span>限时深度协作</span>
+          <span>真实场景沟通</span>
+          <span>先确认边界</span>
+          <span>先看是否值得启动</span>
         </div>
       </div>
       <div class="partner-banner__actions">
-        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">申请设计合作伙伴</a>
-        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Design%20Partner">直接发邮件</a>
+        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">沟通真实场景</a>
+        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20%E5%9C%BA%E6%99%AF%20%E6%B2%9F%E9%80%9A">直接发邮件</a>
       </div>
     </div>
   </section>
@@ -60,7 +59,7 @@ features:
           <strong>帮你把团队里那些散装的、危险的脚本，管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录；出了问题，也能追得回来。</strong>
         </p>
         <p class="landing-lead">
-          <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+          <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台，当前更适合从已经能落地的脚本治理、文件处理和本地自动化流程入口开始理解。</strong>
         </p>
         <p class="landing-lead">
           名字里的 <strong>Exec</strong> 来自 <strong>Execution</strong>，<strong>Gov</strong> 来自 <strong>Governance</strong>。
@@ -80,7 +79,7 @@ features:
         <p class="landing-lead">
           当前 Web 上传注册入口已经统一支持 <strong>Python / Shell</strong> 文本脚本；公开体验页固定展示
           <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
-          真实体验脚本来自 <code>exec-gov-ai-skill-platform-script/tenant_1000/experience/</code>，
+          真实体验脚本来自 <code>exec-gov-ai-skill-platform-script/testing/tenant_1000/experience/</code>，
           由 manifest 做热插拔映射。
         </p>
         <p class="landing-lead">
@@ -127,7 +126,7 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">从免登录体验到设计合作伙伴，再到真实接入，这套入口设计的目标都是让你先确认“脚本能不能被管住、跑稳、留痕”，再决定如何落地。</p>
+          <p class="landing-brand__signal-summary">从免登录体验到真实场景沟通，再到正式接入，这套入口设计的目标都是让你先确认“脚本能不能被管住、跑稳、留痕”，再决定如何落地。</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>入口</strong>
@@ -155,9 +154,9 @@ features:
             <p>先确认脚本目录、权限边界、风险动作和结果回传，再决定如何接入团队真实环境。</p>
           </article>
           <article class="landing-brand__meta landing-brand__meta--wide">
-            <span class="link-panel-label">Design Partner</span>
-            <strong>当前开放 1-3 个设计合作伙伴名额</strong>
-            <p>更适合已经有大量脚本、自动化任务和风险边界问题的团队，一起先做一条真实可交付的治理样板。</p>
+            <span class="link-panel-label">Scenario Fit</span>
+            <strong>当前支持按真实场景沟通接入方式</strong>
+            <p>更适合已经有脚本、自动化任务、文件处理或本地接入诉求的团队，先判断边界，再决定试点、标准团队版还是正式交付。</p>
           </article>
           <article class="landing-brand__meta landing-brand__meta--wide landing-brand__meta--trail">
             <span class="link-panel-label">Audit Trail</span>
@@ -272,8 +271,8 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./guide/getting-started.html">立即免费体验（免登录）</a>
-      <a href="./contact.html#lead-form">申请设计合作伙伴</a>
-      <a href="./materials/why-execgov.html">为什么我要做 ExecGov</a>
+      <a href="./contact.html#lead-form">沟通真实场景</a>
+      <a href="./product/index.html">查看产品概览</a>
       <a href="./product/editions.html">看当前阶段</a>
     </div>
   </section>
@@ -281,32 +280,33 @@ features:
   <section class="landing-band landing-band--overview">
     <div class="landing-section-head">
       <p class="landing-kicker">Showroom</p>
-      <h2>不是 hello demo，而是 3 个能拿去谈项目的样板案例</h2>
+      <h2>先不是大客户案例，而是 3 个你现在就能演示的轻量样板</h2>
       <p class="landing-lead">
-        这些案例不是为了展示一个按钮能点通，而是为了展示 ExecGov 如何把复杂、危险、容易出岔子的脚本流程，
-        变成 <strong>可申请、可确认、可执行、可回看的服务</strong>。
+        这 3 个案例更适合当前 1.0 阶段对外展示和自己自测。
+        重点不是讲很重的行业故事，而是先证明 ExecGov 已经能把
+        <strong>Python、Shell 和文件处理</strong> 这三类最小链路跑通。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
-      <a class="link-panel" href="./materials/case-studies.html#k8s-security-report">
+      <a class="link-panel" href="./materials/case-studies.html#python-task-brief-demo">
         <span class="link-panel-label">Case 01</span>
-        <strong>自动巡检 K8s 集群并生成安全报告</strong>
-        <p>从巡检请求、节点级检查、风险确认到报告生成，整条链路都可追踪、可审计。</p>
+        <strong>输入一句任务主题，生成 Python 任务简报</strong>
+        <p>用 <code>task_brief_demo.py</code> 展示“AI 接住请求，再调度 Python 脚本”的最小闭环。</p>
       </a>
-      <a class="link-panel" href="./materials/case-studies.html#multi-cloud-cost-analysis">
+      <a class="link-panel" href="./materials/case-studies.html#shell-log-preview-demo">
         <span class="link-panel-label">Case 02</span>
-        <strong>跨云成本分析与优化建议生成</strong>
-        <p>把云账单拉取、清洗、聚合、异常识别和优化建议收成一个受控执行服务。</p>
+        <strong>输入一段日志，预演 Shell 日志提炼</strong>
+        <p>用 <code>clean_log_demo.sh</code> 证明 Shell 也能被收成统一入口并返回清晰结果。</p>
       </a>
-      <a class="link-panel" href="./materials/case-studies.html#ops-data-automation">
+      <a class="link-panel" href="./materials/case-studies.html#csv-profile-report-demo">
         <span class="link-panel-label">Case 03</span>
-        <strong>运营数据自动化与异常追踪</strong>
-        <p>把报表、文件、导入导出和异常追踪这类高频流程收成统一入口，减少人工返工。</p>
+        <strong>上传 CSV，生成字段概览与画像报告</strong>
+        <p>用文件型产物证明平台不只会跑文本脚本，还能承接上传、分析和结果下载。</p>
       </a>
     </div>
     <div class="landing-inline-links">
-      <a href="./materials/case-studies.html">查看完整样板案例</a>
-      <a href="./contact.html#lead-form">拿真实场景来沟通</a>
+      <a href="./materials/case-studies.html">查看完整演示案例</a>
+      <a href="./guide/getting-started.html">先走体验入口</a>
     </div>
   </section>
 
@@ -350,7 +350,7 @@ features:
       <article class="mode-card">
         <span class="link-panel-label">Brand</span>
         <h3>ExecGov（执治）</h3>
-        <p><strong>定位：</strong>企业级 AI 执行与治理平台</p>
+        <p><strong>定位：</strong>面向真实流程的自动化执行与治理平台</p>
         <p><strong>Slogan：</strong>让每次自动化，都可靠且可控。</p>
         <p>用于官网、资料页、方案、合同和正式交付沟通。</p>
       </article>

@@ -8,25 +8,25 @@ lastUpdated: false
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Showroom</p>
-      <h1>Case Studies / End-to-End Execution Examples</h1>
+      <h1>Showroom Cases / End-to-End Execution Examples</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Flagship Cases</span>
-        <strong>This page is not a hello demo. It is three end-to-end execution examples that can be used directly in conversations about projects, governance, and delivery.</strong>
-        <p>The point is not that a script can run. The point is how ExecGov turns a complex flow into a service that can be requested, confirmed, executed, and reviewed later.</p>
+        <strong>This page starts with three lightweight showroom samples that you can already demo yourself right now. It does not pretend to be a set of large-customer production cases.</strong>
+        <p>The point is to make one thing clear first: ExecGov can already bring Python, Shell, and file-processing flows under one unified entry.</p>
       </div>
       <p class="brand-lead">
-        These examples serve two purposes:
-        they show the current product direction, and they help potential customers make a fast judgment about whether
-        <strong>this platform can turn complex, risky, multi-person script workflows into a formal entry point</strong>.
+        These cases are closer to a showroom for the current <code>1.0</code> stage.
+        They help potential customers and partners judge quickly whether
+        <strong>the platform can already run the smallest chain of "input request - execute script - return result - keep a record"</strong>.
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">K8s security inspection</span>
-        <span class="brand-chip">Cross-cloud cost analysis</span>
-        <span class="brand-chip">Operations data automation</span>
-        <span class="brand-chip">End-to-end execution</span>
+        <span class="brand-chip">Python task brief</span>
+        <span class="brand-chip">Shell log preview</span>
+        <span class="brand-chip">CSV profile report</span>
+        <span class="brand-chip">lightweight and demo-ready</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Bring a real scenario</a>
+        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">Start from the experience entry</a>
         <a class="cta-button" href="../product/index.html">View Product Overview</a>
       </div>
     </div>
@@ -59,152 +59,215 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Case 01</p>
-      <h2>Automatically inspect a K8s cluster and generate a security report</h2>
-      <p>Best for showing how a high-risk inspection flow can close the loop across confirmation, execution, traceability, and report return.</p>
+      <h2>Enter one task topic and generate a Python task brief</h2>
+      <p>Best for showing how a one-line request enters a Python script and quickly becomes a readable pre-execution brief.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Case 02</p>
-      <h2>Cross-cloud cost analysis and optimization recommendations</h2>
-      <p>Best for showing how multi-source data pull, cleaning, aggregation, analysis, and recommendation output can become one governed entry point.</p>
+      <h2>Paste a log segment and preview Shell log extraction</h2>
+      <p>Best for showing how a Shell script can extract WARN and ERROR highlights from mixed logs.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Case 03</p>
-      <h2>Operations data automation and anomaly tracking</h2>
-      <p>Best for showing how the most common spreadsheet, reporting, import/export, and exception-tracking flows in teams can be brought under unified governance.</p>
+      <h2>Upload CSV and generate a field overview and profile report</h2>
+      <p>Best for showing how a file-driven flow moves from uploaded input to result artifacts and a download entry.</p>
     </article>
   </section>
 
-  <section id="k8s-security-report" class="brand-card">
+  <section id="python-task-brief-demo" class="brand-card">
     <p class="brand-kicker">Case 01</p>
-    <h2>Automatically inspect a K8s cluster and generate a security report</h2>
+    <h2>Enter one task topic and generate a Python task brief</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Typical problem</h3>
         <ul class="brand-list">
-          <li>There are many inspection scripts, but they are scattered across servers and personal accounts.</li>
-          <li>It is unclear who is allowed to run them, when they were run, and which commands were actually executed.</li>
-          <li>When something goes wrong, there is no unified report or review entry.</li>
+          <li>You already have Python scripts, but first-time users do not know where to start.</li>
+          <li>Many requests need an explanation of inputs, outputs, and steps before real execution begins.</li>
+          <li>You need a low-friction experience entry instead of asking customers to connect a real environment immediately.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>How ExecGov handles it</h3>
         <ul class="brand-list">
-          <li>A user submits a request to inspect a production cluster and generate a security report.</li>
-          <li>AI matches the inspection Skill and the platform displays the inspection scope and risk notes.</li>
-          <li>High-risk node checks require confirmation first, then call Python scripts for execution.</li>
-          <li>The result returns as a structured report, risk summary, and execution log.</li>
+          <li>The user enters one task topic on the experience page, such as "organize the downloads directory."</li>
+          <li>The platform calls <code>task_brief_demo.py</code> to generate a smallest pre-execution brief.</li>
+          <li>The result returns the suggested execution chain, input preparation, and next-step entry point.</li>
+          <li>This experience chain can later be replaced by the tenant's own real Python scripts.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Governance points</h3>
         <ul class="brand-list">
-          <li>Limit which clusters can be touched by tenant, role, and environment.</li>
-          <li>Put high-risk commands behind a confirmation node instead of allowing direct execution.</li>
-          <li>Record who initiated the run, who confirmed it, and which checks were executed.</li>
+          <li>At the experience stage it generates only a brief and does not write real business data directly.</li>
+          <li>The current topic, execution time, and output content can still be recorded to form a smallest review chain.</li>
+          <li>It is suitable for proving that "AI catches the request and then schedules a Python script" is already real.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Final deliverables</h3>
         <ul class="brand-list">
-          <li>K8s security inspection report</li>
-          <li>Execution logs and anomaly summary</li>
-          <li>Reviewable audit records and a download entry</li>
+          <li>A structured task-brief text.</li>
+          <li>Suggested execution steps plus input and output guidance.</li>
+          <li>A next-step entry for signup or for connecting real scripts later.</li>
         </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Suggested screenshot copy</h3>
+        <ul class="brand-list">
+          <li>Main title: enter one task topic and generate a Python task brief.</li>
+          <li>Subtitle: show how the no-login AI experience catches the request first and then schedules a Python script to output a pre-execution brief.</li>
+          <li>Badge copy: lightweight experience / read-only preview / ready to connect formal scripts later.</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Suggested demo script</h3>
+        <ol class="brand-list">
+          <li>I am not connecting a real business environment yet. This shows only the smallest execution chain first so you can understand how ExecGov catches a request.</li>
+          <li>I enter one task topic, such as "organize the downloads directory." The platform first calls a Python script to generate a pre-execution brief instead of making a dangerous direct action.</li>
+          <li>The value of this step is that it makes the inputs, steps, and next entry clear before replacing it with your own formal script later.</li>
+        </ol>
       </article>
     </div>
   </section>
 
-  <section id="multi-cloud-cost-analysis" class="brand-card">
+  <section id="shell-log-preview-demo" class="brand-card">
     <p class="brand-kicker">Case 02</p>
-    <h2>Cross-cloud cost analysis and optimization recommendations</h2>
+    <h2>Paste a log segment and preview Shell log extraction</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Typical problem</h3>
         <ul class="brand-list">
-          <li>Different cloud vendors expose bills in different formats, so manual consolidation is expensive.</li>
-          <li>The analysis scripts and rules are scattered and hard to reuse reliably.</li>
-          <li>Every month the team repeats the same cleaning, aggregation, comparison, and recommendation work.</li>
+          <li>INFO, DEBUG, WARN, and ERROR are mixed together in logs, and manual filtering wastes time.</li>
+          <li>Many Shell scripts live only in terminals, so it is hard for others to see what they actually do.</li>
+          <li>You need a safe preview scenario instead of asking someone to run a real cleanup action immediately.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>How ExecGov handles it</h3>
         <ul class="brand-list">
-          <li>One unified entry triggers "generate this month's cross-cloud cost analysis."</li>
-          <li>The platform pulls authorized cloud bills and resource ledgers.</li>
-          <li>Python scripts perform cleaning, aggregation, anomaly detection, and recommendation generation.</li>
-          <li>The result returns an analysis report, cost breakdown, and recommendation list.</li>
+          <li>The user pastes a mixed log segment directly into the experience page.</li>
+          <li>The platform calls <code>clean_log_demo.sh</code> for a preview run.</li>
+          <li>The result returns the preserved WARN and ERROR lines plus a row-count summary.</li>
+          <li>This chain makes it visible that Shell scripts have already been brought under one unified entry.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Governance points</h3>
         <ul class="brand-list">
-          <li>Limit which accounts, billing periods, and resource ranges can be read.</li>
-          <li>Record the data sources, rule versions, and script versions used for each analysis.</li>
-          <li>Keep the result report and execution context for reconciliation and later review.</li>
+          <li>The current case is a preview and does not modify real server log files.</li>
+          <li>The input log text, output result, and kept row count can all be recorded.</li>
+          <li>It is suitable for demonstrating that Shell assets can also be brought into a controlled execution entry.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Final deliverables</h3>
         <ul class="brand-list">
-          <li>Cross-cloud cost analysis report</li>
-          <li>Anomalous cost details and optimization recommendations</li>
-          <li>Traceable execution records and version information</li>
+          <li>A filtered preview of the important log lines.</li>
+          <li>A WARN and ERROR count plus output summary.</li>
+          <li>A reviewable execution result and smallest audit record.</li>
         </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Suggested screenshot copy</h3>
+        <ul class="brand-list">
+          <li>Main title: paste a log segment and preview Shell log extraction.</li>
+          <li>Subtitle: bring terminal-side Shell preprocessing into one unified entry while keeping only WARN and ERROR highlights.</li>
+          <li>Badge copy: result preview / does not change real logs / reviewable later.</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Suggested demo script</h3>
+        <ol class="brand-list">
+          <li>Many Shell scripts usually live only in terminals and other people cannot see the outcome, so here I built a visible preview entry.</li>
+          <li>I paste one mixed log segment. The platform calls a Shell script for preview mode and extracts only WARN and ERROR instead of changing any real file.</li>
+          <li>The point is to show that Shell assets have already become controlled, demo-ready, unified capability units.</li>
+        </ol>
       </article>
     </div>
   </section>
 
-  <section id="ops-data-automation" class="brand-card">
+  <section id="csv-profile-report-demo" class="brand-card">
     <p class="brand-kicker">Case 03</p>
-    <h2>Operations data automation and anomaly tracking</h2>
+    <h2>Upload CSV and generate a field overview and profile report</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Typical problem</h3>
         <ul class="brand-list">
-          <li>Teams export, clean, and merge multiple Excel or CSV files every day.</li>
-          <li>Anomalies are still checked by hand, so the work is repetitive and easy to get wrong.</li>
-          <li>Results are scattered across chat threads and local folders, which makes handover difficult.</li>
+          <li>You receive a CSV or Excel file but cannot even see the fields and missing values clearly at first glance.</li>
+          <li>Every first pass still depends on manually opening the file and doing basic exploration again.</li>
+          <li>You need the simplest file-driven sample to prove that the platform does more than run text-only scripts.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>How ExecGov handles it</h3>
         <ul class="brand-list">
-          <li>Upload the raw files through one unified entry and choose the process template.</li>
-          <li>The platform schedules Python scripts to clean, summarize, compare, and detect anomalies.</li>
-          <li>The result returns a standard report, anomaly list, and handling suggestions.</li>
-          <li>The whole chain remains reviewable, which makes it suitable for collaboration and handover.</li>
+          <li>Upload one CSV or Excel file from the unified entry.</li>
+          <li>The platform calls <code>csv_profile_demo</code> to generate an analysis report.</li>
+          <li>The report outputs summary information, field statistics, and a preview of the first rows.</li>
+          <li>The final result returns as an Excel artifact that is suitable for download and review.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Governance points</h3>
         <ul class="brand-list">
-          <li>Limit which file types, file sizes, and process scopes can be uploaded.</li>
-          <li>Record the input files, script versions, and output artifacts for each run.</li>
-          <li>Govern risky write operations separately from read-only analysis flows.</li>
+          <li>Limit input file type and size so arbitrary files are not pushed into the execution chain.</li>
+          <li>Record the batch number, source filename, and generated artifact path.</li>
+          <li>The current case performs read-only analysis and result generation without overwriting the original file.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Final deliverables</h3>
         <ul class="brand-list">
-          <li>Standardized output report</li>
-          <li>Anomaly details and handling suggestions</li>
-          <li>File download entry and execution ledger</li>
+          <li>A summary worksheet.</li>
+          <li>A columns profile worksheet.</li>
+          <li>A preview worksheet plus a download entry.</li>
         </ul>
       </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Suggested screenshot copy</h3>
+        <ul class="brand-list">
+          <li>Main title: upload CSV and generate a field overview and profile report.</li>
+          <li>Subtitle: show how a no-login file flow moves from uploaded input to field profiling, preview rows, and a downloadable artifact.</li>
+          <li>Badge copy: real and clickable / downloadable report / original file stays untouched.</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Suggested demo script</h3>
+        <ol class="brand-list">
+          <li>The first two cases use text input. This case exists specifically to prove that ExecGov can also handle file-driven flows.</li>
+          <li>I upload a CSV or Excel file. The platform first produces field profiling and a preview of the first rows, then generates a downloadable xlsx report.</li>
+          <li>For customers, this proves that the platform already has the smallest complete loop of upload input - execute processor - return result file.</li>
+        </ol>
+      </article>
     </div>
+    <div class="brand-actions">
+      <a
+        class="cta-button cta-button--brand"
+        href="https://free.execgov.cn/#/experience?demo=csv_profile_demo"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open the CSV experience entry directly
+      </a>
+    </div>
+    <p class="brand-lead">
+      The CSV experience entry documented here is currently
+      <code>https://free.execgov.cn/#/experience?demo=csv_profile_demo</code>.
+      Once the domain points at this free-edition frontend, the link works directly.
+    </p>
   </section>
 
   <section class="brand-card brand-card--cta">
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Step</p>
-        <h2>If you already have workflows that look like these</h2>
-        <p class="brand-lead">The most direct move is to compare one real workflow against these three examples, decide which input, risk, and result pattern it matches, and then choose whether to move into a design-partner discussion.</p>
+        <h2>If your real workflow looks like one of these cases</h2>
+        <p class="brand-lead">The most direct next move is to compare one real workflow against these three samples, decide which input, risk, and result pattern it matches, and then decide whether to continue into a scenario discussion.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Partner</span>
-          <strong>Apply as a design partner</strong>
+          <strong>Discuss your scenario</strong>
         </a>
         <a class="brand-link-card" href="./why-execgov.html">
           <span>Why</span>

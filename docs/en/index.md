@@ -4,17 +4,17 @@ layout: home
 hero:
   name: ExecGov
   text: Governed AI Execution
-  tagline: Start with Python scripts as the first mature execution asset. The web console already supports Python and Shell script onboarding so scattered and risky automation can move into one governed entry with traceable execution records.
+  tagline: Bring scattered scripts, file-processing work, and local automation into one governed entry so requests, confirmations, execution, and results stay reviewable.
   actions:
     - theme: brand
       text: Try for Free
       link: /en/guide/getting-started
     - theme: alt
-      text: Apply as Design Partner
+      text: Discuss Your Scenario
       link: /en/contact#lead-form
     - theme: alt
-      text: Why ExecGov
-      link: /en/materials/why-execgov
+      text: Product Overview
+      link: /en/product/
 
 features:
   - title: Bring scripts under control
@@ -31,22 +31,21 @@ features:
   <section class="landing-band landing-band--partner">
     <div class="partner-banner">
       <div class="partner-banner__copy">
-        <p class="landing-kicker">Design Partners</p>
-        <h2>Looking for 1-3 design partners</h2>
+        <p class="landing-kicker">Scenario First</p>
+        <h2>Bring one real scenario first and see whether ExecGov fits</h2>
         <p class="landing-lead">
-          If your team is already struggling with a large script estate and a growing pile of automation tasks, the current limited deep-collaboration plan is meant for you.
-          The goal is not to sell a large platform first. The goal is to take one real workflow and turn it into
-          <strong>a repeatable sample that can be requested, confirmed, executed, and reviewed later</strong>.
+          If you are dealing with repetitive reporting, files, logs, scripts, or intranet workflows, start with one concrete scenario.
+          Clarify the inputs, outputs, execution boundary, confirmation flow, and result return first, then decide whether a pilot or formal delivery makes sense.
         </p>
         <div class="partner-banner__chips">
-          <span>1-3 real paid slots</span>
-          <span>Best for teams with many scripts already</span>
-          <span>Time-limited deep collaboration</span>
+          <span>Real scenario discussion</span>
+          <span>Boundary first</span>
+          <span>Decide whether to start</span>
         </div>
       </div>
       <div class="partner-banner__actions">
-        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">Apply as a design partner</a>
-        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Design%20Partner">Email directly</a>
+        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">Discuss your scenario</a>
+        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Scenario%20Discussion">Email directly</a>
       </div>
     </div>
   </section>
@@ -81,7 +80,7 @@ features:
           The current web upload entry already accepts <strong>Python and Shell</strong> text scripts in one place.
           The public experience page deliberately shows
           <strong>Python <code>task_brief_demo.py</code> on the left and Shell <code>clean_log_demo.sh</code> on the right</strong>.
-          The real experience scripts come from <code>exec-gov-ai-skill-platform-script/tenant_1000/experience/</code> and are hot-swapped through the manifest mapping.
+          The real experience scripts come from <code>exec-gov-ai-skill-platform-script/testing/tenant_1000/experience/</code> and are hot-swapped through the manifest mapping.
         </p>
         <p class="landing-lead">
           The platform has already completed its first compatibility upgrade:
@@ -135,7 +134,7 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">From the no-login experience path to design partners and then real onboarding, every entry is designed to help you confirm first whether scripts can be controlled, run safely, and stay reviewable before deciding how to land them.</p>
+          <p class="landing-brand__signal-summary">From the no-login experience path to real-scenario discussion and then formal onboarding, every entry is designed to help you confirm first whether scripts can be controlled, run safely, and stay reviewable before deciding how to land them.</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>Entry</strong>
@@ -163,9 +162,9 @@ features:
             <p>Clarify directories, boundaries, risky actions, and result return first, then decide how the real team environment should connect.</p>
           </article>
           <article class="landing-brand__meta landing-brand__meta--wide">
-            <span class="link-panel-label">Design Partner</span>
-            <strong>1-3 design-partner slots are open now</strong>
-            <p>This is a better fit for teams that already have many scripts, automation jobs, and boundary problems and want to build one delivery-grade governance sample first.</p>
+            <span class="link-panel-label">Scenario Fit</span>
+            <strong>Current conversations start from a real scenario</strong>
+            <p>This is a better fit for teams that already have scripts, automation work, file processing, or local-bridge requirements and want to clarify the boundary before choosing a pilot, the standard team path, or formal delivery.</p>
           </article>
           <article class="landing-brand__meta landing-brand__meta--wide landing-brand__meta--trail">
             <span class="link-panel-label">Audit Trail</span>
@@ -285,7 +284,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./guide/getting-started.html">Try for free</a>
-      <a href="./contact.html#lead-form">Apply as a design partner</a>
+      <a href="./contact.html#lead-form">Discuss your scenario</a>
       <a href="./materials/why-execgov.html">Why I Am Building ExecGov</a>
       <a href="./product/editions.html">See the current stage</a>
     </div>
@@ -302,20 +301,20 @@ features:
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
-      <a class="link-panel" href="./materials/case-studies.html#k8s-security-report">
+      <a class="link-panel" href="./materials/case-studies.html#python-task-brief-demo">
         <span class="link-panel-label">Case 01</span>
-        <strong>Automatically inspect a K8s cluster and generate a security report</strong>
-        <p>From the inspection request to node-level checks, risk confirmation, and final report generation, the entire chain stays traceable and auditable.</p>
+        <strong>Enter one task topic and generate a Python task brief</strong>
+        <p>Use one lightweight request to show how AI catches the task, schedules a Python script, and returns a readable pre-execution brief.</p>
       </a>
-      <a class="link-panel" href="./materials/case-studies.html#multi-cloud-cost-analysis">
+      <a class="link-panel" href="./materials/case-studies.html#shell-log-preview-demo">
         <span class="link-panel-label">Case 02</span>
-        <strong>Cross-cloud cost analysis and optimization recommendations</strong>
-        <p>Turn cloud-bill pull, cleaning, aggregation, anomaly detection, and optimization advice into one governed execution service.</p>
+        <strong>Paste a log segment and preview Shell log extraction</strong>
+        <p>Turn mixed terminal logs into one visible, reviewable Shell preview flow that keeps only WARN and ERROR highlights.</p>
       </a>
-      <a class="link-panel" href="./materials/case-studies.html#ops-data-automation">
+      <a class="link-panel" href="./materials/case-studies.html#csv-profile-report-demo">
         <span class="link-panel-label">Case 03</span>
-        <strong>Operations data automation and anomaly tracking</strong>
-        <p>Bring recurring reporting, file handling, import/export, and anomaly-tracking flows into one entry point and cut manual rework.</p>
+        <strong>Upload CSV and generate a field overview and profile report</strong>
+        <p>Show the smallest file-processing loop of upload input, profile analysis, report generation, and downloadable result artifacts.</p>
       </a>
     </div>
     <div class="landing-inline-links">

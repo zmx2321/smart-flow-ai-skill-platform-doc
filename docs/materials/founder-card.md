@@ -73,7 +73,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Method</p>
       <h2>推进方式</h2>
-      <p>优先把范围、输入输出、周期和不包含项讲清楚，再启动第一阶段，而不是直接谈大而全平台。</p>
+      <p>优先把范围、输入输出、周期和不包含项讲清楚，再启动第一阶段，避免一开始把范围放得过宽。</p>
     </article>
   </section>
 
@@ -113,7 +113,7 @@ lastUpdated: false
         <li>纯后端重架构、超大规模从零整包系统。</li>
         <li>范围极大但边界不清、缺少第一阶段收口点的长期需求。</li>
         <li>预算很低，却要求长期驻场和多角色全包。</li>
-        <li>还没定义真实场景，就先要求搭一个大平台。</li>
+        <li>还没定义真实场景，就先把范围铺得过宽。</li>
       </ul>
     </article>
   </section>

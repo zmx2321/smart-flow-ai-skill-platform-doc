@@ -11,61 +11,61 @@ lastUpdated: false
       <h1>Product Overview</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
-        <strong>Stabilize a real execution chain first. Expand the boundary later.</strong>
-        <p>Separate what is already real, what is still in progress, and what may expand later. That is how you avoid rework.</p>
+        <strong>ExecGov is aimed at automation execution and governance for real tasks. Right now it is better understood from script governance, file handling, and local automation flows that can already land.</strong>
+        <p>Separate what is already done, what is still being pushed, and what may expand later. That is how the product avoids rework.</p>
       </div>
       <p class="brand-lead">
-        <strong>ExecGov turns scattered and risky scripts and automations into a governed entry point: you can trace who ran what, when it happened, and what the result was.</strong>
+        <strong>The current best way to understand ExecGov is this: it first turns Python and Shell scripts, file handling, and local automation flows into one unified entry so execution, confirmation, and result return are all traceable.</strong>
       </p>
       <p class="brand-lead">
-        <strong>ExecGov is a multi-tenant governance and execution platform that treats Python scripts as the first mature execution asset.</strong>
+        <strong>Under the surface, ExecGov is still a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</strong>
       </p>
       <p class="brand-lead">
-        Starting with Python scripts does not mean the scope is small. It means that Python is the most common, most real, and fastest way to create governance value right now.
+        Starting with Python scripts does not mean the scope is small. It means Python is the most common, most real, and easiest place to form a deliverable, reusable, expandable small closed loop first.
       </p>
       <p>
-        Python scripts are the most mature execution asset today, but the long-term object of management is a
-        standardized, schedulable, auditable capability unit, not just one type of script file.
+        The most mature execution asset today is still the Python script, but the long-term object under platform management is a
+        standardized, schedulable, auditable capability unit rather than just one type of script file.
       </p>
       <p>
-        This is no longer a concept-only story. The platform has already completed its first compatibility upgrade:
-        it now has a general resource layer and an executor registry layer, and the first non-script sample,
-        <code>HTTP capability access</code>, has already landed in the <code>public</code> super-admin domain.
-        Tenant-side users can already see a read-only ledger that exposes the HTTP resources they are authorized to view,
-        including authentication style and write boundaries.
-        That still does not mean tenants can fully self-serve arbitrary capability onboarding, and it definitely does not mean the product has become a generic API platform.
-        Resource configuration, credential governance, and dry-run verification remain inside the <code>public</code> governance domain for now.
+        This is no longer only a concept story.
+        The platform has already completed its first compatibility-oriented upgrade:
+        it now has a general resource layer and an executor registry layer,
+        and the first non-script capability sample,
+        <code>HTTP capability access</code>,
+        has already landed inside the <code>public</code> super-admin domain.
+        Tenant-side users also already have a read-only ledger where they can see the summary of the HTTP resources they are currently authorized to view, the authentication style, and the write boundary.
+        That still does not mean tenant-side self-service onboarding of multiple capability types is fully open, and it definitely does not mean the product has already become a generic API platform.
+        Configuration, credential governance, and dry-run for this type of resource still stay inside the <code>public</code> governance domain.
       </p>
       <p>
-        This implementation round also tightened the security boundary:
-        the whitelisted tenant admin now keeps only a minimal cross-tenant console entry,
-        and will not directly see platform-governance pages such as <code>HTTP capability access</code>.
-        The runtime, menus, and permission checks also no longer rely on unsafe conditions such as <code>user_id == 1</code> to infer administrator status.
+        This round also tightened the security boundary further:
+        whitelisted tenant admins keep only a minimal cross-tenant console entry,
+        and do not directly see platform-governance pages such as <code>HTTP capability access</code>.
+        Menus, permissions, and runtime checks also no longer rely on unsafe conditions such as <code>user_id == 1</code> to infer administrator status.
       </p>
       <p>
-        At the same time, the first segment of the <code>1.1</code> low-support commercial loop has landed:
-        the <code>public</code> order center already supports order creation, payment confirmation, activation execution,
-        renewal reminder scans, and expiry shutdown scans.
-        The personal free edition also already includes a lightweight self-service purchase path for local script slots,
-        but it should still not be described as a fully finished payment center.
-        Real third-party payment gateways, a user-facing billing center, and outbound reminder channels are still being added.
+        At the same time, the first segment of the <code>1.1</code> lower-support loop has already landed:
+        the <code>public</code> order center already supports order creation, payment confirmation, activation execution, renewal-reminder scans, and expiry-shutdown scans.
+        The personal free frontend already has the first version of the local script-slot billing center, where users can see the current order, lifecycle summary, reconciliation summary, recent callbacks, and the checkout entry.
+        Real third-party payment gateways, auto-renewal or auto-charge, and outbound reminder channels are still being filled in.
       </p>
       <p>
-        The shared-SaaS tenant frontend has also been established:
-        from <code>tenant_1003+</code> onward, standard SaaS customers no longer default to cloning a dedicated frontend project per customer.
+        At the same time, the shared-SaaS tenant frontend skeleton has already been built:
+        from <code>tenant_1003+</code> onward, standard SaaS customers no longer default to cloning one new frontend project per customer.
         They first go through the shared tenant frontend instead.
-        That frontend can already accept formal tenant entry, but branding, initialization, and finer menu boundaries are still being tightened.
+        It can already carry the formal tenant entry, but branding, initialization, and finer menu boundaries are still being tightened.
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">Multi-tenant governance</span>
-        <span class="brand-chip">Governed execution</span>
-        <span class="brand-chip">Free public entry</span>
+        <span class="brand-chip">multi-tenant governance</span>
+        <span class="brand-chip">trusted execution</span>
+        <span class="brand-chip">free-path entry</span>
         <span class="brand-chip">CLI / Agent path</span>
         <span class="brand-chip">HTTP sample landed</span>
-        <span class="brand-chip">Shared SaaS</span>
+        <span class="brand-chip">shared SaaS</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">Try the platform now</a>
+        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">Try it for free now</a>
         <a class="cta-button" href="./scenarios.html">View scenarios</a>
       </div>
     </div>
@@ -95,22 +95,22 @@ lastUpdated: false
       <div class="product-signal-grid">
         <article class="brand-hero__panel product-signal-card">
           <span class="link-panel-label">Current Asset</span>
-          <strong>Mature the script-shaped capability first</strong>
-          <p>Stabilize onboarding, execution, audit, and delivery first, then expand toward more capability types.</p>
+          <strong>Stabilize script-shaped capability first</strong>
+          <p>Stabilize onboarding, execution, audit, and delivery on the main chain first, then gradually expand into more capability forms.</p>
         </article>
         <article class="brand-hero__panel product-signal-card">
           <span class="link-panel-label">Near Term</span>
-          <strong>Stabilize one line that can really land</strong>
-          <p>The free experience, tenant governance, and formal delivery already share one foundation. That is what keeps later expansion from becoming a rewrite.</p>
+          <strong>Stabilize the one line that can really land first</strong>
+          <p>The free experience, tenant governance, and formal delivery already share one foundation. That keeps later expansion from turning into rework.</p>
         </article>
         <article class="brand-hero__panel product-signal-card product-signal-card--wide">
           <span class="link-panel-label">What You Can Verify Now</span>
-          <strong>What is verifiable now is more than a demo page</strong>
-          <p>If you are testing whether this platform is still only conceptual, start with the four points below. They map to real chains that already exist or are being used, not distant imagination.</p>
+          <strong>What is verifiable today is more than a demo page</strong>
+          <p>If you are trying to judge whether the platform is still only conceptual, start with the five points below. They correspond to chains that already landed or are already in real use, not distant imagination.</p>
           <div class="product-signal-checks">
             <div class="product-signal-check">
               <span>Public entry</span>
-              <strong>Run one real execution chain from the no-login experience page</strong>
+              <strong>Run one real execution chain from the no-login experience page first</strong>
             </div>
             <div class="product-signal-check">
               <span>Mature asset</span>
@@ -122,11 +122,11 @@ lastUpdated: false
             </div>
             <div class="product-signal-check">
               <span>Lifecycle</span>
-              <strong>The first segment of the <code>1.1</code> order, activation, renewal, and shutdown skeleton has already landed</strong>
+              <strong>The first segment of the <code>1.1</code> order, activation, renewal, and shutdown skeleton has landed</strong>
             </div>
             <div class="product-signal-check">
               <span>Standard team path</span>
-              <strong>The shared-SaaS tenant frontend exists, and the product no longer defaults to cloning a new frontend project per customer</strong>
+              <strong>The shared-SaaS tenant frontend already exists and no longer defaults to cloning one new frontend per customer</strong>
             </div>
           </div>
         </article>
@@ -134,24 +134,48 @@ lastUpdated: false
     </div>
   </section>
 
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">How To Read It</p>
+      <h2>How this product should be understood in the current stage</h2>
+      <ul class="brand-list">
+        <li>Start with how it turns scripts, file handling, and local flows into a unified entry.</li>
+        <li>Start with the execution, audit, permission boundary, and result-return chains that have already landed.</li>
+        <li>Then move into how it expands toward team collaboration, shared SaaS, and private delivery.</li>
+        <li>Judge fit through a real scenario first, then decide the implementation path and edition choice.</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">What To Watch</p>
+      <h2>Do not skip these boundaries during evaluation</h2>
+      <ul class="brand-list">
+        <li>Do not treat payment and the full SaaS self-serve loop as fully mature when they are still being filled in.</li>
+        <li>Do not ignore the fact that the HTTP capability sample still mainly stays inside the <code>public</code> governance domain.</li>
+        <li>Do not mix shared SaaS, single-tenant delivery, and private deployment into one delivery mode.</li>
+        <li>Do not stay only at the concept layer. It is better to judge fit through a real scenario.</li>
+      </ul>
+    </article>
+  </section>
+
   <section class="brand-card">
     <p class="brand-kicker">Platform</p>
     <h2>Platform position</h2>
       <ul class="brand-list">
-        <li>ExecGov is a multi-tenant governance and execution platform that treats Python scripts as the first mature execution asset.</li>
-        <li>The most mature capability shape today is script onboarding, execution, audit, and continuous update.</li>
-        <li>The platform already has a general resource layer and an executor registry layer. The first non-script sample is HTTP capability access inside the <code>public</code> super-admin domain, and tenants already have a read-only ledger for visibility.</li>
-        <li>HTTP resources are currently advanced only as fixed interfaces with explicit authentication and a write whitelist. Configuration authority remains in the <code>public</code> domain, and the product is not being packaged as a general API platform.</li>
-        <li>The first part of the <code>1.1</code> order and lifecycle skeleton has landed in the <code>public</code> domain, and the personal free edition already has a lightweight self-service local-slot purchase path, but the platform still does not publicly claim a complete self-service payment center.</li>
-        <li>From <code>tenant_1003+</code> onward, standard SaaS customers first go through the shared tenant frontend. Stronger isolation or deeper customization can still move into single-tenant delivery or private deployment later.</li>
+        <li>Under the surface, ExecGov is a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</li>
+        <li>Externally, it is currently better to enter from script governance, file handling, and local automation flows that can already land.</li>
+        <li>The most mature capability shape today is script-shaped onboarding, execution, audit, and continuous update.</li>
+        <li>The platform already has a general resource layer and executor registry layer. The first non-script sample is HTTP capability access in the <code>public</code> super-admin domain, and tenant-side users already have a read-only ledger.</li>
+        <li>HTTP resources currently move only through "fixed interfaces, explicit authentication, and write whitelists." Configuration authority remains on the <code>public</code> side, and this is not being packaged as a generic API platform.</li>
+        <li>The first segment of the <code>1.1</code> order and lifecycle skeleton already exists on the <code>public</code> side, and the personal free frontend already has a real first-version billing center. That still does not mean the product publicly promises a complete general subscription or auto-renewal capability.</li>
+        <li>From <code>tenant_1003+</code> onward, standard SaaS customers currently go through the shared tenant frontend first. Stronger isolation or deeper customization can still move into single-tenant delivery or private deployment later.</li>
         <li><code>exec-gov-shell</code> is mainly used for multi-entry aggregation, joint debugging, and sync. It is not the long-term formal runtime entry for customers.</li>
-        <li>The platform may later expand into APIs, templates, connectors, approval flows, and other capability types, but only when real demand justifies it.</li>
+        <li>The platform may later expand into APIs, templates, connectors, approval flows, and other capability types, but only step by step under real demand.</li>
       </ul>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Current Paths</p>
-    <h2>The four external paths that are currently more stable</h2>
+    <h2>The four external paths that are currently the most stable</h2>
     <table>
       <thead>
         <tr>
@@ -170,20 +194,20 @@ lastUpdated: false
         </tr>
         <tr>
           <td>Local script-slot expansion</td>
-          <td>People already using scripts continuously in their personal space</td>
+          <td>People already continuing to connect scripts in personal space</td>
           <td>This is personal-space expansion, not a formal team subscription</td>
-          <td><a href="./personal-billing-membership.html">Billing & Membership</a></td>
+          <td><a href="./personal-billing-membership.html">Billing &amp; Membership</a></td>
         </tr>
         <tr>
           <td>Standard team edition</td>
           <td>Teams entering multi-user collaboration</td>
-          <td>Currently handled through the shared-SaaS formal tenant entry rather than a dedicated frontend clone</td>
+          <td>Currently carried by the shared-SaaS formal tenant entry instead of cloning a new frontend project by default</td>
           <td><a href="./customer-flow.html">Customer Flow / Delivery</a></td>
         </tr>
         <tr>
           <td>Enterprise delivery</td>
-          <td>Customers who need stronger isolation, intranet deployment, or formal project acceptance</td>
-          <td>Continue into single-tenant delivery, private deployment, or deeper deployment control</td>
+          <td>Customers that need stronger isolation, intranet access, or formal project acceptance</td>
+          <td>Continue through single-tenant delivery, private deployment, or deeper deployment control</td>
           <td><a href="./deployment.html">Deployment</a></td>
         </tr>
       </tbody>
@@ -193,7 +217,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Brand</p>
-      <h2>Brand language</h2>
+      <h2>Brand wording</h2>
       <ul class="brand-list">
         <li>Brand name: <code>ExecGov</code></li>
         <li>Subtitle: a multi-tenant governance and execution system for real-world tasks</li>
@@ -205,29 +229,29 @@ lastUpdated: false
       <p class="brand-kicker">Method</p>
       <h2>Current usage principles</h2>
       <ul class="brand-list">
-        <li>Use <code>ExecGov</code> externally as one unified brand instead of splitting into separate English project and Chinese product names.</li>
-        <li>Governance first, execution second. Stabilize script-shaped capabilities first, then expand into more capability types.</li>
-        <li>The repository slug and directory path <code>execgov-cli/</code> stay in place for now, while the external command is already unified as <code>execgov-cli</code> so the current engineering and release chain is not disrupted.</li>
-        <li>This keeps brand recognition consistent without breaking code, docs, or delivery momentum.</li>
+        <li>Use <code>ExecGov</code> externally as one unified brand rather than splitting into separate English and Chinese product naming tracks.</li>
+        <li>Governance first, execution second. Stabilize script-shaped capability first, then gradually expand into more capability types.</li>
+        <li>The repository slug and directory path <code>execgov-cli/</code> stay in place for now, while the external command is already unified as <code>execgov-cli</code>, so the current engineering and release chain is not disrupted.</li>
+        <li>This keeps brand cognition unified without interrupting the current code, docs, and delivery rhythm.</li>
       </ul>
     </article>
   </section>
 
   <section class="brand-card">
     <p class="brand-kicker">Not Building</p>
-    <h2>What the platform is not trying to be right now</h2>
+    <h2>What the platform is not trying to become right now</h2>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
-        <h3>Not an unconstrained chat system</h3>
-        <p>The focus is not just exposing a model. It is making real tasks execute inside rules.</p>
+        <h3>Not a free-form chat system</h3>
+        <p>The point is not just to expose a model. The point is to let real tasks execute stably under rules.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>Not a trimmed-down enterprise admin panel</h3>
-        <p>The free edition does not simply expose a complex backend menu. It is meant to be a lighter formal entry with room to grow.</p>
+        <h3>Not a trimmed enterprise admin panel</h3>
+        <p>The free edition is not simply a complex backend menu made public. It is meant to be an independent, lighter, formal entry with room to grow.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Not a demo-script assembly site</h3>
-        <p>The goal is real delivery, platform governance, and sustained maintenance, not a temporary script gallery.</p>
+        <p>It has to carry real delivery, platform governance, and continuous maintenance rather than a temporary collection of scripts.</p>
       </article>
     </div>
   </section>
@@ -244,12 +268,12 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <span class="brand-pill">02</span>
         <h3>Trusted AI execution</h3>
-        <p>AI must not only answer questions. It must execute real tasks under confirmation and rule constraints instead of calling scripts with uncontrolled privilege.</p>
+        <p>AI must not only answer. It has to execute real tasks under confirmation and rule constraints instead of calling scripts with uncontrolled privilege.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <span class="brand-pill">03</span>
-        <h3>Continuous product entry</h3>
-        <p>The personal free path, formal delivery, and local bridge should form one continuous journey rather than three disconnected systems.</p>
+        <h3>Product entry continuity</h3>
+        <p>The personal free path, formal team collaboration, and enterprise delivery need one continuous journey rather than three disconnected systems.</p>
       </article>
     </div>
   </section>
@@ -257,15 +281,15 @@ lastUpdated: false
   <section class="brand-card">
     <p class="brand-kicker">Future Asset Types</p>
     <h2>Which capability types are likely to be added next</h2>
-    <p>The items below show where the platform is likely to expand next. They are expansion boundaries, not promises that every item is fully commercialized today.</p>
+    <p>The directions below show where the platform is likely to expand next. They describe the expansion boundary, not a promise that every item is already fully commercialized.</p>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>API / SaaS calls</h3>
-        <p>Turn third-party services, internal enterprise interfaces, and webhooks into governed capability entry points. The first sample already exists as HTTP capability access in the <code>public</code> governance domain.</p>
+        <p>Turn third-party services, internal enterprise interfaces, and webhooks into governed capability entries. The first sample already exists as HTTP capability access in the <code>public</code> governance domain.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Data connectors</h3>
-        <p>Turn database queries, warehouse writes, and CRM / ERP read-write operations into standardized capability units.</p>
+        <p>Turn database queries, warehouse writes, and CRM or ERP read-write operations into standardized capability units.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Document-template services</h3>
@@ -273,15 +297,15 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Approval / workflow triggers</h3>
-        <p>Turn leave requests, procurement, ticketing, and status transitions into auditable capability actions.</p>
+        <p>Turn leave requests, procurement, tickets, and status transitions into auditable capability actions.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Specialized model services</h3>
-        <p>Bring OCR, document parsing, speech recognition, and image generation into the same governed execution chain.</p>
+        <p>Bring OCR, document parsing, speech recognition, image generation, and other model capabilities into the same governance chain.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Ops and notification actions</h3>
-        <p>Continue bringing high-frequency actions such as inspection, alerting, log cleanup, backup, and notification sending into the trusted-execution range.</p>
+        <p>Continue bringing inspection, alerting, log cleanup, backup, and outbound notifications into the trusted-execution range.</p>
       </article>
     </div>
   </section>
@@ -293,18 +317,18 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>Individual explorers</h3>
         <ul class="brand-list">
-          <li>Start with the no-login experience page and feel one real execution chain quickly.</li>
-          <li>After signup, enter the personal intelligent execution console and continue through the capability library, script upload, announcements, personal space, and community square.</li>
-          <li>If you only want to continue as an individual, prioritize lightweight local-slot expansion instead of jumping straight to the enterprise-delivery narrative.</li>
-          <li>This is the right place to verify whether AI can really help schedule your scripts.</li>
+          <li>Start from the no-login experience page and feel one real execution chain quickly.</li>
+          <li>After signup, users first go through the separate result page and then enter the personal path. The current valid menu set continues through My Skill Library, Script Upload, Intelligent Assistant, Execution History, Personal Space, Announcement Center, Community Plaza, and Upgrade to Formal Version, while keeping extension entries such as the HTTP read-only ledger.</li>
+          <li>If the goal is still individual continuous usage, prioritize lightweight local script-slot expansion instead of jumping straight into enterprise-delivery framing.</li>
+          <li>This is the right place to verify whether AI can really schedule scripts for me.</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Teams and enterprises</h3>
         <ul class="brand-list">
-          <li>If you only need standard capability and lighter collaboration, evaluate the shared-SaaS tenant path first.</li>
-          <li>If your focus is standard team collaboration, start with the formal tenant entry for the team edition instead of jumping straight into an enterprise project.</li>
-          <li>If you need multi-user collaboration, permission control, audit, or local integration, continue the conversation around scenario and delivery boundaries.</li>
+          <li>If the need is standard capability and lighter collaboration, evaluate the shared-SaaS shared-tenant path first.</li>
+          <li>If the focus is standard team collaboration, start with the formal team-edition tenant entry instead of jumping directly into an enterprise project.</li>
+          <li>If the need involves multi-user collaboration, permission control, audit, or local onboarding, continue the conversation around scenario and delivery boundaries.</li>
           <li>If intranet, compliance, or private deployment is involved, continue into the enterprise plan discussion.</li>
           <li>Clarifying the business scenario first is more effective than comparing feature tables first.</li>
         </ul>
@@ -317,16 +341,16 @@ lastUpdated: false
     <h2>The three customer groups that fit best today</h2>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
-        <h3>E-commerce, content, and operational-data automation teams</h3>
-        <p>These teams usually already have many scattered scripts, spreadsheets, and data-processing flows. They are the easiest fit for the Python-script capability path and the fastest to feel the value of a unified entry and execution audit trail.</p>
+        <h3>E-commerce, content, and operations-data automation teams</h3>
+        <p>These teams usually already have many scattered scripts, spreadsheets, and data-processing flows. They are the easiest fit for the Python-script path and the fastest to feel the value of one unified entry plus execution traces.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Technical teams doing script governance and automation ops</h3>
-        <p>These teams naturally understand the value of CLI, local execution, permission boundaries, and audit trails, which aligns with the platform's most mature capability today.</p>
+        <p>These teams are better prepared to accept CLI, local execution, permission boundaries, and audit trails, which matches the platform's most mature current capabilities.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Small formal customers that need intranet access or private deployment</h3>
-        <p>These customers validate multi-tenant isolation, platform governance, and the formal delivery chain most clearly, but customization depth still needs to be controlled so the work feeds back into the platform instead of forking it.</p>
+        <p>These customers validate multi-tenant isolation, super-admin governance, and the formal delivery chain most clearly, but customization depth still has to be controlled so only platform-strengthening projects are taken.</p>
       </article>
     </div>
   </section>
@@ -338,32 +362,32 @@ lastUpdated: false
       <a class="brand-link-card" href="./scenarios.html">
         <span>Step 01</span>
         <strong>Scenarios</strong>
-        <p>Start with the real business scenarios this platform solves instead of memorizing module names.</p>
+        <p>Start from the real business scenarios this platform solves instead of memorizing module names first.</p>
       </a>
       <a class="brand-link-card" href="./capabilities.html">
         <span>Step 02</span>
         <strong>Capabilities</strong>
-        <p>Then understand how multi-tenancy, governed execution, template distribution, announcement governance, and the CLI bridge form one loop.</p>
+        <p>Then see how multi-tenancy, trusted execution, template distribution, announcement governance, and the CLI bridge form one closed loop.</p>
       </a>
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Step 03</span>
         <strong>Customer Flow / Delivery</strong>
-        <p>See directly how customers use the platform, how delivery works, and how script hot updates currently close the loop.</p>
+        <p>Look directly at how customers use it, how delivery works, and how script hot updates currently close the loop.</p>
       </a>
       <a class="brand-link-card" href="./personal-billing-membership.html">
         <span>Step 04</span>
-        <strong>Billing & Membership</strong>
-        <p>See separately how the personal free page handles payments, how the team edition is registered, and how complete the payment line really is today.</p>
+        <strong>Billing &amp; Membership</strong>
+        <p>See separately how the personal free page handles payment, how monthly or annual team registration works, and how complete the payment line really is today.</p>
       </a>
       <a class="brand-link-card" href="./architecture.html">
         <span>Step 05</span>
         <strong>Architecture</strong>
-        <p>Understand how the backend, the super-admin domain, the free edition, the delivery frontend, and local integration fit together.</p>
+        <p>Understand how the backend, super-admin domain, free edition, delivery frontend, and local onboarding fit together.</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>Step 06</span>
         <strong>CLI Guide</strong>
-        <p>Look directly at the current boundary of <code>login / register / list / run / agent</code>.</p>
+        <p>Look directly at the current landed boundary of <code>login / register / list / run / agent</code>.</p>
       </a>
       <a class="brand-link-card" href="./deployment.html">
         <span>Step 07</span>
@@ -384,18 +408,18 @@ lastUpdated: false
     <div class="brand-link-grid brand-link-grid--three">
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
-        <strong>Files & Results</strong>
-        <p>Useful for file-driven tasks, report artifacts, and jobs that need batch status visibility. It explains the input-file and output-file path clearly.</p>
+        <strong>Files &amp; Results</strong>
+        <p>Best for file-driven tasks, report artifacts, and scenarios that need batch-state visibility. Start by making the input-file and result-file chain explicit.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
         <span>Deliverables</span>
         <strong>Deliverables</strong>
-        <p>Useful for formal delivery discussions when you need to clarify which entry points, instructions, and result artifacts the customer will actually receive.</p>
+        <p>Best for formal delivery discussion, where the customer needs to know which entry points, instructions, and result artifacts will actually be handed over.</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
         <span>Checklist</span>
         <strong>Onboarding Checklist</strong>
-        <p>Useful for presales, implementation, and the customer to align script directories, README files, examples, dependencies, and risk boundaries.</p>
+        <p>Best for aligning script directories, README files, sample files, dependencies, and risk boundaries together with presales, implementation, and the customer.</p>
       </a>
     </div>
   </section>
@@ -403,12 +427,12 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Why ExecGov</p>
-      <h2>Why this kind of platform matters</h2>
+      <h2>The project value of this kind of platform</h2>
       <ul class="brand-list">
-        <li>The goal is not just to expose a model. It is to make AI execute inside rules.</li>
-        <li>The goal is not a one-off demo. It is a system that keeps accumulating capability assets, processes, and audit trails.</li>
-        <li>The personal free path, formal delivery, and local bridge can all share one trusted-execution foundation.</li>
-        <li>The platform supports a web entry, local script onboarding, and a path toward broader capability bridging.</li>
+        <li>The point is not to expose a model and stop there. The point is to make AI execute inside rules.</li>
+        <li>The point is not a one-time demo. The point is a system that can keep accumulating capability assets, processes, and audit records.</li>
+        <li>The personal free path, formal delivery, and local onboarding can all share the same trusted-execution foundation.</li>
+        <li>The platform supports a web entry, local script onboarding, and a broader capability-bridging path that can continue later.</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -416,7 +440,7 @@ lastUpdated: false
       <h2>Who it fits today</h2>
       <ul class="brand-list">
         <li>E-commerce, content, and operations-data automation teams</li>
-        <li>Technical teams that need script governance and automation ops</li>
+        <li>Technical teams that need script governance and automation operations</li>
         <li>Smaller formal customers that need intranet deployment, private deployment, or stricter security boundaries</li>
       </ul>
     </article>
@@ -427,7 +451,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>Continue into product detail, or move directly into four-path lead routing</h2>
-        <p class="brand-lead">Continue with scenarios, CLI onboarding, and capabilities, or submit a lead directly to decide whether you should stay on the free path, expand local script slots, move into the standard team edition, or go into enterprise delivery.</p>
+        <p class="brand-lead">Continue with scenarios, CLI onboarding, and capabilities, or submit a lead directly to decide whether to stay on the free path, expand local script slots, move into the standard team edition, or enter enterprise delivery.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./scenarios.html">
@@ -444,7 +468,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./personal-billing-membership.html">
           <span>Billing</span>
-          <strong>Billing & Membership</strong>
+          <strong>Billing &amp; Membership</strong>
         </a>
         <a class="brand-link-card" href="./capabilities.html">
           <span>Capability</span>
@@ -452,7 +476,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>Submit a Lead / Routing</strong>
+          <strong>Submit a lead / routing</strong>
         </a>
       </div>
     </div>

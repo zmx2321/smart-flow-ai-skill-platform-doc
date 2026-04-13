@@ -10,22 +10,24 @@ lastUpdated: false
       <p class="brand-kicker">CLI Guide</p>
       <h1>CLI Guide</h1>
       <div class="brand-hero__panel">
-        <span class="brand-pill">CLI Scope</span>
-        <strong>The CLI can already log in, register scripts, read the manifest, trigger backend execution directly, and print a web-open link.</strong>
-        <p>Web-based upload registration already supports Python / Shell. CLI-based remote registration still centers on Python for now, while remote task pulling and long-running Agent execution remain next-stage work.</p>
+        <span class="brand-pill">Minimal Formal Loop</span>
+        <strong>The CLI already supports login, cloud registration, local-agent registration, direct run, machine binding, and Local Agent polling and execution on the current machine.</strong>
+        <p>The web path is still the best place to feel a visible single-file flow first. The CLI is the deeper path for single-file or folder registration, local-path registration, and local execution bridging.</p>
       </div>
       <p class="brand-lead">
-        <strong>execgov-cli</strong> is ExecGov's current command-line entry for individual developers, delivery work, and local-execution scenarios.
-        The point is not to build a command-line skin. The point is to connect the <strong>local script directory, local runtime environment, and platform control plane</strong> into a bridge that is usable today.
+        <strong>execgov-cli</strong> is ExecGov's current command-line entry for individual developers, delivery work, and local or intranet execution scenarios.
+        The point is not to add a command-line skin. The point is to connect the
+        <strong>local script folder, local runtime environment, and platform control plane</strong>
+        into a bridge that is usable today.
       </p>
       <p class="brand-lead">
-        The CLI path exists to bridge the external control plane and the local environment so that local scripts, execution environments, and the platform governance chain can work together.
+        The CLI path bridges the external control plane and the local environment so local scripts, execution environments, and the platform governance chain can work together.
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">login</span>
         <span class="brand-chip">register</span>
         <span class="brand-chip">list / run</span>
-        <span class="brand-chip">agent describe / start</span>
+        <span class="brand-chip">agent bind / describe / start</span>
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Local onboarding / lead routing</a>
@@ -43,8 +45,8 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">accountFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'register'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'config'</span><span class="matrix-panel__punct">]</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">workspaceFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'manifest'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'metadata'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'upload_register'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">accountFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'login'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'bind_machine'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'config'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">workspaceFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'manifest'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'metadata'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'upload_or_local_register'</span><span class="matrix-panel__punct">]</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">executionFlow</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'run'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent_describe'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'agent_start'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">LOCAL WORKSPACE / PLATFORM CONTROL</div>
@@ -52,7 +54,7 @@ lastUpdated: false
         <div class="matrix-panel__footer">
           <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local_bridge</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">state</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">usable_now</span></span>
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">agent_runtime</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">deeper_agent_governance</span></span>
         </div>
       </div>
     </div>
@@ -67,29 +69,32 @@ lastUpdated: false
         <li><code>register</code></li>
         <li><code>list</code></li>
         <li><code>run</code></li>
-        <li><code>agent describe</code> / <code>agent start</code></li>
-        <li>sidecar JSON overrides, metadata extraction from comments / docstrings / filenames</li>
+        <li><code>agent describe</code>, <code>agent bind</code>, and <code>agent start</code></li>
+        <li>sidecar JSON overrides and metadata extraction from comments, docstrings, and file names</li>
         <li><code>.execgov-manifest.json</code> generation</li>
+        <li><code>register --execution-mode cloud</code> calling backend <code>upload-register</code> for Python and Shell upload registration</li>
+        <li><code>register --execution-mode local-agent</code> calling backend <code>local-register</code> for single-file or folder local-path registration</li>
+        <li><code>agent start</code> polling, claiming, executing, and completing Local Agent jobs on the current machine</li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Not Yet</p>
       <h2>Not implemented yet</h2>
       <ul class="brand-list">
-        <li><code>pull</code> / <code>publish</code> / <code>doctor</code></li>
-        <li><code>agent heartbeat</code> / <code>agent status</code> / <code>agent run</code></li>
-        <li>remote task pulling and execution-log upload</li>
-        <li>richer CLI-side remote registration for more non-Python asset types</li>
+        <li><code>pull</code>, <code>publish</code>, and <code>doctor</code></li>
+        <li><code>agent heartbeat</code>, <code>agent status</code>, and <code>agent run</code></li>
+        <li>streaming log upload and deeper multi-machine scheduling</li>
+        <li>richer cloud upload registration for more non-Python or non-Shell asset types such as <code>bat</code> and <code>node</code></li>
       </ul>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Positioning</p>
       <h2>Its role inside the platform</h2>
       <ul class="brand-list">
-        <li>The local onboarding entry for individual developers and technical users</li>
-        <li>A delivery tool for organizing a script directory and generating the manifest</li>
-        <li>The skeleton starting point for the Agent direction, not a finished Agent product</li>
+        <li>The deeper local onboarding entry for individual developers and technical users</li>
+        <li>A delivery tool for organizing a script folder and generating the manifest</li>
         <li>The first bridge layer between the platform control plane and the local runtime environment</li>
+        <li>The current minimal Local Agent loop, not a finished general Agent product</li>
       </ul>
     </article>
   </section>
@@ -99,9 +104,9 @@ lastUpdated: false
       <p class="brand-kicker">Public Onboarding</p>
       <h2>How the CLI relates to the public entry</h2>
       <ul class="brand-list">
-        <li>New users should first feel the execution chain through the no-login web experience page, then decide whether to continue into signup / login.</li>
+        <li>New users should still feel the execution chain through the no-login web experience page first, then decide whether to continue into signup or login.</li>
         <li>The CLI is a deeper local-bridge entry. It does not replace the public <code>/experience</code> path.</li>
-        <li>It fits users who already know they want to connect local scripts and local runtime environments to the platform control plane.</li>
+        <li>It fits people who already know they want to connect local scripts, local runtime environments, or intranet resources to the platform control plane.</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -109,10 +114,10 @@ lastUpdated: false
       <h2>How the CLI works with the web entry</h2>
       <ul class="brand-list">
         <li>The web side already exposes three formal entry points: <code>/experience</code>, <code>/login</code>, and <code>/register</code>.</li>
-        <li>After registration succeeds, the flow currently goes through <code>/register/result</code> before returning to login and the personal mainline.</li>
-        <li>The experience page is for feeling the execution chain first, not for real business writes. The left panel currently shows Python <code>task_brief_demo.py</code>, while the right panel shows Shell <code>clean_log_demo.sh</code>.</li>
-        <li>Web-side upload registration already supports <code>.py / .sh / .bash</code>.</li>
-        <li><code>execgov-cli</code> is already moving toward Python / Shell compatibility, but the main directory-registration example, default explanation, and quickstart wording still center on Python for now.</li>
+        <li>After signup succeeds, the current flow still goes through <code>/register/result</code> before returning to login and the personal mainline.</li>
+        <li>The experience page is for feeling the execution chain first. The left panel currently shows the Python demo <code>task_brief_demo.py</code>, while the right panel shows the Shell demo <code>clean_log_demo.sh</code>.</li>
+        <li>Web-side upload registration already supports <code>.py</code>, <code>.sh</code>, and <code>.bash</code>.</li>
+        <li>The web path fits visible single-file onboarding best. The CLI takes over when you need repeatable single-file or folder registration, local-path registration, or Local Agent execution.</li>
       </ul>
     </article>
   </section>
@@ -137,20 +142,43 @@ lastUpdated: false
         <tr>
           <td>Local script-slot expansion</td>
           <td>The local bridge for continued individual use</td>
-          <td>It fits people who are already continuously connecting scripts in their personal space and want to organize the directory, generate the manifest, and test execution.</td>
+          <td>It fits people who are already continuously connecting scripts in personal space and want to organize folders, generate the manifest, or keep scripts local while letting the platform dispatch them back.</td>
         </tr>
         <tr>
           <td>Standard team edition</td>
           <td>Auxiliary onboarding and supplemental local execution</td>
-          <td>The main entry for the team edition is still the formal tenant frontend. The CLI acts more like a bridge than the formal team entry itself.</td>
+          <td>The main entry for the team edition is still the formal tenant frontend. The CLI acts as a bridge rather than the formal team entry itself.</td>
         </tr>
         <tr>
           <td>Enterprise delivery</td>
           <td>The bridge layer for local environments and intranet resources</td>
-          <td>The CLI / Agent path becomes more critical when the project involves local environments, intranet resources, or hybrid execution.</td>
+          <td>The CLI / Local Agent path becomes more critical when the project involves local environments, intranet resources, or hybrid execution.</td>
         </tr>
       </tbody>
     </table>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Cloud Mode</p>
+      <h2>What <code>cloud</code> registration does today</h2>
+      <ul class="brand-list">
+        <li>The CLI scans the workspace, extracts metadata, generates <code>.execgov-manifest.json</code>, and calls backend <code>upload-register</code></li>
+        <li>Python and Shell scripts currently go through the real cloud upload-registration path</li>
+        <li>If the workspace contains other script types such as <code>bat</code> or <code>node</code>, they are not yet fully uploaded through this path</li>
+        <li>This is the path for putting script content into the platform-side registration flow</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Local-Agent Mode</p>
+      <h2>What <code>local-agent</code> registration does today</h2>
+      <ul class="brand-list">
+        <li>The CLI calls backend <code>local-register</code> and records the local path instead of uploading source code</li>
+        <li>The same command supports a whole folder or a single script file</li>
+        <li>Python, Shell, Bat, and Node local paths can currently be registered into this mode</li>
+        <li>The current machine's <code>machine_id</code>, <code>machine_name</code>, and <code>agent_name</code> are registered together for later job routing</li>
+      </ul>
+    </article>
   </section>
 
   <section class="brand-card">
@@ -158,31 +186,31 @@ lastUpdated: false
     <h2>Quick start</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
-        <h3>1. Install in a development environment</h3>
+        <h3>1. Install it into the current environment</h3>
         <pre><code class="language-bash">cd execgov-cli
 python -m pip install -e .
 execgov-cli --help</code></pre>
-        <p>This is the installation path that fits development, local testing, and local onboarding best right now. After installation, you no longer need to type <code>python -m execgov_cli.cli</code> every time.</p>
+        <p>This is the most practical path right now for development, local testing, and delivery-side validation. The outward standard command is <code>execgov-cli</code>.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>2. Run the module entry directly</h3>
-        <pre><code class="language-bash">cd execgov-cli
-python -m execgov_cli.cli --help</code></pre>
-        <p>If you have not installed it locally yet, start by running the module entry directly.</p>
-      </article>
-      <article class="brand-card brand-card--nested">
-        <h3>3. Save login configuration</h3>
-        <pre><code class="language-bash">cd execgov-cli
-python -m execgov_cli.cli login \
+        <h3>2. Save the login configuration</h3>
+        <pre><code class="language-bash">execgov-cli login \
   --token YOUR_API_TOKEN \
-  --api-base http://localhost:6089/dev-api \
-  --web-base http://localhost:80</code></pre>
-        <p>The default config file path is <code>~/.execgov/config.json</code>. You can override it through <code>EXECGOV_CONFIG_DIR</code>.</p>
+  --api-base http://tenant1000.localhost:6089 \
+  --web-base http://localhost:81</code></pre>
+        <p>The default config file is <code>~/.execgov/config.json</code>. Free developers should normally point to the personal-free tenant domain. Enterprise users should point to their own tenant domain. <code>public</code> is not the default ordinary CLI user entry.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>4. Register a script directory</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts</code></pre>
-        <p>The command scans the directory, generates <code>.execgov-manifest.json</code>, and by default calls the backend <code>upload-register</code> API. CLI-side directory registration is already moving toward Python / Shell compatibility, but the primary examples and default guidance still center on Python for now. The web entry already supports both Python and Shell along the same path.</p>
+        <h3>3. Register a workspace in cloud mode</h3>
+        <pre><code class="language-bash">execgov-cli register ./examples/scripts</code></pre>
+        <p>The command scans the folder, generates <code>.execgov-manifest.json</code>, and calls backend <code>upload-register</code>. Python and Shell already go through the real cloud-registration path.</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>4. Register local scripts and start the Local Agent</h3>
+        <pre><code class="language-bash">execgov-cli register ./examples/scripts --execution-mode local-agent
+execgov-cli register ./examples/scripts/backup.py --execution-mode local-agent
+execgov-cli agent start</code></pre>
+        <p>This keeps code on the current machine, registers either a folder or a single file, and lets the current machine claim and execute the queued Local Agent jobs that were routed back to it.</p>
       </article>
     </div>
   </section>
@@ -193,59 +221,78 @@ python -m execgov_cli.cli login \
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Inspect results without writing files</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts --dry-run --print-json</code></pre>
-        <p>Useful when you want to confirm whether the extracted Skill metadata looks right before writing anything.</p>
+        <pre><code class="language-bash">execgov-cli register ./examples/scripts --dry-run --print-json</code></pre>
+        <p>Useful when you want to verify whether the extracted Skill metadata looks correct before writing anything.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Generate only the manifest</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts --manifest-only</code></pre>
+        <pre><code class="language-bash">execgov-cli register ./examples/scripts --manifest-only</code></pre>
         <p>If you do not want to call the backend yet, generate the local manifest only.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Read a manifest summary</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli list ./examples/scripts</code></pre>
+        <pre><code class="language-bash">execgov-cli list ./examples/scripts</code></pre>
         <p><code>list</code> currently requires an explicit workspace path, and that directory must already contain <code>.execgov-manifest.json</code>.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Trigger a Skill directly</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli run backup_local \
+        <pre><code class="language-bash">execgov-cli run backup_local \
   --request-text "Manual backup run from CLI" \
   --input-json '{"sourcePath":"/tmp/demo"}'</code></pre>
-        <p>If you saved <code>--web-base</code> during login, the CLI will also print the corresponding web-open link.</p>
+        <p>If <code>--web-base</code> was saved during login, the CLI also prints the corresponding web-open link for that execution.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>View the Agent description</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli agent describe</code></pre>
-        <p>This currently prints the local Agent description so the platform side can wire up later execution endpoints.</p>
+        <h3>Describe or bind the current machine</h3>
+        <pre><code class="language-bash">execgov-cli agent describe
+execgov-cli agent bind \
+  --machine-name "Alice MacBook" \
+  --agent-name "alice-local-agent"</code></pre>
+        <p><code>agent bind</code> persists a stable machine identity for later local registration and Local Agent routing. If you do not bind it manually, login and Local Agent commands still fill in defaults.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>Reserve the local Agent mode</h3>
-        <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts --execution-mode local-agent
-python -m execgov_cli.cli agent start</code></pre>
-        <p>At the moment, this writes <code>execution_mode</code> into the manifest and keeps the local Agent entry alive, but it does not yet take over real execution.</p>
+        <h3>Process the Local Agent queue once</h3>
+        <pre><code class="language-bash">execgov-cli agent start --once</code></pre>
+        <p>This is the easiest manual test for the Local Agent loop. It claims at most one job, executes it on the current machine, and reports completion back to the platform.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Metadata</p>
+    <h2>How metadata and sidecar files work</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>Sidecar file naming</h3>
+        <pre><code class="language-text">backup.py
+backup.execgov-skill.json
+.execgov-manifest.json</code></pre>
+        <p>The standard sidecar file name is <code>&lt;script_stem&gt;.execgov-skill.json</code>, and the workspace manifest is <code>.execgov-manifest.json</code>.</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Extraction rule</h3>
+        <p>The CLI first extracts metadata from comments, docstrings, and file names, then applies explicit sidecar overrides, and finally writes the workspace summary into the manifest.</p>
+        <p>This is why the CLI can act as both a registration tool and a lightweight local delivery organizer.</p>
       </article>
     </div>
   </section>
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Metadata</p>
-      <h2>Metadata extraction rules</h2>
+      <p class="brand-kicker">Current Boundary</p>
+      <h2>What the CLI already proves today</h2>
       <ul class="brand-list">
-        <li>First read the matching sidecar file: <code>&lt;script_stem&gt;.execgov-skill.json</code></li>
-        <li>Then read top-of-file comments or the top Python docstring</li>
-        <li>Finally infer from the filename when no better metadata is available</li>
+        <li>The CLI is not limited to local manifest generation anymore. It already calls real backend registration and execution interfaces.</li>
+        <li>The minimal formal local loop is already live: local scripts can be registered, claimed back to the same machine, executed there, and completed back to the platform.</li>
+        <li>The web entry is still best for visible single-file onboarding. The CLI is better for repeatable registration, folder onboarding, and local-path dispatch.</li>
       </ul>
-      <p>The manifest currently includes at least <code>script_code</code>, <code>skill_name</code>, <code>description</code>, <code>risk_level</code>, <code>timeout_seconds</code>, <code>execution_mode</code>, and <code>inputs</code>.</p>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Current Rules</p>
-      <h2>Limits you should know in advance</h2>
+      <p class="brand-kicker">Later Boundary</p>
+      <h2>What still belongs to later enhancement</h2>
       <ul class="brand-list">
-        <li><code>register</code> is not manifest-only by default. It will really call the backend registration API.</li>
-        <li>Web-side upload registration already supports Python / Shell. The CLI directory-registration path is catching up on Shell, but the official mainline wording still centers on Python for now.</li>
-        <li><code>run</code> calls the backend manual-execution API directly and prints a web-open link when available.</li>
-        <li>Remote task pulling, long-running local execution, and execution-log upload belong to the next phase.</li>
+        <li>General operational governance around heartbeat, status, richer Agent control, and deeper multi-machine scheduling</li>
+        <li>Streaming execution-log upload instead of simple completion-summary reporting</li>
+        <li>A fuller cloud-registration path for more asset types beyond today's Python and Shell mainline</li>
       </ul>
     </article>
   </section>
@@ -254,25 +301,25 @@ python -m execgov_cli.cli agent start</code></pre>
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>Continue with product positioning, or move directly into the local onboarding conversation</h2>
-        <p class="brand-lead">Continue with Product Overview, Capabilities, and Deployment. If you already have a script directory, you can also bring the onboarding question directly into a conversation.</p>
+        <h2>Read the CLI together with scenarios, deployment, and onboarding prep</h2>
+        <p class="brand-lead">The CLI becomes easier to judge when you read it together with local execution scenarios, deployment shape, and the onboarding checklist instead of treating it like a standalone tool page.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="./index.html">
-          <span>Product</span>
-          <strong>Product Overview</strong>
-        </a>
-        <a class="brand-link-card" href="./capabilities.html">
-          <span>Capabilities</span>
-          <strong>Capabilities</strong>
+        <a class="brand-link-card" href="./scenarios.html">
+          <span>Scenarios</span>
+          <strong>Scenarios</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
           <span>Deployment</span>
           <strong>Deployment</strong>
         </a>
+        <a class="brand-link-card" href="./onboarding-checklist.html">
+          <span>Checklist</span>
+          <strong>Onboarding Checklist</strong>
+        </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>Local onboarding / lead routing</strong>
+          <strong>Discuss local onboarding</strong>
         </a>
       </div>
     </div>

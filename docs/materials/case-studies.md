@@ -11,21 +11,21 @@ lastUpdated: false
       <h1>样板案例 / 端到端执行范例</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Flagship Cases</span>
-        <strong>这页不是 hello demo，而是 3 个能直接拿去谈项目、谈治理、谈交付的端到端执行范例。</strong>
-        <p>重点不是“脚本能跑”，而是展示 ExecGov 如何把复杂流程变成可申请、可确认、可执行、可回看的服务。</p>
+        <strong>这页先放 3 个你现在就能自己演示的轻量样板，不假装是大客户生产案例。</strong>
+        <p>重点是先让人看懂：ExecGov 已经能把 Python、Shell 和文件处理三类链路收成统一入口。</p>
       </div>
       <p class="brand-lead">
-        这些案例一方面用于展示当前产品方向，另一方面也用于帮助潜在客户快速判断：
-        <strong>这套平台能不能把复杂、危险、多人协作的脚本流程收成正式入口</strong>。
+        这些案例更像当前 1.0 阶段的 showroom，用来帮助潜在客户和合作方快速判断：
+        <strong>这套平台是不是已经能把“输入请求 -> 执行脚本 -> 返回结果 -> 留下记录”这条最小链路跑通</strong>。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">K8s 安全巡检</span>
-        <span class="brand-chip">跨云成本分析</span>
-        <span class="brand-chip">运营数据自动化</span>
-        <span class="brand-chip">端到端执行</span>
+        <span class="brand-chip">Python 任务简报</span>
+        <span class="brand-chip">Shell 日志预演</span>
+        <span class="brand-chip">CSV 文件画像</span>
+        <span class="brand-chip">轻量可演示</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">拿真实场景来沟通</a>
+        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">先看体验入口</a>
         <a class="cta-button" href="../product/index.html">看产品概览</a>
       </div>
     </div>
@@ -58,156 +58,219 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Case 01</p>
-      <h2>自动巡检 K8s 集群并生成安全报告</h2>
-      <p>适合展示高风险巡检动作如何在确认、执行、留痕和报告回传之间形成闭环。</p>
+      <h2>输入一句任务主题，生成 Python 任务简报</h2>
+      <p>适合展示一句话请求如何进入 Python 脚本，快速形成可读的执行前简报。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Case 02</p>
-      <h2>跨云成本分析与优化建议生成</h2>
-      <p>适合展示多数据源拉取、清洗、聚合、分析和建议输出如何被收成单一入口。</p>
+      <h2>输入一段日志，预演 Shell 日志提炼</h2>
+      <p>适合展示 shell 脚本如何从混杂日志里提炼出 WARN / ERROR 重点输出。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Case 03</p>
-      <h2>运营数据自动化与异常追踪</h2>
-      <p>适合展示团队最常见的表格、报表、导入导出和异常追踪流程如何被统一治理。</p>
+      <h2>上传 CSV，生成字段概览与画像报告</h2>
+      <p>适合展示文件型流程如何从上传输入走到结果产物和下载入口。</p>
     </article>
   </section>
 
-  <section id="k8s-security-report" class="brand-card">
+  <section id="python-task-brief-demo" class="brand-card">
     <p class="brand-kicker">Case 01</p>
-    <h2>自动巡检 K8s 集群并生成安全报告</h2>
+    <h2>输入一句任务主题，生成 Python 任务简报</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>典型问题</h3>
         <ul class="brand-list">
-          <li>巡检脚本很多，但散在不同服务器和个人账号下</li>
-          <li>谁能跑、什么时候跑、跑了哪些命令不够清楚</li>
-          <li>出问题时缺少统一报告和回看入口</li>
+          <li>手里已经有 Python 脚本，但第一次接触的人不知道该怎么开始。</li>
+          <li>很多需求在真正执行前，先需要一个输入输出和步骤说明。</li>
+          <li>你需要一个低门槛体验入口，而不是一上来就要求客户接真实环境。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>ExecGov 怎么接</h3>
         <ul class="brand-list">
-          <li>用户提交“巡检生产集群并生成安全报告”请求</li>
-          <li>AI 匹配巡检 Skill，平台展示巡检范围和风险说明</li>
-          <li>高风险节点检查先确认，再调用 Python 脚本执行</li>
-          <li>结果回传为结构化报告、风险摘要和执行日志</li>
+          <li>用户在体验页输入一个任务主题，例如“下载目录整理”。</li>
+          <li>平台调用 <code>task_brief_demo.py</code> 生成最小执行前简报。</li>
+          <li>结果会返回建议执行链路、输入准备和下一步入口。</li>
+          <li>这条体验链路后面可以替换成租户自己的真实 Python 脚本。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>治理点</h3>
         <ul class="brand-list">
-          <li>按租户、角色和环境限制可执行集群范围</li>
-          <li>把高风险命令放进确认节点，不允许直接越权执行</li>
-          <li>完整记录谁发起、谁确认、执行了什么检查项</li>
+          <li>体验阶段只生成简报，不直接写真实业务数据。</li>
+          <li>可以记录当前主题、执行时间和输出内容，形成最小回看链路。</li>
+          <li>适合拿来演示“AI 接住请求，再调度 Python 脚本”这件事已经成立。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>最终交付物</h3>
         <ul class="brand-list">
-          <li>K8s 安全巡检报告</li>
-          <li>执行日志与异常摘要</li>
-          <li>可回看的审计记录与下载入口</li>
+          <li>一段结构化任务简报文本。</li>
+          <li>建议的执行步骤和输入输出提示。</li>
+          <li>注册或继续接真实脚本的下一步入口。</li>
         </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>演示截图文案</h3>
+        <ul class="brand-list">
+          <li>主标题：输入一句任务主题，生成 Python 任务简报。</li>
+          <li>副标题：免登录体验 AI 如何先接住请求，再调度 Python 脚本输出执行前简报。</li>
+          <li>角标文案：轻量体验 / 只读预览 / 可继续接正式脚本。</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>演示台词</h3>
+        <ol class="brand-list">
+          <li>这里我先不接真实业务环境，只演示最小执行链路，让你先看懂 ExecGov 接请求的方式。</li>
+          <li>我输入一个任务主题，比如“下载目录整理”，平台会先调用 Python 脚本生成执行前简报，而不是直接做危险动作。</li>
+          <li>这一步的价值是先把输入、步骤和下一步入口讲清楚，后面再替换成你自己的正式脚本。</li>
+        </ol>
       </article>
     </div>
   </section>
 
-  <section id="multi-cloud-cost-analysis" class="brand-card">
+  <section id="shell-log-preview-demo" class="brand-card">
     <p class="brand-kicker">Case 02</p>
-    <h2>跨云成本分析与优化建议生成</h2>
+    <h2>输入一段日志，预演 Shell 日志提炼</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>典型问题</h3>
         <ul class="brand-list">
-          <li>不同云厂商账单格式不一致，人工汇总成本高</li>
-          <li>分析脚本和规则分散，难以稳定复用</li>
-          <li>每月都要重复清洗、聚合、对比和给出建议</li>
+          <li>日志里 INFO、DEBUG、WARN、ERROR 混在一起，人工筛选很浪费时间。</li>
+          <li>很多 shell 脚本只存在终端里，不方便给别人直观看效果。</li>
+          <li>你需要一个安全的预演场景，而不是一上来就让对方跑真实清理动作。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>ExecGov 怎么接</h3>
         <ul class="brand-list">
-          <li>统一入口触发“生成本月跨云成本分析”</li>
-          <li>平台按授权拉取各云账单和资源台账</li>
-          <li>Python 脚本完成清洗、聚合、异常识别和优化建议生成</li>
-          <li>返回分析报告、成本拆解和建议清单</li>
+          <li>用户在体验页直接粘贴一段混杂日志。</li>
+          <li>平台调用 <code>clean_log_demo.sh</code> 做 preview 预演。</li>
+          <li>返回 WARN / ERROR 的保留结果和行数摘要。</li>
+          <li>这条链路能直观看到“Shell 脚本已被收成统一入口”。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>治理点</h3>
         <ul class="brand-list">
-          <li>限制可读取的账号、账单周期和资源范围</li>
-          <li>记录每次分析用到的数据源、规则版本和脚本版本</li>
-          <li>保留结果报告与执行上下文，方便复盘和对账</li>
+          <li>当前案例是预演，不直接修改服务器真实日志文件。</li>
+          <li>输入日志文本、输出结果和保留行数都可以被记录。</li>
+          <li>适合拿来演示“Shell 也能纳入受控执行入口”。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>最终交付物</h3>
         <ul class="brand-list">
-          <li>跨云成本分析报告</li>
-          <li>异常成本明细与优化建议</li>
-          <li>可追踪的执行记录与版本信息</li>
+          <li>一段过滤后的重点日志预览。</li>
+          <li>WARN / ERROR 数量和输出摘要。</li>
+          <li>可回看的执行结果和最小审计记录。</li>
         </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>演示截图文案</h3>
+        <ul class="brand-list">
+          <li>主标题：输入一段日志，预演 Shell 日志提炼。</li>
+          <li>副标题：把终端里的 shell 预处理能力收成统一入口，只保留 WARN / ERROR 重点输出。</li>
+          <li>角标文案：结果预览 / 不改真实日志 / 可回看。</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>演示台词</h3>
+        <ol class="brand-list">
+          <li>很多 shell 脚本平时只活在终端里，别人看不到效果，所以这里我做了一个可视化预演入口。</li>
+          <li>我直接贴一段混杂日志，平台会调用 shell 脚本做 preview，只提炼 WARN 和 ERROR，不去改线上文件。</li>
+          <li>这一步主要说明的是，Shell 这类资产也已经被收成了可控、可演示、可统一进入的能力单元。</li>
+        </ol>
       </article>
     </div>
   </section>
 
-  <section id="ops-data-automation" class="brand-card">
+  <section id="csv-profile-report-demo" class="brand-card">
     <p class="brand-kicker">Case 03</p>
-    <h2>运营数据自动化与异常追踪</h2>
+    <h2>上传 CSV，生成字段概览与画像报告</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>典型问题</h3>
         <ul class="brand-list">
-          <li>每天都要导出、清洗、合并多份 Excel / CSV</li>
-          <li>异常值靠人工比对，重复劳动多且容易出错</li>
-          <li>结果分散在聊天记录和本地文件夹里，难以交接</li>
+          <li>手里拿到一份 CSV / Excel，但先连字段和空值情况都看不清。</li>
+          <li>每次都靠手工打开表格做第一轮摸底，重复劳动多。</li>
+          <li>你需要一个最简单的文件型样板，证明平台不只会跑文本脚本。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>ExecGov 怎么接</h3>
         <ul class="brand-list">
-          <li>从统一入口上传原始文件并选择流程模板</li>
-          <li>平台调度 Python 脚本完成清洗、汇总、比对和异常识别</li>
-          <li>结果回传为标准报表、异常清单和处理建议</li>
-          <li>整条链路都可回看，适合团队协作与交接</li>
+          <li>从统一入口上传一个 CSV 或 Excel 文件。</li>
+          <li>平台调用 <code>csv_profile_demo</code> 生成分析报告。</li>
+          <li>报告会输出汇总信息、字段统计和前 20 行预览。</li>
+          <li>最终结果以 Excel 产物返回，适合继续下载和回看。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>治理点</h3>
         <ul class="brand-list">
-          <li>限制可上传文件类型、大小和流程范围</li>
-          <li>记录每次执行输入文件、脚本版本和结果产物</li>
-          <li>把高风险写入动作与只读分析动作分开治理</li>
+          <li>限制输入文件类型和大小，避免把任意文件都塞进执行链路。</li>
+          <li>记录 batchNo、源文件名和生成产物路径。</li>
+          <li>当前案例只做读取分析和结果生成，不覆盖原始文件。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>最终交付物</h3>
         <ul class="brand-list">
-          <li>标准化结果报表</li>
-          <li>异常明细与处理建议</li>
-          <li>文件下载入口与执行台账</li>
+          <li>summary 汇总页。</li>
+          <li>columns 字段画像页。</li>
+          <li>preview 预览页和下载入口。</li>
         </ul>
       </article>
+      <article class="brand-card brand-card--nested">
+        <h3>演示截图文案</h3>
+        <ul class="brand-list">
+          <li>主标题：上传 CSV，生成字段概览与画像报告。</li>
+          <li>副标题：免登录体验文件型流程如何从上传输入走到字段画像、前 5 行预览和下载产物。</li>
+          <li>角标文案：真实可点 / 可下载报告 / 不覆盖原文件。</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>演示台词</h3>
+        <ol class="brand-list">
+          <li>前两个案例是文本输入，这个案例专门用来证明 ExecGov 不只会收文本，也能接文件型流程。</li>
+          <li>我上传一个 CSV 或 Excel，平台会先做字段画像和前 5 行预览，再生成一个可下载的 xlsx 报告。</li>
+          <li>对客户来说，这说明平台已经具备“上传输入 -> 执行处理器 -> 返回结果文件”的完整最小闭环。</li>
+        </ol>
+      </article>
     </div>
+    <div class="brand-actions">
+      <a
+        class="cta-button cta-button--brand"
+        href="https://free.execgov.cn/#/experience?demo=csv_profile_demo"
+        target="_blank"
+        rel="noreferrer"
+      >
+        直接打开 CSV 前台体验入口
+      </a>
+    </div>
+    <p class="brand-lead">
+      文档里的 CSV 体验入口当前写的是
+      <code>https://free.execgov.cn/#/experience?demo=csv_profile_demo</code>。
+      域名一旦指到这套免费版前端，这个链接就会直接生效。
+    </p>
   </section>
 
   <section class="brand-card brand-card--cta">
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Step</p>
-        <h2>如果你手里也有类似流程</h2>
-        <p class="brand-lead">最直接的做法，是拿一条真实流程来对照这 3 个样板，判断它属于哪一类输入、风险和结果模式，再决定是否进入设计合作伙伴沟通。</p>
+        <h2>先拿能演示的轻量链路，把 1.0 跑通</h2>
+        <p class="brand-lead">这 3 个案例更适合你当前阶段对外展示、自己自测和讲解产品结构。等线上多租户、部署和 CLI 跑稳后，再继续升级成更重的行业案例。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
-          <span>Partner</span>
-          <strong>申请设计合作伙伴</strong>
+        <a class="brand-link-card" href="../guide/getting-started.html">
+          <span>Experience</span>
+          <strong>先看体验入口</strong>
         </a>
-        <a class="brand-link-card" href="./why-execgov.html">
-          <span>Why</span>
-          <strong>为什么我要做 ExecGov</strong>
+        <a class="brand-link-card" href="./service-packages.html">
+          <span>Service</span>
+          <strong>看启动方式 / 服务包</strong>
         </a>
         <a class="brand-link-card" href="../product/index.html">
           <span>Product</span>

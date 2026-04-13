@@ -33,6 +33,7 @@ const localeText = {
     navHotUpdate: "热更新说明",
     navFiles: "文件上传 / 结果下载",
     navDeliverables: "交付物 / 文档入口",
+    navImplementationTraining: "培训与实施",
     navChecklist: "客户接入准备清单",
     navArchitecture: "架构说明",
     navDeployment: "部署方式",
@@ -101,6 +102,7 @@ const localeText = {
     navHotUpdate: "Hot Update",
     navFiles: "Files & Results",
     navDeliverables: "Deliverables",
+    navImplementationTraining: "Implementation & Training",
     navChecklist: "Onboarding Checklist",
     navArchitecture: "Architecture",
     navDeployment: "Deployment",
@@ -234,6 +236,7 @@ const createNav = (localeKey) => {
         { text: t.navHotUpdate, link: withLocale(localeKey, "/product/hot-update") },
         { text: t.navFiles, link: withLocale(localeKey, "/product/file-results") },
         { text: t.navDeliverables, link: withLocale(localeKey, "/product/deliverables") },
+        { text: t.navImplementationTraining, link: withLocale(localeKey, "/product/implementation-training") },
         { text: t.navChecklist, link: withLocale(localeKey, "/product/onboarding-checklist") },
         { text: t.navArchitecture, link: withLocale(localeKey, "/product/architecture") },
         { text: t.navDeployment, link: withLocale(localeKey, "/product/deployment") },
@@ -289,6 +292,7 @@ const createSidebar = (localeKey) => {
           { text: t.navHotUpdate, link: withLocale(localeKey, "/product/hot-update") },
           { text: t.navFiles, link: withLocale(localeKey, "/product/file-results") },
           { text: t.navDeliverables, link: withLocale(localeKey, "/product/deliverables") },
+          { text: t.navImplementationTraining, link: withLocale(localeKey, "/product/implementation-training") },
           { text: t.navChecklist, link: withLocale(localeKey, "/product/onboarding-checklist") },
           { text: t.navArchitecture, link: withLocale(localeKey, "/product/architecture") },
           { text: t.navDeployment, link: withLocale(localeKey, "/product/deployment") },
@@ -325,6 +329,7 @@ const createSidebar = (localeKey) => {
           { text: t.navProductIndex, link: withLocale(localeKey, "/product/") },
           { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
           { text: t.navCustomerFlow, link: withLocale(localeKey, "/product/customer-flow") },
+          { text: t.navImplementationTraining, link: withLocale(localeKey, "/product/implementation-training") },
           { text: t.navMaterialsIndex, link: withLocale(localeKey, "/materials/") },
           { text: t.navWhy, link: withLocale(localeKey, "/materials/why-execgov") },
           { text: t.navCaseStudies, link: withLocale(localeKey, "/materials/case-studies") },
@@ -376,13 +381,13 @@ export default {
   title: localeText.root.title,
   description: localeText.root.description,
   appearance: {
-    initialValue: "dark",
+    initialValue: "light",
     storageKey: "execgov-doc-theme-appearance",
   },
   base: normalizedDocsBase,
   head: [
     ["link", { rel: "icon", href: `${normalizedDocsBase}favicon.ico` }],
-    ["meta", { name: "theme-color", content: "#020a08" }],
+    ["meta", { name: "theme-color", content: "#edf4f6" }],
     [
       "script",
       {},
@@ -390,7 +395,7 @@ export default {
         const siteKey = "execgov-doc-theme-appearance";
         const globalKey = "vitepress-theme-appearance";
         const saved = localStorage.getItem(siteKey);
-        const normalized = saved === "light" || saved === "dark" || saved === "auto" ? saved : "dark";
+        const normalized = saved === "light" || saved === "dark" || saved === "auto" ? saved : "light";
         localStorage.setItem(siteKey, normalized);
         localStorage.setItem(globalKey, normalized);
       })();`,

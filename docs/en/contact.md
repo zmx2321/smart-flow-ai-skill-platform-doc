@@ -85,13 +85,13 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
-      <p class="brand-kicker">Design Partner</p>
-      <h2>1-3 design-partner slots are currently open</h2>
+      <p class="brand-kicker">Good Fit</p>
+      <h2>Scenarios worth discussing now</h2>
       <ul class="brand-list">
-        <li>Best for teams that already run a large number of scripts, scheduled jobs, or automation flows</li>
-        <li>The goal is not to sell a huge system first. It is to turn one real process into a governed sample first.</li>
-        <li>The default mode is real payment, real scenarios, and real boundaries, not showcase-only cooperation.</li>
-        <li>If the fit is right, the work can include the script directory, risk actions, result callback, and audit records together.</li>
+        <li>Best for teams that already have scripts, scheduled jobs, file workflows, or local-bridge requirements</li>
+        <li>Useful when you need to clarify execution traceability, result return, intranet access, or private-deployment boundaries</li>
+        <li>Suitable when you want to decide how phase one should start and what environment or delivery inputs should be prepared</li>
+        <li>Best when a real scenario should determine whether the standard path is enough or formal delivery is needed</li>
       </ul>
     </article>
     <article class="brand-card">

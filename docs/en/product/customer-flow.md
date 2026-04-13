@@ -28,6 +28,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss team / enterprise delivery</a>
         <a class="cta-button" href="./hot-update.html">View hot-update notes</a>
+        <a class="cta-button" href="./implementation-training.html">View implementation &amp; training</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -199,6 +200,23 @@ lastUpdated: false
         </tr>
       </tbody>
     </table>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Training &amp; Support</p>
+      <h2>After delivery, training and support should also be explained clearly</h2>
+      <ul class="brand-list">
+        <li>Business owners, tenant admins, general users, and IT operations should ideally be trained by role instead of being pushed into one oversized course.</li>
+        <li>It is better to define which issues are supported after go-live and which items count as new requirements before delivery closes.</li>
+        <li>If this part is left implicit, the project usually drifts into a "everyone asks, nobody owns the boundary" state after go-live.</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Implementation Page</p>
+      <h2>Continue with implementation steps, training targets, and support boundaries</h2>
+      <p><a href="./implementation-training.html">View implementation &amp; training notes</a></p>
+    </article>
   </section>
 
 <section class="brand-card">
@@ -472,6 +490,10 @@ lastUpdated: false
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
           <strong>Deliverables</strong>
+        </a>
+        <a class="brand-link-card" href="./implementation-training.html">
+          <span>Training</span>
+          <strong>Implementation &amp; Training</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
           <span>Deployment</span>

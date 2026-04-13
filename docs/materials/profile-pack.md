@@ -140,6 +140,23 @@ lastUpdated: false
     </div>
   </section>
 
+  <section class="brand-card">
+    <p class="brand-kicker">Freelance Use</p>
+    <h2>如果您正在评估合作</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>合作资料阅读顺序</h3>
+        <p><a href="./freelance-home-structure.html">合作资料三层结构与建议阅读顺序</a></p>
+        <p>帮助您先看背景概览，再核实履历与能力，最后进入服务包与交付边界。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>源码与授权边界</h3>
+        <p><a href="./source-delivery-boundaries.html">源码交付与授权边界说明</a></p>
+        <p>帮助您快速区分标准交付、私有化部署和源码授权三种模式。</p>
+      </article>
+    </div>
+  </section>
+
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Reading Advice</p>

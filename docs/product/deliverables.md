@@ -29,6 +29,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通正式交付</a>
         <a class="cta-button" href="./customer-flow.html">查看客户流程 / 交付</a>
+        <a class="cta-button" href="./implementation-training.html">查看培训与实施安排</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -118,6 +119,12 @@ lastUpdated: false
           <td>建议固定包含</td>
         </tr>
         <tr>
+          <td>培训与实施说明</td>
+          <td>实施步骤、培训对象、支持边界</td>
+          <td>帮助客户在上线后继续用得明白</td>
+          <td>建议固定包含</td>
+        </tr>
+        <tr>
           <td>客户脚本热更新说明</td>
           <td>后续如何新增或更新脚本</td>
           <td>支撑持续交付</td>
@@ -159,6 +166,43 @@ lastUpdated: false
         <li>结果下载与文件处理入口何时包含</li>
         <li>交付物如何支持后续持续使用</li>
       </ul>
+    </article>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Training</p>
+      <h2>培训与实施说明为什么也属于交付物</h2>
+      <ul class="brand-list">
+        <li>交付不是把页面上线就结束，而是让客户知道后续怎么继续用、怎么继续扩。</li>
+        <li>不同角色看到的重点不一样，业务负责人、租户管理员、普通使用人和 IT 运维需要按角色培训。</li>
+        <li>如果项目包含基础支持，服务窗口和支持边界也应该在交付时一起讲清楚。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Implementation Page</p>
+      <h2>继续看培训对象、实施步骤和支持边界</h2>
+      <p>如果你正在判断上线后谁来学、怎么学、支持到什么程度，直接看培训与实施页会更清楚。</p>
+      <p><a href="./implementation-training.html">查看培训与实施服务说明</a></p>
+    </article>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Source Boundary</p>
+      <h2>标准交付不等于源码买断</h2>
+      <ul class="brand-list">
+        <li>标准交付重点是可运行入口、账号、文档、结果入口和必要交接。</li>
+        <li>客户使用独立服务器或独立环境，也不自动等于拿到整仓源码永久授权。</li>
+        <li>源码交接、买断或更高授权边界，应单独写进报价和合同。</li>
+        <li>如果客户追问“是否含源码”，应回到专门的边界模板页继续确认。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Quote Template</p>
+      <h2>继续看源码交付与授权边界</h2>
+      <p>当沟通已经进入“私有化是否包含源码”“源码是否可买断”这类问题时，直接进入边界模板页会更高效。</p>
+      <p><a href="../materials/source-delivery-boundaries.html">查看源码交付与授权边界说明</a></p>
     </article>
   </section>
 
@@ -208,6 +252,14 @@ lastUpdated: false
         <a class="brand-link-card" href="./deployment.html">
           <span>Deployment</span>
           <strong>部署方式</strong>
+        </a>
+        <a class="brand-link-card" href="./implementation-training.html">
+          <span>Training</span>
+          <strong>培训与实施安排</strong>
+        </a>
+        <a class="brand-link-card" href="../materials/source-delivery-boundaries.html">
+          <span>Boundary</span>
+          <strong>源码与授权边界</strong>
         </a>
       </div>
     </div>
