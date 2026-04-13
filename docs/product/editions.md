@@ -133,7 +133,7 @@ lastUpdated: false
         <li>管理员判定已按显式 admin / 超管标记收口，不再依赖 <code>user_id == 1</code></li>
         <li>智能大脑推荐、确认、执行、审计</li>
         <li>模板分发、安装、回滚、日志</li>
-        <li>免登录体验页、登录 / 注册页、个人技能库 / 上传 / 公告 / 个人空间 / 社区广场、本地脚本位轻量自助增购，以及 <code>execgov-cli</code> 最小闭环</li>
+        <li>免登录体验页、登录 / 注册 / 注册结果页、个人技能库、智能助手、公告中心、社区广场、个人空间、升级正式版、上传脚本、HTTP 只读台账、本地脚本位轻量自助增购，以及 <code>execgov-cli</code> 最小闭环</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -144,7 +144,8 @@ lastUpdated: false
         <li>把小团队协作里真正高频的能力收成更稳的方案</li>
         <li>把套餐、额度和交付边界收敛成更清楚的产品规则</li>
         <li>把共享 SaaS 租户前端的品牌化、初始化和菜单边界继续收口成稳定方案</li>
-        <li>把 CLI / 本地执行里真正值得长期维护的部分继续补稳</li>
+        <li>把 CLI / Local Agent 的绑定码、心跳、状态和远程执行继续补成正式方案</li>
+        <li>把社区治理、隐藏说明页和免费版生命周期提示继续收口成稳定口径</li>
       </ul>
     </article>
   </section>
@@ -164,7 +165,7 @@ lastUpdated: false
     <p class="brand-kicker">1.1 Pending</p>
     <h2><code>1.1</code> 还没完成的部分</h2>
     <ul class="brand-list">
-      <li>终端用户自助账单中心和通用自助续费入口</li>
+      <li>个人免费版完整账单中心、终端用户自助续费入口和对账能力</li>
       <li>真实第三方支付网关、签名验签和正式支付回调</li>
       <li>邮件 / 企业微信 / 短信等外发提醒渠道</li>
     </ul>
@@ -245,7 +246,7 @@ lastUpdated: false
   <div class="brand-grid brand-grid--four">
     <article class="brand-card brand-card--nested">
       <h3>01. 免费入口感知价值</h3>
-      <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么；登录后的个人入口当前会继续落到技能库、上传、公告、个人空间、社区广场和本地脚本位轻量扩容入口，确认“AI 调度能力”这条链路是否成立。</p>
+      <p>先通过公开体验页、登录 / 注册 / 注册结果页和免费入口理解平台是什么；登录后的个人入口当前会继续落到技能库、智能助手、公告中心、社区广场、个人空间、升级正式版、上传脚本、HTTP 只读台账和本地脚本位轻量扩容入口，确认“AI 调度能力”这条链路是否成立。</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>02. 个人继续使用先走本地脚本位</h3>

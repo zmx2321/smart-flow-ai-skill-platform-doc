@@ -1,10 +1,29 @@
 import DefaultTheme from "vitepress/theme"
 import { inBrowser, useRoute } from "vitepress"
-import { h, nextTick, onBeforeUnmount, onMounted, watch } from "vue"
+import { computed, h, nextTick, onBeforeUnmount, onMounted, watch } from "vue"
 
 import "./styles/custom.scss"
 
 const normalizePath = (pathname = "/") => pathname.replace(/\/index\.html$/, "/").replace(/\.html$/, "").replace(/\/+$/, "") || "/"
+
+const resolveLocaleKey = (path = "/") => (path.startsWith("/en/") ? "en" : "root")
+
+const themeCopy = {
+  root: {
+    heroRequest: "'帮我清理服务器日志'",
+    heroComment: "// 先看体验入口，再决定继续注册、沟通场景还是正式交付",
+    noteKicker: "Co-Build Program",
+    noteLead: "我们正在寻找首批标杆共创客户。如果你正受困于 AI 落地过程中的管控、审计、集成或本地接入难题，欢迎继续沟通，",
+    noteEmphasis: "一起把下一代企业智能工作流定义清楚。",
+  },
+  en: {
+    heroRequest: "'Help me clean up the server logs'",
+    heroComment: "// Start with the public entry, then decide on signup, a scoped conversation, or formal delivery",
+    noteKicker: "Co-Build Program",
+    noteLead: "We are looking for the first design partners who want to shape governed AI execution in production. If you are dealing with control, audit, integration, or local-bridge challenges, let's keep talking and ",
+    noteEmphasis: "define the next generation of enterprise workflows together.",
+  },
+}
 
 const NAVBAR_TRIGGER_BUFFER = 36
 const NAVBAR_MIN_TRIGGER = 12
@@ -99,6 +118,12 @@ const syncNavbarTopState = () => {
   })
 }
 
+const useThemeCopy = () => {
+  const route = useRoute()
+
+  return computed(() => themeCopy[resolveLocaleKey(route.path)])
+}
+
 const ThemeStateSync = {
   name: "ThemeStateSync",
   setup() {
@@ -156,8 +181,12 @@ const ThemeStateSync = {
 const HomeHeroCode = {
   name: "HomeHeroCode",
   setup() {
-    return () =>
-      h("div", { class: "home-hero-code" }, [
+    const copy = useThemeCopy()
+
+    return () => {
+      const current = copy.value
+
+      return h("div", { class: "home-hero-code" }, [
         h("div", { class: "home-hero-code__head" }, [
           h("div", { class: "home-hero-code__dots" }, [
             h("span", { class: "home-hero-code__dot home-hero-code__dot--red" }),
@@ -177,7 +206,7 @@ const HomeHeroCode = {
               " ",
               h("span", { class: "token-operator" }, "="),
               " ",
-              h("span", { class: "token-string" }, "'帮我清理服务器日志'"),
+              h("span", { class: "token-string" }, current.heroRequest),
             ]),
           ]),
           h("div", { class: "home-hero-code__line" }, [
@@ -215,7 +244,7 @@ const HomeHeroCode = {
           h("div", { class: "home-hero-code__line" }, [
             h("span", { class: "home-hero-code__line-no" }, "04"),
             h("span", { class: "home-hero-code__line-text" }, [
-              h("span", { class: "token-comment" }, "// 先看体验入口，再决定继续注册、沟通场景还是正式交付"),
+              h("span", { class: "token-comment" }, current.heroComment),
             ]),
           ]),
           h("div", { class: "home-hero-code__line" }, [
@@ -236,20 +265,26 @@ const HomeHeroCode = {
           h("span", { class: "home-hero-code__tag" }, "execution first"),
         ]),
       ])
+    }
   },
 }
 
 const HomeHeroAfter = {
   name: "HomeHeroAfter",
   setup() {
-    return () =>
-      h("div", { class: "home-hero-note" }, [
-        h("div", { class: "home-hero-note__kicker" }, "Co-Build Program"),
+    const copy = useThemeCopy()
+
+    return () => {
+      const current = copy.value
+
+      return h("div", { class: "home-hero-note" }, [
+        h("div", { class: "home-hero-note__kicker" }, current.noteKicker),
         h("p", { class: "home-hero-note__text" }, [
-          "我们正在寻找首批标杆共创客户。如果你正受困于 AI 落地过程中的管控、审计、集成或本地接入难题，欢迎继续沟通，",
-          h("strong", null, "一起把下一代企业智能工作流定义清楚。"),
+          current.noteLead,
+          h("strong", null, current.noteEmphasis),
         ]),
       ])
+    }
   },
 }
 

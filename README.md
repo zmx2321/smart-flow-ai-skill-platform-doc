@@ -6,7 +6,8 @@
 
 ## 线上地址
 
-- GitHub Pages: `https://zmx2321.github.io/exec-gov-ai-skill-platform-doc/`
+- 自定义域名: `https://execgov.cn/`
+- GitHub Pages 仓库地址: `https://github.com/zmx2321/exec-gov-ai-skill-platform-doc`
 - 我的博客: `https://zmx2321.github.io/vite-blog`
 
 ## 本地使用
@@ -19,7 +20,7 @@ yarn dev
 默认开发端口：
 
 ```text
-http://localhost:7080/exec-gov-ai-skill-platform-doc/
+http://localhost:7080/
 ```
 
 ## 构建与预览
@@ -35,6 +36,12 @@ yarn preview
 
 - `yarn main`：上传当前文档源码仓库内容到 `main`
 - `yarn deploy`：构建并发布 GitHub Pages 到 `gh-pages`
+
+补充说明：
+
+- `docs/.vitepress/dist` 是构建产物，已在 `.gitignore` 中忽略，不进入源码提交。
+- `yarn deploy` 会本地重新构建，再把生成后的静态文件单独推送到 `gh-pages`。
+- 自定义域名文件必须放在 `docs/public/CNAME`，不能只放仓库根目录，否则发布分支里不会有这个文件。
 
 ### 上传源码
 

@@ -112,6 +112,7 @@ lastUpdated: false
         <li>注册成功当前会先进入 <code>/register/result</code> 结果页，再回到登录与个人主链路。</li>
         <li>体验页用于先感受执行链路，不承接真实业务写入；当前左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`。</li>
         <li>网页端上传注册当前已支持 <code>.py / .sh / .bash</code>。</li>
+        <li><code>execgov-cli</code> 当前已经开始兼容 Python / Shell，但目录注册的主示例、默认讲解和快速上手口径暂时仍以 Python 为主。</li>
       </ul>
     </article>
   </section>
@@ -181,7 +182,7 @@ python -m execgov_cli.cli login \
       <article class="brand-card brand-card--nested">
         <h3>4. 注册脚本目录</h3>
         <pre><code class="language-bash">python -m execgov_cli.cli register ./examples/scripts</code></pre>
-        <p>命令会扫描目录、生成 <code>.execgov-manifest.json</code>，并默认调用后端 <code>upload-register</code> 完成 Python 脚本入库。网页端同一条入口目前已支持 Python / Shell。</p>
+        <p>命令会扫描目录、生成 <code>.execgov-manifest.json</code>，并默认调用后端 <code>upload-register</code>。当前 CLI 目录注册已经开始兼容 Python / Shell，但主示例和默认讲解暂时仍以 Python 为主；网页端同一条入口已支持 Python / Shell。</p>
       </article>
     </div>
   </section>
@@ -242,7 +243,7 @@ python -m execgov_cli.cli agent start</code></pre>
       <h2>需要提前知道的限制</h2>
       <ul class="brand-list">
         <li><code>register</code> 默认不是只落本地 manifest，而是会真正请求后端注册接口</li>
-        <li>远程入库目前主要支持 Python 脚本；网页端上传注册已支持 Python / Shell</li>
+        <li>网页端上传注册已支持 Python / Shell；CLI 这条目录注册路线也在补齐 Shell，但当前官方主口径暂时仍以 Python 为主</li>
         <li><code>run</code> 会直接调用后端手动执行接口，并输出可打开的 Web 链接</li>
         <li>远程任务拉取、本地常驻执行和日志回传属于下一阶段</li>
       </ul>

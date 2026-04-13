@@ -1,11 +1,380 @@
-const docsBase = process.env.EXECGOV_DOCS_BASE || "/exec-gov-ai-skill-platform-doc/"
+const docsBase = process.env.EXECGOV_DOCS_BASE || "/"
 const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
 const docsRepoUrl = process.env.EXECGOV_DOCS_REPO_URL || "https://github.com/zmx2321/exec-gov-ai-skill-platform-doc"
 
+const localeText = {
+  root: {
+    label: "简体中文",
+    lang: "zh-CN",
+    title: "ExecGov（执治）",
+    description: "ExecGov（执治），企业级 AI 执行与治理平台。",
+    siteTitle: "ExecGov Docs",
+    outlineTitle: "本页目录",
+    langMenuLabel: "切换语言",
+    darkModeSwitchLabel: "外观",
+    sidebarMenuLabel: "菜单",
+    returnToTopLabel: "返回顶部",
+    lastUpdatedText: "最后更新",
+    prevText: "上一页",
+    nextText: "下一页",
+    footerMessage: "让每次自动化，都可靠且可控。",
+    navHome: "首页",
+    navStart: "开始使用",
+    navStartIndex: "开始使用",
+    navGettingStarted: "快速开始",
+    navFaq: "常见问题",
+    navProduct: "产品介绍",
+    navProductIndex: "产品概览",
+    navScenarios: "应用场景",
+    navCapabilities: "核心能力",
+    navOrchestration: "能力编排",
+    navCustomerFlow: "客户流程 / 交付",
+    navBilling: "支付与会员",
+    navHotUpdate: "热更新说明",
+    navFiles: "文件上传 / 结果下载",
+    navDeliverables: "交付物 / 文档入口",
+    navChecklist: "客户接入准备清单",
+    navArchitecture: "架构说明",
+    navDeployment: "部署方式",
+    navCli: "CLI 指引",
+    navEditions: "版本路线",
+    navMaterials: "关于 / 资料",
+    navMaterialsIndex: "资料总览",
+    navWhy: "为什么我要做 ExecGov",
+    navCaseStudies: "样板案例",
+    navPitch: "介绍提纲",
+    navValue: "价值说明",
+    navMembershipPricing: "会员权益与价格说明",
+    navServicePackages: "合作方式 / 服务包",
+    navFounderProfile: "交付背景与项目经历",
+    navFounderCard: "背景概览",
+    navResume: "项目与履历",
+    navContact: "联系我",
+    navBlog: "我的博客",
+    sidebarGuide: "开始使用",
+    sidebarProduct: "平台文档",
+    sidebarMaterials: "关于 / 资料",
+    sidebarQuick: "快速入口",
+    sidebarBrand: "品牌设计",
+    sidebarLogoDesign: "Logo 设计简报",
+    searchButtonText: "搜索",
+    searchButtonAriaLabel: "搜索文档",
+    searchDisplayDetails: "显示详细列表",
+    searchReset: "清除查询条件",
+    searchBack: "返回关闭搜索",
+    searchNoResults: "没有找到结果",
+    searchSelect: "选择",
+    searchSelectAria: "输入回车确认",
+    searchNavigate: "切换",
+    searchNavigateUpAria: "向上导航",
+    searchNavigateDownAria: "向下导航",
+    searchClose: "关闭",
+    searchCloseAria: "输入 escape 关闭",
+  },
+  en: {
+    label: "English",
+    lang: "en-US",
+    title: "ExecGov",
+    description: "ExecGov is a governed AI execution platform for real-world tasks.",
+    siteTitle: "ExecGov Docs",
+    outlineTitle: "On this page",
+    langMenuLabel: "Change language",
+    darkModeSwitchLabel: "Appearance",
+    sidebarMenuLabel: "Menu",
+    returnToTopLabel: "Back to top",
+    lastUpdatedText: "Last updated",
+    prevText: "Previous page",
+    nextText: "Next page",
+    footerMessage: "Make every automation reliable and governed.",
+    navHome: "Home",
+    navStart: "Start Here",
+    navStartIndex: "Start Here",
+    navGettingStarted: "Getting Started",
+    navFaq: "FAQ",
+    navProduct: "Product",
+    navProductIndex: "Overview",
+    navScenarios: "Scenarios",
+    navCapabilities: "Capabilities",
+    navOrchestration: "Orchestration",
+    navCustomerFlow: "Customer Flow / Delivery",
+    navBilling: "Billing & Membership",
+    navHotUpdate: "Hot Update",
+    navFiles: "Files & Results",
+    navDeliverables: "Deliverables",
+    navChecklist: "Onboarding Checklist",
+    navArchitecture: "Architecture",
+    navDeployment: "Deployment",
+    navCli: "CLI Guide",
+    navEditions: "Editions",
+    navMaterials: "Materials",
+    navMaterialsIndex: "Materials Overview",
+    navWhy: "Why ExecGov",
+    navCaseStudies: "Case Studies",
+    navPitch: "Pitch",
+    navValue: "Value",
+    navMembershipPricing: "Membership & Pricing",
+    navServicePackages: "Service Packages",
+    navFounderProfile: "Founder Profile",
+    navFounderCard: "Founder Card",
+    navResume: "Public Resume",
+    navContact: "Contact",
+    navBlog: "Blog",
+    sidebarGuide: "Start Here",
+    sidebarProduct: "Product Docs",
+    sidebarMaterials: "Materials",
+    sidebarQuick: "Quick Links",
+    sidebarBrand: "Brand",
+    sidebarLogoDesign: "Logo Brief",
+    searchButtonText: "Search",
+    searchButtonAriaLabel: "Search docs",
+    searchDisplayDetails: "Display detailed list",
+    searchReset: "Reset search",
+    searchBack: "Close search",
+    searchNoResults: "No results found",
+    searchSelect: "Select",
+    searchSelectAria: "Press enter to select",
+    searchNavigate: "Navigate",
+    searchNavigateUpAria: "Navigate up",
+    searchNavigateDownAria: "Navigate down",
+    searchClose: "Close",
+    searchCloseAria: "Press escape to close",
+  },
+}
+
+const ensureLeadingSlash = (path = "/") => (path.startsWith("/") ? path : `/${path}`)
+
+const withLocale = (localeKey, path = "/") => {
+  const normalizedPath = ensureLeadingSlash(path)
+
+  if (localeKey === "root") {
+    return normalizedPath
+  }
+
+  return normalizedPath === "/" ? `/${localeKey}/` : `/${localeKey}${normalizedPath}`
+}
+
+const createActiveMatch = (localeKey, path) => `^${withLocale(localeKey, path)}`
+
+const createSearchOptions = () => ({
+  detailedView: "auto",
+  locales: {
+    root: {
+      translations: {
+        button: {
+          buttonText: localeText.root.searchButtonText,
+          buttonAriaLabel: localeText.root.searchButtonAriaLabel,
+        },
+        modal: {
+          displayDetails: localeText.root.searchDisplayDetails,
+          resetButtonTitle: localeText.root.searchReset,
+          backButtonTitle: localeText.root.searchBack,
+          noResultsText: localeText.root.searchNoResults,
+          footer: {
+            selectText: localeText.root.searchSelect,
+            selectKeyAriaLabel: localeText.root.searchSelectAria,
+            navigateText: localeText.root.searchNavigate,
+            navigateUpKeyAriaLabel: localeText.root.searchNavigateUpAria,
+            navigateDownKeyAriaLabel: localeText.root.searchNavigateDownAria,
+            closeText: localeText.root.searchClose,
+            closeKeyAriaLabel: localeText.root.searchCloseAria,
+          },
+        },
+      },
+    },
+    en: {
+      translations: {
+        button: {
+          buttonText: localeText.en.searchButtonText,
+          buttonAriaLabel: localeText.en.searchButtonAriaLabel,
+        },
+        modal: {
+          displayDetails: localeText.en.searchDisplayDetails,
+          resetButtonTitle: localeText.en.searchReset,
+          backButtonTitle: localeText.en.searchBack,
+          noResultsText: localeText.en.searchNoResults,
+          footer: {
+            selectText: localeText.en.searchSelect,
+            selectKeyAriaLabel: localeText.en.searchSelectAria,
+            navigateText: localeText.en.searchNavigate,
+            navigateUpKeyAriaLabel: localeText.en.searchNavigateUpAria,
+            navigateDownKeyAriaLabel: localeText.en.searchNavigateDownAria,
+            closeText: localeText.en.searchClose,
+            closeKeyAriaLabel: localeText.en.searchCloseAria,
+          },
+        },
+      },
+    },
+  },
+})
+
+const createNav = (localeKey) => {
+  const t = localeText[localeKey]
+
+  return [
+    { text: t.navHome, link: withLocale(localeKey, "/") },
+    {
+      text: t.navStart,
+      activeMatch: createActiveMatch(localeKey, "/guide/"),
+      items: [
+        { text: t.navStartIndex, link: withLocale(localeKey, "/guide/") },
+        { text: t.navGettingStarted, link: withLocale(localeKey, "/guide/getting-started") },
+        { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
+      ],
+    },
+    {
+      text: t.navProduct,
+      activeMatch: createActiveMatch(localeKey, "/product/"),
+      items: [
+        { text: t.navProductIndex, link: withLocale(localeKey, "/product/") },
+        { text: t.navScenarios, link: withLocale(localeKey, "/product/scenarios") },
+        { text: t.navCapabilities, link: withLocale(localeKey, "/product/capabilities") },
+        { text: t.navOrchestration, link: withLocale(localeKey, "/product/orchestration") },
+        { text: t.navCustomerFlow, link: withLocale(localeKey, "/product/customer-flow") },
+        { text: t.navBilling, link: withLocale(localeKey, "/product/personal-billing-membership") },
+        { text: t.navHotUpdate, link: withLocale(localeKey, "/product/hot-update") },
+        { text: t.navFiles, link: withLocale(localeKey, "/product/file-results") },
+        { text: t.navDeliverables, link: withLocale(localeKey, "/product/deliverables") },
+        { text: t.navChecklist, link: withLocale(localeKey, "/product/onboarding-checklist") },
+        { text: t.navArchitecture, link: withLocale(localeKey, "/product/architecture") },
+        { text: t.navDeployment, link: withLocale(localeKey, "/product/deployment") },
+        { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
+        { text: t.navEditions, link: withLocale(localeKey, "/product/editions") },
+      ],
+    },
+    {
+      text: t.navMaterials,
+      activeMatch: createActiveMatch(localeKey, "/materials/"),
+      items: [
+        { text: t.navMaterialsIndex, link: withLocale(localeKey, "/materials/") },
+        { text: t.navWhy, link: withLocale(localeKey, "/materials/why-execgov") },
+        { text: t.navCaseStudies, link: withLocale(localeKey, "/materials/case-studies") },
+        { text: t.navPitch, link: withLocale(localeKey, "/materials/pitch") },
+        { text: t.navValue, link: withLocale(localeKey, "/materials/value") },
+        { text: t.navMembershipPricing, link: withLocale(localeKey, "/materials/membership-benefits-pricing") },
+        { text: t.navServicePackages, link: withLocale(localeKey, "/materials/service-packages") },
+        { text: t.navFounderProfile, link: withLocale(localeKey, "/materials/founder-profile") },
+        { text: t.navFounderCard, link: withLocale(localeKey, "/materials/founder-card") },
+        { text: t.navResume, link: withLocale(localeKey, "/materials/resume-public") },
+      ],
+    },
+    { text: t.navContact, link: withLocale(localeKey, "/contact") },
+    { text: t.navBlog, link: "https://zmx2321.github.io/vite-blog" },
+  ]
+}
+
+const createSidebar = (localeKey) => {
+  const t = localeText[localeKey]
+
+  return {
+    [withLocale(localeKey, "/guide/")]: [
+      {
+        text: t.sidebarGuide,
+        items: [
+          { text: t.navStartIndex, link: withLocale(localeKey, "/guide/") },
+          { text: t.navGettingStarted, link: withLocale(localeKey, "/guide/getting-started") },
+          { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
+        ],
+      },
+    ],
+    [withLocale(localeKey, "/product/")]: [
+      {
+        text: t.sidebarProduct,
+        items: [
+          { text: t.navProductIndex, link: withLocale(localeKey, "/product/") },
+          { text: t.navScenarios, link: withLocale(localeKey, "/product/scenarios") },
+          { text: t.navCapabilities, link: withLocale(localeKey, "/product/capabilities") },
+          { text: t.navOrchestration, link: withLocale(localeKey, "/product/orchestration") },
+          { text: t.navCustomerFlow, link: withLocale(localeKey, "/product/customer-flow") },
+          { text: t.navBilling, link: withLocale(localeKey, "/product/personal-billing-membership") },
+          { text: t.navHotUpdate, link: withLocale(localeKey, "/product/hot-update") },
+          { text: t.navFiles, link: withLocale(localeKey, "/product/file-results") },
+          { text: t.navDeliverables, link: withLocale(localeKey, "/product/deliverables") },
+          { text: t.navChecklist, link: withLocale(localeKey, "/product/onboarding-checklist") },
+          { text: t.navArchitecture, link: withLocale(localeKey, "/product/architecture") },
+          { text: t.navDeployment, link: withLocale(localeKey, "/product/deployment") },
+          { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
+          { text: t.navEditions, link: withLocale(localeKey, "/product/editions") },
+        ],
+      },
+    ],
+    [withLocale(localeKey, "/materials/")]: [
+      {
+        text: t.sidebarMaterials,
+        items: [
+          { text: t.navMaterialsIndex, link: withLocale(localeKey, "/materials/") },
+          { text: t.navWhy, link: withLocale(localeKey, "/materials/why-execgov") },
+          { text: t.navCaseStudies, link: withLocale(localeKey, "/materials/case-studies") },
+          { text: t.navPitch, link: withLocale(localeKey, "/materials/pitch") },
+          { text: t.navValue, link: withLocale(localeKey, "/materials/value") },
+          { text: t.navMembershipPricing, link: withLocale(localeKey, "/materials/membership-benefits-pricing") },
+          { text: t.navServicePackages, link: withLocale(localeKey, "/materials/service-packages") },
+          { text: t.navFounderProfile, link: withLocale(localeKey, "/materials/founder-profile") },
+          { text: t.navFounderCard, link: withLocale(localeKey, "/materials/founder-card") },
+          { text: t.navResume, link: withLocale(localeKey, "/materials/resume-public") },
+        ],
+      },
+    ],
+    [withLocale(localeKey, "/")]: [
+      {
+        text: t.sidebarQuick,
+        items: [
+          { text: t.navHome, link: withLocale(localeKey, "/") },
+          { text: t.navStartIndex, link: withLocale(localeKey, "/guide/") },
+          { text: t.navGettingStarted, link: withLocale(localeKey, "/guide/getting-started") },
+          { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
+          { text: t.navProductIndex, link: withLocale(localeKey, "/product/") },
+          { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
+          { text: t.navCustomerFlow, link: withLocale(localeKey, "/product/customer-flow") },
+          { text: t.navMaterialsIndex, link: withLocale(localeKey, "/materials/") },
+          { text: t.navWhy, link: withLocale(localeKey, "/materials/why-execgov") },
+          { text: t.navCaseStudies, link: withLocale(localeKey, "/materials/case-studies") },
+          { text: t.navPitch, link: withLocale(localeKey, "/materials/pitch") },
+          { text: t.navContact, link: withLocale(localeKey, "/contact") },
+        ],
+      },
+    ],
+    [withLocale(localeKey, "/logo-design/")]: [
+      {
+        text: t.sidebarBrand,
+        items: [{ text: t.sidebarLogoDesign, link: withLocale(localeKey, "/logo-design/") }],
+      },
+    ],
+  }
+}
+
+const createThemeConfig = (localeKey) => {
+  const t = localeText[localeKey]
+
+  return {
+    siteTitle: t.siteTitle,
+    outlineTitle: t.outlineTitle,
+    nav: createNav(localeKey),
+    sidebar: createSidebar(localeKey),
+    footer: {
+      message: t.footerMessage,
+      copyright: "Copyright © 2026 zmx2321 | zmx2321@163.com",
+    },
+    search: {
+      provider: "local",
+      options: createSearchOptions(),
+    },
+    lastUpdatedText: t.lastUpdatedText,
+    returnToTopLabel: t.returnToTopLabel,
+    sidebarMenuLabel: t.sidebarMenuLabel,
+    darkModeSwitchLabel: t.darkModeSwitchLabel,
+    langMenuLabel: t.langMenuLabel,
+    docFooter: {
+      prev: t.prevText,
+      next: t.nextText,
+    },
+    socialLinks: [{ icon: "github", link: docsRepoUrl }],
+  }
+}
+
 export default {
-  lang: "zh-CN",
-  title: "ExecGov（执治）",
-  description: "ExecGov（执治），企业级 AI 执行与治理平台。",
+  lang: localeText.root.lang,
+  title: localeText.root.title,
+  description: localeText.root.description,
   appearance: {
     initialValue: "dark",
     storageKey: "execgov-doc-theme-appearance",
@@ -31,152 +400,21 @@ export default {
     lineNumbers: true,
   },
   lastUpdated: true,
-  themeConfig: {
-    siteTitle: "ExecGov Docs",
-    outlineTitle: "本页目录",
-    nav: [
-      { text: "首页", link: "/" },
-      {
-        text: "开始使用",
-        activeMatch: "^/guide/",
-        items: [
-          { text: "开始使用", link: "/guide/" },
-          { text: "快速开始", link: "/guide/getting-started" },
-          { text: "常见问题", link: "/guide/faq" },
-        ],
-      },
-      {
-        text: "产品介绍",
-        activeMatch: "^/product/",
-        items: [
-          { text: "产品概览", link: "/product/" },
-          { text: "应用场景", link: "/product/scenarios" },
-          { text: "核心能力", link: "/product/capabilities" },
-          { text: "能力编排", link: "/product/orchestration" },
-          { text: "客户流程 / 交付", link: "/product/customer-flow" },
-          { text: "支付与会员", link: "/product/personal-billing-membership" },
-          { text: "热更新说明", link: "/product/hot-update" },
-          { text: "文件上传 / 结果下载", link: "/product/file-results" },
-          { text: "交付物 / 文档入口", link: "/product/deliverables" },
-          { text: "客户接入准备清单", link: "/product/onboarding-checklist" },
-          { text: "架构说明", link: "/product/architecture" },
-          { text: "部署方式", link: "/product/deployment" },
-          { text: "CLI 指引", link: "/product/cli" },
-          { text: "版本路线", link: "/product/editions" },
-        ],
-      },
-      {
-        text: "关于 / 资料",
-        activeMatch: "^/materials/",
-        items: [
-          { text: "资料总览", link: "/materials/" },
-          { text: "为什么我要做 ExecGov", link: "/materials/why-execgov" },
-          { text: "样板案例", link: "/materials/case-studies" },
-          { text: "介绍提纲", link: "/materials/pitch" },
-          { text: "价值说明", link: "/materials/value" },
-          { text: "会员权益与价格说明", link: "/materials/membership-benefits-pricing" },
-          { text: "合作方式 / 服务包", link: "/materials/service-packages" },
-          { text: "交付背景与项目经历", link: "/materials/founder-profile" },
-          { text: "背景概览", link: "/materials/founder-card" },
-          { text: "项目与履历", link: "/materials/resume-public" },
-        ],
-      },
-      // { text: "Logo 设计", link: "/logo-design/" },
-      { text: "联系我", link: "/contact" },
-      { text: "我的博客", link: "https://zmx2321.github.io/vite-blog" },
-    ],
-    sidebar: {
-      "/guide/": [
-        {
-          text: "开始使用",
-          items: [
-            { text: "开始使用", link: "/guide/" },
-            { text: "快速开始", link: "/guide/getting-started" },
-            { text: "常见问题", link: "/guide/faq" },
-          ],
-        },
-      ],
-      "/product/": [
-        {
-          text: "平台文档",
-          items: [
-            { text: "产品概览", link: "/product/" },
-            { text: "应用场景", link: "/product/scenarios" },
-            { text: "核心能力", link: "/product/capabilities" },
-            { text: "能力编排", link: "/product/orchestration" },
-            { text: "客户流程 / 交付", link: "/product/customer-flow" },
-            { text: "支付与会员", link: "/product/personal-billing-membership" },
-            { text: "热更新说明", link: "/product/hot-update" },
-            { text: "文件上传 / 结果下载", link: "/product/file-results" },
-            { text: "交付物 / 文档入口", link: "/product/deliverables" },
-            { text: "客户接入准备清单", link: "/product/onboarding-checklist" },
-            { text: "架构说明", link: "/product/architecture" },
-            { text: "部署方式", link: "/product/deployment" },
-            { text: "CLI 指引", link: "/product/cli" },
-            { text: "版本路线", link: "/product/editions" },
-          ],
-        },
-      ],
-      "/materials/": [
-        {
-          text: "关于 / 资料",
-          items: [
-            { text: "资料总览", link: "/materials/" },
-            { text: "为什么我要做 ExecGov", link: "/materials/why-execgov" },
-            { text: "样板案例", link: "/materials/case-studies" },
-            { text: "介绍提纲", link: "/materials/pitch" },
-            { text: "价值说明", link: "/materials/value" },
-            { text: "会员权益与价格说明", link: "/materials/membership-benefits-pricing" },
-            { text: "合作方式 / 服务包", link: "/materials/service-packages" },
-            { text: "交付背景与项目经历", link: "/materials/founder-profile" },
-            { text: "背景概览", link: "/materials/founder-card" },
-            { text: "项目与履历", link: "/materials/resume-public" },
-          ],
-        },
-      ],
-      "/": [
-        {
-          text: "快速入口",
-          items: [
-            { text: "首页", link: "/" },
-            { text: "开始使用", link: "/guide/" },
-            { text: "快速开始", link: "/guide/getting-started" },
-            { text: "常见问题", link: "/guide/faq" },
-            { text: "产品概览", link: "/product/" },
-            { text: "CLI 指引", link: "/product/cli" },
-            { text: "客户流程 / 交付", link: "/product/customer-flow" },
-            { text: "关于 / 资料", link: "/materials/" },
-            { text: "为什么我要做 ExecGov", link: "/materials/why-execgov" },
-            { text: "样板案例", link: "/materials/case-studies" },
-            { text: "介绍提纲", link: "/materials/pitch" },
-            // { text: "Logo 设计", link: "/logo-design/" },
-            { text: "联系我", link: "/contact" },
-          ],
-        },
-      ],
-      "/logo-design/": [
-        {
-          text: "品牌设计",
-          items: [{ text: "Logo 设计简报", link: "/logo-design/" }],
-        },
-      ],
+  themeConfig: createThemeConfig("root"),
+  locales: {
+    root: {
+      label: localeText.root.label,
+      lang: localeText.root.lang,
+      title: localeText.root.title,
+      description: localeText.root.description,
     },
-    footer: {
-      message: "让每次自动化，都可靠且可控。",
-      copyright: "Copyright © 2026 zmx2321 | zmx2321@163.com",
+    en: {
+      label: localeText.en.label,
+      lang: localeText.en.lang,
+      title: localeText.en.title,
+      description: localeText.en.description,
+      themeConfig: createThemeConfig("en"),
     },
-    search: {
-      provider: "local",
-    },
-    lastUpdatedText: "最后更新",
-    returnToTopLabel: "返回顶部",
-    docFooter: {
-      prev: "上一页",
-      next: "下一页",
-    },
-    socialLinks: [
-      { icon: "github", link: docsRepoUrl },
-    ],
   },
   vite: {
     css: {
