@@ -953,7 +953,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   --smartflow-hero-outline-top: 18px;
   --smartflow-hero-outline-right: 18px;
   --smartflow-hero-outline-bottom: 18px;
-  --smartflow-hero-outline-left: 0;
+  --smartflow-hero-outline-left: 18px;
   position: relative;
   max-width: var(--smartflow-layout-max);
   padding: 52px 56px;
@@ -994,10 +994,6 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   border-radius: 28px;
   content: "";
   pointer-events: none;
-}
-
-.VPHome .VPHero .container::after {
-  content: none;
 }
 
 .VPHero .main {
