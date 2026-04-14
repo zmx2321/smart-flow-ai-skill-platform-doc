@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>Implementation &amp; Training Notes</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Implementation Scope</span>
-        <strong>ExecGov does not only provide a software opening. The current delivery path also includes scoped configuration, role-based training, and handoff support within the agreed project range.</strong>
+        <strong>ExecFabric does not only provide a software opening. The current delivery path also includes scoped configuration, role-based training, and handoff support within the agreed project range.</strong>
         <p>The point is not to walk through pages one by one. The point is to explain scope, onboarding, usage, acceptance, and support boundaries clearly in one place.</p>
       </div>
       <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // IMPLEMENTATION</span>
+          <span>EXECFABRIC // IMPLEMENTATION</span>
           <span>DOC 11</span>
         </div>
         <div class="matrix-panel__canvas">

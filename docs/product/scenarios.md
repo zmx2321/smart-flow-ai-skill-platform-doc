@@ -15,7 +15,7 @@ lastUpdated: false
         <p>每个场景都围绕“入口、确认、执行、留痕、治理”这条主链路展开。</p>
       </div>
       <p class="brand-lead">
-        ExecGov 不是抽象概念站点，它解决的是
+        ExecFabric 不是抽象概念站点，它解决的是
         <strong>真实任务如何被 AI 安全调度执行</strong>。
         场景越真实，这套平台的边界和价值就越清楚。
       </p>
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // SCENARIO MAP</span>
+          <span>EXECFABRIC // SCENARIO MAP</span>
           <span>DOC 02</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -162,7 +162,7 @@ lastUpdated: false
   <section class="brand-card">
     <p class="brand-kicker">Future Scenarios</p>
     <h2>长期可扩展的能力场景</h2>
-    <p>ExecGov 现在最成熟的是 Python 脚本场景，但这套底座后续也适合继续承接下面这些方向。这里强调的是平台演进空间，不代表今天已经全部做成标准产品。</p>
+    <p>ExecFabric 现在最成熟的是 Python 脚本场景，但这套底座后续也适合继续承接下面这些方向。这里强调的是平台演进空间，不代表今天已经全部做成标准产品。</p>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>企业接口自动化</h3>

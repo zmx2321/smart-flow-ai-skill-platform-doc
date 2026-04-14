@@ -8,7 +8,7 @@ lastUpdated: false
   <section class="brand-hero brand-hero--logo">
     <div>
       <p class="brand-kicker">Brand System</p>
-      <h1>ExecGov Logo Design Direction</h1>
+      <h1>ExecFabric Logo Design Direction</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Direction Note</span>
         <strong>The goal is not to make a flashy icon. It is to establish a reusable product identity system.</strong>
@@ -28,7 +28,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // BRAND SYSTEM</span>
+          <span>EXECFABRIC // BRAND SYSTEM</span>
           <span>BRAND 02</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -123,7 +123,7 @@ lastUpdated: false
       <article class="brand-direction-card">
         <span class="brand-pill">Direction 03</span>
         <h3>Infinite Gateway</h3>
-        <p>Emphasizes workflow, passage, controlled circulation, and open-ended expansion. This direction is the closest to the product meaning of "ExecGov."</p>
+        <p>Emphasizes workflow, passage, controlled circulation, and open-ended expansion. This direction is the closest to the product meaning of "ExecFabric."</p>
         <ul class="brand-list">
           <li>Core image: a Mobius strip or <code>∞</code> variant, plus a gate or bridge metaphor and a penetrating light beam</li>
           <li>Design language: elegant, cyclical, streamlined, with a sense of path philosophy</li>
@@ -140,7 +140,7 @@ lastUpdated: false
       <p class="brand-lead">
         The current recommendation is to use the overall structure of <strong>Infinite Gateway</strong> as the skeleton, absorb the intelligent connection feel of <strong>Neural Surge</strong>, and add the local geometric control feel of <strong>Intelligent Cube</strong>.
       </p>
-      <p>This combination fits ExecGov's current platform meaning better: it is neither just a tool nor just a chat product. It is an execution platform that dispatches real capabilities inside controlled boundaries.</p>
+      <p>This combination fits ExecFabric's current platform meaning better: it is neither just a tool nor just a chat product. It is an execution platform that dispatches real capabilities inside controlled boundaries.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Next Assets</p>

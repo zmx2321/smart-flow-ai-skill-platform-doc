@@ -4,11 +4,11 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell brand-page-shell--why-execgov">
+<div class="brand-page-shell brand-page-shell--why-execfabric">
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Founder Story</p>
-      <h1>Why I Am Building ExecGov</h1>
+      <h1>Why I Am Building ExecFabric</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Why Now</span>
         <strong>I did not start from the abstract question of what AI should do. I started from the same delivery problem showing up again and again: teams already have many scripts, but nobody can use them in a stable and controlled way.</strong>
@@ -36,7 +36,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // WHY BUILD</span>
+          <span>EXECFABRIC // WHY BUILD</span>
           <span>MAT 00</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -56,24 +56,24 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">asset</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">python scripts</span></span>
         </div>
       </div>
-      <article class="brand-hero__panel why-execgov-guide-card">
+      <article class="brand-hero__panel why-execfabric-guide-card">
         <span class="link-panel-label">When To Read</span>
         <strong>This page is best used to decide whether the direction grows out of a real problem.</strong>
-        <p>If this is your first time seeing ExecGov, this page is not here to dump a feature list on you. It helps you judge first whether the product direction comes from repeated delivery pain in the real world.</p>
-        <div class="why-execgov-guide-list">
-          <div class="why-execgov-guide-item">
+        <p>If this is your first time seeing ExecFabric, this page is not here to dump a feature list on you. It helps you judge first whether the product direction comes from repeated delivery pain in the real world.</p>
+        <div class="why-execfabric-guide-list">
+          <div class="why-execfabric-guide-item">
             <span>Best readers</span>
             <strong>Technical decision makers, project leads, and first-time readers</strong>
           </div>
-          <div class="why-execgov-guide-item">
+          <div class="why-execfabric-guide-item">
             <span>What it clarifies</span>
             <strong>Why this is not a chat shell story, but a product judgment about governance plus execution</strong>
           </div>
-          <div class="why-execgov-guide-item">
+          <div class="why-execfabric-guide-item">
             <span>Next step</span>
             <strong>If you agree with the problem framing, the next better pages are the case studies and product overview</strong>
           </div>
-          <div class="why-execgov-guide-item">
+          <div class="why-execfabric-guide-item">
             <span>What it is not</span>
             <strong>This page does not expand every module detail and it does not replace scenario-specific explanation</strong>
           </div>
@@ -149,7 +149,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Not This</p>
       <h2>Not an AI chat shell</h2>
-      <p>ExecGov is not about placing scripts behind a chat box. It is about pulling real capabilities into a governed execution chain.</p>
+      <p>ExecFabric is not about placing scripts behind a chat box. It is about pulling real capabilities into a governed execution chain.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Not That</p>
@@ -168,7 +168,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>If a large script estate and automation burden already feels familiar</h2>
-        <p class="brand-lead">The most useful next step is not more abstract discussion. It is taking one real workflow and deciding whether it is suitable as the first governed sample on ExecGov.</p>
+        <p class="brand-lead">The most useful next step is not more abstract discussion. It is taking one real workflow and deciding whether it is suitable as the first governed sample on ExecFabric.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../contact.html#lead-form">

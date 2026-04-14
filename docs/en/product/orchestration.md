@@ -45,7 +45,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // ORCHESTRATION</span>
+          <span>EXECFABRIC // ORCHESTRATION</span>
           <span>DOC 04</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -144,7 +144,7 @@ lastUpdated: false
     <p class="brand-kicker">Summary</p>
     <h2>One-sentence summary</h2>
     <p class="brand-lead">
-      ExecGov is first stabilizing
+      ExecFabric is first stabilizing
       <strong>trusted single-Skill execution</strong>.
       After the governance base is stronger, it can expand after <code>2.0</code> into a multi-step orchestration platform that remains confirmable, traceable, and auditable.
     </p>

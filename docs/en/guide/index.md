@@ -15,7 +15,7 @@ lastUpdated: false
       <p>This page separates the entry points, user roles, and reading path before you go deeper.</p>
     </div>
     <p class="brand-lead">
-      This guide helps first-time ExecGov visitors decide whether they should
+      This guide helps first-time ExecFabric visitors decide whether they should
       <strong>start with the free path, expand personal local script slots, move into the standard team edition, or go straight into an enterprise delivery conversation.</strong>
     </p>
     <div class="brand-chip-list">
@@ -33,7 +33,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>EXECGOV // START HERE</span>
+        <span>EXECFABRIC // START HERE</span>
         <span>GUIDE 01</span>
       </div>
       <div class="matrix-panel__canvas">

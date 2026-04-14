@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>合作资料三层结构与建议阅读顺序</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Client Reading Path</span>
-        <strong>如果您正在评估 ExecGov 是否适合合作，不需要一次读完整个官网。更高效的方式，是先按三层资料判断，再决定是否进入正式沟通。</strong>
+        <strong>如果您正在评估 ExecFabric 是否适合合作，不需要一次读完整个官网。更高效的方式，是先按三层资料判断，再决定是否进入正式沟通。</strong>
         <p>这页用于说明每一层资料分别回答什么问题，以及更适合在什么阶段阅读。</p>
       </div>
       <p class="brand-lead">
@@ -35,7 +35,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // READING PATH</span>
+          <span>EXECFABRIC // READING PATH</span>
           <span>MAT 09</span>
         </div>
         <div class="matrix-panel__canvas">

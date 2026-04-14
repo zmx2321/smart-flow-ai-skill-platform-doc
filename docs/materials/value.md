@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // VALUE NARRATIVE</span>
+          <span>EXECFABRIC // VALUE NARRATIVE</span>
           <span>MAT 03</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -183,12 +183,12 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>一句话怎么讲价值</h2>
-      <p>ExecGov 不是再造一个聊天框，而是帮你把团队里那些散装的、危险的脚本和自动化流程收成统一入口，让它们跑得稳、留得下、查得到。</p>
+      <p>ExecFabric 不是再造一个聊天框，而是帮你把团队里那些散装的、危险的脚本和自动化流程收成统一入口，让它们跑得稳、留得下、查得到。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Longer Version</p>
       <h2>一段话怎么讲价值</h2>
-      <p>很多企业并不缺脚本、接口、模板和流程，真正缺的是统一入口、权限边界和可持续交付能力。ExecGov 的价值，在于把这些分散能力收进一个可控执行平台，让客户通过统一入口使用自己的能力，让平台在边界内完成推荐、确认、执行和留痕。当前最成熟的第一种执行资产仍然是 Python 脚本，但真正有效的价值表达，不是把所有功能讲满，而是先判断现在更适合免费线、本地脚本位增购、共享 SaaS 正式租户，还是直接进入企业项目交付。</p>
+      <p>很多企业并不缺脚本、接口、模板和流程，真正缺的是统一入口、权限边界和可持续交付能力。ExecFabric 的价值，在于把这些分散能力收进一个可控执行平台，让客户通过统一入口使用自己的能力，让平台在边界内完成推荐、确认、执行和留痕。当前最成熟的第一种执行资产仍然是 Python 脚本，但真正有效的价值表达，不是把所有功能讲满，而是先判断现在更适合免费线、本地脚本位增购、共享 SaaS 正式租户，还是直接进入企业项目交付。</p>
     </article>
   </section>
 

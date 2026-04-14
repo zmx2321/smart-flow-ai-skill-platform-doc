@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>资料导航</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Reading Paths</span>
-        <strong>ExecGov 的外部资料覆盖平台定位、启动方式、交付背景和公开技术入口，可按业务判断、技术判断和启动评估三条路径进入。</strong>
+        <strong>ExecFabric 的外部资料覆盖平台定位、启动方式、交付背景和公开技术入口，可按业务判断、技术判断和启动评估三条路径进入。</strong>
         <p>不同角色通常不需要从同一个入口开始，但都可以在较短路径内完成基本判断。</p>
       </div>
       <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // MATERIAL PACK</span>
+          <span>EXECFABRIC // MATERIAL PACK</span>
           <span>MAT 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -60,7 +60,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path A</p>
       <h2>先判断平台定位</h2>
-      <p>适合第一次接触 ExecGov 的业务方、项目负责人和决策者，先完成“它是什么、为什么值得看”的判断。</p>
+      <p>适合第一次接触 ExecFabric 的业务方、项目负责人和决策者，先完成“它是什么、为什么值得看”的判断。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path B</p>

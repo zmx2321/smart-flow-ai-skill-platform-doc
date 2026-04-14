@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>培训与实施服务说明</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Implementation Scope</span>
-        <strong>ExecGov 当前提供的不只是软件开通，还包括按项目范围配置、培训和交付支持。</strong>
+        <strong>ExecFabric 当前提供的不只是软件开通，还包括按项目范围配置、培训和交付支持。</strong>
         <p>重点不是把页面讲一遍，而是把范围、接入、使用、验收和后续支持一次讲清楚。</p>
       </div>
       <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // IMPLEMENTATION</span>
+          <span>EXECFABRIC // IMPLEMENTATION</span>
           <span>DOC 11</span>
         </div>
         <div class="matrix-panel__canvas">

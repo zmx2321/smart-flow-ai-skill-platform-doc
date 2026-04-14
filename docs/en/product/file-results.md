@@ -15,7 +15,7 @@ lastUpdated: false
         <p>This page focuses on the upload, processing, and download experience that customers actually touch.</p>
       </div>
       <p class="brand-lead">
-        ExecGov already supports connecting
+        ExecFabric already supports connecting
         <strong>input files, batch status, processing artifacts, and result download</strong>
         into one execution chain that customers can understand.
         The real point is not just whether a file can be uploaded.
@@ -36,7 +36,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // FILE FLOW</span>
+          <span>EXECFABRIC // FILE FLOW</span>
           <span>DOC 09</span>
         </div>
         <div class="matrix-panel__canvas">

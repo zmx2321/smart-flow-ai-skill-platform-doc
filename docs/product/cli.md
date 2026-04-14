@@ -15,7 +15,7 @@ lastUpdated: false
         <p>网页入口更适合先感知单文件接入；CLI 更适合单文件或目录批量登记、本机路径登记和本地执行桥接。</p>
       </div>
       <p class="brand-lead">
-        <strong>execgov-cli</strong> 是 ExecGov 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
+        <strong>execgov-cli</strong> 是 ExecFabric 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
         重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本目录、本地运行环境和平台控制面</strong> 接成一条今天已经能用的桥。
       </p>
       <p class="brand-lead">
@@ -35,7 +35,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CLI BRIDGE</span>
+          <span>EXECFABRIC // CLI BRIDGE</span>
           <span>DOC 07</span>
         </div>
         <div class="matrix-panel__canvas">

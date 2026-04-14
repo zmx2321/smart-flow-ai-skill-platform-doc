@@ -76,7 +76,7 @@ lastUpdated: false
       <h2>Registering monthly or annual team-edition membership</h2>
       <ul class="brand-list">
         <li><strong>Monthly team edition</strong>: best when you want to start formal collaboration first and decide the longer cycle later.</li>
-        <li><strong>Annual team edition</strong>: best for teams already sure they will use ExecGov long term, and currently the default recommendation.</li>
+        <li><strong>Annual team edition</strong>: best for teams already sure they will use ExecFabric long term, and currently the default recommendation.</li>
         <li>Both paths jump into the formal standard-SaaS tenant registration page, which is currently carried by the shared-tenant frontend instead of remaining inside the hidden personal-free tenant.</li>
       </ul>
     </article>
@@ -150,7 +150,7 @@ lastUpdated: false
         <ul class="brand-list">
           <li>From the same page, click <strong>Go to Annual Activation</strong>.</li>
           <li>The system jumps to the same formal standard-SaaS tenant registration page, but with annual plan parameters instead.</li>
-          <li>This is best for teams already sure they will use ExecGov for the long term.</li>
+          <li>This is best for teams already sure they will use ExecFabric for the long term.</li>
           <li>The advantage is a more stable formal service cycle and fewer repeated monthly renewal operations.</li>
         </ul>
       </article>

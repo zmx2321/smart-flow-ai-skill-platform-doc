@@ -15,7 +15,7 @@ lastUpdated: false
         <p>当前最稳的销售路径是：个人先走免费线，个人继续使用但还没进入正式协作时走本地脚本位增购，正式团队再进入月租 / 年租正式租户入口，企业与私有化按场景单独评估。</p>
       </div>
       <p class="brand-lead">
-        如果你现在是在判断该怎么介绍 ExecGov，
+        如果你现在是在判断该怎么介绍 ExecFabric，
         最好不要一上来就讲一堆模块名，而是先判断对方当前属于
         <strong>个人探索</strong>、
         <strong>个人扩容</strong>、
@@ -65,7 +65,7 @@ lastUpdated: false
       <p class="brand-kicker">Path 01</p>
       <h2>免费线体验</h2>
       <ul class="brand-list">
-        <li>适合第一次接触 ExecGov 的个人、朋友或轻度体验者。</li>
+        <li>适合第一次接触 ExecFabric 的个人、朋友或轻度体验者。</li>
         <li>先体验公开入口、个人技能库、上传、执行历史、公告和社区等基础路径。</li>
         <li>重点是先感知“这是不是一个能把脚本和自动化收口起来的平台”。</li>
       </ul>
@@ -114,7 +114,7 @@ lastUpdated: false
       <p class="brand-kicker">Annual</p>
       <h2>团队版年租适合怎么讲</h2>
       <ul class="brand-list">
-        <li>适合已经明确会长期使用 ExecGov 的团队。</li>
+        <li>适合已经明确会长期使用 ExecFabric 的团队。</li>
         <li>优点是服务周期更稳定，也减少月度重复续期开通动作。</li>
         <li>适合销售阶段的说法是：对长期使用团队更省管理动作，也更适合把治理能力纳入正式节奏。</li>
         <li>当前资料页不写死固定价格，仍以目标租户注册页为准。</li>

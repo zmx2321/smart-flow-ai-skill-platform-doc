@@ -12,10 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>The control plane can stay unified, while the execution location does not have to.</strong>
-        <p>That is exactly why ExecGov can currently support formal delivery, public experience, and local onboarding at the same time.</p>
+        <p>That is exactly why ExecFabric can currently support formal delivery, public experience, and local onboarding at the same time.</p>
       </div>
       <p class="brand-lead">
-        ExecGov is not built around a single deployment model.
+        ExecFabric is not built around a single deployment model.
         It composes options according to
         <strong>data boundaries, customer scale, and execution location</strong>.
         The goal is not to force every user down one path, but to cover multiple real deployment shapes with one governance logic.
@@ -42,7 +42,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // DEPLOYMENT MATRIX</span>
+          <span>EXECFABRIC // DEPLOYMENT MATRIX</span>
           <span>DOC 05</span>
         </div>
         <div class="matrix-panel__canvas">

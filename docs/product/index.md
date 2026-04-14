@@ -11,14 +11,14 @@ lastUpdated: false
       <h1>产品概览</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
-        <strong>ExecGov 面向真实任务的自动化执行与治理场景，当前更适合从脚本治理、文件处理和本地自动化流程这些已经能落地的入口开始理解。</strong>
+        <strong>ExecFabric 面向真实任务的自动化执行与治理场景，当前更适合从脚本治理、文件处理和本地自动化流程这些已经能落地的入口开始理解。</strong>
         <p>把当前已做成的、仍在推进的、后续可能扩展的部分分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
-        <strong>当前更适合这样理解 ExecGov：它先把 Python / Shell 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
+        <strong>当前更适合这样理解 ExecFabric：它先把 Python / Shell 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
       </p>
       <p class="brand-lead">
-        <strong>ExecGov（执治）底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>
+        <strong>ExecFabric（璇络）底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>
       </p>
       <p class="brand-lead">
         当前先从 Python 脚本做起，不是因为范围小，而是因为它最常见、最真实，也最容易先形成可交付、可复用、可继续扩展的小闭环。
@@ -68,7 +68,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // PRODUCT SIGNAL</span>
+          <span>EXECFABRIC // PRODUCT SIGNAL</span>
           <span>DOC 01</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -157,7 +157,7 @@ lastUpdated: false
     <p class="brand-kicker">Platform</p>
     <h2>平台定位</h2>
       <ul class="brand-list">
-        <li>ExecGov（执治）底层是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</li>
+        <li>ExecFabric（璇络）底层是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</li>
         <li>当前对外更适合先从脚本治理、文件处理和本地自动化流程这些已能落地的场景进入。</li>
         <li>当前最成熟的能力形态是脚本型能力接入、执行、审计和持续更新。</li>
         <li>平台已经落下通用资源层和执行器注册层，第一种非脚本样板是 public 超管侧的 HTTP 能力接入；租户侧也已经有只读可见台账。</li>
@@ -215,9 +215,9 @@ lastUpdated: false
       <p class="brand-kicker">Brand</p>
       <h2>品牌口径</h2>
       <ul class="brand-list">
-        <li>品牌名：<code>ExecGov（执治）</code></li>
+        <li>品牌名：<code>ExecFabric（璇络）</code></li>
         <li>副标题：面向真实任务的多租户能力治理与执行系统</li>
-        <li>Slogan：让每次自动化，都可靠且可控。</li>
+        <li>Slogan：让每一次自动化，都坚如织锦。</li>
         <li>适合用于产品介绍、场景沟通和当前交付说明。</li>
       </ul>
     </article>
@@ -225,7 +225,7 @@ lastUpdated: false
       <p class="brand-kicker">Method</p>
       <h2>当前使用原则</h2>
       <ul class="brand-list">
-        <li>对外统一使用 <code>ExecGov（执治）</code>，不再拆成英文项目名和中文产品名两套说法。</li>
+        <li>对外统一使用 <code>ExecFabric（璇络）</code>，不再拆成英文项目名和中文产品名两套说法。</li>
         <li>治理为先，执行落地；先把脚本型能力做稳，再逐步扩到更多能力形态。</li>
         <li>仓库 slug 与目录路径 <code>execgov-cli/</code> 先保留，CLI 对外命令已统一为 <code>execgov-cli</code>，避免影响现有工程路径和发布链路。</li>
         <li>便于统一品牌认知，同时不打断当前代码、文档和交付节奏。</li>
@@ -422,7 +422,7 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Why ExecGov</p>
+      <p class="brand-kicker">Why ExecFabric</p>
       <h2>这类平台的项目价值</h2>
       <ul class="brand-list">
         <li>不是把模型接出来就结束，而是让 AI 在规则内真正执行。</li>

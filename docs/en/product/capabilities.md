@@ -15,7 +15,7 @@ lastUpdated: false
         <p>These capabilities together determine whether the platform can solve a real class of problems first and reduce rework later.</p>
       </div>
       <p class="brand-lead">
-        ExecGov's core capabilities are not a loose feature list.
+        ExecFabric's core capabilities are not a loose feature list.
         They are a continuously tightening platform capability set centered on
         <strong>multi-tenant governance, trusted execution, capability cataloging, and local bridging</strong>.
       </p>
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CAPABILITY MAP</span>
+          <span>EXECFABRIC // CAPABILITY MAP</span>
           <span>DOC 03</span>
         </div>
         <div class="matrix-panel__canvas">

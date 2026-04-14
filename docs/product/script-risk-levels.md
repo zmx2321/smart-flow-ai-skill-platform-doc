@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>脚本风险分级说明</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Risk Standard</span>
-        <strong>ExecGov 当前把脚本 / Skill 风险等级固定为 <code>low / medium / high</code> 三档，用来决定能力接入、确认和授权时应该保守到什么程度。</strong>
+        <strong>ExecFabric 当前把脚本 / Skill 风险等级固定为 <code>low / medium / high</code> 三档，用来决定能力接入、确认和授权时应该保守到什么程度。</strong>
         <p>这不是宣传文案，而是平台治理脚本、文件处理、本地执行和运维动作时的一套明确标准。</p>
       </div>
       <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // RISK LEVELS</span>
+          <span>EXECFABRIC // RISK LEVELS</span>
           <span>DOC 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -127,7 +127,7 @@ lastUpdated: false
     <p class="brand-kicker">One Sentence</p>
     <h2>一句话总结</h2>
     <p class="brand-lead">
-      ExecGov 的脚本风险分级不是“自动打分秀肌肉”，而是为了在能力接入、人工确认、授权和审计时，提前把影响面说清楚并治理住。
+      ExecFabric 的脚本风险分级不是“自动打分秀肌肉”，而是为了在能力接入、人工确认、授权和审计时，提前把影响面说清楚并治理住。
     </p>
   </section>
 </div>

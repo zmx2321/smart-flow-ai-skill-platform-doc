@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>Material Navigation</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Reading Paths</span>
-        <strong>ExecGov's external materials cover platform positioning, kickoff options, delivery background, and public technical entry points. They can be entered through three paths: business judgment, cooperation judgment, and technical judgment.</strong>
+        <strong>ExecFabric's external materials cover platform positioning, kickoff options, delivery background, and public technical entry points. They can be entered through three paths: business judgment, cooperation judgment, and technical judgment.</strong>
         <p>Different roles usually do not need to start from the same entry, but all of them can complete a basic judgment through a short path.</p>
       </div>
       <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // MATERIAL PACK</span>
+          <span>EXECFABRIC // MATERIAL PACK</span>
           <span>MAT 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -60,7 +60,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path A</p>
       <h2>Judge platform positioning first</h2>
-      <p>Best for business-side readers, project owners, and decision makers who are touching ExecGov for the first time and need to answer "what is it and why is it worth looking at?"</p>
+      <p>Best for business-side readers, project owners, and decision makers who are touching ExecFabric for the first time and need to answer "what is it and why is it worth looking at?"</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path B</p>

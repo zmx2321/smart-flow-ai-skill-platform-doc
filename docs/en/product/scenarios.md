@@ -15,7 +15,7 @@ lastUpdated: false
         <p>Every scenario is still organized around the same mainline: entry, confirmation, execution, audit trail, and governance.</p>
       </div>
       <p class="brand-lead">
-        ExecGov is not an abstract concept site.
+        ExecFabric is not an abstract concept site.
         It exists to solve
         <strong>how real tasks can be scheduled and executed safely by AI</strong>.
         The more real the scenario is, the clearer the platform's value and boundaries become.
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // SCENARIO MAP</span>
+          <span>EXECFABRIC // SCENARIO MAP</span>
           <span>DOC 02</span>
         </div>
         <div class="matrix-panel__canvas">

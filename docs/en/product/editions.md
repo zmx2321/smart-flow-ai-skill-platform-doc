@@ -23,7 +23,7 @@ lastUpdated: false
         Multi-Skill orchestration is not a default capability today. It should enter formal productization only after the governance base is stronger.
       </p>
       <p class="brand-lead">
-        <strong>The current core position of <code>1.0</code> is this: ExecGov is a multi-tenant governance and execution platform that treats Python scripts as the first mature execution asset.</strong>
+        <strong>The current core position of <code>1.0</code> is this: ExecFabric is a multi-tenant governance and execution platform that treats Python scripts as the first mature execution asset.</strong>
       </p>
       <p class="brand-lead">
         Later <code>3.0</code> and <code>4.0</code> directions still exist in internal long-term planning, but the public roadmap only talks about <code>1.0</code>, <code>1.1</code>, and <code>2.0</code> so long-term ideas are not mistaken for current capability.
@@ -69,7 +69,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // ROADMAP</span>
+          <span>EXECFABRIC // ROADMAP</span>
           <span>DOC 06</span>
         </div>
         <div class="matrix-panel__canvas">

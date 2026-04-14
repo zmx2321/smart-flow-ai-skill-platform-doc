@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: ExecGov
-  text: 执治
+  name: ExecFabric
+  text: 璇络
   tagline: 把散装脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。
   actions:
     - theme: brand
@@ -32,7 +32,7 @@ features:
     <div class="partner-banner">
       <div class="partner-banner__copy">
         <p class="landing-kicker">Scenario First</p>
-        <h2>先拿一个真实场景，判断是否适合接入 ExecGov</h2>
+        <h2>先拿一个真实场景，判断是否适合接入 ExecFabric</h2>
         <p class="landing-lead">
           如果您正在处理报表、文件、日志、脚本或内网流程这类高频任务，可以先带一个明确场景来沟通。
           先把输入输出、执行边界、确认方式和结果回传讲清楚，再判断是否进入试点或正式交付。
@@ -45,7 +45,7 @@ features:
       </div>
       <div class="partner-banner__actions">
         <a class="cta-button cta-button--brand" href="./contact.html#lead-form">沟通真实场景</a>
-        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20%E5%9C%BA%E6%99%AF%20%E6%B2%9F%E9%80%9A">直接发邮件</a>
+        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20%E5%9C%BA%E6%99%AF%20%E6%B2%9F%E9%80%9A">直接发邮件</a>
       </div>
     </div>
   </section>
@@ -59,13 +59,13 @@ features:
           <strong>帮你把团队里那些散装的、危险的脚本，管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录；出了问题，也能追得回来。</strong>
         </p>
         <p class="landing-lead">
-          <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台，当前更适合从已经能落地的脚本治理、文件处理和本地自动化流程入口开始理解。</strong>
+          <strong>ExecFabric（璇络）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台，当前更适合从已经能落地的脚本治理、文件处理和本地自动化流程入口开始理解。</strong>
         </p>
         <p class="landing-lead">
-          名字里的 <strong>Exec</strong> 来自 <strong>Execution</strong>，<strong>Gov</strong> 来自 <strong>Governance</strong>。
-          这里说的不是政府项目，而是强调
-          <strong>AI、脚本、本地资源和线上能力都要在治理边界内执行</strong>。
-          如果能力不能在规则里真正落地执行，就不是 ExecGov 想解决的问题。
+          名字里的 <strong>Exec</strong> 来自 <strong>Execution</strong>，<strong>Fabric</strong> 对应“编织而成的网络与织物”。
+          它强调的是
+          <strong>AI、脚本、本地资源和线上能力要被编织进清晰边界、稳定交付的自动化网络</strong>。
+          如果能力不能在规则里真正落地执行，就不是 ExecFabric 想解决的问题。
         </p>
         <p class="landing-lead">
           很多团队其实并不缺脚本，缺的是
@@ -73,7 +73,7 @@ features:
           脚本散在个人电脑、共享盘、服务器和聊天记录里，谁能跑、什么时候跑、跑完结果在哪里，常常没人说得清。
         </p>
         <p class="landing-lead">
-          ExecGov 当前先把最常见、也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
+          ExecFabric 当前先把最常见、也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
           你可以先从公开体验入口走完一条简化流程，再决定是否接入自己的真实场景。
         </p>
         <p class="landing-lead">
@@ -191,8 +191,8 @@ features:
       <p class="landing-kicker">Platform Thesis</p>
       <h2>把“会聊天”升级成“会在规则里执行”</h2>
       <p class="landing-lead">
-        <strong>ExecGov</strong> 的项目层定位是 <strong>An Open &amp; Secure AI Agent Execution Layer</strong>。
-        落到产品层，它对外呈现为“ExecGov（执治）”。它真正想解决的，不是聊天体验，而是
+        <strong>ExecFabric</strong> 的项目层定位是 <strong>An Open &amp; Secure AI Agent Execution Layer</strong>。
+        落到产品层，它对外呈现为“ExecFabric（璇络）”。它真正想解决的，不是聊天体验，而是
         <strong>真实任务如何在规则里被稳定执行</strong>。
       </p>
       <p class="landing-lead">
@@ -283,7 +283,7 @@ features:
       <h2>先不是大客户案例，而是 3 个你现在就能演示的轻量样板</h2>
       <p class="landing-lead">
         这 3 个案例更适合当前 1.0 阶段对外展示和自己自测。
-        重点不是讲很重的行业故事，而是先证明 ExecGov 已经能把
+        重点不是讲很重的行业故事，而是先证明 ExecFabric 已经能把
         <strong>Python、Shell 和文件处理</strong> 这三类最小链路跑通。
       </p>
     </div>
@@ -342,23 +342,23 @@ features:
       <p class="landing-kicker">Brand Position</p>
       <h2>品牌定位</h2>
       <p class="landing-lead">
-        对外统一使用 <strong>ExecGov（执治）</strong> 这一套品牌，不再区分“项目名”和“产品名”两套说法；
+        对外统一使用 <strong>ExecFabric（璇络）</strong> 这一套品牌，不再区分“项目名”和“产品名”两套说法；
         代码仓库 slug 和现有技术标识暂时保留历史命名。
       </p>
     </div>
     <div class="landing-grid landing-grid--two">
       <article class="mode-card">
         <span class="link-panel-label">Brand</span>
-        <h3>ExecGov（执治）</h3>
+        <h3>ExecFabric（璇络）</h3>
         <p><strong>定位：</strong>面向真实流程的自动化执行与治理平台</p>
-        <p><strong>Slogan：</strong>让每次自动化，都可靠且可控。</p>
+        <p><strong>Slogan：</strong>让每一次自动化，都坚如织锦。</p>
         <p>用于官网、资料页、方案、合同和正式交付沟通。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Method</span>
         <h3>治理为先，执行落地</h3>
         <p><strong>当前策略：</strong>先把脚本型能力做稳，再逐步扩到 API、模板、连接器和审批流。</p>
-        <p><strong>命名说明：</strong><code>ExecGov = Execution + Governance</code>，其中 <code>Gov</code> 指的是治理，不是政府项目。</p>
+        <p><strong>命名说明：</strong><code>ExecFabric = Execution + Fabric</code>，其中 <code>Fabric</code> 强调把能力、流程和治理边界编织成稳定、可交付的自动化网络。</p>
         <p><strong>当前状态：</strong><code>exec-fabric-ai-skill-platform</code> 主仓库 slug 已完成统一；<code>execgov-cli/</code> 目录路径仍保留历史命名，但 CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
       </article>
     </div>
@@ -367,7 +367,7 @@ features:
   <section id="founder-note" class="landing-band landing-band--overview landing-band--founder">
     <div class="landing-section-head">
       <p class="landing-kicker">Founder Note</p>
-      <h2>谁在构建 ExecGov，为什么这套平台值得继续了解</h2>
+      <h2>谁在构建 ExecFabric，为什么这套平台值得继续了解</h2>
       <p class="landing-lead">
         我现在在杭州，以微创业方式继续把这件事往前做。我的长期主线是
         <strong>8 年前端交付</strong>，最近 <strong>2 年</strong> 持续补强 Python 自动化和小型全栈闭环。

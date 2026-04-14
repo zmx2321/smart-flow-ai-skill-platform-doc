@@ -12,10 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>控制面可以统一，执行位置不必统一。</strong>
-        <p>这正是 ExecGov 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
+        <p>这正是 ExecFabric 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
       </div>
       <p class="brand-lead">
-        ExecGov 的部署思路不是只有一种，而是根据
+        ExecFabric 的部署思路不是只有一种，而是根据
         <strong>数据边界、客户规模和执行位置</strong> 做组合。
         平台的目标不是强迫所有用户走同一条路径，而是用同一套治理逻辑覆盖不同落地形态。
       </p>
@@ -41,7 +41,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // DEPLOYMENT MATRIX</span>
+          <span>EXECFABRIC // DEPLOYMENT MATRIX</span>
           <span>DOC 05</span>
         </div>
         <div class="matrix-panel__canvas">

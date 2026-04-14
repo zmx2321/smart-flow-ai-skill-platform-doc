@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The web path is still the best place to feel a visible single-file flow first. The CLI is the deeper path for single-file or folder registration, local-path registration, and local execution bridging.</p>
       </div>
       <p class="brand-lead">
-        <strong>execgov-cli</strong> is ExecGov's current command-line entry for individual developers, delivery work, and local or intranet execution scenarios.
+        <strong>execgov-cli</strong> is ExecFabric's current command-line entry for individual developers, delivery work, and local or intranet execution scenarios.
         The point is not to add a command-line skin. The point is to connect the
         <strong>local script folder, local runtime environment, and platform control plane</strong>
         into a bridge that is usable today.
@@ -37,7 +37,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CLI BRIDGE</span>
+          <span>EXECFABRIC // CLI BRIDGE</span>
           <span>DOC 07</span>
         </div>
         <div class="matrix-panel__canvas">

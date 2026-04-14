@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The focus here is the actual entries, instructions, and result paths that a customer receives.</p>
       </div>
       <p class="brand-lead">
-        A standard ExecGov delivery usually includes
+        A standard ExecFabric delivery usually includes
         <strong>one isolated access entry, one customer-specific capability set, and one documentation entry that stays usable for ongoing work.</strong>
         That means the package is not only an account sheet. It also includes
         <strong>result entries, notice entries, customer notes, and update notes.</strong>
@@ -35,7 +35,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // DELIVERY KIT</span>
+          <span>EXECFABRIC // DELIVERY KIT</span>
           <span>DOC 10</span>
         </div>
         <div class="matrix-panel__canvas">

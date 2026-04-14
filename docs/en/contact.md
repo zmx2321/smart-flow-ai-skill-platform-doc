@@ -48,7 +48,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CONTACT NODE</span>
+          <span>EXECFABRIC // CONTACT NODE</span>
           <span>OPEN</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -166,12 +166,12 @@ lastUpdated: false
       </p>
       <form
         class="lead-form"
-        action="mailto:zmx2321@163.com?subject=ExecGov%20Lead"
+        action="mailto:zmx2321@163.com?subject=ExecFabric%20Lead"
         method="post"
         enctype="text/plain"
         accept-charset="UTF-8"
       >
-        <input type="hidden" name="source" value="execgov_docs_contact" />
+        <input type="hidden" name="source" value="execfabric_docs_contact" />
         <div class="lead-form-grid">
           <label class="lead-field">
             <span>Name</span>
@@ -215,7 +215,7 @@ lastUpdated: false
         </label>
         <div class="lead-form-actions">
           <button class="cta-button cta-button--brand" type="submit">Submit lead</button>
-          <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Lead">Send email directly</a>
+          <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20Lead">Send email directly</a>
         </div>
       </form>
       <p class="lead-form-note">
@@ -311,7 +311,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>The long-running mainline has been frontend engineering, GIS visualization, and government / enterprise delivery.</li>
         <li>Over the last two years, the work has continued to deepen in Python automation, data processing, and small-to-medium backend support.</li>
-        <li>ExecGov is not being built as a broad AI story. The goal is to make script onboarding, permission boundaries, execution audit trails, and local bridging into a deliverable product.</li>
+        <li>ExecFabric is not being built as a broad AI story. The goal is to make script onboarding, permission boundaries, execution audit trails, and local bridging into a deliverable product.</li>
       </ul>
       <p><a href="./materials/founder-profile.html">View founder profile</a></p>
     </article>
@@ -322,7 +322,7 @@ lastUpdated: false
         <li>Public GitHub repositories and project structure</li>
         <li>Project notes and reflections in the blog</li>
         <li>Public explanations of the product, delivery, and service packages on the docs site</li>
-        <li>The continuously updated ExecGov docs and frontend entries</li>
+        <li>The continuously updated ExecFabric docs and frontend entries</li>
       </ul>
     </article>
   </section>

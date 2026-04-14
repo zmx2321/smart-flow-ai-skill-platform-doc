@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // ONBOARDING CHECKLIST</span>
+          <span>EXECFABRIC // ONBOARDING CHECKLIST</span>
           <span>DOC 11</span>
         </div>
         <div class="matrix-panel__canvas">

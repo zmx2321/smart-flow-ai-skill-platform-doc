@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>Three-Layer Cooperation Materials Structure and Suggested Reading Order</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Client Reading Path</span>
-        <strong>If you are evaluating whether ExecGov is a good fit for cooperation, you do not need to read the whole website at once. The more efficient way is to judge it through the three material layers first, then decide whether to move into a formal discussion.</strong>
+        <strong>If you are evaluating whether ExecFabric is a good fit for cooperation, you do not need to read the whole website at once. The more efficient way is to judge it through the three material layers first, then decide whether to move into a formal discussion.</strong>
         <p>This page explains which question each layer answers and which stage it fits best.</p>
       </div>
       <p class="brand-lead">
@@ -35,7 +35,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // READING PATH</span>
+          <span>EXECFABRIC // READING PATH</span>
           <span>MAT 09</span>
         </div>
         <div class="matrix-panel__canvas">

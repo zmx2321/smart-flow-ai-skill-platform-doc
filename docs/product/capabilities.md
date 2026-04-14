@@ -15,7 +15,7 @@ lastUpdated: false
         <p>这些能力共同决定平台能不能先解决一类真实问题，并减少后续返工。</p>
       </div>
       <p class="brand-lead">
-        ExecGov 的核心能力不是零散功能点，而是一套围绕
+        ExecFabric 的核心能力不是零散功能点，而是一套围绕
         <strong>多租户治理、可信执行、能力目录化和本地桥接</strong>
         持续收敛的可落地平台能力。
       </p>
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CAPABILITY MAP</span>
+          <span>EXECFABRIC // CAPABILITY MAP</span>
           <span>DOC 03</span>
         </div>
         <div class="matrix-panel__canvas">

@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The customer path, the delivery boundary, and the update mechanism all need to be defined clearly if the project is going to run stably.</p>
       </div>
       <p class="brand-lead">
-        The most important questions ExecGov needs to explain first are
+        The most important questions ExecFabric needs to explain first are
         <strong>what the customer receives, how the customer uses it, and how the platform delivers it.</strong>
         The script hot-update flow already has its own page. This page focuses on the standard team edition and enterprise delivery stage and explains what the real delivery path looks like end to end.
       </p>
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CUSTOMER FLOW</span>
+          <span>EXECFABRIC // CUSTOMER FLOW</span>
           <span>DOC 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -467,7 +467,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>One-sentence summary of the delivery mainline</h2>
-      <p>ExecGov delivers more than a login entry. It delivers an isolated AI execution space that can run, update, and continue to expand for the customer. Hot updates are not platform redeploys, but formal review, registration, and authorization steps that take effect inside the current tenant.</p>
+      <p>ExecFabric delivers more than a login entry. It delivers an isolated AI execution space that can run, update, and continue to expand for the customer. Hot updates are not platform redeploys, but formal review, registration, and authorization steps that take effect inside the current tenant.</p>
     </article>
   </section>
 

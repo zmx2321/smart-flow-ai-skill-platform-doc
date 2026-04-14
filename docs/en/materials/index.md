@@ -11,11 +11,11 @@ lastUpdated: false
     <h1>Materials Overview</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Presentation Kit</span>
-      <strong>ExecGov's external materials cover the founder story, showroom cases, product introduction, value framing, membership and pricing notes, kickoff options, and delivery background so first-time readers can judge quickly whether it is worth continuing.</strong>
+      <strong>ExecFabric's external materials cover the founder story, showroom cases, product introduction, value framing, membership and pricing notes, kickoff options, and delivery background so first-time readers can judge quickly whether it is worth continuing.</strong>
       <p>The materials are organized by the question a reader is trying to answer, so it is easier to jump straight into the right page.</p>
     </div>
     <p class="brand-lead">
-      ExecGov's external materials currently split into seven main lines:
+      ExecFabric's external materials currently split into seven main lines:
       <strong>founder story, showroom cases, product introduction, value framing, membership and pricing notes, kickoff options, and delivery background</strong>.
       That structure shortens the path so the positioning judgment can happen first, then project-fit and delivery-fit judgment can happen next.
     </p>
@@ -38,7 +38,7 @@ lastUpdated: false
       <span class="brand-chip">Delivery background</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="./why-execgov.html">Why I Am Building ExecGov</a>
+      <a class="cta-button cta-button--brand" href="./why-execfabric.html">Why I Am Building ExecFabric</a>
       <a class="cta-button" href="./case-studies.html">View the showroom cases</a>
       <a class="cta-button" href="./pitch.html">View the pitch</a>
       <a class="cta-button" href="./value.html">View the value framing</a>
@@ -49,7 +49,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>EXECGOV // EXTERNAL MATERIALS</span>
+        <span>EXECFABRIC // EXTERNAL MATERIALS</span>
         <span>MAT 01</span>
       </div>
       <div class="matrix-panel__canvas">
@@ -71,7 +71,7 @@ lastUpdated: false
     </div>
     <article class="brand-hero__panel materials-guide-card">
       <span class="link-panel-label">How To Use</span>
-      <strong>When someone is new to ExecGov, choosing material by decision stage is faster</strong>
+      <strong>When someone is new to ExecFabric, choosing material by decision stage is faster</strong>
       <p>This set is not meant to be read from the beginning all the way to the end. It is meant to let different readers jump directly into the page that fits their current stage, make a judgment, and then decide whether to continue.</p>
       <div class="materials-guide-list">
         <div class="materials-guide-item">
@@ -98,7 +98,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Why</p>
-      <h2>Why I Am Building ExecGov</h2>
+      <h2>Why I Am Building ExecFabric</h2>
       <p>Explains what pain I kept seeing, why governance and execution have to be discussed together, and why the product starts with Python scripts first.</p>
     </article>
     <article class="brand-card">
@@ -109,7 +109,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Pitch</p>
       <h2>Pitch</h2>
-      <p>Answers what ExecGov is, what it solves, and how it differs from a generic chat page or a loose script tool.</p>
+      <p>Answers what ExecFabric is, what it solves, and how it differs from a generic chat page or a loose script tool.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Value</p>
@@ -204,7 +204,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>Why this should be built</td>
-          <td><a href="./why-execgov.html">Why I Am Building ExecGov</a></td>
+          <td><a href="./why-execfabric.html">Why I Am Building ExecFabric</a></td>
           <td>The pain source, the core judgment, and why this is governance plus execution</td>
           <td>Technical decision makers and first-time readers</td>
         </tr>
@@ -215,7 +215,7 @@ lastUpdated: false
           <td>Customers, presales, and technical leads</td>
         </tr>
         <tr>
-          <td>What ExecGov actually is</td>
+          <td>What ExecFabric actually is</td>
           <td><a href="./pitch.html">Pitch</a></td>
           <td>Platform positioning, problem definition, and the difference from a generic chat system</td>
           <td>First-time readers</td>
@@ -276,9 +276,9 @@ lastUpdated: false
     <p class="brand-kicker">Reading Order</p>
     <h2>Suggested path for a first serious read</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="./why-execgov.html">
+      <a class="brand-link-card" href="./why-execfabric.html">
         <span>Step 01</span>
-        <strong>Why I Am Building ExecGov</strong>
+        <strong>Why I Am Building ExecFabric</strong>
         <p>Start with the founder story and source of the problem so you can judge whether this grows out of real pain.</p>
       </a>
       <a class="brand-link-card" href="./case-studies.html">
@@ -359,9 +359,9 @@ lastUpdated: false
         <p class="brand-lead">When you enter real project discussion, prioritize kickoff options and delivery background. If you are still judging the platform position, start from the pitch and the value framing.</p>
       </div>
     <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="./why-execgov.html">
+        <a class="brand-link-card" href="./why-execfabric.html">
           <span>Why</span>
-          <strong>Why I Am Building ExecGov</strong>
+          <strong>Why I Am Building ExecFabric</strong>
         </a>
         <a class="brand-link-card" href="./case-studies.html">
           <span>Cases</span>

@@ -15,7 +15,7 @@ lastUpdated: false
         <p>把这条链路单独拆页，是为了让售前、实施、培训和客户沟通都能直接引用同一份说明。</p>
       </div>
       <p class="brand-lead">
-        ExecGov 当前支持客户在不重部署整个平台的前提下，持续新增或更新脚本型能力。
+        ExecFabric 当前支持客户在不重部署整个平台的前提下，持续新增或更新脚本型能力。
         但这条链路仍然是<strong>受控更新</strong>，不是开放式自助发版。
       </p>
       <div class="brand-chip-list">
@@ -32,7 +32,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // HOT UPDATE</span>
+          <span>EXECFABRIC // HOT UPDATE</span>
           <span>DOC 09</span>
         </div>
         <div class="matrix-panel__canvas">

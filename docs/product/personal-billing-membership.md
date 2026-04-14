@@ -148,7 +148,7 @@ lastUpdated: false
         <ul class="brand-list">
           <li>从同一页点击<strong>去年租开通</strong>。</li>
           <li>同样会跳到标准 SaaS 正式租户注册页，但带的是年租方案参数。</li>
-          <li>适合已经明确会长期使用 ExecGov 的团队。</li>
+          <li>适合已经明确会长期使用 ExecFabric 的团队。</li>
           <li>优点是正式服务周期更稳定，也减少月度反复处理续期开通动作。</li>
         </ul>
       </article>

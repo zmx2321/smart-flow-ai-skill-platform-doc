@@ -15,7 +15,7 @@ lastUpdated: false
         <p>客户使用路径、交付边界和后续更新机制都需要清晰定义，项目才能稳定运行。</p>
       </div>
       <p class="brand-lead">
-        ExecGov 当前最需要先讲清楚的几件事是：
+        ExecFabric 当前最需要先讲清楚的几件事是：
         <strong>客户拿到什么、客户怎么用、平台怎么交付。</strong>
         脚本持续更新流程已拆到《热更新说明》，这里主要面向标准团队版和企业交付阶段，先把“真实交付时到底怎么跑”直接展开。
       </p>
@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CUSTOMER FLOW</span>
+          <span>EXECFABRIC // CUSTOMER FLOW</span>
           <span>DOC 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -468,7 +468,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>一句话总结交付主线</h2>
-      <p>ExecGov 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
+      <p>ExecFabric 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
     </article>
   </section>
 

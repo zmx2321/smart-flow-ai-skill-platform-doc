@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: ExecGov
+  name: ExecFabric
   text: Governed AI Execution
   tagline: Bring scattered scripts, file-processing work, and local automation into one governed entry so requests, confirmations, execution, and results stay reviewable.
   actions:
@@ -32,7 +32,7 @@ features:
     <div class="partner-banner">
       <div class="partner-banner__copy">
         <p class="landing-kicker">Scenario First</p>
-        <h2>Bring one real scenario first and see whether ExecGov fits</h2>
+        <h2>Bring one real scenario first and see whether ExecFabric fits</h2>
         <p class="landing-lead">
           If you are dealing with repetitive reporting, files, logs, scripts, or intranet workflows, start with one concrete scenario.
           Clarify the inputs, outputs, execution boundary, confirmation flow, and result return first, then decide whether a pilot or formal delivery makes sense.
@@ -45,7 +45,7 @@ features:
       </div>
       <div class="partner-banner__actions">
         <a class="cta-button cta-button--brand" href="./contact.html#lead-form">Discuss your scenario</a>
-        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Scenario%20Discussion">Email directly</a>
+        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20Scenario%20Discussion">Email directly</a>
       </div>
     </div>
   </section>
@@ -59,13 +59,13 @@ features:
           <strong>Bring scattered and risky team scripts under explicit control. Who ran what, when it happened, and what the result was all stay on record, and when something breaks there is a traceable path back.</strong>
         </p>
         <p class="landing-lead">
-          <strong>ExecGov is a multi-tenant capability-governance and execution platform that treats Python scripts as its first mature execution asset.</strong>
+          <strong>ExecFabric is a multi-tenant capability-governance and execution platform that treats Python scripts as its first mature execution asset.</strong>
         </p>
         <p class="landing-lead">
-          <strong>Exec</strong> comes from <strong>Execution</strong> and <strong>Gov</strong> comes from <strong>Governance</strong>.
-          This is not a government-project label. It means
-          <strong>AI, scripts, local resources, and online capabilities should all execute inside governance boundaries</strong>.
-          If a capability cannot actually land inside rules, it is outside the scope of what ExecGov is trying to solve.
+          <strong>Exec</strong> comes from <strong>Execution</strong> and <strong>Fabric</strong> points to a woven network of capabilities.
+          It means
+          <strong>AI, scripts, local resources, and online capabilities should be woven into an automation fabric with clear boundaries and stable delivery</strong>.
+          If a capability cannot actually land inside rules, it is outside the scope of what ExecFabric is trying to solve.
         </p>
         <p class="landing-lead">
           Many teams do not lack scripts. They lack a
@@ -73,7 +73,7 @@ features:
           Scripts end up scattered across personal laptops, shared drives, servers, and chat history, and nobody can clearly answer who is allowed to run what, when it should run, or where the result goes.
         </p>
         <p class="landing-lead">
-          ExecGov currently stabilizes the most common and most reusable capability shape first: Python scripts.
+          ExecFabric currently stabilizes the most common and most reusable capability shape first: Python scripts.
           You can already walk through a simplified public experience flow before deciding whether to connect a real scenario.
         </p>
         <p class="landing-lead">
@@ -123,7 +123,7 @@ features:
         </div>
         <p class="landing-lead">
           Whether you are an individual developer, a team lead, or an enterprise IT manager, the first goal here is to tell you
-          <strong>which problems ExecGov can solve for you now</strong>,
+          <strong>which problems ExecFabric can solve for you now</strong>,
           <strong>which entry path fits you first</strong>,
           and <strong>what the lowest-friction next step is</strong>.
         </p>
@@ -199,8 +199,8 @@ features:
       <p class="landing-kicker">Platform Thesis</p>
       <h2>Move from "AI can chat" to "AI can execute inside rules"</h2>
       <p class="landing-lead">
-        At the project layer, <strong>ExecGov</strong> is positioned as <strong>An Open &amp; Secure AI Agent Execution Layer</strong>.
-        At the product layer, it is presented externally as <strong>ExecGov</strong>.
+        At the project layer, <strong>ExecFabric</strong> is positioned as <strong>An Open &amp; Secure AI Agent Execution Layer</strong>.
+        At the product layer, it is presented externally as <strong>ExecFabric</strong>.
         The real problem it wants to solve is not the chat experience itself. It is
         <strong>how real tasks can be executed reliably inside rules</strong>.
       </p>
@@ -285,7 +285,7 @@ features:
     <div class="landing-inline-links">
       <a href="./guide/getting-started.html">Try for free</a>
       <a href="./contact.html#lead-form">Discuss your scenario</a>
-      <a href="./materials/why-execgov.html">Why I Am Building ExecGov</a>
+      <a href="./materials/why-execfabric.html">Why I Am Building ExecFabric</a>
       <a href="./product/editions.html">See the current stage</a>
     </div>
   </section>
@@ -296,7 +296,7 @@ features:
       <h2>Not a hello demo, but three sample cases you can use in project conversations</h2>
       <p class="landing-lead">
         These cases are not here to prove that a button can be clicked through.
-        They are here to show how ExecGov can turn complex, risky, failure-prone script flows into
+        They are here to show how ExecFabric can turn complex, risky, failure-prone script flows into
         <strong>a service that can be requested, confirmed, executed, and reviewed later</strong>.
       </p>
     </div>
@@ -356,14 +356,14 @@ features:
       <p class="landing-kicker">Brand Position</p>
       <h2>Brand positioning</h2>
       <p class="landing-lead">
-        Externally, use <strong>ExecGov</strong> as one unified brand instead of splitting it into separate project-name and product-name narratives.
+        Externally, use <strong>ExecFabric</strong> as one unified brand instead of splitting it into separate project-name and product-name narratives.
         The repository slug and existing technical identifiers can keep their historical naming for now.
       </p>
     </div>
     <div class="landing-grid landing-grid--two">
       <article class="mode-card">
         <span class="link-panel-label">Brand</span>
-        <h3>ExecGov</h3>
+        <h3>ExecFabric</h3>
         <p><strong>Position:</strong> an enterprise AI execution and governance platform</p>
         <p><strong>Slogan:</strong> make every automation reliable and governed.</p>
         <p>Use this framing across the website, materials, proposals, contracts, and formal delivery conversations.</p>
@@ -372,7 +372,7 @@ features:
         <span class="link-panel-label">Method</span>
         <h3>Govern first, execute for real</h3>
         <p><strong>Current strategy:</strong> stabilize script-shaped capability first, then expand toward APIs, templates, connectors, and approval flows.</p>
-        <p><strong>Naming note:</strong> <code>ExecGov = Execution + Governance</code>, and <code>Gov</code> means governance, not a government project.</p>
+        <p><strong>Naming note:</strong> <code>ExecFabric = Execution + Fabric</code>, and <code>Fabric</code> emphasizes weaving capabilities, workflows, and governance boundaries into a stable automation fabric that can actually be delivered.</p>
         <p><strong>Current state:</strong> the main repository slug <code>exec-fabric-ai-skill-platform</code> has already been unified, while the directory path <code>execgov-cli/</code> keeps historical naming and the external CLI command is already unified as <code>execgov-cli</code>.</p>
       </article>
     </div>
@@ -381,7 +381,7 @@ features:
   <section id="founder-note" class="landing-band landing-band--overview landing-band--founder">
     <div class="landing-section-head">
       <p class="landing-kicker">Founder Note</p>
-      <h2>Who is building ExecGov, and why the platform is worth understanding further</h2>
+      <h2>Who is building ExecFabric, and why the platform is worth understanding further</h2>
       <p class="landing-lead">
         I am currently based in Hangzhou and continuing this as a bootstrapped micro-business.
         My long-term mainline is

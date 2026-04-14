@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The most stable commercial path today is: individual users start from the free path, people who keep using it personally but have not entered formal collaboration expand local script slots, formal teams move into the monthly or annual team-tenant path, and enterprise or private deployment is evaluated separately by scenario.</p>
       </div>
       <p class="brand-lead">
-        If you are deciding how to introduce ExecGov right now,
+        If you are deciding how to introduce ExecFabric right now,
         do not start by listing a pile of module names.
         First judge whether the other side currently belongs to
         <strong>individual exploration</strong>,
@@ -66,7 +66,7 @@ lastUpdated: false
       <p class="brand-kicker">Path 01</p>
       <h2>Free path experience</h2>
       <ul class="brand-list">
-        <li>Best for individuals, friends, or light evaluators touching ExecGov for the first time.</li>
+        <li>Best for individuals, friends, or light evaluators touching ExecFabric for the first time.</li>
         <li>Start by experiencing the public entry, personal skill library, upload flow, execution history, announcements, and community basics.</li>
         <li>The main goal is to feel whether this is a platform that can truly bring scripts and automation into one governed entry.</li>
       </ul>
@@ -86,7 +86,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>Best for teams that have already entered multi-user collaboration and need a formal tenant with a more stable usage cycle.</li>
         <li>They should not keep staying inside the hidden personal free tenant. They move into the standard shared-SaaS formal tenant registration path instead.</li>
-        <li>The monthly option is better for validating one cycle first, while the annual option is better for teams that already know they will use ExecGov long term.</li>
+        <li>The monthly option is better for validating one cycle first, while the annual option is better for teams that already know they will use ExecFabric long term.</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -115,7 +115,7 @@ lastUpdated: false
       <p class="brand-kicker">Annual</p>
       <h2>How to frame the team annual subscription</h2>
       <ul class="brand-list">
-        <li>Best for teams that already know they will use ExecGov for the long term.</li>
+        <li>Best for teams that already know they will use ExecFabric for the long term.</li>
         <li>The advantage is a more stable service cycle and fewer repeated monthly renewal actions.</li>
         <li>The right sales framing is: for long-term usage, it reduces management friction and makes it easier to bring governance capability into the normal operating rhythm.</li>
         <li>The materials page still should not hardcode a fixed price. The authoritative source is the target registration page.</li>

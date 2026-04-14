@@ -15,7 +15,7 @@ lastUpdated: false
         <p>This page exists so presales, delivery, training, and customer discussions can all quote the same explanation.</p>
       </div>
       <p class="brand-lead">
-        ExecGov already supports customers continuing to add or update script-based capabilities
+        ExecFabric already supports customers continuing to add or update script-based capabilities
         <strong>without redeploying the whole platform</strong>.
         But that path is still a
         <strong>controlled update</strong>,
@@ -35,7 +35,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // HOT UPDATE</span>
+          <span>EXECFABRIC // HOT UPDATE</span>
           <span>DOC 09</span>
         </div>
         <div class="matrix-panel__canvas">

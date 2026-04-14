@@ -20,7 +20,7 @@ lastUpdated: false
         It also knows how to think about
         <strong>data onboarding, execution entry points, permission boundaries, operation confirmation, execution traces, and release handover</strong>
         together.
-        ExecGov was formed because these issues kept reappearing in real projects and kept accumulating.
+        ExecFabric was formed because these issues kept reappearing in real projects and kept accumulating.
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">8 years frontend delivery</span>
@@ -35,7 +35,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // FOUNDER PROFILE</span>
+          <span>EXECFABRIC // FOUNDER PROFILE</span>
           <span>MAT 05</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -45,7 +45,7 @@ lastUpdated: false
           <div class="matrix-panel__stack">
             <span class="matrix-panel__line"><span class="matrix-panel__key">focus</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">delivery</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">governance</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__key">core</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">gis_frontend</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">automation</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">product</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">execgov</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">product</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">execfabric</span></span>
           </div>
           <div class="matrix-panel__callout">DELIVERY FIRST, PRODUCT NEXT</div>
         </div>
@@ -249,8 +249,8 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Why ExecGov</p>
-      <h2>How this background maps to ExecGov</h2>
+      <p class="brand-kicker">Why ExecFabric</p>
+      <h2>How this background maps to ExecFabric</h2>
       <ul class="brand-list">
         <li>GIS and admin-frontend experience means the platform entry must be visible, operable, and reviewable instead of staying only in a command line or script directory.</li>
         <li>Automation and data-handling experience maps directly to the platform's most mature execution asset today, Python scripts. Experience in Java and Ruoyi-style backend reinforcement also keeps the platform design from being trapped by one language perspective.</li>

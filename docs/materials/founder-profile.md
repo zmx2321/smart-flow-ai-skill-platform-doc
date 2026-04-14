@@ -18,7 +18,7 @@ lastUpdated: false
       <p class="brand-lead">
         这类背景的直接价值，不只是能把页面或脚本单独做出来，而是知道如何把
         <strong>数据接入、执行入口、权限边界、操作确认、执行留痕和上线交接</strong>
-        一起考虑清楚。ExecGov 的形成，本质上来自这些问题在真实项目中的反复出现和持续沉淀。
+        一起考虑清楚。ExecFabric 的形成，本质上来自这些问题在真实项目中的反复出现和持续沉淀。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">8 年前端交付</span>
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // FOUNDER PROFILE</span>
+          <span>EXECFABRIC // FOUNDER PROFILE</span>
           <span>MAT 05</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -43,7 +43,7 @@ lastUpdated: false
           <div class="matrix-panel__stack">
             <span class="matrix-panel__line"><span class="matrix-panel__key">focus</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">delivery</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">governance</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__key">core</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">gis_frontend</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">automation</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">product</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">execgov</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">product</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">execfabric</span></span>
           </div>
           <div class="matrix-panel__callout">DELIVERY FIRST, PRODUCT NEXT</div>
         </div>
@@ -247,11 +247,11 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Why ExecGov</p>
-      <h2>这些经历如何映射到 ExecGov</h2>
+      <p class="brand-kicker">Why ExecFabric</p>
+      <h2>这些经历如何映射到 ExecFabric</h2>
       <ul class="brand-list">
         <li>GIS 和中后台经验，决定了平台入口必须可见、可操作、可复盘，而不是只停留在命令行或脚本目录。</li>
-        <li>自动化和数据处理经验，直接对应 ExecGov 当前最成熟的一类执行资产，也就是 Python 脚本能力；而做过 Java / 若依类后台补位，也让平台设计不会被单一语言视角绑住。</li>
+        <li>自动化和数据处理经验，直接对应 ExecFabric 当前最成熟的一类执行资产，也就是 Python 脚本能力；而做过 Java / 若依类后台补位，也让平台设计不会被单一语言视角绑住。</li>
         <li>政企交付经验，会天然把权限、确认、留痕、灰度、上线交接和责任边界放到设计优先级里。</li>
         <li>长期做项目交付，也更清楚平台能力必须从真实流程抽象出来，而不是从概念先行。</li>
       </ul>

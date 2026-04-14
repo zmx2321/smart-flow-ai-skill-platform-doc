@@ -15,7 +15,7 @@ lastUpdated: false
         <p>目标不是铺更多端，而是让免费入口、正式交付和本地接入共用一套逻辑，单人维护也不容易散掉。</p>
       </div>
       <p class="brand-lead">
-        <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+        <strong>ExecFabric（璇络）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
       </p>
       <p class="brand-lead">
         平台当前采用 <strong>单仓多前端 + 统一后端能力中心</strong> 的结构。
@@ -36,7 +36,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // ARCH LAYOUT</span>
+          <span>EXECFABRIC // ARCH LAYOUT</span>
           <span>DOC 04</span>
         </div>
         <div class="matrix-panel__canvas">

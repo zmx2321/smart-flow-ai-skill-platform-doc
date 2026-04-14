@@ -13,14 +13,14 @@ const themeCopy = {
     heroRequest: "'帮我清理服务器日志'",
     heroComment: "// 先看体验入口，再决定继续注册、沟通场景还是正式交付",
     noteKicker: "Scenario Entry",
-    noteLead: "如果你想判断现有脚本、文件流程或本地执行任务是否适合接入 ExecGov，可以先带一个真实场景来沟通，",
+    noteLead: "如果你想判断现有脚本、文件流程或本地执行任务是否适合接入 ExecFabric，可以先带一个真实场景来沟通，",
     noteEmphasis: "先把边界、执行方式和结果回传讲清楚。",
   },
   en: {
     heroRequest: "'Help me clean up the server logs'",
     heroComment: "// Start with the public entry, then decide on signup, a scoped conversation, or formal delivery",
     noteKicker: "Scenario Entry",
-    noteLead: "If you want to judge whether your current scripts, file workflows, or local execution tasks fit ExecGov, bring one real scenario first and ",
+    noteLead: "If you want to judge whether your current scripts, file workflows, or local execution tasks fit ExecFabric, bring one real scenario first and ",
     noteEmphasis: "clarify the boundary, execution path, and result return.",
   },
 }

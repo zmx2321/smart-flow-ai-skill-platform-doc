@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // VALUE NARRATIVE</span>
+          <span>EXECFABRIC // VALUE NARRATIVE</span>
           <span>MAT 03</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -184,12 +184,12 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>How to say the value in one sentence</h2>
-      <p>ExecGov is not another chat box. It helps you bring scattered and risky team scripts and automation flows into one governed entry so they run steadily, leave records behind, and stay reviewable later.</p>
+      <p>ExecFabric is not another chat box. It helps you bring scattered and risky team scripts and automation flows into one governed entry so they run steadily, leave records behind, and stay reviewable later.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Longer Version</p>
       <h2>How to explain the value in one paragraph</h2>
-      <p>Many companies do not lack scripts, interfaces, templates, or workflows. What they truly lack is a unified entry point, permission boundaries, and the ability to keep delivering in a stable way. The value of ExecGov is turning those scattered capabilities into one governed execution platform so customers can use their own capability through a unified entry while the platform handles recommendation, confirmation, execution, and traceability inside explicit boundaries. Python scripts are still the first mature execution asset today, but the strongest way to express the value is not by listing every feature. It is by judging first whether the next step belongs to the free path, local script-slot expansion, the shared-SaaS formal tenant path, or direct enterprise delivery.</p>
+      <p>Many companies do not lack scripts, interfaces, templates, or workflows. What they truly lack is a unified entry point, permission boundaries, and the ability to keep delivering in a stable way. The value of ExecFabric is turning those scattered capabilities into one governed execution platform so customers can use their own capability through a unified entry while the platform handles recommendation, confirmation, execution, and traceability inside explicit boundaries. Python scripts are still the first mature execution asset today, but the strongest way to express the value is not by listing every feature. It is by judging first whether the next step belongs to the free path, local script-slot expansion, the shared-SaaS formal tenant path, or direct enterprise delivery.</p>
     </article>
   </section>
 

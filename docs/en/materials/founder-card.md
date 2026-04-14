@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>Background Overview</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Quick Card</span>
-        <strong>ExecGov is currently being advanced solo from Hangzhou. The long-term mainline is eight years of frontend delivery, with two years of continued reinforcement in Python automation and small full-stack closure. The best first step is still one real workflow or module.</strong>
+        <strong>ExecFabric is currently being advanced solo from Hangzhou. The long-term mainline is eight years of frontend delivery, with two years of continued reinforcement in Python automation and small full-stack closure. The best first step is still one real workflow or module.</strong>
         <p>It is a better fit to begin with one real business flow first, then expand into governance and reuse.</p>
       </div>
       <p class="brand-lead">
@@ -36,7 +36,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // FOUNDER CARD</span>
+          <span>EXECFABRIC // FOUNDER CARD</span>
           <span>MAT 06</span>
         </div>
         <div class="matrix-panel__canvas">

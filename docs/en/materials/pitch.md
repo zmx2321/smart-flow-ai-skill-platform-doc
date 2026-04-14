@@ -15,7 +15,7 @@ lastUpdated: false
       <p>Get the entry path right first, then explain platform position, problem definition, and delivery style. That keeps personal expansion, the standard team edition, and enterprise delivery from collapsing into one vague story.</p>
     </div>
     <p class="brand-lead">
-      This page concentrates the core way to introduce ExecGov, covering platform position, problem definition, the four-layer path, and the current landing focus.
+      This page concentrates the core way to introduce ExecFabric, covering platform position, problem definition, the four-layer path, and the current landing focus.
       It works well for first contact, the opening of an introduction, and alignment before more formal communication.
     </p>
     <div class="brand-chip-list">
@@ -32,7 +32,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>EXECGOV // PITCH OUTLINE</span>
+        <span>EXECFABRIC // PITCH OUTLINE</span>
         <span>MAT 02</span>
       </div>
       <div class="matrix-panel__canvas">
@@ -59,7 +59,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">30 Seconds</p>
       <h2>How to explain it in 30 seconds</h2>
-      <p>ExecGov is not another chat shell for a team. It helps you bring scattered and risky scripts under control. You can review who executed what, when it happened, and what the result was, and high-risk actions require confirmation first. The first mature capability carrier already in place today is the Python script.</p>
+      <p>ExecFabric is not another chat shell for a team. It helps you bring scattered and risky scripts under control. You can review who executed what, when it happened, and what the result was, and high-risk actions require confirmation first. The first mature capability carrier already in place today is the Python script.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">3 Minutes</p>
@@ -192,7 +192,7 @@ lastUpdated: false
       <h2>Key points to say externally</h2>
       <ul class="brand-list">
         <li>First judge whether the other side belongs to the free path, local script-slot expansion, the team edition, or enterprise delivery.</li>
-        <li>ExecGov brings scattered scripts, interfaces, and workflows into a unified entry point.</li>
+        <li>ExecFabric brings scattered scripts, interfaces, and workflows into a unified entry point.</li>
         <li>AI recommends and triggers capabilities inside rules.</li>
         <li>The platform emphasizes tenant isolation, confirmation before execution, and audit trails.</li>
         <li>The standard team edition is currently carried by the shared-SaaS frontend, while enterprise projects move into stronger isolation later.</li>

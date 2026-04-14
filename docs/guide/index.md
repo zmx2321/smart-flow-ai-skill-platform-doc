@@ -15,7 +15,7 @@ lastUpdated: false
       <p>这里先把入口、角色和阅读路径分清楚。</p>
     </div>
     <p class="brand-lead">
-      这组页面帮助第一次接触 ExecGov 的访客快速判断：
+      这组页面帮助第一次接触 ExecFabric 的访客快速判断：
       <strong>更适合先走免费线、先扩容个人空间、先进入标准团队版，还是直接进入企业交付沟通。</strong>
     </p>
     <div class="brand-chip-list">
@@ -33,7 +33,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>EXECGOV // START HERE</span>
+        <span>EXECFABRIC // START HERE</span>
         <span>GUIDE 01</span>
       </div>
       <div class="matrix-panel__canvas">

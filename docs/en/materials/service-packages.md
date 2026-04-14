@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>Kickoff Options / Standard Service Packages</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Service Entry</span>
-        <strong>ExecGov's current kickoff modes revolve around three project shapes: organizing one real workflow, onboarding governed execution, and delivering a small formal project. The focus is making phase one verifiable, deliverable, and reusable.</strong>
+        <strong>ExecFabric's current kickoff modes revolve around three project shapes: organizing one real workflow, onboarding governed execution, and delivering a small formal project. The focus is making phase one verifiable, deliverable, and reusable.</strong>
         <p>The key to judging cooperation is not how many feature names exist. It is whether the current scenario is clear, whether the boundary is clear, and whether phase one can produce a stable result.</p>
       </div>
       <p class="brand-lead">
@@ -46,7 +46,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // SERVICE PACKAGES</span>
+          <span>EXECFABRIC // SERVICE PACKAGES</span>
           <span>MAT 04</span>
         </div>
         <div class="matrix-panel__canvas">

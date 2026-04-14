@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // DELIVERY SCOPE</span>
+          <span>EXECFABRIC // DELIVERY SCOPE</span>
           <span>MAT 10</span>
         </div>
         <div class="matrix-panel__canvas">

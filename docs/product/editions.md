@@ -15,13 +15,13 @@ lastUpdated: false
         <p>版本阶段讲的是平台建设节奏，四层路径讲的是用户该走哪条路，这两件事不要混着讲。</p>
       </div>
       <p class="brand-lead">
-        ExecGov 当前的版本节奏可以这样理解：
+        ExecFabric 当前的版本节奏可以这样理解：
         <strong><code>1.0</code></strong> 先把真实交付、可信执行和本地接入做稳，
         <strong><code>1.1</code></strong> 把自动注册、支付、续费和低客服闭环补起来，
         <strong><code>2.0</code></strong> 再决定哪些部分值得继续做成更稳定的标准方案。多 Skill 编排不是当前默认能力，要等治理底座补齐后才进入正式产品化。
       </p>
       <p class="brand-lead">
-        <strong>当前 <code>1.0</code> 的核心定位是：ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+        <strong>当前 <code>1.0</code> 的核心定位是：ExecFabric（璇络）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
       </p>
       <p class="brand-lead">
         更后面的 <code>3.0 / 4.0</code> 仍保留在内部长期规划里，但当前公开路线只讲 <code>1.0 / 1.1 / 2.0</code>，避免把长期设想说成眼前能力。
@@ -61,7 +61,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // ROADMAP</span>
+          <span>EXECFABRIC // ROADMAP</span>
           <span>DOC 06</span>
         </div>
         <div class="matrix-panel__canvas">

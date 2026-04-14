@@ -11,7 +11,7 @@ lastUpdated: false
     <h1>Getting Started</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Quick Overview</span>
-      <strong>ExecGov is not a single chat page. It is already an execution platform with four practical paths: the free path, local script slots, the formal team edition, and enterprise delivery.</strong>
+      <strong>ExecFabric is not a single chat page. It is already an execution platform with four practical paths: the free path, local script slots, the formal team edition, and enterprise delivery.</strong>
       <p>First identify which layer fits you now, then decide which pages deserve your time.</p>
     </div>
     <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>EXECGOV // QUICK START</span>
+        <span>EXECFABRIC // QUICK START</span>
         <span>GUIDE 02</span>
       </div>
       <div class="matrix-panel__canvas">

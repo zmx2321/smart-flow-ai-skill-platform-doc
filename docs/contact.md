@@ -49,7 +49,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CONTACT NODE</span>
+          <span>EXECFABRIC // CONTACT NODE</span>
           <span>OPEN</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -167,12 +167,12 @@ lastUpdated: false
       </p>
       <form
         class="lead-form"
-        action="mailto:zmx2321@163.com?subject=ExecGov%20Lead"
+        action="mailto:zmx2321@163.com?subject=ExecFabric%20Lead"
         method="post"
         enctype="text/plain"
         accept-charset="UTF-8"
       >
-        <input type="hidden" name="source" value="execgov_docs_contact" />
+        <input type="hidden" name="source" value="execfabric_docs_contact" />
         <div class="lead-form-grid">
           <label class="lead-field">
             <span>姓名</span>
@@ -216,7 +216,7 @@ lastUpdated: false
         </label>
         <div class="lead-form-actions">
           <button class="cta-button cta-button--brand" type="submit">提交线索</button>
-          <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Lead">直接发邮件</a>
+          <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20Lead">直接发邮件</a>
         </div>
       </form>
       <p class="lead-form-note">
@@ -320,7 +320,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>长期主线是前端、GIS 可视化和政企交付。</li>
         <li>近两年持续补强 Python 自动化、数据处理和中小型后台支撑。</li>
-        <li>当前做 ExecGov，不是停留在泛泛地讲 AI，而是想把脚本接入、权限边界、执行留痕和本地桥接做成真正能交付的产品。</li>
+        <li>当前做 ExecFabric，不是停留在泛泛地讲 AI，而是想把脚本接入、权限边界、执行留痕和本地桥接做成真正能交付的产品。</li>
       </ul>
       <p><a href="./materials/founder-profile.html">查看交付背景与项目经历</a></p>
     </article>
@@ -331,7 +331,7 @@ lastUpdated: false
         <li>GitHub 公开仓库和工程结构</li>
         <li>博客里的项目记录和思考</li>
         <li>文档站里对产品、交付、合作方式的公开说明</li>
-        <li>持续更新中的 ExecGov 文档和前端入口</li>
+        <li>持续更新中的 ExecFabric 文档和前端入口</li>
       </ul>
     </article>
   </section>

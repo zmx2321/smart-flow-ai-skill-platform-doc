@@ -34,7 +34,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // PUBLIC RESUME</span>
+          <span>EXECFABRIC // PUBLIC RESUME</span>
           <span>MAT 07</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -205,7 +205,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>If you need to continue judging delivery background and cooperation fit</h2>
-        <p class="brand-lead">You can continue with the shorter Background Overview page, or move directly into the Delivery Background page to understand why this kind of resume extends naturally into a product direction like ExecGov.</p>
+        <p class="brand-lead">You can continue with the shorter Background Overview page, or move directly into the Delivery Background page to understand why this kind of resume extends naturally into a product direction like ExecFabric.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./founder-card.html">

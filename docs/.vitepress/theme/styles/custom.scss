@@ -3518,36 +3518,36 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   line-height: 1.56;
 }
 
-.brand-page-shell--why-execgov .why-execgov-guide-card {
+.brand-page-shell--why-execfabric .why-execfabric-guide-card {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(241, 248, 250, 0.92)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.06), rgba(37, 99, 235, 0.05));
 }
 
-.dark .brand-page-shell--why-execgov .why-execgov-guide-card {
+.dark .brand-page-shell--why-execfabric .why-execfabric-guide-card {
   background:
     linear-gradient(180deg, rgba(7, 19, 15, 0.96), rgba(4, 12, 10, 0.92)),
     linear-gradient(135deg, rgba(0, 245, 140, 0.08), rgba(0, 228, 255, 0.05));
 }
 
-.brand-page-shell--why-execgov .why-execgov-guide-list {
+.brand-page-shell--why-execfabric .why-execfabric-guide-list {
   display: grid;
   gap: 12px;
   margin-top: 16px;
 }
 
-.brand-page-shell--why-execgov .why-execgov-guide-item {
+.brand-page-shell--why-execfabric .why-execfabric-guide-item {
   padding: 14px 16px;
   border: 1px solid var(--smartflow-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
 
-.dark .brand-page-shell--why-execgov .why-execgov-guide-item {
+.dark .brand-page-shell--why-execfabric .why-execfabric-guide-item {
   background: rgba(5, 18, 14, 0.64);
 }
 
-.brand-page-shell--why-execgov .why-execgov-guide-item span {
+.brand-page-shell--why-execfabric .why-execfabric-guide-item span {
   display: block;
   color: var(--smartflow-kicker);
   font-family: var(--smartflow-mono-font);
@@ -3557,7 +3557,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   text-transform: uppercase;
 }
 
-.brand-page-shell--why-execgov .why-execgov-guide-item strong {
+.brand-page-shell--why-execfabric .why-execfabric-guide-item strong {
   display: block;
   margin-top: 10px;
   color: var(--smartflow-title);
@@ -3565,16 +3565,16 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   line-height: 1.56;
 }
 
-.brand-page-shell--why-execgov .brand-hero__media {
+.brand-page-shell--why-execfabric .brand-hero__media {
   align-self: start;
 }
 
-.brand-page-shell--why-execgov .brand-hero__media--compact {
+.brand-page-shell--why-execfabric .brand-hero__media--compact {
   height: auto;
   min-height: 0;
 }
 
-.brand-page-shell--why-execgov .brand-hero__media--compact .matrix-panel.matrix-panel--contact {
+.brand-page-shell--why-execfabric .brand-hero__media--compact .matrix-panel.matrix-panel--contact {
   height: auto;
   min-height: 420px;
 }

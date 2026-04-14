@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The goal is not to spread into more endpoints. It is to let the free entry, formal delivery, and local onboarding reuse one logic so a single-maintainer system does not drift apart.</p>
       </div>
       <p class="brand-lead">
-        <strong>ExecGov is a multi-tenant capability-governance and execution platform that treats Python scripts as the first mature execution asset.</strong>
+        <strong>ExecFabric is a multi-tenant capability-governance and execution platform that treats Python scripts as the first mature execution asset.</strong>
       </p>
       <p class="brand-lead">
         The platform currently uses a
@@ -43,7 +43,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // ARCH LAYOUT</span>
+          <span>EXECFABRIC // ARCH LAYOUT</span>
           <span>DOC 04</span>
         </div>
         <div class="matrix-panel__canvas">

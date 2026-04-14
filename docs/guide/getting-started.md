@@ -11,7 +11,7 @@ lastUpdated: false
     <h1>快速开始</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Quick Overview</span>
-      <strong>ExecGov 不是单一聊天页面，而是一套已经形成免费线、本地脚本位、正式团队版和企业交付四层路径的执行平台。</strong>
+      <strong>ExecFabric 不是单一聊天页面，而是一套已经形成免费线、本地脚本位、正式团队版和企业交付四层路径的执行平台。</strong>
       <p>先从这里判断你现在更适合走哪一层，再决定看哪些页面。</p>
     </div>
     <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>EXECGOV // QUICK START</span>
+        <span>EXECFABRIC // QUICK START</span>
         <span>GUIDE 02</span>
       </div>
       <div class="matrix-panel__canvas">

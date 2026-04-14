@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Flagship Cases</span>
         <strong>This page starts with three lightweight showroom samples that you can already demo yourself right now. It does not pretend to be a set of large-customer production cases.</strong>
-        <p>The point is to make one thing clear first: ExecGov can already bring Python, Shell, and file-processing flows under one unified entry.</p>
+        <p>The point is to make one thing clear first: ExecFabric can already bring Python, Shell, and file-processing flows under one unified entry.</p>
       </div>
       <p class="brand-lead">
         These cases are closer to a showroom for the current <code>1.0</code> stage.
@@ -33,7 +33,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // CASE STUDIES</span>
+          <span>EXECFABRIC // CASE STUDIES</span>
           <span>MAT 08</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -87,7 +87,7 @@ lastUpdated: false
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>How ExecGov handles it</h3>
+        <h3>How ExecFabric handles it</h3>
         <ul class="brand-list">
           <li>The user enters one task topic on the experience page, such as "organize the downloads directory."</li>
           <li>The platform calls <code>task_brief_demo.py</code> to generate a smallest pre-execution brief.</li>
@@ -122,7 +122,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>Suggested demo script</h3>
         <ol class="brand-list">
-          <li>I am not connecting a real business environment yet. This shows only the smallest execution chain first so you can understand how ExecGov catches a request.</li>
+          <li>I am not connecting a real business environment yet. This shows only the smallest execution chain first so you can understand how ExecFabric catches a request.</li>
           <li>I enter one task topic, such as "organize the downloads directory." The platform first calls a Python script to generate a pre-execution brief instead of making a dangerous direct action.</li>
           <li>The value of this step is that it makes the inputs, steps, and next entry clear before replacing it with your own formal script later.</li>
         </ol>
@@ -143,7 +143,7 @@ lastUpdated: false
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>How ExecGov handles it</h3>
+        <h3>How ExecFabric handles it</h3>
         <ul class="brand-list">
           <li>The user pastes a mixed log segment directly into the experience page.</li>
           <li>The platform calls <code>clean_log_demo.sh</code> for a preview run.</li>
@@ -199,7 +199,7 @@ lastUpdated: false
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>How ExecGov handles it</h3>
+        <h3>How ExecFabric handles it</h3>
         <ul class="brand-list">
           <li>Upload one CSV or Excel file from the unified entry.</li>
           <li>The platform calls <code>csv_profile_demo</code> to generate an analysis report.</li>
@@ -234,7 +234,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>Suggested demo script</h3>
         <ol class="brand-list">
-          <li>The first two cases use text input. This case exists specifically to prove that ExecGov can also handle file-driven flows.</li>
+          <li>The first two cases use text input. This case exists specifically to prove that ExecFabric can also handle file-driven flows.</li>
           <li>I upload a CSV or Excel file. The platform first produces field profiling and a preview of the first rows, then generates a downloadable xlsx report.</li>
           <li>For customers, this proves that the platform already has the smallest complete loop of upload input - execute processor - return result file.</li>
         </ol>
@@ -243,7 +243,7 @@ lastUpdated: false
     <div class="brand-actions">
       <a
         class="cta-button cta-button--brand"
-        href="https://free.execgov.cn/#/experience?demo=csv_profile_demo"
+        href="https://free.execfabric.cn/#/experience?demo=csv_profile_demo"
         target="_blank"
         rel="noreferrer"
       >
@@ -252,7 +252,7 @@ lastUpdated: false
     </div>
     <p class="brand-lead">
       The CSV experience entry documented here is currently
-      <code>https://free.execgov.cn/#/experience?demo=csv_profile_demo</code>.
+      <code>https://free.execfabric.cn/#/experience?demo=csv_profile_demo</code>.
       Once the domain points at this free-edition frontend, the link works directly.
     </p>
   </section>
@@ -269,9 +269,9 @@ lastUpdated: false
           <span>Partner</span>
           <strong>Discuss your scenario</strong>
         </a>
-        <a class="brand-link-card" href="./why-execgov.html">
+        <a class="brand-link-card" href="./why-execfabric.html">
           <span>Why</span>
-          <strong>Why I Am Building ExecGov</strong>
+          <strong>Why I Am Building ExecFabric</strong>
         </a>
         <a class="brand-link-card" href="../product/index.html">
           <span>Product</span>

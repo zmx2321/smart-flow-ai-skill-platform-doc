@@ -11,14 +11,14 @@ lastUpdated: false
       <h1>Product Overview</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
-        <strong>ExecGov is aimed at automation execution and governance for real tasks. Right now it is better understood from script governance, file handling, and local automation flows that can already land.</strong>
+        <strong>ExecFabric is aimed at automation execution and governance for real tasks. Right now it is better understood from script governance, file handling, and local automation flows that can already land.</strong>
         <p>Separate what is already done, what is still being pushed, and what may expand later. That is how the product avoids rework.</p>
       </div>
       <p class="brand-lead">
-        <strong>The current best way to understand ExecGov is this: it first turns Python and Shell scripts, file handling, and local automation flows into one unified entry so execution, confirmation, and result return are all traceable.</strong>
+        <strong>The current best way to understand ExecFabric is this: it first turns Python and Shell scripts, file handling, and local automation flows into one unified entry so execution, confirmation, and result return are all traceable.</strong>
       </p>
       <p class="brand-lead">
-        <strong>Under the surface, ExecGov is still a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</strong>
+        <strong>Under the surface, ExecFabric is still a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</strong>
       </p>
       <p class="brand-lead">
         Starting with Python scripts does not mean the scope is small. It means Python is the most common, most real, and easiest place to form a deliverable, reusable, expandable small closed loop first.
@@ -72,7 +72,7 @@ lastUpdated: false
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>EXECGOV // PRODUCT SIGNAL</span>
+          <span>EXECFABRIC // PRODUCT SIGNAL</span>
           <span>DOC 01</span>
         </div>
         <div class="matrix-panel__canvas">
@@ -161,7 +161,7 @@ lastUpdated: false
     <p class="brand-kicker">Platform</p>
     <h2>Platform position</h2>
       <ul class="brand-list">
-        <li>Under the surface, ExecGov is a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</li>
+        <li>Under the surface, ExecFabric is a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</li>
         <li>Externally, it is currently better to enter from script governance, file handling, and local automation flows that can already land.</li>
         <li>The most mature capability shape today is script-shaped onboarding, execution, audit, and continuous update.</li>
         <li>The platform already has a general resource layer and executor registry layer. The first non-script sample is HTTP capability access in the <code>public</code> super-admin domain, and tenant-side users already have a read-only ledger.</li>
@@ -219,7 +219,7 @@ lastUpdated: false
       <p class="brand-kicker">Brand</p>
       <h2>Brand wording</h2>
       <ul class="brand-list">
-        <li>Brand name: <code>ExecGov</code></li>
+        <li>Brand name: <code>ExecFabric</code></li>
         <li>Subtitle: a multi-tenant governance and execution system for real-world tasks</li>
         <li>Slogan: make every automation reliable and governed.</li>
         <li>This framing is suitable for product introduction, scenario communication, and current delivery explanation.</li>
@@ -229,7 +229,7 @@ lastUpdated: false
       <p class="brand-kicker">Method</p>
       <h2>Current usage principles</h2>
       <ul class="brand-list">
-        <li>Use <code>ExecGov</code> externally as one unified brand rather than splitting into separate English and Chinese product naming tracks.</li>
+        <li>Use <code>ExecFabric</code> externally as one unified brand rather than splitting into separate English and Chinese product naming tracks.</li>
         <li>Governance first, execution second. Stabilize script-shaped capability first, then gradually expand into more capability types.</li>
         <li>The repository slug and directory path <code>execgov-cli/</code> stay in place for now, while the external command is already unified as <code>execgov-cli</code>, so the current engineering and release chain is not disrupted.</li>
         <li>This keeps brand cognition unified without interrupting the current code, docs, and delivery rhythm.</li>
@@ -426,7 +426,7 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Why ExecGov</p>
+      <p class="brand-kicker">Why ExecFabric</p>
       <h2>The project value of this kind of platform</h2>
       <ul class="brand-list">
         <li>The point is not to expose a model and stop there. The point is to make AI execute inside rules.</li>
