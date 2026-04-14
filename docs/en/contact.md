@@ -341,9 +341,9 @@ lastUpdated: false
         <strong>zmx2321</strong>
         <p>See public repositories, coding style, and delivery maturity.</p>
       </a>
-      <a class="brand-link-card" href="https://github.com/zmx2321/exec-gov-ai-skill-platform-doc" target="_blank" rel="noreferrer">
+      <a class="brand-link-card" href="https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc" target="_blank" rel="noreferrer">
         <span>Docs Repo</span>
-        <strong>exec-gov-ai-skill-platform-doc</strong>
+        <strong>exec-fabric-ai-skill-platform-doc</strong>
         <p>See the docs-site pages, styling, and deployment configuration directly.</p>
       </a>
       <a class="brand-link-card" href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">

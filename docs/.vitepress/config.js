@@ -1,6 +1,6 @@
 const docsBase = process.env.EXECGOV_DOCS_BASE || "/"
 const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
-const docsRepoUrl = process.env.EXECGOV_DOCS_REPO_URL || "https://github.com/zmx2321/exec-gov-ai-skill-platform-doc"
+const docsRepoUrl = process.env.EXECGOV_DOCS_REPO_URL || "https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc"
 
 const localeText = {
   root: {

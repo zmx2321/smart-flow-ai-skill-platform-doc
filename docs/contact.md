@@ -350,9 +350,9 @@ lastUpdated: false
         <strong>zmx2321</strong>
         <p>查看公开仓库、代码风格和工程完成度。</p>
       </a>
-      <a class="brand-link-card" href="https://github.com/zmx2321/exec-gov-ai-skill-platform-doc" target="_blank" rel="noreferrer">
+      <a class="brand-link-card" href="https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc" target="_blank" rel="noreferrer">
         <span>文档仓库</span>
-        <strong>exec-gov-ai-skill-platform-doc</strong>
+        <strong>exec-fabric-ai-skill-platform-doc</strong>
         <p>查看当前文档站页面、样式和部署配置。</p>
       </a>
       <a class="brand-link-card" href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">

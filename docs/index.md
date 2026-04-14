@@ -79,7 +79,7 @@ features:
         <p class="landing-lead">
           当前 Web 上传注册入口已经统一支持 <strong>Python / Shell</strong> 文本脚本；公开体验页固定展示
           <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
-          真实体验脚本来自 <code>exec-gov-ai-skill-platform-script/testing/tenant_1000/experience/</code>，
+          真实体验脚本来自 <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code>，
           由 manifest 做热插拔映射。
         </p>
         <p class="landing-lead">
@@ -359,7 +359,7 @@ features:
         <h3>治理为先，执行落地</h3>
         <p><strong>当前策略：</strong>先把脚本型能力做稳，再逐步扩到 API、模板、连接器和审批流。</p>
         <p><strong>命名说明：</strong><code>ExecGov = Execution + Governance</code>，其中 <code>Gov</code> 指的是治理，不是政府项目。</p>
-        <p><strong>当前状态：</strong><code>exec-gov-ai-skill-platform</code> 主仓库 slug 已完成统一；<code>execgov-cli/</code> 目录路径仍保留历史命名，但 CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
+        <p><strong>当前状态：</strong><code>exec-fabric-ai-skill-platform</code> 主仓库 slug 已完成统一；<code>execgov-cli/</code> 目录路径仍保留历史命名，但 CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
       </article>
     </div>
   </section>
