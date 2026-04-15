@@ -229,9 +229,9 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Shell Role</p>
-      <h2>The real role of <code>execfabric-shell</code></h2>
+      <h2>The real role of <code>execfabric-hack</code></h2>
       <ul class="brand-list">
-        <li>It mainly exists for multi-entry aggregation, integration testing, and final sync</li>
+        <li>It mainly exists for local multi-entry aggregation, integration testing, and final sync</li>
         <li>It is not the long-term formal customer runtime entry</li>
         <li>For formal customer usage, the source of truth remains the formal single project or shared-tenant frontend</li>
         <li>This reduces the risk that the shell becomes the "truth" while the formal projects drift away</li>

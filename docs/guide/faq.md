@@ -188,8 +188,8 @@ lastUpdated: false
         <p>当前注册成功后会先进入独立结果页，再回到登录与个人主链路，不再只是靠提示框承接。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>execfabric-shell</code> 是不是客户正式入口</h3>
-        <p>不是。它主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口；客户正式入口还是个人免费端、共享 SaaS 正式租户或企业交付前端。</p>
+        <h3><code>execfabric-hack</code> 是不是客户正式入口</h3>
+        <p>不是。它主要用于本地多入口聚合、联调和同步，不作为客户长期正式运行入口；客户正式入口还是个人免费端、共享 SaaS 正式租户或企业交付前端。</p>
       </article>
     </div>
   </section>

@@ -214,9 +214,9 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Shell Role</p>
-      <h2><code>execfabric-shell</code> 的真实定位</h2>
+      <h2><code>execfabric-hack</code> 的真实定位</h2>
       <ul class="brand-list">
-        <li>它主要用于多入口聚合、联调和最终同步</li>
+        <li>它主要用于本地多入口聚合、联调和最终同步</li>
         <li>它不是客户长期正式运行入口</li>
         <li>客户正式使用时，仍以正式单项目或共享租户前端为准</li>
         <li>这能减少“壳层成真相、正式工程反而漂移”的问题</li>

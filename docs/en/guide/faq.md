@@ -191,8 +191,8 @@ lastUpdated: false
         <p>The current flow enters a dedicated result page first, then returns to login and the personal mainline. It no longer depends only on a toast message.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>Is <code>execfabric-shell</code> the formal customer entry</h3>
-        <p>No. It mainly exists for multi-entry aggregation, joint debugging, and sync. Formal customer entry still means the personal free frontend, the shared-SaaS tenant frontend, or the enterprise-delivery frontend.</p>
+        <h3>Is <code>execfabric-hack</code> the formal customer entry</h3>
+        <p>No. It mainly exists for local multi-entry aggregation, joint debugging, and sync. Formal customer entry still means the personal free frontend, the shared-SaaS tenant frontend, or the enterprise-delivery frontend.</p>
       </article>
     </div>
   </section>
