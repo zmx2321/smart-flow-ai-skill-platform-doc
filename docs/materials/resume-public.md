@@ -205,7 +205,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>如需继续判断交付背景与合作匹配度</h2>
-        <p class="brand-lead">可以继续查看更短的背景概览，或直接进入交付背景页，进一步判断这类履历为何会延伸成 ExecFabric 这样的产品方向。</p>
+        <p class="brand-lead">可以继续查看更短的背景概览，或直接进入交付背景页，进一步判断这类履历为何会延伸成 璇络(ExecFabric) 这样的产品方向。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./founder-card.html">

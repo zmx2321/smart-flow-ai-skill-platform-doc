@@ -15,7 +15,7 @@ lastUpdated: false
         <p>目标不是铺更多端，而是让免费入口、正式交付和本地接入共用一套逻辑，单人维护也不容易散掉。</p>
       </div>
       <p class="brand-lead">
-        <strong>ExecFabric（璇络）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
+        <strong>璇络(ExecFabric)是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
       </p>
       <p class="brand-lead">
         平台当前采用 <strong>单仓多前端 + 统一后端能力中心</strong> 的结构。
@@ -320,7 +320,7 @@ lastUpdated: false
         <p><code>public</code> 侧客户台账、租户状态、模板分发、日志审计不需要另起炉灶。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>能承接个人免费版增长入口</h3>
+        <h3>能承接璇络个人免费版增长入口</h3>
         <p>免费版不是旁支，而是正式入口之一，可以持续沉淀线索和使用样本。</p>
       </article>
       <article class="brand-card brand-card--nested">

@@ -1,4 +1,4 @@
-# ExecFabric（璇络）文档站
+# 璇络(ExecFabric)文档站
 
 这是 `exec-fabric-ai-skill-platform-doc` 的 VitePress 文档站仓库，对应主平台仓库 `exec-fabric-ai-skill-platform`，包含首页、产品概览、应用场景、核心能力、客户流程 / 交付、部署方式、版本路线和联系页。
 

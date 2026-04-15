@@ -11,7 +11,7 @@ lastUpdated: false
     <h1>快速开始</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Quick Overview</span>
-      <strong>ExecFabric 不是单一聊天页面，而是一套已经形成免费线、本地脚本位、正式团队版和企业交付四层路径的执行平台。</strong>
+      <strong>璇络(ExecFabric) 不是单一聊天页面，而是一套已经形成免费线、本地脚本位、正式团队版和企业交付四层路径的执行平台。</strong>
       <p>先从这里判断你现在更适合走哪一层，再决定看哪些页面。</p>
     </div>
     <p class="brand-lead">
@@ -70,7 +70,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">03</p>
       <h2>它已经有交付主线</h2>
-      <p>当前已经形成“标准 SaaS 共享租户 + 企业单租户交付”两条现实路径，不再只有一种正式接入方式。</p>
+      <p>当前已经形成“璇络标准 SaaS 共享租户 + 企业单租户交付”两条现实路径，不再只有一种正式接入方式。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">04</p>
@@ -143,7 +143,7 @@ lastUpdated: false
           <td><code>/login</code></td>
           <td>当前正式登录页</td>
           <td>已有账号的人</td>
-          <td>用于进入个人免费版或后续正式租户空间。</td>
+          <td>用于进入璇络个人免费版或后续正式租户空间。</td>
         </tr>
         <tr>
           <td><code>/register</code></td>
@@ -234,7 +234,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>企业 <code>1.0</code> 交付主线已经成立。</li>
         <li>个人免费入口已经成立。</li>
-        <li>标准 SaaS 共享租户前端已经建立，并在继续收口。</li>
+        <li>璇络标准 SaaS 共享租户前端已经建立，并在继续收口。</li>
         <li>CLI 最小桥梁能力已经成立。</li>
         <li>标准团队协作能力和更丰富的套餐能力会继续扩展。</li>
       </ul>

@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Flagship Cases</span>
         <strong>这页先放 3 个你现在就能自己演示的轻量样板，不假装是大客户生产案例。</strong>
-        <p>重点是先让人看懂：ExecFabric 已经能把 Python、Shell 和文件处理三类链路收成统一入口。</p>
+        <p>重点是先让人看懂：璇络(ExecFabric) 已经能把 Python、Shell 和文件处理三类链路收成统一入口。</p>
       </div>
       <p class="brand-lead">
         这些案例更像当前 1.0 阶段的 showroom，用来帮助潜在客户和合作方快速判断：
@@ -86,7 +86,7 @@ lastUpdated: false
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>ExecFabric 怎么接</h3>
+        <h3>璇络(ExecFabric) 怎么接</h3>
         <ul class="brand-list">
           <li>用户在体验页输入一个任务主题，例如“下载目录整理”。</li>
           <li>平台调用 <code>task_brief_demo.py</code> 生成最小执行前简报。</li>
@@ -121,7 +121,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>演示台词</h3>
         <ol class="brand-list">
-          <li>这里我先不接真实业务环境，只演示最小执行链路，让你先看懂 ExecFabric 接请求的方式。</li>
+          <li>这里我先不接真实业务环境，只演示最小执行链路，让你先看懂 璇络(ExecFabric) 接请求的方式。</li>
           <li>我输入一个任务主题，比如“下载目录整理”，平台会先调用 Python 脚本生成执行前简报，而不是直接做危险动作。</li>
           <li>这一步的价值是先把输入、步骤和下一步入口讲清楚，后面再替换成你自己的正式脚本。</li>
         </ol>
@@ -142,7 +142,7 @@ lastUpdated: false
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>ExecFabric 怎么接</h3>
+        <h3>璇络(ExecFabric) 怎么接</h3>
         <ul class="brand-list">
           <li>用户在体验页直接粘贴一段混杂日志。</li>
           <li>平台调用 <code>clean_log_demo.sh</code> 做 preview 预演。</li>
@@ -198,7 +198,7 @@ lastUpdated: false
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>ExecFabric 怎么接</h3>
+        <h3>璇络(ExecFabric) 怎么接</h3>
         <ul class="brand-list">
           <li>从统一入口上传一个 CSV 或 Excel 文件。</li>
           <li>平台调用 <code>csv_profile_demo</code> 生成分析报告。</li>
@@ -233,7 +233,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>演示台词</h3>
         <ol class="brand-list">
-          <li>前两个案例是文本输入，这个案例专门用来证明 ExecFabric 不只会收文本，也能接文件型流程。</li>
+          <li>前两个案例是文本输入，这个案例专门用来证明 璇络(ExecFabric) 不只会收文本，也能接文件型流程。</li>
           <li>我上传一个 CSV 或 Excel，平台会先做字段画像和前 5 行预览，再生成一个可下载的 xlsx 报告。</li>
           <li>对客户来说，这说明平台已经具备“上传输入 -> 执行处理器 -> 返回结果文件”的完整最小闭环。</li>
         </ol>

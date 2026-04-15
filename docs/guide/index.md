@@ -15,7 +15,7 @@ lastUpdated: false
       <p>这里先把入口、角色和阅读路径分清楚。</p>
     </div>
     <p class="brand-lead">
-      这组页面帮助第一次接触 ExecFabric 的访客快速判断：
+      这组页面帮助第一次接触 璇络(ExecFabric)的访客快速判断：
       <strong>更适合先走免费线、先扩容个人空间、先进入标准团队版，还是直接进入企业交付沟通。</strong>
     </p>
     <div class="brand-chip-list">

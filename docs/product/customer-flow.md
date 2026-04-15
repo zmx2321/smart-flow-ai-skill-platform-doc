@@ -15,7 +15,7 @@ lastUpdated: false
         <p>客户使用路径、交付边界和后续更新机制都需要清晰定义，项目才能稳定运行。</p>
       </div>
       <p class="brand-lead">
-        ExecFabric 当前最需要先讲清楚的几件事是：
+        璇络(ExecFabric) 当前最需要先讲清楚的几件事是：
         <strong>客户拿到什么、客户怎么用、平台怎么交付。</strong>
         脚本持续更新流程已拆到《热更新说明》，这里主要面向标准团队版和企业交付阶段，先把“真实交付时到底怎么跑”直接展开。
       </p>
@@ -85,7 +85,7 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Shared SaaS Boundary</p>
-    <h2>标准 SaaS 共享租户怎么理解</h2>
+    <h2>璇络标准 SaaS 共享租户怎么理解</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>当前成立的部分</h3>
@@ -246,7 +246,7 @@ lastUpdated: false
       </tr>
       <tr>
         <td>已经开始多人协作，但需求仍偏标准</td>
-        <td>标准 SaaS 共享租户路径</td>
+        <td>璇络标准 SaaS 共享租户路径</td>
         <td>当前已有共享租户骨架，仍在继续收口</td>
         <td>更适合标准能力和较轻协作；运行时仍按 Host 绑定到自己的租户，不共享数据和权限。</td>
       </tr>
@@ -270,7 +270,7 @@ lastUpdated: false
       </tr>
       <tr>
         <td>希望直接买标准团队产品</td>
-        <td>优先看标准 SaaS 共享租户路径，再结合 <a href="./editions.html">版本路线</a> 判断是否够用</td>
+        <td>优先看璇络标准 SaaS 共享租户路径，再结合 <a href="./editions.html">版本路线</a> 判断是否够用</td>
         <td>当前已有共享租户骨架，仍在继续收口</td>
         <td>如果只是标准能力和较轻协作，可先走共享 SaaS；如果要专属页面、专属品牌或更重隔离，再转单租户或私有化。</td>
       </tr>
@@ -468,7 +468,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>一句话总结交付主线</h2>
-      <p>ExecFabric 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
+      <p>璇络(ExecFabric) 交付给客户的，不只是一个登录入口，而是一套客户独立可运行、可更新、可继续扩展的 AI 执行空间；热更新也不是重部署平台，而是在当前租户范围内完成审核、注册、授权后正式生效。</p>
     </article>
   </section>
 

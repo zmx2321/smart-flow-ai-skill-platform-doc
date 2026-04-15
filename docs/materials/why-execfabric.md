@@ -8,7 +8,7 @@ lastUpdated: false
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Founder Story</p>
-      <h1>为什么我要做 ExecFabric</h1>
+      <h1>为什么我要做 璇络(ExecFabric)</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Why Now</span>
         <strong>我不是从“AI 应该做点什么”开始的，而是从交付里反复遇到同一个问题开始的：团队明明已经有很多脚本，却没人能把它们稳定、可控地用起来。</strong>
@@ -60,7 +60,7 @@ lastUpdated: false
   <section class="brand-card why-execfabric-guide-card">
     <span class="link-panel-label">When To Read</span>
     <strong>这页更适合拿来判断“这件事是不是从真实问题长出来的”</strong>
-    <p>如果你第一次接触 ExecFabric，这页不是给你背功能列表，而是帮你先判断：这是不是一个建立在真实交付痛点上的产品方向。</p>
+    <p>如果你第一次接触 璇络(ExecFabric)，这页不是给你背功能列表，而是帮你先判断：这是不是一个建立在真实交付痛点上的产品方向。</p>
     <div class="why-execfabric-guide-list">
       <div class="why-execfabric-guide-item">
         <span>适合先看</span>
@@ -148,7 +148,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Not This</p>
       <h2>不是 AI 聊天壳</h2>
-      <p>ExecFabric 不是把脚本贴在聊天框后面，而是要把真实能力收进受控执行链路。</p>
+      <p>璇络(ExecFabric) 不是把脚本贴在聊天框后面，而是要把真实能力收进受控执行链路。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Not That</p>
@@ -166,7 +166,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Current Judgment</p>
       <h2>为什么现在更适合先从明确场景进入</h2>
-      <p class="brand-lead">对客户来说，先看一个明确场景是否能落地，比先理解完整平台结构更直接，也更容易判断 ExecFabric 是否匹配当前问题。</p>
+      <p class="brand-lead">对客户来说，先看一个明确场景是否能落地，比先理解完整平台结构更直接，也更容易判断 璇络(ExecFabric) 是否匹配当前问题。</p>
       <ul class="brand-list">
         <li>明确场景更容易说明输入、输出、权限边界和结果回传。</li>
         <li>先看一条真实链路，能更快判断治理和执行是否同时成立。</li>
@@ -177,7 +177,7 @@ lastUpdated: false
       <p class="brand-kicker">Next Reading</p>
       <h2>如果你认同这个判断</h2>
       <ul class="brand-list">
-        <li>先看 <a href="./case-studies.html">样板案例</a>，看 ExecFabric 如何承接真实流程。</li>
+        <li>先看 <a href="./case-studies.html">样板案例</a>，看 璇络(ExecFabric) 如何承接真实流程。</li>
         <li>再看 <a href="./service-packages.html">启动方式 / 标准服务包</a>，看第一阶段如何启动。</li>
         <li>需要继续判断当前能力边界时，再看 <a href="../product/index.html">产品概览</a>。</li>
       </ul>
@@ -189,7 +189,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>如果你也在被大量脚本和自动化任务折磨</h2>
-        <p class="brand-lead">最有效的下一步，不是继续抽象讨论，而是直接拿一条真实流程来判断它是否适合做成 ExecFabric 的第一条治理样板。</p>
+        <p class="brand-lead">最有效的下一步，不是继续抽象讨论，而是直接拿一条真实流程来判断它是否适合做成 璇络(ExecFabric)的第一条治理样板。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../contact.html#lead-form">

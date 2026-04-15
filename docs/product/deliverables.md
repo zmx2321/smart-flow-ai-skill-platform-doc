@@ -15,7 +15,7 @@ lastUpdated: false
         <p>重点覆盖客户会实际拿到的入口、说明和结果入口。</p>
       </div>
       <p class="brand-lead">
-        ExecFabric 的标准交付通常包括：
+        璇络(ExecFabric)的标准交付通常包括：
         <strong>一个独立访问入口 + 一组客户专属能力 + 一套可继续使用和更新的说明入口。</strong>
         也就是说，交付物不只是一张账号表，还包括
         <strong>结果入口、公告入口、客户说明和后续更新说明。</strong>

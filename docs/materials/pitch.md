@@ -15,7 +15,7 @@ lastUpdated: false
       <p>先把当前入口路径讲对，再补平台定位、问题定义和交付方式，才不会把个人扩容、标准团队版和企业交付混成一套说法。</p>
     </div>
     <p class="brand-lead">
-      这一页集中说明 ExecFabric 的核心介绍结构，覆盖平台定位、问题定义、四层路径和当前落地重点。
+      这一页集中说明 璇络(ExecFabric)的核心介绍结构，覆盖平台定位、问题定义、四层路径和当前落地重点。
       适合用于第一次接触、介绍开场和正式沟通前统一口径。
     </p>
     <div class="brand-chip-list">
@@ -59,7 +59,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">30 Seconds</p>
       <h2>30 秒版本怎么讲</h2>
-      <p>ExecFabric 不是再给团队加一个聊天壳，而是帮你把那些散装的、危险的脚本管起来。谁在什么时候执行了什么、结果如何，都有记录；高风险动作先确认。当前最先落地、最成熟的第一种能力载体，就是 Python 脚本。</p>
+      <p>璇络(ExecFabric) 不是再给团队加一个聊天壳，而是帮你把那些散装的、危险的脚本管起来。谁在什么时候执行了什么、结果如何，都有记录；高风险动作先确认。当前最先落地、最成熟的第一种能力载体，就是 Python 脚本。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">3 Minutes</p>

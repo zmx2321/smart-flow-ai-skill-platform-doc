@@ -15,7 +15,7 @@ lastUpdated: false
         <p>当前最稳的销售路径是：个人先走免费线，个人继续使用但还没进入正式协作时走本地脚本位增购，正式团队再进入月租 / 年租正式租户入口，企业与私有化按场景单独评估。</p>
       </div>
       <p class="brand-lead">
-        如果你现在是在判断该怎么介绍 ExecFabric，
+        如果你现在是在判断该怎么介绍 璇络(ExecFabric)，
         最好不要一上来就讲一堆模块名，而是先判断对方当前属于
         <strong>个人探索</strong>、
         <strong>个人扩容</strong>、
@@ -42,7 +42,7 @@ lastUpdated: false
           <span class="link-panel-label">Can Say Now</span>
           <strong>当前可以直接对外说的 3 件事</strong>
           <ul class="brand-list">
-            <li>个人免费版已经有本地脚本位自助增购，固定套餐和价格已明确。</li>
+            <li>璇络个人免费版已经有本地脚本位自助增购，固定套餐和价格已明确。</li>
             <li>团队版月租 / 年租已经有升级入口，会把用户引导到标准 SaaS 正式租户注册页，当前由共享租户前端承接。</li>
             <li><code>public</code> 超管订单生命周期已经跑通最小闭环，支付、开通、续费提醒和停开恢复都不是纯样板展示。</li>
           </ul>
@@ -65,7 +65,7 @@ lastUpdated: false
       <p class="brand-kicker">Path 01</p>
       <h2>免费线体验</h2>
       <ul class="brand-list">
-        <li>适合第一次接触 ExecFabric 的个人、朋友或轻度体验者。</li>
+        <li>适合第一次接触 璇络(ExecFabric)的个人、朋友或轻度体验者。</li>
         <li>先体验公开入口、个人技能库、上传、执行历史、公告和社区等基础路径。</li>
         <li>重点是先感知“这是不是一个能把脚本和自动化收口起来的平台”。</li>
       </ul>
@@ -114,7 +114,7 @@ lastUpdated: false
       <p class="brand-kicker">Annual</p>
       <h2>团队版年租适合怎么讲</h2>
       <ul class="brand-list">
-        <li>适合已经明确会长期使用 ExecFabric 的团队。</li>
+        <li>适合已经明确会长期使用 璇络(ExecFabric)的团队。</li>
         <li>优点是服务周期更稳定，也减少月度重复续期开通动作。</li>
         <li>适合销售阶段的说法是：对长期使用团队更省管理动作，也更适合把治理能力纳入正式节奏。</li>
         <li>当前资料页不写死固定价格，仍以目标租户注册页为准。</li>
@@ -144,7 +144,7 @@ lastUpdated: false
         <tr>
           <td>本地脚本位增购</td>
           <td><code>+1 19.90</code> / <code>+3 49.90</code> / <code>+5 79.90</code></td>
-          <td>个人免费版“个人账单与脚本位”页</td>
+          <td>璇络个人免费版“个人账单与脚本位”页</td>
           <td>这是固定价格的一次性轻量增购，付款后直接回填脚本位额度</td>
         </tr>
         <tr>
@@ -209,7 +209,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">FAQ 02</p>
       <h2>本地脚本位增购算不算正式会员</h2>
-      <p>不算。它是个人免费版里的轻量增购，解决的是个人空间脚本位扩容问题；如果要进入正式团队协作，仍应走团队版月租 / 年租正式租户注册路径。</p>
+      <p>不算。它是璇络个人免费版里的轻量增购，解决的是个人空间脚本位扩容问题；如果要进入正式团队协作，仍应走团队版月租 / 年租正式租户注册路径。</p>
     </article>
   </section>
 

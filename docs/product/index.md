@@ -11,14 +11,14 @@ lastUpdated: false
       <h1>产品概览</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
-        <strong>ExecFabric 面向真实任务的自动化执行与治理场景，当前更适合从脚本治理、文件处理和本地自动化流程这些已经能落地的入口开始理解。</strong>
+        <strong>璇络(ExecFabric) 面向真实任务的自动化执行与治理场景，当前更适合从脚本治理、文件处理和本地自动化流程这些已经能落地的入口开始理解。</strong>
         <p>把当前已做成的、仍在推进的、后续可能扩展的部分分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
-        <strong>当前更适合这样理解 ExecFabric：它先把 Python / Shell 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
+        <strong>当前更适合这样理解 璇络(ExecFabric)：它先把 Python / Shell 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
       </p>
       <p class="brand-lead">
-        <strong>ExecFabric（璇络）底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>
+        <strong>璇络(ExecFabric)底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>
       </p>
       <p class="brand-lead">
         当前先从 Python 脚本做起，不是因为范围小，而是因为它最常见、最真实，也最容易先形成可交付、可复用、可继续扩展的小闭环。
@@ -44,11 +44,11 @@ lastUpdated: false
       <p>
         同一时间，<code>1.1</code> 的低客服闭环也已经先落了第一段：
         <code>public</code> 超管侧的订单中心已支持建单、确认支付、执行开通、续费提醒扫描和到期停开扫描。
-        个人免费版前台也已经接通本地脚本位账单中心第一版，能查看当前订单、生命周期摘要、对账摘要、最近回调和收银台。
+        璇络个人免费版前台也已经接通本地脚本位账单中心第一版，能查看当前订单、生命周期摘要、对账摘要、最近回调和收银台。
         真实第三方支付网关、自动续费 / 代扣和外发提醒渠道仍在继续补。
       </p>
       <p>
-        同时，标准 SaaS 共享租户前端骨架也已经建立：从 <code>tenant_1003+</code> 开始，标准 SaaS 客户不再默认一客户复制一套前端工程，
+        同时，璇络标准 SaaS 共享租户前端骨架也已经建立：从 <code>tenant_1003+</code> 开始，标准 SaaS 客户不再默认一客户复制一套前端工程，
         而是优先走共享租户前端。它当前已经能承接正式租户入口，但品牌化、初始化和更细菜单边界还在继续收口。
       </p>
       <div class="brand-chip-list">
@@ -122,7 +122,7 @@ lastUpdated: false
             </div>
             <div class="product-signal-check">
               <span>标准团队路径</span>
-              <strong>标准 SaaS 共享租户前端已经建立，不再默认复制新前端工程</strong>
+              <strong>璇络标准 SaaS 共享租户前端已经建立，不再默认复制新前端工程</strong>
             </div>
           </div>
         </article>
@@ -157,12 +157,12 @@ lastUpdated: false
     <p class="brand-kicker">Platform</p>
     <h2>平台定位</h2>
       <ul class="brand-list">
-        <li>ExecFabric（璇络）底层是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</li>
+        <li>璇络(ExecFabric)底层是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</li>
         <li>当前对外更适合先从脚本治理、文件处理和本地自动化流程这些已能落地的场景进入。</li>
         <li>当前最成熟的能力形态是脚本型能力接入、执行、审计和持续更新。</li>
         <li>平台已经落下通用资源层和执行器注册层，第一种非脚本样板是 public 超管侧的 HTTP 能力接入；租户侧也已经有只读可见台账。</li>
         <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在 public 超管侧，不把它包装成通用 API 平台。</li>
-        <li>1.1 已先在 public 超管侧落下订单与生命周期骨架，并在个人免费版前台落下一条真实账单中心第一版，但仍未对外承诺完整通用订阅 / 自动续费能力。</li>
+        <li>1.1 已先在 public 超管侧落下订单与生命周期骨架，并在璇络个人免费版前台落下一条真实账单中心第一版，但仍未对外承诺完整通用订阅 / 自动续费能力。</li>
         <li>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户当前优先走共享租户前端；需要更强隔离或更深定制时，再走单租户交付或私有化。</li>
         <li><code>execfabric-hack</code> 主要用于本地多入口聚合、联调和同步，不作为客户长期正式运行入口。</li>
         <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
@@ -215,7 +215,7 @@ lastUpdated: false
       <p class="brand-kicker">Brand</p>
       <h2>品牌口径</h2>
       <ul class="brand-list">
-        <li>品牌名：<code>ExecFabric（璇络）</code></li>
+        <li>品牌名：<code>璇络(ExecFabric)</code></li>
         <li>副标题：面向真实任务的多租户能力治理与执行系统</li>
         <li>Slogan：让每一次自动化，都坚如织锦。</li>
         <li>适合用于产品介绍、场景沟通和当前交付说明。</li>
@@ -225,7 +225,7 @@ lastUpdated: false
       <p class="brand-kicker">Method</p>
       <h2>当前使用原则</h2>
       <ul class="brand-list">
-        <li>对外统一使用 <code>ExecFabric（璇络）</code>，不再拆成英文项目名和中文产品名两套说法。</li>
+        <li>对外统一使用 <code>璇络(ExecFabric)</code>，不再拆成英文项目名和中文产品名两套说法。</li>
         <li>治理为先，执行落地；先把脚本型能力做稳，再逐步扩到更多能力形态。</li>
         <li>仓库 slug 与目录路径 <code>execfabric-cli/</code> 先保留，CLI 对外命令已统一为 <code>execfabric-cli</code>，避免影响现有工程路径和发布链路。</li>
         <li>便于统一品牌认知，同时不打断当前代码、文档和交付节奏。</li>
@@ -422,7 +422,7 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Why ExecFabric</p>
+      <p class="brand-kicker">Why 璇络(ExecFabric)</p>
       <h2>这类平台的项目价值</h2>
       <ul class="brand-list">
         <li>不是把模型接出来就结束，而是让 AI 在规则内真正执行。</li>

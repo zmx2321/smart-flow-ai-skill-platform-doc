@@ -11,11 +11,11 @@ lastUpdated: false
     <h1>介绍资料</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Presentation Kit</span>
-      <strong>ExecFabric 对外资料覆盖创始人故事、样板案例、平台定位、价值判断、会员权益与价格说明、启动方式和交付背景，方便第一次接触时快速判断是否值得继续往下看。</strong>
+      <strong>璇络(ExecFabric) 对外资料覆盖创始人故事、样板案例、平台定位、价值判断、会员权益与价格说明、启动方式和交付背景，方便第一次接触时快速判断是否值得继续往下看。</strong>
       <p>资料按判断问题组织，便于快速进入对应内容。</p>
     </div>
     <p class="brand-lead">
-      ExecFabric 的对外资料分成七条主线：
+      璇络(ExecFabric)的对外资料分成七条主线：
       <strong>创始人故事、样板案例、产品介绍、价值说明、会员权益与价格说明、启动方式、交付背景</strong>。
       这样可以在尽量短的路径里，先完成定位判断，再进入项目评估和交付判断。
     </p>
@@ -37,7 +37,7 @@ lastUpdated: false
       <span class="brand-chip">交付背景</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="./why-execfabric.html">看为什么我要做 ExecFabric</a>
+      <a class="cta-button cta-button--brand" href="./why-execfabric.html">看为什么我要做 璇络(ExecFabric)</a>
       <a class="cta-button" href="./case-studies.html">看样板案例</a>
       <a class="cta-button" href="./pitch.html">看介绍提纲</a>
       <a class="cta-button" href="./value.html">看价值说明</a>
@@ -97,7 +97,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Why</p>
-      <h2>为什么我要做 ExecFabric</h2>
+      <h2>为什么我要做 璇络(ExecFabric)</h2>
       <p>回答我看到了什么痛点、为什么要把“治理”和“执行”放在一起，以及为什么先从 Python 脚本做起。</p>
     </article>
     <article class="brand-card">
@@ -108,7 +108,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Pitch</p>
       <h2>介绍提纲</h2>
-      <p>回答 ExecFabric 是什么、解决什么问题，以及它与普通聊天页或零散脚本工具的差异。</p>
+      <p>回答 璇络(ExecFabric) 是什么、解决什么问题，以及它与普通聊天页或零散脚本工具的差异。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Value</p>
@@ -203,7 +203,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>为什么要做这件事</td>
-          <td><a href="./why-execfabric.html">为什么我要做 ExecFabric</a></td>
+          <td><a href="./why-execfabric.html">为什么我要做 璇络(ExecFabric)</a></td>
           <td>痛点来源、核心判断、为什么是治理 + 执行</td>
           <td>技术决策者、首次接触方</td>
         </tr>
@@ -214,7 +214,7 @@ lastUpdated: false
           <td>客户、售前、技术负责人</td>
         </tr>
         <tr>
-          <td>ExecFabric 到底是什么</td>
+          <td>璇络(ExecFabric) 到底是什么</td>
           <td><a href="./pitch.html">介绍提纲</a></td>
           <td>平台定位、问题定义、与普通聊天系统的差异</td>
           <td>首次接触方</td>
@@ -277,7 +277,7 @@ lastUpdated: false
     <div class="brand-link-grid">
       <a class="brand-link-card" href="./why-execfabric.html">
         <span>Step 01</span>
-        <strong>为什么我要做 ExecFabric</strong>
+        <strong>为什么我要做 璇络(ExecFabric)</strong>
         <p>先看创始人故事和问题来源，判断这件事是不是从真实痛点长出来的。</p>
       </a>
       <a class="brand-link-card" href="./case-studies.html">
@@ -360,7 +360,7 @@ lastUpdated: false
     <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./why-execfabric.html">
           <span>Why</span>
-          <strong>为什么我要做 ExecFabric</strong>
+          <strong>为什么我要做 璇络(ExecFabric)</strong>
         </a>
         <a class="brand-link-card" href="./case-studies.html">
           <span>Cases</span>

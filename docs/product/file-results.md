@@ -15,7 +15,7 @@ lastUpdated: false
         <p>重点说明用户会实际接触到的上传、处理和下载体验。</p>
       </div>
       <p class="brand-lead">
-        ExecFabric 当前已经支持把
+        璇络(ExecFabric) 当前已经支持把
         <strong>输入文件、批次状态、处理产物和结果下载</strong>
         接成一条对客户可理解的执行链路。重点不是“能不能传文件”，而是
         <strong>文件进入后如何被受控处理，并把结果按交付边界交回来。</strong>

@@ -15,7 +15,7 @@ lastUpdated: false
         <p>网页入口更适合先感知单文件接入；CLI 更适合单文件或目录批量登记、本机路径登记和本地执行桥接。</p>
       </div>
       <p class="brand-lead">
-        <strong>execfabric-cli</strong> 是 ExecFabric 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
+        <strong>execfabric-cli</strong> 是 璇络(ExecFabric) 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
         重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本目录、本地运行环境和平台控制面</strong> 接成一条今天已经能用的桥。
       </p>
       <p class="brand-lead">
@@ -196,7 +196,7 @@ execfabric-cli --help</code></pre>
   --token YOUR_API_TOKEN \
   --api-base https://execfabric.cn/prod-api \
   --web-base https://execfabric.cn</code></pre>
-        <p>默认配置文件是 <code>~/.execfabric/config.json</code>。免费开发者默认应指向个人免费版域名；企业客户则指向各自租户域名。<code>public</code> 不是普通 CLI 用户的默认入口。</p>
+        <p>默认配置文件是 <code>~/.execfabric/config.json</code>。免费开发者默认应指向璇络个人免费版域名；企业客户则指向各自租户域名。<code>public</code> 不是普通 CLI 用户的默认入口。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. 以云端模式登记脚本目录</h3>

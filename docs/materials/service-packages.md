@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>启动方式 / 标准服务包</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Service Entry</span>
-        <strong>ExecFabric 当前的启动方式围绕真实流程梳理、受控执行接入和小型正式交付三类项目展开，重点是把第一阶段做成可验证、可交付、可复用的闭环。</strong>
+        <strong>璇络(ExecFabric) 当前的启动方式围绕真实流程梳理、受控执行接入和小型正式交付三类项目展开，重点是把第一阶段做成可验证、可交付、可复用的闭环。</strong>
         <p>合作判断的重点不是功能名有多少，而是当前场景是否明确、边界是否清晰、第一阶段是否能形成稳定结果。</p>
       </div>
       <p class="brand-lead">

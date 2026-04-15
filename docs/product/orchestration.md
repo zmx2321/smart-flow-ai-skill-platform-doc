@@ -143,7 +143,7 @@ lastUpdated: false
     <p class="brand-kicker">Summary</p>
     <h2>一句话总结</h2>
     <p class="brand-lead">
-      ExecFabric 当前先把“可信单 Skill 执行”做稳；补齐治理底座后，才会在 `2.0` 之后继续扩展为可确认、可追踪、可审计的多步骤能力编排平台。
+      璇络(ExecFabric) 当前先把“可信单 Skill 执行”做稳；补齐治理底座后，才会在 `2.0` 之后继续扩展为可确认、可追踪、可审计的多步骤能力编排平台。
     </p>
   </section>
 </div>

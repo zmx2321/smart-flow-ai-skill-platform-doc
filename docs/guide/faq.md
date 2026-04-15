@@ -177,7 +177,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>标准化小团队方案是不是已经完全开放</h3>
-        <p>还没有完全开放成最终完成态，但标准 SaaS 共享租户前端已经建立，月租 / 年租升级路径也已经存在，后续继续收口的是品牌化、初始化和更细菜单边界。</p>
+        <p>还没有完全开放成最终完成态，但璇络标准 SaaS 共享租户前端已经建立，月租 / 年租升级路径也已经存在，后续继续收口的是品牌化、初始化和更细菜单边界。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>体验页适合帮我判断什么</h3>

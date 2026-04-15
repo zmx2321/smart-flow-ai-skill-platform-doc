@@ -12,10 +12,10 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>控制面可以统一，执行位置不必统一。</strong>
-        <p>这正是 ExecFabric 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
+        <p>这正是 璇络(ExecFabric) 当前能同时承接正式交付、公开体验和本地接入的关键原因。</p>
       </div>
       <p class="brand-lead">
-        ExecFabric 的部署思路不是只有一种，而是根据
+        璇络(ExecFabric)的部署思路不是只有一种，而是根据
         <strong>数据边界、客户规模和执行位置</strong> 做组合。
         平台的目标不是强迫所有用户走同一条路径，而是用同一套治理逻辑覆盖不同落地形态。
       </p>
@@ -188,7 +188,7 @@ lastUpdated: false
 
 <section class="brand-card">
   <p class="brand-kicker">Shared SaaS</p>
-  <h2>标准 SaaS 共享租户模式</h2>
+  <h2>璇络标准 SaaS 共享租户模式</h2>
   <div class="brand-grid brand-grid--two">
     <article class="brand-card brand-card--nested">
       <h3>当前怎么运行</h3>
@@ -246,7 +246,7 @@ lastUpdated: false
       <tr>
         <td>05. 正式交付期</td>
         <td>客户要拿到自己的访问地址、自己的能力边界和正式交付包</td>
-        <td>当前有两条更现实的路径：标准 SaaS 共享租户，或企业单租户交付。前者偏标准化，后者偏更强隔离与更深定制。</td>
+        <td>当前有两条更现实的路径：璇络标准 SaaS 共享租户，或企业单租户交付。前者偏标准化，后者偏更强隔离与更深定制。</td>
         <td>如果只是标准协作与标准菜单，优先共享 SaaS；如果需要专属环境和更深定制，再走单租户交付</td>
       </tr>
       <tr>

@@ -8,10 +8,10 @@ lastUpdated: false
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Payment &amp; Membership</p>
-      <h1>个人免费版支付与会员说明</h1>
+      <h1>璇络个人免费版支付与会员说明</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Payment Status</span>
-        <strong>当前已经可以对外明确讲清楚两条付费路径：个人免费版本地脚本位自助增购，以及从个人免费版跳到标准 SaaS 正式租户入口的团队版月租 / 年租注册路径。</strong>
+        <strong>当前已经可以对外明确讲清楚两条付费路径：璇络个人免费版本地脚本位自助增购，以及从璇络个人免费版跳到标准 SaaS 正式租户入口的团队版月租 / 年租注册路径。</strong>
         <p>这页专门回答：个人免费页怎么付款、月费 / 年费会员怎么注册、升级后能得到什么，以及当前哪些能力已经完成、哪些还没完成。</p>
       </div>
       <p class="brand-lead">
@@ -20,7 +20,7 @@ lastUpdated: false
         不再把正式账单和正式使用继续挂在个人免费隐藏租户上。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">个人免费版支付</span>
+        <span class="brand-chip">璇络个人免费版支付</span>
         <span class="brand-chip">团队版月租</span>
         <span class="brand-chip">团队版年租</span>
         <span class="brand-chip">标准 SaaS 正式租户</span>
@@ -38,7 +38,7 @@ lastUpdated: false
           <span class="link-panel-label">Completed Now</span>
           <strong>支付这件事，当前已经完成到哪</strong>
           <ul class="brand-list">
-            <li>个人免费版已支持本地脚本位自助建单、发起收银台、模拟支付成功和回调后自动开通。</li>
+            <li>璇络个人免费版已支持本地脚本位自助建单、发起收银台、模拟支付成功和回调后自动开通。</li>
             <li>账单页已经能看到当前订单、生命周期摘要、对账摘要和最近支付回调。</li>
             <li><code>public</code> 超管侧已支持建单、确认支付、回调开通、续费提醒、到期停开和恢复。</li>
             <li>免费页已开放团队版月租 / 年租注册入口，正式付款与正式租户使用转到目标租户端继续处理。</li>
@@ -61,7 +61,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
-      <h2>个人免费版本地脚本位付款</h2>
+      <h2>璇络个人免费版本地脚本位付款</h2>
       <ul class="brand-list">
         <li><strong>本地脚本位 +1</strong>：<code>19.90 CNY</code></li>
         <li><strong>本地脚本位 +3</strong>：<code>49.90 CNY</code>，当前默认推荐</li>
@@ -82,7 +82,7 @@ lastUpdated: false
       <p class="brand-kicker">Authority</p>
       <h2>价格与付款页以哪里为准</h2>
       <ul class="brand-list">
-        <li>个人免费版本地脚本位价格以上面 3 个固定套餐为准。</li>
+        <li>璇络个人免费版本地脚本位价格以上面 3 个固定套餐为准。</li>
         <li>团队版月租 / 年租的最终价格、付款页和正式服务周期，以目标正式租户注册页当页展示为准。</li>
         <li>如果你要的是企业版、私有化或定制交付，仍建议直接沟通场景，不走这页标准入口。</li>
       </ul>
@@ -97,8 +97,8 @@ lastUpdated: false
         <h3>操作步骤</h3>
         <div class="step-list">
           <div class="step-item">
-            <div class="step-item__title">01. 登录个人免费版</div>
-            <div class="step-item__desc">先进入个人免费版工作台，打开“个人账单与脚本位”页面。</div>
+            <div class="step-item__title">01. 登录璇络个人免费版</div>
+            <div class="step-item__desc">先进入璇络个人免费版工作台，打开“个人账单与脚本位”页面。</div>
           </div>
           <div class="step-item">
             <div class="step-item__title">02. 选择脚本位套餐</div>
@@ -137,7 +137,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>月租怎么走</h3>
         <ul class="brand-list">
-          <li>从个人免费版的“升级正式版”页面点击<strong>去月租开通</strong>。</li>
+          <li>从璇络个人免费版的“升级正式版”页面点击<strong>去月租开通</strong>。</li>
           <li>系统会带着 <code>source=personal_free_upgrade</code> 和月租方案参数跳到标准 SaaS 正式租户注册页。</li>
           <li>适合先验证一个月真实团队使用，再决定是否长期续用。</li>
           <li>后续仍可继续续费，或切换到更稳定的年租节奏。</li>
@@ -148,7 +148,7 @@ lastUpdated: false
         <ul class="brand-list">
           <li>从同一页点击<strong>去年租开通</strong>。</li>
           <li>同样会跳到标准 SaaS 正式租户注册页，但带的是年租方案参数。</li>
-          <li>适合已经明确会长期使用 ExecFabric 的团队。</li>
+          <li>适合已经明确会长期使用 璇络(ExecFabric)的团队。</li>
           <li>优点是正式服务周期更稳定，也减少月度反复处理续期开通动作。</li>
         </ul>
       </article>
@@ -179,7 +179,7 @@ lastUpdated: false
 
 | 路径 | 更适合谁 | 你会得到什么 | 当前边界 |
 | --- | --- | --- | --- |
-| 个人免费版 | 个人探索者、自动化爱好者 | 先用公开入口，以及“我的技能库 / 上传脚本 / 智能助手 / 执行历史 / 个人空间 / 公告中心 / 社区广场 / 升级正式版”这组有效菜单和 CLI 指引感知价值 | 默认脚本位有限，不适合作为正式团队协作空间 |
+| 璇络个人免费版 | 个人探索者、自动化爱好者 | 先用公开入口，以及“我的技能库 / 上传脚本 / 智能助手 / 执行历史 / 个人空间 / 公告中心 / 社区广场 / 升级正式版”这组有效菜单和 CLI 指引感知价值 | 默认脚本位有限，不适合作为正式团队协作空间 |
 | 本地脚本位增购 | 已经开始在个人空间持续接脚本的人 | 在原有个人空间里继续扩容本地脚本位，付款后额度立即回填 | 这是一次性脚本位增购，不是完整订阅中心 |
 | 团队版月租 | 想先用一个月验证正式协作的人 | 切到标准 SaaS 正式租户入口，开始正式多人协作和更稳定的租户使用 | 最终价格与付款页以目标租户端为准 |
 | 团队版年租 | 已明确长期使用的团队 | 正式租户周期更稳，减少月度反复续期开通动作 | 仍不是私有化默认入口，涉及更深边界建议直接沟通 |
@@ -190,7 +190,7 @@ lastUpdated: false
     <p class="brand-kicker">Current Boundary</p>
     <h2>当前支付这条线，应该怎么对外描述</h2>
     <ul class="brand-list">
-      <li>可以说：个人免费版本地脚本位支付已经完成最小闭环，<code>public</code> 超管订单生命周期也已经完成最小闭环。</li>
+      <li>可以说：璇络个人免费版本地脚本位支付已经完成最小闭环，<code>public</code> 超管订单生命周期也已经完成最小闭环。</li>
       <li>可以说：免费页已经开放团队版月租 / 年租注册入口，并明确引导到标准 SaaS 正式租户入口。</li>
       <li>不能说：整个系统已经有完整通用自助订阅中心。</li>
       <li>不能说：所有支付都已经接通正式第三方网关。</li>
