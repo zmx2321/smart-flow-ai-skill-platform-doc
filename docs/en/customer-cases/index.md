@@ -196,7 +196,7 @@ lastUpdated: false
         <p class="brand-lead">If short walkthrough videos are added later, this page can expand directly or each case can be split into a dedicated detail page.</p>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Contact for project discussion</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Contact for project discussion</a>
         <a class="cta-button" href="../materials/case-studies.html">View showroom cases</a>
       </div>
     </div>

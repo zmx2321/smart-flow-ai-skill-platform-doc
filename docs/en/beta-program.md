@@ -27,9 +27,9 @@ lastUpdated: false
         <span class="brand-chip">Concrete feedback wins</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Open the in-product beta form</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Open the official beta form</a>
         <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free entry first</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Talk about formal cooperation</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Talk about formal cooperation</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -81,18 +81,18 @@ lastUpdated: false
 
   <section id="beta-form" class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">In Product</p>
-      <h2>The beta form now lives in the product pages</h2>
+      <p class="brand-kicker">Official Form</p>
+      <h2>The official contact page now accepts the beta form directly</h2>
       <p class="brand-lead">
-        The docs site no longer forwards beta applications through FormSubmit or email.
-        Please go directly into the
-        <strong>ExecFabric product entry</strong>
-        and use the built-in intake form there. The lead now lands directly in our public database with page-source metadata.
+        You no longer need to route this through an in-product form or an email relay.
+        Open the
+        <strong>official contact form</strong>
+        and submit there, or continue into the ExecFabric login / register entry if you want to start from the product side. The lead goes directly into our public database with page-source metadata.
       </p>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Use the free experience page</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Use the login / register entry</a>
-        <a class="cta-button" href="https://execfabric.cn/#/register?intent=beta">Register first and submit</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Open the official contact form</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">Use the free experience page</a>
+        <a class="cta-button" href="https://execfabric.cn/">Use the login / register entry</a>
       </div>
       <p class="lead-form-note">
         The collected fields are still the same: company / role, one specific problem, common scripting language, weekly time cost, and at least one contact method.

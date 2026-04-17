@@ -16,8 +16,8 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Try the free entry</a>
-        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">Submit another application</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Move to formal contact</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Submit another application</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Move to formal contact</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">

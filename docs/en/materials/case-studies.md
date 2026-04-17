@@ -260,7 +260,7 @@ lastUpdated: false
         <p class="brand-lead">The most direct next move is to compare one real workflow against these three samples, decide which input, risk, and result pattern it matches, and then decide whether to continue into a scenario discussion.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Partner</span>
           <strong>Discuss your scenario</strong>
         </a>

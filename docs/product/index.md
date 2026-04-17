@@ -61,6 +61,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
+        <a class="cta-button" href="../contact.html#lead-form">申请内测资格</a>
         <a class="cta-button" href="./scenarios.html">查看应用场景</a>
         <a class="cta-button" href="./script-risk-levels.html">查看风险分级</a>
       </div>
@@ -186,7 +187,7 @@ lastUpdated: false
           <td>免费线</td>
           <td>第一次接触平台的人</td>
           <td>先感知产品定位、执行链路和个人入口价值</td>
-          <td><a href="https://execfabric.cn/#/experience">快速开始</a></td>
+          <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>本地脚本位增购</td>
@@ -470,7 +471,7 @@ lastUpdated: false
           <span>Capability</span>
           <strong>核心能力</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
           <strong>提交线索 / 分流</strong>
         </a>

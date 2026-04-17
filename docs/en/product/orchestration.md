@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">full-chain trace</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss capability onboarding</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss capability onboarding</a>
         <a class="cta-button" href="./capabilities.html">View core capabilities</a>
       </div>
       <div class="orchestration-signal-grid">

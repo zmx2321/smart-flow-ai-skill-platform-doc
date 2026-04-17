@@ -26,7 +26,7 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">看产品概览</a>
-      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">线索与分流</a>
+      <a class="cta-button" href="/contact.html#lead-form">线索与分流</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -214,7 +214,7 @@ lastUpdated: false
           <span>CLI</span>
           <strong>CLI 指引</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>线索与分流</strong>
         </a>

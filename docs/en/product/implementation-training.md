@@ -25,7 +25,7 @@ lastUpdated: false
         <span class="brand-chip">Go-live support</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss the implementation plan</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss the implementation plan</a>
         <a class="cta-button" href="./deliverables.html">View deliverables</a>
         <a class="cta-button" href="../materials/service-packages.html">View service packages</a>
       </div>
@@ -197,7 +197,7 @@ lastUpdated: false
           <span>Packages</span>
           <strong>Service Packages</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Contact</span>
           <strong>Discuss implementation</strong>
         </a>

@@ -27,9 +27,9 @@ lastUpdated: false
         <span class="brand-chip">反馈越具体越容易通过</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">打开产品内测表单</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">打开官网内测表单</a>
         <a class="cta-button" href="https://execfabric.cn/#/experience">先走免费体验</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通正式合作</a>
+        <a class="cta-button" href="/contact.html#lead-form">沟通正式合作</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -120,19 +120,19 @@ lastUpdated: false
           <td>第一次接触平台，只想先看产品值不值得继续了解</td>
           <td>免费体验</td>
           <td>先感知入口和执行方式，不急着提交深度需求</td>
-          <td><a href="https://execfabric.cn/#/experience">快速开始</a></td>
+          <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>已经有一个非常具体的自动化问题，想判断是否适合共建</td>
           <td>申请内测资格</td>
           <td>结构化收集会比泛化咨询更容易判断适配度和优先级</td>
-          <td><a href="https://execfabric.cn/#/experience?intent=beta">产品内测表单</a></td>
+          <td><a href="/contact.html#lead-form">产品内测表单</a></td>
         </tr>
         <tr>
           <td>已经准备进入正式团队协作、标准 SaaS 或企业交付</td>
           <td>正式合作线索</td>
           <td>这时重点是交付边界、部署方式和预算，不只是需求收集</td>
-          <td><a href="https://execfabric.cn/#/login?intent=beta">登录 / 注册入口</a></td>
+          <td><a href="https://execfabric.cn/">登录 / 注册入口</a></td>
         </tr>
       </tbody>
     </table>
@@ -140,21 +140,21 @@ lastUpdated: false
 
   <section id="beta-form" class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">In Product</p>
-      <h2>内测表单已经移到产品页里</h2>
+      <p class="brand-kicker">Official Form</p>
+      <h2>官网联系页现在可以直接提交表单</h2>
       <p class="brand-lead">
-        文档站不再直接走 FormSubmit 或邮件转发。
-        现在请直接进入
-        <strong>ExecFabric 产品页</strong>
-        提交，你的问题会直接入我们自己的 public 库，并自动带上来源页与场景字段。
+        现在不需要再绕到产品内页或邮件转发。
+        直接打开
+        <strong>官网联系页表单</strong>
+        就可以提交，你的内容会直接进入我们自己的 public 库，并自动带上来源页与场景字段。
       </p>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">去免费线体验页填表</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">去登录 / 注册页填表</a>
-        <a class="cta-button" href="https://execfabric.cn/#/register?intent=beta">直接注册并留需求</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">去官网联系页填表</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">先走免费线体验</a>
+        <a class="cta-button" href="https://execfabric.cn/">进入登录 / 注册页</a>
       </div>
       <p class="lead-form-note">
-        现在真正收集的字段仍然是：公司 / 角色、1 个最具体的问题、常用脚本语言、每周耗时，以及至少一种联系方式。
+        当前真正收集的字段仍然是：公司 / 角色、1 个最具体的问题、常用脚本语言、每周耗时，以及至少一种联系方式。
       </p>
     </article>
     <article class="brand-card">

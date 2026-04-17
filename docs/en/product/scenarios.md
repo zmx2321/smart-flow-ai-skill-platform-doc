@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">Hybrid execution</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a real scenario</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss a real scenario</a>
         <a class="cta-button" href="./capabilities.html">View capabilities</a>
       </div>
     </div>
@@ -206,7 +206,7 @@ lastUpdated: false
         <strong>You are worried about local environments, intranet boundaries, or hybrid execution</strong>
         <p>The deployment page shows how the control plane and the execution side can be separated under one governance model.</p>
       </a>
-      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+      <a class="brand-link-card" href="/en/contact.html#lead-form">
         <span>Lead Fit</span>
         <strong>You want to discuss a real scenario directly</strong>
         <p>Submit a lead and decide early whether this should stay on the standard team path or move directly into enterprise delivery.</p>

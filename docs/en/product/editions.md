@@ -62,7 +62,7 @@ lastUpdated: false
         <span class="brand-chip">expand on demand</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss versions and scenarios</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss versions and scenarios</a>
         <a class="cta-button" href="./deployment.html">View Deployment &amp; Delivery Boundaries</a>
       </div>
     </div>
@@ -197,7 +197,7 @@ lastUpdated: false
           <td>Free path</td>
           <td>Public experience, login and signup, personal entry</td>
           <td>Part of the already-established customer-acquisition and experience entry of <code>1.0</code></td>
-          <td><a href="https://execfabric.cn/#/register">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>Local script-slot expansion</td>

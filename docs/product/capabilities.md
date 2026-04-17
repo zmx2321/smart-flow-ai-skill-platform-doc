@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">生命周期治理</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通真实场景</a>
         <a class="cta-button" href="./architecture.html">查看架构说明</a>
       </div>
     </div>

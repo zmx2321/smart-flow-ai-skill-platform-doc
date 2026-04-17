@@ -234,7 +234,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>客户接入准备清单</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通交付 / 分流</strong>
         </a>

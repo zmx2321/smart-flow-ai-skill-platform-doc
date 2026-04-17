@@ -237,7 +237,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>Onboarding Checklist</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Discuss delivery and routing</strong>
         </a>

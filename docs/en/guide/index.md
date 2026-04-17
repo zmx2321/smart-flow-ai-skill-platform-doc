@@ -26,7 +26,7 @@ lastUpdated: false
       <span class="brand-chip">Enterprise delivery</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/register">Open Getting Started</a>
+      <a class="cta-button cta-button--brand" href="https://execfabric.cn/">Open Getting Started</a>
       <a class="cta-button" href="./faq.html">Open FAQ</a>
     </div>
   </div>
@@ -96,7 +96,7 @@ lastUpdated: false
           <td>Public experience flow</td>
           <td>You can now enter from <code>/experience</code>, <code>/login</code>, and <code>/register</code> directly for the experience and signup flow</td>
           <td>People touching the platform for the first time</td>
-          <td><a href="https://execfabric.cn/#/register">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>Product &amp; Delivery Docs</td>
@@ -120,7 +120,7 @@ lastUpdated: false
           <td>Contact entry</td>
           <td>Used for four-way routing: the free path, local script slots, the standard team edition, and enterprise delivery</td>
           <td>People who want to move forward</td>
-          <td><a href="https://execfabric.cn/#/login?intent=beta">Lead routing</a></td>
+          <td><a href="/en/contact.html#lead-form">Lead routing</a></td>
         </tr>
       </tbody>
     </table>
@@ -153,7 +153,7 @@ lastUpdated: false
     <p class="brand-kicker">Reading Order</p>
     <h2>Enter by goal</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="https://execfabric.cn/#/register">
+      <a class="brand-link-card" href="https://execfabric.cn/">
         <span>Step 01</span>
         <strong>Getting Started</strong>
         <p>First confirm the public entry points, experience path, and current capability boundary.</p>
@@ -226,7 +226,7 @@ lastUpdated: false
         <p class="brand-lead">The free path, local script slots, the standard team edition, and enterprise delivery all exist, but they should not be mixed together.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="https://execfabric.cn/#/register">
+        <a class="brand-link-card" href="https://execfabric.cn/">
           <span>Guide</span>
           <strong>Getting Started</strong>
         </a>
@@ -242,7 +242,7 @@ lastUpdated: false
           <span>CLI</span>
           <strong>CLI &amp; Local Agent Guide</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Lead Routing</strong>
         </a>

@@ -57,7 +57,7 @@ lastUpdated: false
         <span class="link-panel-label">继续查看</span>
         <strong>方向匹配时，可从这里继续</strong>
         <div class="founder-profile-action-grid">
-          <a class="founder-profile-action-link founder-profile-action-link--primary" href="https://execfabric.cn/#/login?intent=beta">
+          <a class="founder-profile-action-link founder-profile-action-link--primary" href="/contact.html#lead-form">
             <span>直接沟通</span>
             <strong>沟通场景</strong>
           </a>
@@ -276,7 +276,7 @@ lastUpdated: false
         <p class="brand-lead">最有效的下一步，是直接拿一个真实流程来讨论输入、输出、边界和第一阶段目标，这比继续抽象讨论更容易快速判断是否值得推进。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通真实场景</strong>
         </a>

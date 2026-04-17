@@ -4,6 +4,117 @@ outline: false
 lastUpdated: false
 ---
 
+<script setup>
+import { reactive, ref } from 'vue'
+
+const scriptLanguageOptions = ['Python', 'Shell', 'JavaScript / Node', 'SQL', 'VBA / Excel', "I don't write scripts yet"]
+const weeklyTimeOptions = ['< 1 hour/week', '1-3 hours/week', '3-8 hours/week', '8-16 hours/week', '16+ hours/week']
+
+const leadForm = reactive({
+  name: '',
+  companyName: '',
+  title: '',
+  contactPhone: '',
+  contactEmail: '',
+  demand: '',
+  scriptLanguages: [],
+  weeklyTime: '',
+})
+
+const submitting = ref(false)
+const submitError = ref('')
+const submitSuccess = ref('')
+
+function normalized(value) {
+  return String(value || '').trim()
+}
+
+function getLeadApiUrl() {
+  if (typeof window !== 'undefined') {
+    const hostname = String(window.location.hostname || '').toLowerCase()
+    if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      return 'http://localhost:6089/experience/lead'
+    }
+  }
+  return 'https://execfabric.cn/prod-api/experience/lead'
+}
+
+function resetLeadForm() {
+  leadForm.name = ''
+  leadForm.companyName = ''
+  leadForm.title = ''
+  leadForm.contactPhone = ''
+  leadForm.contactEmail = ''
+  leadForm.demand = ''
+  leadForm.scriptLanguages = []
+  leadForm.weeklyTime = ''
+}
+
+function validateLeadForm() {
+  if (!normalized(leadForm.name)) {
+    return 'Please enter how we should address you'
+  }
+  if (!normalized(leadForm.title)) {
+    return 'Please enter your role'
+  }
+  if (!normalized(leadForm.demand)) {
+    return 'Please describe one specific automation problem'
+  }
+  if (!leadForm.scriptLanguages.length) {
+    return 'Please choose at least one scripting language'
+  }
+  if (!normalized(leadForm.weeklyTime)) {
+    return 'Please choose the weekly time cost'
+  }
+  if (!normalized(leadForm.contactPhone) && !normalized(leadForm.contactEmail)) {
+    return 'Please leave either a phone/WeChat contact or an email'
+  }
+  return ''
+}
+
+async function submitLeadForm() {
+  submitError.value = ''
+  submitSuccess.value = ''
+
+  const validationMessage = validateLeadForm()
+  if (validationMessage) {
+    submitError.value = validationMessage
+    return
+  }
+
+  submitting.value = true
+  try {
+    const response = await fetch(getLeadApiUrl(), {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        ...leadForm,
+        leadType: 'beta_intake',
+        source: 'docs_execfabric_contact_en',
+        path: '/en/contact',
+      }),
+    })
+    const payload = await response.json().catch(() => ({}))
+    if (!response.ok || Number(payload.code) != 200) {
+      throw new Error(String(payload?.msg || 'Submission failed. Please try again later.'))
+    }
+
+    const customerId = payload?.data?.customerId
+    submitSuccess.value = customerId
+      ? `The form was submitted and entered our backend lead database (ID ${customerId}).`
+      : String(payload?.msg || 'The form was submitted and entered our backend lead database.')
+    resetLeadForm()
+  } catch (error) {
+    submitError.value = error instanceof Error ? error.message : 'Submission failed. Please try again later.'
+  } finally {
+    submitting.value = false
+  }
+}
+</script>
+
 <div class="brand-page-shell brand-page-shell--contact">
   <section class="brand-hero brand-hero--contact">
     <div>
@@ -27,8 +138,8 @@ lastUpdated: false
         <span class="brand-chip">Local scripts, CLI, and templates</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Apply for Beta</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Submit a cooperation lead</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Apply for Beta</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Submit a cooperation lead</a>
         <a class="cta-button" href="./materials/service-packages.html">View service packages</a>
         <a class="cta-button" href="./materials/founder-profile.html">View founder background</a>
         <a class="cta-button" href="./product/">View Product Overview</a>
@@ -135,13 +246,13 @@ lastUpdated: false
           <td>You are touching the platform for the first time and only want to sense the product</td>
           <td>Start with the free path</td>
           <td>First confirm whether this is even worth understanding further. There is no need to jump into project discussion immediately.</td>
-          <td><a href="https://execfabric.cn/#/experience">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>You already have one very specific automation problem and want to validate it first</td>
           <td>Apply for Beta first</td>
           <td>A structured intake is a better way to judge fit, priority, and the right first step than a broad generic inquiry</td>
-          <td><a href="https://execfabric.cn/#/experience?intent=beta">Apply for Beta</a></td>
+          <td><a href="/en/contact.html#lead-form">Apply for Beta</a></td>
         </tr>
         <tr>
           <td>You already connect scripts continuously in your personal space, but have not entered multi-user collaboration yet</td>
@@ -166,32 +277,78 @@ lastUpdated: false
   </section>
 
   <section id="lead-form" class="brand-grid brand-grid--two">
-    <article class="brand-card">
-      <p class="brand-kicker">Product Funnel</p>
-      <h2>Leads now start in the product, not by email from the docs site</h2>
+    <article class="brand-card brand-card--lead-form">
+      <p class="brand-kicker">Direct Submit</p>
+      <h2>Official-site beta / demand form</h2>
       <p class="brand-lead">
-        The docs site now explains the routes, but it no longer collects leads through email clients or third-party form forwarding.
-        If you want to submit a scenario, a beta request, or a formal cooperation lead, go directly into the
-        <strong>ExecFabric product entry</strong>.
-        The login page, registration page, and free experience page all contain the direct-to-database intake form.
+        You can now submit the form directly on the official site. The lead goes straight into our backend public database instead of relying on email or a third-party form relay.
+        If you already have one concrete problem, leave it here first.
       </p>
-      <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Open the login / register entry</a>
-        <a class="cta-button" href="https://execfabric.cn/#/register?intent=beta">Register first and leave the demand</a>
-        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">Try free first, then submit</a>
-      </div>
-      <p class="lead-form-note">
-        Public leads now go directly into our own public database with page source and demand fields attached, so there is no mail-client step anymore.
-      </p>
+      <form class="docs-lead-form" data-testid="docs-lead-form" @submit.prevent="submitLeadForm">
+        <div class="docs-lead-form__row docs-lead-form__row--two">
+          <label class="docs-lead-form__field">
+            <span>How should we address you</span>
+            <input v-model="leadForm.name" type="text" autocomplete="name" placeholder="For example: Alex" />
+          </label>
+          <label class="docs-lead-form__field">
+            <span>Role</span>
+            <input v-model="leadForm.title" type="text" placeholder="For example: developer, operator, tech lead" />
+          </label>
+        </div>
+        <div class="docs-lead-form__row docs-lead-form__row--two">
+          <label class="docs-lead-form__field">
+            <span>Company / team</span>
+            <input v-model="leadForm.companyName" type="text" placeholder="For example: your team, optional" />
+          </label>
+          <label class="docs-lead-form__field">
+            <span>Phone or WeChat</span>
+            <input v-model="leadForm.contactPhone" type="text" inputmode="tel" placeholder="For example: phone or WeChat" />
+          </label>
+        </div>
+        <label class="docs-lead-form__field">
+          <span>Email (phone/WeChat or email is enough)</span>
+          <input v-model="leadForm.contactEmail" type="email" autocomplete="email" placeholder="For example: you@example.com" />
+        </label>
+        <label class="docs-lead-form__field">
+          <span>The one most specific automation problem you want to solve</span>
+          <textarea v-model="leadForm.demand" rows="5" placeholder="For example: every week I merge several CSV exports and send one fixed summary email"></textarea>
+        </label>
+        <fieldset class="docs-lead-form__group">
+          <legend>Common scripting language</legend>
+          <div class="docs-lead-form__choice-grid">
+            <label v-for="item in scriptLanguageOptions" :key="item" class="docs-choice-chip">
+              <input v-model="leadForm.scriptLanguages" type="checkbox" :value="item" />
+              <span>{{ item }}</span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="docs-lead-form__group">
+          <legend>How much time do you spend on this each week</legend>
+          <div class="docs-lead-form__choice-grid">
+            <label v-for="item in weeklyTimeOptions" :key="item" class="docs-choice-chip docs-choice-chip--radio">
+              <input v-model="leadForm.weeklyTime" type="radio" name="weeklyTime" :value="item" />
+              <span>{{ item }}</span>
+            </label>
+          </div>
+        </fieldset>
+        <div class="docs-lead-form__actions">
+          <button class="cta-button cta-button--brand" data-testid="docs-lead-submit" type="submit" :disabled="submitting">
+            {{ submitting ? 'Submitting...' : 'Submit beta / demand form' }}
+          </button>
+          <span class="docs-lead-form__note">Please leave your name, role, one specific problem, and either a phone/WeChat contact or an email.</span>
+        </div>
+        <p v-if="submitError" data-testid="docs-lead-feedback" class="docs-lead-form__feedback docs-lead-form__feedback--error">{{ submitError }}</p>
+        <p v-if="submitSuccess" data-testid="docs-lead-feedback" class="docs-lead-form__feedback docs-lead-form__feedback--success">{{ submitSuccess }}</p>
+      </form>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Route Guide</p>
-      <h2>Which product page should you use</h2>
+      <h2>What happens after you submit</h2>
       <ul class="brand-list">
-        <li>If you only want to feel the product, go to the free experience page.</li>
-        <li>If you already have one concrete problem, use the intake form on the login, registration, or free experience page.</li>
-        <li>If you are close to formal cooperation, still start from the same in-product form so the lead lands in the shared database path.</li>
-        <li>Script governance, local bridging, team collaboration, and enterprise delivery can all be routed from that same form.</li>
+        <li>If you only want to feel the product first, you can still go to the free experience page.</li>
+        <li>If you already have one concrete problem, this page is the fastest way to get it into the shared lead path.</li>
+        <li>If you are already close to formal cooperation, start from the same form so the scenario lands in the same backend database.</li>
+        <li>Script governance, local bridging, team collaboration, and enterprise delivery can all be routed from this one form.</li>
       </ul>
       <p class="brand-kicker">What To Prepare</p>
       <ul class="brand-list">
@@ -203,14 +360,21 @@ lastUpdated: false
       <div class="brand-grid brand-grid--two">
         <article class="brand-card brand-card--nested">
           <p class="brand-kicker">First Message</p>
-          <h3>Describe the most painful workflow first</h3>
-          <p>It is usually more useful to explain the current highest-friction task chain, its inputs and outputs, and how often it runs than to give a broad team intro.</p>
+          <h3>Describe the highest-friction workflow first</h3>
+          <p>It is usually more useful to explain the current task chain, its inputs and outputs, and how often it runs than to start with a broad team intro.</p>
         </article>
         <article class="brand-card brand-card--nested">
           <p class="brand-kicker">Decision</p>
-          <h3>First decide whether step one is worth launching</h3>
-          <p>The first stage is usually kept to a minimal closed loop so everyone can verify whether it really saves time and can be delivered stably before any second-stage scope opens up.</p>
+          <h3>Judge whether step one is worth launching</h3>
+          <p>The first stage should stay small and verifiable so everyone can confirm whether it really saves time before a larger second-stage scope opens up.</p>
         </article>
+      </div>
+      <p class="lead-form-note">
+        This official-site form now writes directly into our backend public lead database with page source and scenario fields attached.
+      </p>
+      <div class="brand-actions">
+        <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free experience page</a>
+        <a class="cta-button" href="https://execfabric.cn/">Open the login / register entry</a>
       </div>
     </article>
   </section>
@@ -290,7 +454,7 @@ lastUpdated: false
     <p class="brand-kicker">Channels</p>
     <h2>Backup contact channels and public entry points</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+      <a class="brand-link-card" href="https://execfabric.cn/">
         <span>Product Entry</span>
         <strong>execfabric.cn</strong>
         <p>Use the login / register entry or the free experience page to submit the demand directly into the shared database flow.</p>

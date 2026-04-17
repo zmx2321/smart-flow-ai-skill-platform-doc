@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">租户隔离</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通团队版 / 企业交付</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通团队版 / 企业交付</a>
         <a class="cta-button" href="./hot-update.html">查看热更新说明</a>
         <a class="cta-button" href="./implementation-training.html">查看培训与实施服务说明</a>
       </div>
@@ -496,7 +496,7 @@ lastUpdated: false
           <span>Deployment</span>
           <strong>部署方式</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通交付 / 分流</strong>
         </a>

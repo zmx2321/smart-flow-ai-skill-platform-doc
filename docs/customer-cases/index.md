@@ -196,7 +196,7 @@ lastUpdated: false
         <p class="brand-lead">如果后面补了录屏，我可以继续把每个案例扩成独立详情页，或者在当前页面直接追加视频卡片。</p>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">联系我沟通项目</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">联系我沟通项目</a>
         <a class="cta-button" href="../materials/case-studies.html">看样板案例</a>
       </div>
     </div>

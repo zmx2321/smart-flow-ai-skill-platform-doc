@@ -33,7 +33,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../product/personal-billing-membership.html">先看支付与会员说明</a>
         <a class="cta-button" href="../product/editions.html">查看版本阶段与升级路径</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通场景 / 分流</a>
+        <a class="cta-button" href="/contact.html#lead-form">沟通场景 / 分流</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -233,7 +233,7 @@ lastUpdated: false
           <span>Cooperation</span>
           <strong>启动方式 / 服务包</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通客户场景</strong>
         </a>

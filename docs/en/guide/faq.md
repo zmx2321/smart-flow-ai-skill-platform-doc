@@ -29,7 +29,7 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">View Product Overview</a>
-      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Lead routing</a>
+      <a class="cta-button" href="/en/contact.html#lead-form">Lead routing</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -64,7 +64,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Is this just a normal chat system</h3>
-        <p>No. It is a platform that lets AI call and execute real capabilities inside rules. The most mature execution asset today is the Python script, and web-side upload registration already supports both Python and Shell.</p>
+        <p>No. It is a platform that lets AI call and execute real capabilities inside rules. The most mature execution asset today is still the Python script, and web-side upload registration already supports Python, Shell, Bat(Cmd), and Node.js. Cloud execution of <code>bat / cmd</code> is enabled only on Windows runtimes.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Who is it for</h3>
@@ -217,7 +217,7 @@ lastUpdated: false
           <span>CLI</span>
           <strong>CLI &amp; Local Agent Guide</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Lead Routing</strong>
         </a>

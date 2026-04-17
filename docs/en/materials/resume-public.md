@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">visualization + automation</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a real scenario</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss a real scenario</a>
         <a class="cta-button" href="./founder-card.html">View Background Overview</a>
         <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">View GitHub</a>
       </div>
@@ -216,7 +216,7 @@ lastUpdated: false
           <span>Background</span>
           <strong>Delivery Background and Project History</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Discuss a real scenario</strong>
         </a>

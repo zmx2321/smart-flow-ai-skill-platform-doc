@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">Lifecycle governance</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a real scenario</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss a real scenario</a>
         <a class="cta-button" href="./architecture.html">View architecture</a>
       </div>
     </div>

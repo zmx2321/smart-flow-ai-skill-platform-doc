@@ -28,7 +28,7 @@ lastUpdated: false
         <span class="brand-chip">agent bind / describe / start</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">本地接入 / 线索分流</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">本地接入 / 线索分流</a>
         <a class="cta-button" href="./capabilities.html">查看核心能力</a>
       </div>
     </div>
@@ -368,7 +368,7 @@ backup.execfabric-skill.json
           <span>Checklist</span>
           <strong>接入准备清单</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>本地接入 / 线索分流</strong>
         </a>

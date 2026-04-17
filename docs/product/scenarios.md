@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">混合执行</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通真实场景</a>
         <a class="cta-button" href="./capabilities.html">查看核心能力</a>
       </div>
     </div>
@@ -205,7 +205,7 @@ lastUpdated: false
         <strong>你担心本地环境、内网或混合执行</strong>
         <p>部署方式页说明平台如何把控制面和执行端拆开治理。</p>
       </a>
-      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+      <a class="brand-link-card" href="/contact.html#lead-form">
         <span>Lead Fit</span>
         <strong>你想直接拿真实场景来沟通</strong>
         <p>可直接提交线索，先判断该继续走标准团队版还是企业交付沟通。</p>

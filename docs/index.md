@@ -11,10 +11,10 @@ hero:
       link: https://execfabric.cn/#/experience
     - theme: alt
       text: 申请内测资格
-      link: https://execfabric.cn/#/experience?intent=beta
+      link: /contact.html#lead-form
     - theme: alt
       text: 沟通真实场景
-      link: https://execfabric.cn/#/login?intent=beta
+      link: /contact.html#lead-form
     - theme: alt
       text: 查看产品概览
       link: /product/
@@ -47,8 +47,8 @@ features:
         </div>
       </div>
       <div class="partner-banner__actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">申请内测资格</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">申请内测资格</a>
+        <a class="cta-button" href="./contact.html#lead-form">沟通真实场景</a>
       </div>
     </div>
   </section>
@@ -97,9 +97,9 @@ features:
       </article>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">去填内测表单</a>
+      <a class="cta-button cta-button--brand" href="./contact.html#lead-form">去填内测表单</a>
       <a class="cta-button" href="https://execfabric.cn/#/experience">先看免费线体验</a>
-      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通正式合作</a>
+      <a class="cta-button" href="./contact.html#lead-form">沟通正式合作</a>
     </div>
   </section>
 
@@ -325,7 +325,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="https://execfabric.cn/#/experience">立即免费体验（免登录）</a>
-      <a href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
+      <a href="./contact.html#lead-form">沟通真实场景</a>
       <a href="./product/index.html">查看产品概览</a>
       <a href="./product/editions.html">看当前阶段</a>
     </div>
@@ -338,7 +338,7 @@ features:
       <p class="landing-lead">
         这 3 个案例更适合当前 1.0 阶段对外展示和自己自测。
         重点不是讲很重的行业故事，而是先证明 璇络(ExecFabric) 已经能把
-        <strong>Python、Shell 和文件处理</strong> 这三类最小链路跑通。
+        <strong>Python、Shell、Node.js 与文件处理</strong> 这些最小链路跑通；如果云端是 Windows，Bat(Cmd) 也能进入同一条受控执行链路。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
@@ -434,7 +434,7 @@ features:
         <strong>先把平台做成一个能持续解决真实问题、也能支撑稳定经营的小生意。</strong>
       </p>
       <div class="landing-inline-links">
-        <a href="https://execfabric.cn/#/experience?intent=beta">继续沟通场景</a>
+        <a href="./contact.html#lead-form">继续沟通场景</a>
         <a href="./materials/founder-profile.html">查看完整履历背景</a>
         <a href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">查看公开博客</a>
       </div>
@@ -612,7 +612,7 @@ features:
       <strong>开始使用</strong>
       <p>先把入口、角色和阅读路径对齐，避免一开始就在各页之间来回跳转。</p>
     </a>
-    <a class="link-panel" href="https://execfabric.cn/#/login">
+    <a class="link-panel" href="https://execfabric.cn/">
       <span class="link-panel-label">Quick Start</span>
       <strong>快速开始</strong>
       <p>用最短时间看懂如何从免费线开始、如何接脚本，以及何时该走团队版或企业路径。</p>
@@ -682,8 +682,8 @@ features:
       </div>
       <div class="cta-actions">
         <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
-        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">沟通具体场景</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">咨询交付方案</a>
+        <a class="cta-button" href="./contact.html#lead-form">沟通具体场景</a>
+        <a class="cta-button" href="./contact.html#lead-form">咨询交付方案</a>
       </div>
     </div>
   </section>

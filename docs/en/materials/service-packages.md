@@ -38,7 +38,7 @@ lastUpdated: false
         <span class="brand-chip">Support formal delivery</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a specific scenario</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss a specific scenario</a>
         <a class="cta-button" href="../product/editions.html">View the edition roadmap</a>
         <a class="cta-button" href="../product/implementation-training.html">View Implementation &amp; Training Services</a>
       </div>
@@ -303,7 +303,7 @@ lastUpdated: false
           <span>Pricing</span>
           <strong>See the membership and pricing path first</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Discuss a real scenario</strong>
         </a>

@@ -11,10 +11,10 @@ hero:
       link: https://execfabric.cn/#/experience
     - theme: alt
       text: Apply for Beta
-      link: https://execfabric.cn/#/experience?intent=beta
+      link: /en/contact.html#lead-form
     - theme: alt
       text: Discuss Your Scenario
-      link: https://execfabric.cn/#/login?intent=beta
+      link: /en/contact.html#lead-form
     - theme: alt
       text: Product Overview
       link: /en/product/
@@ -47,8 +47,8 @@ features:
         </div>
       </div>
       <div class="partner-banner__actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Apply for Beta</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss your scenario</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Apply for Beta</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Discuss your scenario</a>
       </div>
     </div>
   </section>
@@ -95,9 +95,9 @@ features:
       </article>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Open the beta form</a>
+      <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Open the beta form</a>
       <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free entry</a>
-      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss formal cooperation</a>
+      <a class="cta-button" href="/en/contact.html#lead-form">Discuss formal cooperation</a>
     </div>
   </section>
 
@@ -128,7 +128,8 @@ features:
           You can already walk through a simplified public experience flow before deciding whether to connect a real scenario.
         </p>
         <p class="landing-lead">
-          The current web upload entry already accepts <strong>Python and Shell</strong> text scripts in one place.
+          The current web upload entry already accepts <strong>Python, Shell, Bat(Cmd), and Node.js</strong> text scripts in one place.
+          <strong>Bat(Cmd)</strong> is enabled only when the current cloud runtime is Windows.
           The public experience page deliberately shows
           <strong>Python <code>task_brief_demo.py</code> on the left and Shell <code>clean_log_demo.sh</code> on the right</strong>.
           The real experience scripts come from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code> and are hot-swapped through the manifest mapping.
@@ -335,7 +336,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="https://execfabric.cn/#/experience">Try for free</a>
-      <a href="https://execfabric.cn/#/login?intent=beta">Discuss your scenario</a>
+      <a href="/en/contact.html#lead-form">Discuss your scenario</a>
       <a href="./materials/why-execfabric.html">Why I Am Building ExecFabric</a>
       <a href="./product/editions.html">See the current stage</a>
     </div>
@@ -370,7 +371,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./materials/case-studies.html">View the full case studies</a>
-      <a href="https://execfabric.cn/#/experience?intent=beta">Bring a real scenario</a>
+      <a href="/en/contact.html#lead-form">Bring a real scenario</a>
     </div>
   </section>
 
@@ -448,7 +449,7 @@ features:
         <strong>turn the platform into a small business that keeps solving real problems and can sustain itself through stable operation.</strong>
       </p>
       <div class="landing-inline-links">
-        <a href="https://execfabric.cn/#/experience?intent=beta">Continue the scenario discussion</a>
+        <a href="/en/contact.html#lead-form">Continue the scenario discussion</a>
         <a href="./materials/founder-profile.html">View the full delivery background</a>
         <a href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">View the public blog</a>
       </div>
@@ -627,7 +628,7 @@ features:
       <strong>Start here</strong>
       <p>Align the entry paths, roles, and reading order first so you do not keep bouncing between pages without a frame.</p>
     </a>
-    <a class="link-panel" href="https://execfabric.cn/#/login">
+    <a class="link-panel" href="https://execfabric.cn/">
       <span class="link-panel-label">Quick Start</span>
       <strong>Getting Started</strong>
       <p>Understand as quickly as possible how to begin from the free path, how script onboarding works, and when the team or enterprise path is the better fit.</p>
@@ -698,8 +699,8 @@ features:
       </div>
       <div class="cta-actions">
         <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Try for free now</a>
-        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">Discuss a specific scenario</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Ask about delivery</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Discuss a specific scenario</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Ask about delivery</a>
       </div>
     </div>
   </section>

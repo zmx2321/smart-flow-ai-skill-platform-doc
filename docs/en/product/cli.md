@@ -30,7 +30,7 @@ lastUpdated: false
         <span class="brand-chip">agent bind / describe / start</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Local onboarding / lead routing</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Local onboarding / lead routing</a>
         <a class="cta-button" href="./capabilities.html">View capabilities</a>
       </div>
     </div>
@@ -317,7 +317,7 @@ backup.execfabric-skill.json
           <span>Checklist</span>
           <strong>Onboarding Checklist</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Discuss local onboarding</strong>
         </a>

@@ -29,9 +29,9 @@ lastUpdated: false
         <span class="brand-chip">Current boundary is explicit</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/register">Read Getting Started first</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/">Read Getting Started first</a>
         <a class="cta-button" href="./editions.html">View the roadmap</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss routing or upgrade</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Discuss routing or upgrade</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -217,7 +217,7 @@ lastUpdated: false
           <span>Roadmap</span>
           <strong>Version Stages &amp; Upgrade Path</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Discuss scenario or upgrade</strong>
         </a>

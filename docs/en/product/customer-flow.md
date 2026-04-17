@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">Tenant isolation</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss team / enterprise delivery</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss team / enterprise delivery</a>
         <a class="cta-button" href="./hot-update.html">View hot-update notes</a>
         <a class="cta-button" href="./implementation-training.html">View Implementation &amp; Training Services</a>
       </div>
@@ -499,7 +499,7 @@ lastUpdated: false
           <span>Deployment &amp; Delivery Boundaries</span>
           <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Discuss delivery / routing</strong>
         </a>

@@ -34,7 +34,7 @@ lastUpdated: false
         <span class="brand-chip">本地混合执行</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通部署方案</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通部署方案</a>
         <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
       </div>
     </div>
@@ -347,12 +347,12 @@ lastUpdated: false
     <p class="brand-kicker">How To Choose</p>
     <h2>按项目重点进入合适的部署路径</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+      <a class="brand-link-card" href="/contact.html#lead-form">
         <span>Customer Delivery</span>
         <strong>客户交付型项目</strong>
         <p>优先单租户交付模式，再视情况补统一治理能力。</p>
       </a>
-      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+      <a class="brand-link-card" href="/contact.html#lead-form">
         <span>Platform Ops</span>
         <strong>平台治理与运营</strong>
         <p>在租户隔离之上叠加平台治理模式，统一公告、模板、日志和台账。</p>
@@ -372,7 +372,7 @@ lastUpdated: false
         <strong>正式交付包与说明入口</strong>
         <p>继续看客户交付说明与文档入口页，把客户长期使用时真正能拿到的说明和入口一次说清。</p>
       </a>
-      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+      <a class="brand-link-card" href="/contact.html#lead-form">
         <span>Growth Entry</span>
         <strong>免费线与分流入口</strong>
         <p>让访客先从免费线进入，再判断是继续留在个人空间、进入团队版，还是继续走企业交付路径。</p>

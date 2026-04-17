@@ -15,7 +15,7 @@ lastUpdated: false
         <p>Separate what is already done, what is still being pushed, and what may expand later. That is how the product avoids rework.</p>
       </div>
       <p class="brand-lead">
-        <strong>The current best way to understand ExecFabric is this: it first turns Python and Shell scripts, file handling, and local automation flows into one unified entry so execution, confirmation, and result return are all traceable.</strong>
+        <strong>The current best way to understand ExecFabric is this: it first turns Python-first execution, Python / Shell / Bat(Cmd) / Node.js scripts, file handling, and local automation flows into one unified entry so execution, confirmation, and result return are all traceable.</strong>
       </p>
       <p class="brand-lead">
         <strong>Under the surface, ExecFabric is still a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</strong>
@@ -191,7 +191,7 @@ lastUpdated: false
           <td>Free path</td>
           <td>People touching the platform for the first time</td>
           <td>Feel the product position, execution chain, and personal-entry value first</td>
-          <td><a href="https://execfabric.cn/#/experience">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>Local script-slot expansion</td>
@@ -475,7 +475,7 @@ lastUpdated: false
           <span>Capability</span>
           <strong>Capabilities</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/en/contact.html#lead-form">
           <span>Lead</span>
           <strong>Submit a lead / routing</strong>
         </a>

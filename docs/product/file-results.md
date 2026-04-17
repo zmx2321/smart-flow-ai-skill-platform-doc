@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">结果下载</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通文件处理场景</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通文件处理场景</a>
         <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
       </div>
     </div>
@@ -296,7 +296,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>客户接入准备清单</strong>
         </a>
-        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通文件处理场景</strong>
         </a>

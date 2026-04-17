@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">Result entry</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss formal delivery</a>
+        <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Discuss formal delivery</a>
         <a class="cta-button" href="./customer-flow.html">View Customer Delivery &amp; Usage</a>
         <a class="cta-button" href="./implementation-training.html">View Implementation &amp; Training Services</a>
       </div>

@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Flagship Cases</span>
         <strong>这页先放 3 个你现在就能自己演示的轻量样板，不假装是大客户生产案例。</strong>
-        <p>重点是先让人看懂：璇络(ExecFabric) 已经能把 Python、Shell 和文件处理三类链路收成统一入口。</p>
+        <p>重点是先让人看懂：璇络(ExecFabric) 已经能把 Python、Shell、Node.js 与文件处理这些链路收成统一入口；如果云端是 Windows，Bat(Cmd) 也能按同样方式受控执行。</p>
       </div>
       <p class="brand-lead">
         这些案例更像当前 1.0 阶段的 showroom，用来帮助潜在客户和合作方快速判断：

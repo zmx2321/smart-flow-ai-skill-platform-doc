@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="./cli.html">View CLI metadata rules</a>
-        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss onboarding boundaries</a>
+        <a class="cta-button" href="/en/contact.html#lead-form">Discuss onboarding boundaries</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
