@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">结果入口</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通正式交付</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通正式交付</a>
         <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
         <a class="cta-button" href="./implementation-training.html">查看培训与实施服务说明</a>
       </div>

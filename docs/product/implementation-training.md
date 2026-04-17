@@ -25,7 +25,7 @@ lastUpdated: false
         <span class="brand-chip">上线支持</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通实施安排</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通实施安排</a>
         <a class="cta-button" href="./deliverables.html">查看客户交付说明与文档入口</a>
         <a class="cta-button" href="../materials/service-packages.html">查看合作方式</a>
       </div>
@@ -197,7 +197,7 @@ lastUpdated: false
           <span>Packages</span>
           <strong>合作方式 / 服务包</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Contact</span>
           <strong>沟通实施安排</strong>
         </a>

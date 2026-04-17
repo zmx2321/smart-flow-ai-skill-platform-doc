@@ -1,6 +1,11 @@
 const docsBase = process.env.EXECFABRIC_DOCS_BASE || "/"
 const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
 const docsRepoUrl = process.env.EXECFABRIC_DOCS_REPO_URL || "https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc"
+const execfabricWebBase = (process.env.EXECFABRIC_WEB_BASE || "https://execfabric.cn").replace(/\/$/, "")
+const execfabricLoginUrl = `${execfabricWebBase}/#/login`
+const execfabricRegisterUrl = `${execfabricWebBase}/#/register`
+const execfabricExperienceUrl = `${execfabricWebBase}/#/experience`
+const execfabricBetaUrl = `${execfabricWebBase}/#/experience?intent=beta`
 const faviconLightPath = `${normalizedDocsBase}favicon_light.ico`
 const faviconDarkPath = `${normalizedDocsBase}favicon_dark.ico`
 const navbarLogoLightThemePath = faviconDarkPath
@@ -44,6 +49,9 @@ const localeText = {
     navDeployment: "部署方式与交付边界",
     navCli: "CLI 指引",
     navEditions: "版本阶段与升级路径",
+    navBeta: "申请内测",
+    navCustomerCasesMenu: "客户案例",
+    navCustomerCasesIndex: "客户案例",
     navMaterials: "关于 / 资料",
     navMaterialsIndex: "资料总览",
     navWhy: "为什么我要做 ExecFabric",
@@ -114,6 +122,9 @@ const localeText = {
     navDeployment: "Deployment & Delivery Boundaries",
     navCli: "CLI & Local Agent Guide",
     navEditions: "Version Stages & Upgrade Path",
+    navBeta: "Apply for Beta",
+    navCustomerCasesMenu: "Customer Cases",
+    navCustomerCasesIndex: "Customer Cases",
     navMaterials: "Materials",
     navMaterialsIndex: "Materials Overview",
     navWhy: "Why I Am Building ExecFabric",
@@ -225,7 +236,7 @@ const createNav = (localeKey) => {
       activeMatch: createActiveMatch(localeKey, "/guide/"),
       items: [
         { text: t.navStartIndex, link: withLocale(localeKey, "/guide/") },
-        { text: t.navGettingStarted, link: withLocale(localeKey, "/guide/getting-started") },
+        { text: t.navGettingStarted, link: execfabricRegisterUrl },
         { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
       ],
     },
@@ -250,6 +261,15 @@ const createNav = (localeKey) => {
         { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
         { text: t.navEditions, link: withLocale(localeKey, "/product/editions") },
       ],
+    },
+    {
+      text: t.navCustomerCasesMenu,
+      activeMatch: createActiveMatch(localeKey, "/customer-cases/"),
+      link: withLocale(localeKey, "/customer-cases/"),
+    },
+    {
+      text: t.navBeta,
+      link: execfabricBetaUrl,
     },
     {
       text: t.navMaterials,
@@ -281,7 +301,7 @@ const createSidebar = (localeKey) => {
         text: t.sidebarGuide,
         items: [
           { text: t.navStartIndex, link: withLocale(localeKey, "/guide/") },
-          { text: t.navGettingStarted, link: withLocale(localeKey, "/guide/getting-started") },
+          { text: t.navGettingStarted, link: execfabricRegisterUrl },
           { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
         ],
       },
@@ -309,6 +329,12 @@ const createSidebar = (localeKey) => {
         ],
       },
     ],
+    [withLocale(localeKey, "/customer-cases/")]: [
+      {
+        text: t.navCustomerCasesMenu,
+        items: [{ text: t.navCustomerCasesIndex, link: withLocale(localeKey, "/customer-cases/") }],
+      },
+    ],
     [withLocale(localeKey, "/materials/")]: [
       {
         text: t.sidebarMaterials,
@@ -332,9 +358,11 @@ const createSidebar = (localeKey) => {
         items: [
           { text: t.navHome, link: withLocale(localeKey, "/") },
           { text: t.navStartIndex, link: withLocale(localeKey, "/guide/") },
-          { text: t.navGettingStarted, link: withLocale(localeKey, "/guide/getting-started") },
+          { text: t.navGettingStarted, link: execfabricRegisterUrl },
           { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
           { text: t.navProductIndex, link: withLocale(localeKey, "/product/") },
+          { text: t.navCustomerCasesIndex, link: withLocale(localeKey, "/customer-cases/") },
+          { text: t.navBeta, link: execfabricBetaUrl },
           { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
           { text: t.navCustomerFlow, link: withLocale(localeKey, "/product/customer-flow") },
           { text: t.navImplementationTraining, link: withLocale(localeKey, "/product/implementation-training") },

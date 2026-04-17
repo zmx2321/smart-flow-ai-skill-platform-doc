@@ -164,7 +164,7 @@ lastUpdated: false
           <td>01. 免费线</td>
           <td>第一次接触平台的人</td>
           <td>先感知价值，不急着报价，不急着讲复杂交付</td>
-          <td><a href="../guide/getting-started.html">快速开始</a> / <a href="../product/index.html">产品概览</a></td>
+          <td><a href="https://execfabric.cn/#/register">快速开始</a> / <a href="../product/index.html">产品概览</a></td>
         </tr>
         <tr>
           <td>02. 轻量增购</td>
@@ -315,7 +315,7 @@ lastUpdated: false
         <strong>产品概览</strong>
         <p>进一步深挖真实能力、模块结构和产品主线。</p>
       </a>
-      <a class="brand-link-card" href="../contact.html#lead-form">
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
         <span>Step 09</span>
           <strong>沟通真实场景</strong>
         <p>进入真实沟通、评估和场景讲解阶段。</p>

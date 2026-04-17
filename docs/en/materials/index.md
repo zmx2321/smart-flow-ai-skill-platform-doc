@@ -165,7 +165,7 @@ lastUpdated: false
           <td>01. Free path</td>
           <td>People touching the platform for the first time</td>
           <td>Let them feel the value first. Do not rush into pricing or complex delivery too early.</td>
-          <td><a href="../guide/getting-started.html">Getting Started</a> / <a href="../product/index.html">Product Overview</a></td>
+          <td><a href="https://execfabric.cn/#/register">Getting Started</a> / <a href="../product/index.html">Product Overview</a></td>
         </tr>
         <tr>
           <td>02. Lightweight expansion</td>
@@ -316,7 +316,7 @@ lastUpdated: false
         <strong>Product Overview</strong>
         <p>Go deeper into real capabilities, module structure, and the current product mainline.</p>
       </a>
-      <a class="brand-link-card" href="../contact.html#lead-form">
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
         <span>Step 09</span>
         <strong>Discuss a real scenario</strong>
         <p>Move into real conversation, evaluation, and scenario explanation.</p>

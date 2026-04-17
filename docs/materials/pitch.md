@@ -85,7 +85,7 @@ lastUpdated: false
           <td>第一次接触平台的人</td>
           <td>先讲平台定位、痛点和免费线体验价值</td>
           <td>不要一开始就讲企业交付和复杂定制</td>
-          <td><a href="../guide/getting-started.html">快速开始</a></td>
+          <td><a href="https://execfabric.cn/#/register">快速开始</a></td>
         </tr>
         <tr>
           <td>已经在个人空间持续接脚本的人</td>
@@ -244,7 +244,7 @@ lastUpdated: false
           <span>Roadmap</span>
           <strong>版本阶段与升级路径</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>沟通真实场景</strong>
         </a>

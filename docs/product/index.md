@@ -15,7 +15,7 @@ lastUpdated: false
         <p>把当前已做成的、仍在推进的、后续可能扩展的部分分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
-        <strong>当前更适合这样理解 璇络(ExecFabric)：它先把 Python / Shell 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
+        <strong>当前更适合这样理解 璇络(ExecFabric)：它先把 Python 作为第一种成熟执行资产做实，并把 Python / Shell / Node.js 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
       </p>
       <p class="brand-lead">
         <strong>璇络(ExecFabric)底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>
@@ -60,7 +60,7 @@ lastUpdated: false
         <span class="brand-chip">共享 SaaS</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">立即免费体验</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
         <a class="cta-button" href="./scenarios.html">查看应用场景</a>
         <a class="cta-button" href="./script-risk-levels.html">查看风险分级</a>
       </div>
@@ -186,7 +186,7 @@ lastUpdated: false
           <td>免费线</td>
           <td>第一次接触平台的人</td>
           <td>先感知产品定位、执行链路和个人入口价值</td>
-          <td><a href="../guide/getting-started.html">快速开始</a></td>
+          <td><a href="https://execfabric.cn/#/experience">快速开始</a></td>
         </tr>
         <tr>
           <td>本地脚本位增购</td>
@@ -470,7 +470,7 @@ lastUpdated: false
           <span>Capability</span>
           <strong>核心能力</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>提交线索 / 分流</strong>
         </a>

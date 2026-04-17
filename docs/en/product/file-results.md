@@ -29,7 +29,7 @@ lastUpdated: false
         <span class="brand-chip">Result download</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a file-processing scenario</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a file-processing scenario</a>
         <a class="cta-button" href="./customer-flow.html">View Customer Delivery &amp; Usage</a>
       </div>
     </div>
@@ -278,7 +278,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>Onboarding Checklist</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss a file-processing scenario</strong>
         </a>

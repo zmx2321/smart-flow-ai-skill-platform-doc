@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">lightweight and demo-ready</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">Start from the experience entry</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Start from the experience entry</a>
         <a class="cta-button" href="../product/index.html">View Product Overview</a>
       </div>
     </div>
@@ -250,11 +250,6 @@ lastUpdated: false
         Open the CSV experience entry directly
       </a>
     </div>
-    <p class="brand-lead">
-      The CSV experience entry documented here is currently
-      <code>https://execfabric.cn/#/experience?demo=csv_profile_demo</code>.
-      Once the domain points at this free-edition frontend, the link works directly.
-    </p>
   </section>
 
   <section class="brand-card brand-card--cta">
@@ -265,7 +260,7 @@ lastUpdated: false
         <p class="brand-lead">The most direct next move is to compare one real workflow against these three samples, decide which input, risk, and result pattern it matches, and then decide whether to continue into a scenario discussion.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Partner</span>
           <strong>Discuss your scenario</strong>
         </a>

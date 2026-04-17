@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">可视化 + 自动化</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
         <a class="cta-button" href="./founder-card.html">看背景概览</a>
         <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">查看 GitHub</a>
       </div>
@@ -216,7 +216,7 @@ lastUpdated: false
           <span>Background</span>
           <strong>交付背景与项目经历</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>沟通真实场景</strong>
         </a>

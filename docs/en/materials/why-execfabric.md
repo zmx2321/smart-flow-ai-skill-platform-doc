@@ -28,7 +28,7 @@ lastUpdated: false
         <span class="brand-chip">Delivery-driven view</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a real scenario</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a real scenario</a>
         <a class="cta-button" href="./case-studies.html">View Case Studies</a>
         <a class="cta-button" href="../product/index.html">View Product Overview</a>
       </div>
@@ -171,7 +171,7 @@ lastUpdated: false
         <p class="brand-lead">The most useful next step is not more abstract discussion. It is taking one real workflow and deciding whether it is suitable as the first governed sample on ExecFabric.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Partner</span>
           <strong>Discuss your scenario</strong>
         </a>

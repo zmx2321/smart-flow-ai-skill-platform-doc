@@ -28,7 +28,7 @@ lastUpdated: false
         <span class="brand-chip">交付型工程师</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
         <a class="cta-button" href="./resume-public.html">看项目与履历</a>
         <a class="cta-button" href="./service-packages.html">看启动方式</a>
       </div>
@@ -160,7 +160,7 @@ lastUpdated: false
         <p class="brand-lead">地图、前端和自动化链路需要快速补齐时，可直接围绕一个真实模块、流程或脚本场景评估边界、周期和是否适合做成可交付闭环。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>沟通真实场景</strong>
         </a>

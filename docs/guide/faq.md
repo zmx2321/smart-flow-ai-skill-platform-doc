@@ -26,7 +26,7 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">看产品概览</a>
-      <a class="cta-button" href="../contact.html#lead-form">线索与分流</a>
+      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">线索与分流</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -61,7 +61,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>它是不是一个普通聊天系统</h3>
-        <p>不是。它是一个让 AI 在规则内调用和执行真实能力的平台，当前最成熟的执行资产是 Python 脚本；同时 Web 端上传注册已经支持 Python / Shell。</p>
+        <p>不是。它是一个让 AI 在规则内调用和执行真实能力的平台，当前最成熟的执行资产是 Python 脚本；同时 Web 端上传注册已经支持 Python / Shell / Node.js。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>它适合哪些人</h3>
@@ -135,7 +135,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>上传文件后，脚本怎么知道该处理哪一个文件</h3>
-        <p>不是让脚本自己去猜。当前对话执行底部快捷区的“上传文件”按钮会把这次上传绑定成一个 <code>uploadBatchId</code>，确认执行时后端再把这批文件的快照传给脚本。Python / Shell 脚本可以直接读取 <code>EXECFABRIC_UPLOAD_BATCH_NO</code>、<code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code>、<code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code> 和 <code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code>，所以处理的是当前绑定批次，而不是历史目录里“最新那个文件”。</p>
+        <p>不是让脚本自己去猜。当前对话执行底部快捷区的“上传文件”按钮会把这次上传绑定成一个 <code>uploadBatchId</code>，确认执行时后端再把这批文件的快照传给脚本。Python / Shell / Node.js 脚本都可以直接读取 <code>EXECFABRIC_UPLOAD_BATCH_NO</code>、<code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code>、<code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code> 和 <code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code>，所以处理的是当前绑定批次，而不是历史目录里“最新那个文件”。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>正式交付后客户通常会拿到哪些说明</h3>
@@ -162,7 +162,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>是不是所有脚本类型都已经完整支持远程入库</h3>
-        <p>网页端上传注册现在已经支持 Python / Shell 文本脚本；CLI 远程注册当前也已经支持 Python / Shell，更多资产类型会继续扩展。</p>
+        <p>网页端上传注册现在已经支持 Python / Shell / Node.js 文本脚本；CLI 远程注册当前也已支持 Python / Shell / Node.js；如果是本机路径登记，CLI / Local Agent 已可登记 Python / Shell / Bat / Node。</p>
       </article>
     </div>
   </section>
@@ -214,7 +214,7 @@ lastUpdated: false
           <span>CLI</span>
           <strong>CLI 指引</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>线索与分流</strong>
         </a>

@@ -25,7 +25,7 @@ lastUpdated: false
         <span class="brand-chip">轻量可演示</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">先看体验入口</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">先看体验入口</a>
         <a class="cta-button" href="../product/index.html">看产品概览</a>
       </div>
     </div>
@@ -249,11 +249,6 @@ lastUpdated: false
         直接打开 CSV 前台体验入口
       </a>
     </div>
-    <p class="brand-lead">
-      文档里的 CSV 体验入口当前写的是
-      <code>https://execfabric.cn/#/experience?demo=csv_profile_demo</code>。
-      域名一旦指到这套免费版前端，这个链接就会直接生效。
-    </p>
   </section>
 
   <section class="brand-card brand-card--cta">
@@ -264,7 +259,7 @@ lastUpdated: false
         <p class="brand-lead">这 3 个案例更适合你当前阶段对外展示、自己自测和讲解产品结构。等线上多租户、部署和 CLI 跑稳后，再继续升级成更重的行业案例。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../guide/getting-started.html">
+        <a class="brand-link-card" href="https://execfabric.cn/#/experience">
           <span>Experience</span>
           <strong>先看体验入口</strong>
         </a>

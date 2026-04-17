@@ -8,10 +8,13 @@ hero:
   actions:
     - theme: brand
       text: Try for Free
-      link: /en/guide/getting-started
+      link: https://execfabric.cn/#/experience
+    - theme: alt
+      text: Apply for Beta
+      link: https://execfabric.cn/#/experience?intent=beta
     - theme: alt
       text: Discuss Your Scenario
-      link: /en/contact#lead-form
+      link: https://execfabric.cn/#/login?intent=beta
     - theme: alt
       text: Product Overview
       link: /en/product/
@@ -44,9 +47,57 @@ features:
         </div>
       </div>
       <div class="partner-banner__actions">
-        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">Discuss your scenario</a>
-        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20Scenario%20Discussion">Email directly</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Apply for Beta</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss your scenario</a>
       </div>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Beta Intake</p>
+      <h2>Turn the site into a demand collector before adding more abstract pages</h2>
+      <p class="landing-lead">
+        If you already have one concrete automation problem and want to know whether it is worth connecting into
+        <strong>ExecFabric</strong>,
+        the best next step is not a broad inquiry.
+        It is a structured beta application that gives enough detail to judge fit quickly.
+      </p>
+    </div>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card">
+        <p class="brand-kicker">Ask</p>
+        <h2>What the form asks for</h2>
+        <ul class="brand-list">
+          <li>Company and role</li>
+          <li>One specific automation problem</li>
+          <li>Common scripting language</li>
+          <li>Weekly time spent on the problem</li>
+        </ul>
+      </article>
+      <article class="brand-card">
+        <p class="brand-kicker">Fit</p>
+        <h2>What gets prioritized</h2>
+        <ul class="brand-list">
+          <li>You already do it manually, or your scripts are still scattered</li>
+          <li>The problem happens every week, not once in a while</li>
+          <li>You are willing to give concrete feedback after the first validation round</li>
+        </ul>
+      </article>
+      <article class="brand-card">
+        <p class="brand-kicker">Split</p>
+        <h2>If you are not sure which entry to take</h2>
+        <ul class="brand-list">
+          <li>First contact only: free experience</li>
+          <li>One concrete problem: beta application</li>
+          <li>Ready for formal cooperation: contact page</li>
+        </ul>
+      </article>
+    </div>
+    <div class="brand-actions">
+      <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Open the beta form</a>
+      <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free entry</a>
+      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss formal cooperation</a>
     </div>
   </section>
 
@@ -283,8 +334,8 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="./guide/getting-started.html">Try for free</a>
-      <a href="./contact.html#lead-form">Discuss your scenario</a>
+      <a href="https://execfabric.cn/#/experience">Try for free</a>
+      <a href="https://execfabric.cn/#/login?intent=beta">Discuss your scenario</a>
       <a href="./materials/why-execfabric.html">Why I Am Building ExecFabric</a>
       <a href="./product/editions.html">See the current stage</a>
     </div>
@@ -319,7 +370,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./materials/case-studies.html">View the full case studies</a>
-      <a href="./contact.html#lead-form">Bring a real scenario</a>
+      <a href="https://execfabric.cn/#/experience?intent=beta">Bring a real scenario</a>
     </div>
   </section>
 
@@ -397,7 +448,7 @@ features:
         <strong>turn the platform into a small business that keeps solving real problems and can sustain itself through stable operation.</strong>
       </p>
       <div class="landing-inline-links">
-        <a href="./contact.html#lead-form">Continue the scenario discussion</a>
+        <a href="https://execfabric.cn/#/experience?intent=beta">Continue the scenario discussion</a>
         <a href="./materials/founder-profile.html">View the full delivery background</a>
         <a href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">View the public blog</a>
       </div>
@@ -576,7 +627,7 @@ features:
       <strong>Start here</strong>
       <p>Align the entry paths, roles, and reading order first so you do not keep bouncing between pages without a frame.</p>
     </a>
-    <a class="link-panel" href="./guide/getting-started.html">
+    <a class="link-panel" href="https://execfabric.cn/#/login">
       <span class="link-panel-label">Quick Start</span>
       <strong>Getting Started</strong>
       <p>Understand as quickly as possible how to begin from the free path, how script onboarding works, and when the team or enterprise path is the better fit.</p>
@@ -646,9 +697,9 @@ features:
         </p>
       </div>
       <div class="cta-actions">
-        <a class="cta-button cta-button--brand" href="./guide/getting-started.html">Try for free now</a>
-        <a class="cta-button" href="./contact.html#lead-form">Discuss a specific scenario</a>
-        <a class="cta-button" href="./contact.html#lead-form">Ask about delivery</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Try for free now</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">Discuss a specific scenario</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Ask about delivery</a>
       </div>
     </div>
   </section>

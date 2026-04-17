@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">risk boundary</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Bring the checklist into the discussion</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Bring the checklist into the discussion</a>
         <a class="cta-button" href="./customer-flow.html">View Customer Delivery &amp; Usage</a>
       </div>
     </div>
@@ -201,7 +201,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>You are only learning the platform for the first time</td>
-          <td><a href="../guide/getting-started.html">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/#/register">Getting Started</a></td>
           <td>Start by judging the platform position and the real entry points</td>
           <td>You do not need a full delivery checklist on day one.</td>
         </tr>

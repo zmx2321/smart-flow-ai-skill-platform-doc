@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">结果下载</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通文件处理场景</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通文件处理场景</a>
         <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
       </div>
     </div>
@@ -209,7 +209,7 @@ lastUpdated: false
         </tr>
       </tbody>
     </table>
-    <p>当前 Python / Shell 执行器都会把这些变量注入运行环境。如果用户重新上传了一批新文件并再次确认执行，新的批次就会覆盖旧批次。脚本应始终按当前执行上下文里的批次信息读取输入，而不是凭“最新文件”这种不稳定规则处理。</p>
+    <p>当前 Python / Shell / Node.js 执行器都会把这些变量注入运行环境。如果用户重新上传了一批新文件并再次确认执行，新的批次就会覆盖旧批次。脚本应始终按当前执行上下文里的批次信息读取输入，而不是凭“最新文件”这种不稳定规则处理。</p>
   </section>
 
   <section class="brand-card">
@@ -296,7 +296,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>客户接入准备清单</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>沟通文件处理场景</strong>
         </a>

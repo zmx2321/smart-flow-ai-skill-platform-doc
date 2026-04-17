@@ -27,9 +27,9 @@ lastUpdated: false
         <span class="brand-chip">当前边界已写清</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">先看快速开始</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/register">先看快速开始</a>
         <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
-        <a class="cta-button" href="../contact.html#lead-form">沟通分流 / 升级</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通分流 / 升级</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -215,7 +215,7 @@ lastUpdated: false
           <span>Roadmap</span>
           <strong>版本阶段与升级路径</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>沟通场景 / 升级</strong>
         </a>

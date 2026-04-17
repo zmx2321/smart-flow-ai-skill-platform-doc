@@ -26,7 +26,7 @@ lastUpdated: false
       <span class="brand-chip">企业交付</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="./getting-started.html">看快速开始</a>
+      <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/register">看快速开始</a>
       <a class="cta-button" href="./faq.html">看常见问题</a>
     </div>
   </div>
@@ -96,7 +96,7 @@ lastUpdated: false
           <td>公开体验链路</td>
           <td>现在可以直接从 <code>/experience</code>、<code>/login</code>、<code>/register</code> 进入体验和注册流程</td>
           <td>第一次接触平台的人</td>
-          <td><a href="./getting-started.html">快速开始</a></td>
+          <td><a href="https://execfabric.cn/#/register">快速开始</a></td>
         </tr>
         <tr>
           <td>产品文档</td>
@@ -120,7 +120,7 @@ lastUpdated: false
           <td>联系入口</td>
           <td>用于四层分流：免费线判断、本地脚本位、标准团队版和企业交付</td>
           <td>需要继续推进的人</td>
-          <td><a href="../contact.html#lead-form">线索与分流</a></td>
+          <td><a href="https://execfabric.cn/#/login?intent=beta">线索与分流</a></td>
         </tr>
       </tbody>
     </table>
@@ -153,7 +153,7 @@ lastUpdated: false
     <p class="brand-kicker">Reading Order</p>
     <h2>按目标进入</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="./getting-started.html">
+      <a class="brand-link-card" href="https://execfabric.cn/#/register">
         <span>Step 01</span>
         <strong>快速开始</strong>
         <p>先确认现在公开的正式入口、体验路径和当前可用的能力边界。</p>
@@ -226,7 +226,7 @@ lastUpdated: false
         <p class="brand-lead">免费线、本地脚本位、标准团队版和企业交付都成立，但建议不要混着看。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="./getting-started.html">
+        <a class="brand-link-card" href="https://execfabric.cn/#/register">
           <span>Guide</span>
           <strong>快速开始</strong>
         </a>
@@ -242,7 +242,7 @@ lastUpdated: false
           <span>CLI</span>
           <strong>CLI 指引</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>线索与分流</strong>
         </a>

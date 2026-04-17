@@ -87,7 +87,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>1. Prepare the script folder</h3>
-        <p>Prepare the folder according to the agreed structure. At minimum it should include the entry script and <code>README.md</code>. The current default entry files for Python and Shell text scripts are <code>main.py</code> and <code>main.sh</code>.</p>
+        <p>Prepare the folder according to the agreed structure. The recommended layout is <code>tenant / language / script-code / entry-file</code>, and at minimum it should include the entry script and <code>README.md</code>. The current default entry files for Python, Shell, and Node.js text scripts are <code>main.py</code>, <code>main.sh</code>, and <code>main.js</code>.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. Submit it into the tenant boundary it belongs to</h3>
@@ -129,7 +129,7 @@ lastUpdated: false
           <td>Script files</td>
           <td>Required</td>
           <td>The real execution content</td>
-          <td>At minimum include the agreed entry file. Today the default for Python and Shell is <code>main.py</code> or <code>main.sh</code>.</td>
+          <td>At minimum include the agreed entry file. Today the default for Python, Shell, and Node.js is <code>main.py</code>, <code>main.sh</code>, or <code>main.js</code>.</td>
         </tr>
         <tr>
           <td><code>README.md</code></td>
@@ -237,7 +237,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>Onboarding Checklist</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss delivery and routing</strong>
         </a>

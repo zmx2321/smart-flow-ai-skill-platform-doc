@@ -27,7 +27,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="./cli.html">查看 CLI 元数据规则</a>
-        <a class="cta-button" href="../contact.html#lead-form">沟通接入边界</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通接入边界</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">

@@ -11,8 +11,8 @@ lastUpdated: false
       <h1>线索分流与咨询</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
-        <strong>提交线索前，先判断你当前属于免费线、本地脚本位扩容、正式团队协作，还是企业项目交付。</strong>
-        <p>当前更适合先沟通一个明确场景和第一阶段范围，再判断是走免费线、标准团队版还是正式交付。</p>
+        <strong>提交线索前，先判断你当前更像免费线体验、内测资格申请、正式团队协作，还是企业项目交付。</strong>
+        <p>如果你已经有一个最具体的自动化问题，优先走内测资格页；如果你已经要谈交付边界、部署方式和预算，再走合作线索页。</p>
       </div>
       <p class="brand-lead">
         面向高频重复流程自动化、已有脚本治理、文件与数据处理、小型正式交付和选择性私有化场景，
@@ -20,13 +20,15 @@ lastUpdated: false
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">免费线判断</span>
+        <span class="brand-chip">内测资格申请</span>
         <span class="brand-chip">本地脚本位增购</span>
         <span class="brand-chip">团队版月租 / 年租</span>
         <span class="brand-chip">小型私有化咨询</span>
         <span class="brand-chip">脚本治理 / 文件处理</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="#lead-form">填写线索表单</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">申请内测资格</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">填写合作线索</a>
         <a class="cta-button" href="./materials/service-packages.html">查看当前可承接服务</a>
         <a class="cta-button" href="./product/implementation-training.html">看培训与实施安排</a>
         <a class="cta-button" href="./materials/founder-profile.html">查看构建者背景</a>
@@ -134,7 +136,13 @@ lastUpdated: false
           <td>第一次接触平台，只想先感知产品</td>
           <td>先走免费线</td>
           <td>先确认这是不是值得继续了解的平台，不急着进入项目沟通</td>
-          <td><a href="./guide/getting-started.html">快速开始</a></td>
+          <td><a href="https://execfabric.cn/#/experience">快速开始</a></td>
+        </tr>
+        <tr>
+          <td>已经有一个非常具体的自动化问题，愿意先做首轮验证</td>
+          <td>先申请内测资格</td>
+          <td>结构化收集会比泛化咨询更容易判断适配度、优先级和第一步</td>
+          <td><a href="https://execfabric.cn/#/experience?intent=beta">申请内测资格</a></td>
         </tr>
         <tr>
           <td>已经在个人空间持续接脚本，但还没进入多人协作</td>
@@ -160,88 +168,38 @@ lastUpdated: false
 
   <section id="lead-form" class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Lead Form</p>
-      <h2>提交线索</h2>
+      <p class="brand-kicker">Product Funnel</p>
+      <h2>现在统一从产品页提交，不再在文档站发邮件</h2>
       <p class="brand-lead">
-        至少留下姓名、需求描述和一种联系方式，即可进入跟进流程。这个表单会调用默认邮件客户端发送到公开邮箱。
+        官网现在主要负责说明，不再直接使用邮件客户端或第三方表单收集线索。
+        如果你要提交合作需求、内测申请或场景问题，请直接进入
+        <strong>ExecFabric 个人免费入口</strong>。
+        登录页、注册页和免费线体验页都已经内置可直接入库的需求表单。
       </p>
-      <form
-        class="lead-form"
-        action="mailto:zmx2321@163.com?subject=ExecFabric%20Lead"
-        method="post"
-        enctype="text/plain"
-        accept-charset="UTF-8"
-      >
-        <input type="hidden" name="source" value="execfabric_docs_contact" />
-        <div class="lead-form-grid">
-          <label class="lead-field">
-            <span>姓名</span>
-            <input name="name" type="text" placeholder="例如：张三" required />
-          </label>
-          <label class="lead-field">
-            <span>公司</span>
-            <input name="company" type="text" placeholder="例如：某数据科技公司" />
-          </label>
-          <label class="lead-field">
-            <span>职位</span>
-            <input name="title" type="text" placeholder="例如：技术负责人 / 运营经理" />
-          </label>
-          <label class="lead-field">
-            <span>联系邮箱</span>
-            <input name="email" type="email" placeholder="请填写常用邮箱" />
-          </label>
-          <label class="lead-field">
-            <span>手机号</span>
-            <input name="phone" type="text" placeholder="请填写手机号或微信号" />
-          </label>
-          <label class="lead-field">
-            <span>预算范围（可选）</span>
-            <select name="budget">
-              <option value="">请选择预算范围</option>
-              <option value="under_5k">5k 以内</option>
-              <option value="5k_to_10k">5k - 1w</option>
-              <option value="10k_to_30k">1w - 3w</option>
-              <option value="30k_plus">3w 以上 / 私有化单议</option>
-            </select>
-          </label>
-        </div>
-        <label class="lead-field">
-          <span>需求描述</span>
-          <textarea
-            name="demand"
-            rows="6"
-            placeholder="请说明你的脚本场景、使用人数、是否需要内网/私有化、本地 Agent、数据源类型等"
-            required
-          ></textarea>
-        </label>
-        <div class="lead-form-actions">
-          <button class="cta-button cta-button--brand" type="submit">提交线索</button>
-          <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20Lead">直接发邮件</a>
-        </div>
-      </form>
+      <div class="brand-actions">
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">进入登录 / 注册页</a>
+        <a class="cta-button" href="https://execfabric.cn/#/register?intent=beta">直接注册并留需求</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">先体验再提交需求</a>
+      </div>
       <p class="lead-form-note">
-        如果当前设备没有默认邮件客户端，可以直接发邮件到
-        <a href="mailto:zmx2321@163.com">zmx2321@163.com</a>
-        ，或通过 GitHub 留言。
+        现在的公开线索会直接进入我们自己的 public 库，并带上来源页与场景字段，不再要求用户配置邮件客户端。
       </p>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Topics</p>
-      <h2>适合继续沟通的事项</h2>
+      <p class="brand-kicker">Route Guide</p>
+      <h2>从哪个产品页进入更合适</h2>
       <ul class="brand-list">
-        <li>流程自动化交付与脚本治理接入</li>
-        <li>团队版 / 小型私有化的边界判断</li>
-        <li>数据自动化、文件处理与本地执行方案</li>
-        <li>脚本整理、Skill 接入、CLI / Agent 桥接能力</li>
-        <li>判断当前应停留在共享 SaaS 正式租户，还是转正式项目交付</li>
-        <li>实施步骤、培训对象、交付物和后续支持边界如何安排</li>
+        <li>只想先感受产品：直接去免费线体验页。</li>
+        <li>已经有一个明确问题：去登录页、注册页或体验页提交内测/需求表单。</li>
+        <li>已经接近正式合作：优先去登录/注册页留需求，再继续沟通交付边界。</li>
+        <li>需要脚本治理、本地接入、团队协作或企业交付：都可以先从产品内表单统一入库。</li>
       </ul>
       <p class="brand-kicker">What To Prepare</p>
       <ul class="brand-list">
-        <li>脚本语言、依赖环境、运行频率和输入输出方式</li>
-        <li>大概使用人数，是个人、小团队还是正式客户项目</li>
-        <li>是否需要本地执行、内网访问、数据库连接或私有化部署</li>
-        <li>你更想先走免费线、先扩容个人空间、先走团队版，还是直接推进企业合作</li>
+        <li>公司 / 角色，或者至少说明你是谁、在什么上下文里提这个问题。</li>
+        <li>一个最具体的自动化问题，而不是一串宽泛设想。</li>
+        <li>常用脚本语言，以及每周会为它花多少时间。</li>
+        <li>如果已经知道要多人协作、本地接入或私有化，也请一并写上。</li>
       </ul>
       <div class="brand-grid brand-grid--two">
         <article class="brand-card brand-card--nested">
@@ -340,10 +298,10 @@ lastUpdated: false
     <p class="brand-kicker">Channels</p>
     <h2>备用联系方式与公开入口</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="mailto:zmx2321@163.com">
-        <span>邮箱</span>
-        <strong>zmx2321@163.com</strong>
-        <p>适合直接发需求、合作意向和项目背景。</p>
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <span>产品入口</span>
+        <strong>execfabric.cn</strong>
+        <p>现在优先从登录 / 注册页或免费线体验页提交需求，直接入库。</p>
       </a>
       <a class="brand-link-card" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">
         <span>GitHub</span>

@@ -54,7 +54,7 @@ lastUpdated: false
         <span class="brand-chip">按需扩展</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通版本与场景</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通版本与场景</a>
         <a class="cta-button" href="./deployment.html">查看部署方式与交付边界</a>
       </div>
     </div>
@@ -189,7 +189,7 @@ lastUpdated: false
         <td>免费线</td>
         <td>公开体验、登录 / 注册、个人入口</td>
         <td>属于 1.0 已成立的获客与体验入口</td>
-        <td><a href="../guide/getting-started.html">快速开始</a></td>
+        <td><a href="https://execfabric.cn/#/register">快速开始</a></td>
       </tr>
       <tr>
         <td>本地脚本位增购</td>

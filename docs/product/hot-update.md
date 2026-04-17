@@ -84,11 +84,11 @@ lastUpdated: false
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>1. 准备脚本目录</h3>
-        <p>按约定准备脚本目录，至少包含入口脚本和 <code>README.md</code>。当前 Python / Shell 文本脚本默认入口分别是 <code>main.py</code> / <code>main.sh</code>。</p>
+        <p>按约定准备脚本目录，推荐按 <code>租户 / 语言 / 脚本编码 / 入口文件</code> 组织，至少包含入口脚本和 <code>README.md</code>。当前 Python / Shell / Node.js 文本脚本默认入口分别是 <code>main.py</code> / <code>main.sh</code> / <code>main.js</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. 提交到所属租户范围</h3>
-        <p>客户把脚本放到自己的租户目录，不同客户不能混用目录，<code>public/</code> 仅由平台维护。</p>
+        <p>客户把脚本放到自己的租户目录和语言子目录，不同客户不能混用目录，<code>public/</code> 仅由平台维护。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. 平台审核</h3>
@@ -126,7 +126,7 @@ lastUpdated: false
           <td>脚本文件</td>
           <td>必须</td>
           <td>作为实际执行内容</td>
-          <td>至少包含约定入口文件；当前 Python / Shell 默认是 <code>main.py</code> / <code>main.sh</code></td>
+          <td>至少包含约定入口文件；当前 Python / Shell / Node.js 默认是 <code>main.py</code> / <code>main.sh</code> / <code>main.js</code></td>
         </tr>
         <tr>
           <td>README.md</td>
@@ -234,7 +234,7 @@ lastUpdated: false
           <span>Checklist</span>
           <strong>客户接入准备清单</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>沟通交付 / 分流</strong>
         </a>

@@ -11,8 +11,8 @@ lastUpdated: false
       <h1>Lead Routing & Contact</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
-        <strong>Before submitting a lead, first decide whether you are on the free path, expanding local script slots, moving into formal team collaboration, or discussing enterprise delivery.</strong>
-        <p>The platform already has multi-tenant governance, governed execution, a free public entry, and a CLI evolution path, but different stages should enter different conversations instead of collapsing into one broad consultation channel.</p>
+        <strong>Before submitting a lead, first decide whether you are closer to the free path, a beta application, formal team collaboration, or enterprise delivery.</strong>
+        <p>If you already have one concrete automation problem, the beta page is usually the better first step. If you are already discussing delivery boundaries, deployment, or budget, use the formal lead path.</p>
       </div>
       <p class="brand-lead">
         For enterprise automation, platform-style delivery, private deployment, and governance upgrades around existing scripts and workflows,
@@ -20,13 +20,15 @@ lastUpdated: false
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">Free-path evaluation</span>
+        <span class="brand-chip">Beta application</span>
         <span class="brand-chip">Local script-slot expansion</span>
         <span class="brand-chip">Team edition monthly / yearly</span>
         <span class="brand-chip">Enterprise / private deployment</span>
         <span class="brand-chip">Local scripts, CLI, and templates</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="#lead-form">Submit a lead</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">Apply for Beta</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Submit a cooperation lead</a>
         <a class="cta-button" href="./materials/service-packages.html">View service packages</a>
         <a class="cta-button" href="./materials/founder-profile.html">View founder background</a>
         <a class="cta-button" href="./product/">View Product Overview</a>
@@ -133,7 +135,13 @@ lastUpdated: false
           <td>You are touching the platform for the first time and only want to sense the product</td>
           <td>Start with the free path</td>
           <td>First confirm whether this is even worth understanding further. There is no need to jump into project discussion immediately.</td>
-          <td><a href="./guide/getting-started.html">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/#/experience">Getting Started</a></td>
+        </tr>
+        <tr>
+          <td>You already have one very specific automation problem and want to validate it first</td>
+          <td>Apply for Beta first</td>
+          <td>A structured intake is a better way to judge fit, priority, and the right first step than a broad generic inquiry</td>
+          <td><a href="https://execfabric.cn/#/experience?intent=beta">Apply for Beta</a></td>
         </tr>
         <tr>
           <td>You already connect scripts continuously in your personal space, but have not entered multi-user collaboration yet</td>
@@ -159,87 +167,38 @@ lastUpdated: false
 
   <section id="lead-form" class="brand-grid brand-grid--two">
     <article class="brand-card">
-      <p class="brand-kicker">Lead Form</p>
-      <h2>Submit a lead</h2>
+      <p class="brand-kicker">Product Funnel</p>
+      <h2>Leads now start in the product, not by email from the docs site</h2>
       <p class="brand-lead">
-        Leave at least your name, a short demand description, and one contact method, and the lead can enter follow-up. This form uses the default mail client and sends to the public mailbox.
+        The docs site now explains the routes, but it no longer collects leads through email clients or third-party form forwarding.
+        If you want to submit a scenario, a beta request, or a formal cooperation lead, go directly into the
+        <strong>ExecFabric product entry</strong>.
+        The login page, registration page, and free experience page all contain the direct-to-database intake form.
       </p>
-      <form
-        class="lead-form"
-        action="mailto:zmx2321@163.com?subject=ExecFabric%20Lead"
-        method="post"
-        enctype="text/plain"
-        accept-charset="UTF-8"
-      >
-        <input type="hidden" name="source" value="execfabric_docs_contact" />
-        <div class="lead-form-grid">
-          <label class="lead-field">
-            <span>Name</span>
-            <input name="name" type="text" placeholder="For example: Jane Doe" required />
-          </label>
-          <label class="lead-field">
-            <span>Company</span>
-            <input name="company" type="text" placeholder="For example: Example Data Tech" />
-          </label>
-          <label class="lead-field">
-            <span>Title</span>
-            <input name="title" type="text" placeholder="For example: Tech Lead / Operations Manager" />
-          </label>
-          <label class="lead-field">
-            <span>Email</span>
-            <input name="email" type="email" placeholder="Use an active email address" />
-          </label>
-          <label class="lead-field">
-            <span>Phone / WeChat</span>
-            <input name="phone" type="text" placeholder="Phone number or WeChat ID" />
-          </label>
-          <label class="lead-field">
-            <span>Budget range (optional)</span>
-            <select name="budget">
-              <option value="">Select a budget range</option>
-              <option value="under_5k">Under 5k RMB</option>
-              <option value="5k_to_10k">5k - 10k RMB</option>
-              <option value="10k_to_30k">10k - 30k RMB</option>
-              <option value="30k_plus">30k+ RMB / private pricing</option>
-            </select>
-          </label>
-        </div>
-        <label class="lead-field">
-          <span>Demand description</span>
-          <textarea
-            name="demand"
-            rows="6"
-            placeholder="Describe the script scenario, user count, whether intranet or private deployment is involved, whether local Agent bridging is needed, what data sources are used, and anything else that defines the real boundary"
-            required
-          ></textarea>
-        </label>
-        <div class="lead-form-actions">
-          <button class="cta-button cta-button--brand" type="submit">Submit lead</button>
-          <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20Lead">Send email directly</a>
-        </div>
-      </form>
+      <div class="brand-actions">
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Open the login / register entry</a>
+        <a class="cta-button" href="https://execfabric.cn/#/register?intent=beta">Register first and leave the demand</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">Try free first, then submit</a>
+      </div>
       <p class="lead-form-note">
-        If this device does not have a default mail client configured, send an email directly to
-        <a href="mailto:zmx2321@163.com">zmx2321@163.com</a>
-        or leave a note through GitHub.
+        Public leads now go directly into our own public database with page source and demand fields attached, so there is no mail-client step anymore.
       </p>
     </article>
     <article class="brand-card">
-      <p class="brand-kicker">Topics</p>
-      <h2>Topics worth continuing the conversation around</h2>
+      <p class="brand-kicker">Route Guide</p>
+      <h2>Which product page should you use</h2>
       <ul class="brand-list">
-        <li>Enterprise automation and AI execution-platform delivery</li>
-        <li>Capability planning and implementation paths for the team and enterprise editions</li>
-        <li>Private deployment, data automation, and local-execution strategies</li>
-        <li>Script cleanup, Skill onboarding, and CLI / Agent bridge capability</li>
-        <li>Deciding whether the current use case should stay in a shared-SaaS tenant or move into enterprise delivery</li>
+        <li>If you only want to feel the product, go to the free experience page.</li>
+        <li>If you already have one concrete problem, use the intake form on the login, registration, or free experience page.</li>
+        <li>If you are close to formal cooperation, still start from the same in-product form so the lead lands in the shared database path.</li>
+        <li>Script governance, local bridging, team collaboration, and enterprise delivery can all be routed from that same form.</li>
       </ul>
       <p class="brand-kicker">What To Prepare</p>
       <ul class="brand-list">
-        <li>Script language, dependency environment, run frequency, and input/output shape</li>
-        <li>The approximate number of users and whether the context is an individual, a small team, or a formal customer project</li>
-        <li>Whether local execution, intranet access, database connectivity, or private deployment is required</li>
-        <li>Whether you want to stay on the free path, expand personal space, move into the team edition, or go directly into enterprise cooperation</li>
+        <li>Your company / role, or at least the context in which the problem appears.</li>
+        <li>One specific automation problem, not a broad list of ideas.</li>
+        <li>Your common scripting language and the weekly time cost.</li>
+        <li>If local execution, intranet access, or private delivery is already known, mention that too.</li>
       </ul>
       <div class="brand-grid brand-grid--two">
         <article class="brand-card brand-card--nested">
@@ -331,10 +290,10 @@ lastUpdated: false
     <p class="brand-kicker">Channels</p>
     <h2>Backup contact channels and public entry points</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="mailto:zmx2321@163.com">
-        <span>Email</span>
-        <strong>zmx2321@163.com</strong>
-        <p>Best for sending a requirement summary, cooperation intent, or project background directly.</p>
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
+        <span>Product Entry</span>
+        <strong>execfabric.cn</strong>
+        <p>Use the login / register entry or the free experience page to submit the demand directly into the shared database flow.</p>
       </a>
       <a class="brand-link-card" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">
         <span>GitHub</span>

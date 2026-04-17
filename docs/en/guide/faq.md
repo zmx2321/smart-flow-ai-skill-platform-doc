@@ -29,7 +29,7 @@ lastUpdated: false
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="../product/index.html">View Product Overview</a>
-      <a class="cta-button" href="../contact.html#lead-form">Lead routing</a>
+      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Lead routing</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -165,7 +165,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Are all script types fully supported for remote onboarding already</h3>
-        <p>Web-side upload registration already supports Python and Shell text scripts. CLI-side remote registration also already supports Python and Shell today, while richer asset-type coverage still comes later.</p>
+        <p>Web-side upload registration already supports Python, Shell, and Node.js text scripts. CLI-side remote registration also already supports Python, Shell, and Node.js today, while richer asset-type coverage still comes later.</p>
       </article>
     </div>
   </section>
@@ -217,7 +217,7 @@ lastUpdated: false
           <span>CLI</span>
           <strong>CLI &amp; Local Agent Guide</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Lead Routing</strong>
         </a>

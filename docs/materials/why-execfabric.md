@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">真实交付视角</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
         <a class="cta-button" href="./case-studies.html">看样板案例</a>
         <a class="cta-button" href="../product/index.html">看产品概览</a>
       </div>
@@ -192,7 +192,7 @@ lastUpdated: false
         <p class="brand-lead">最有效的下一步，不是继续抽象讨论，而是直接拿一条真实流程来判断它是否适合做成 璇络(ExecFabric)的第一条治理样板。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Next Step</span>
           <strong>带一个真实流程来沟通</strong>
         </a>

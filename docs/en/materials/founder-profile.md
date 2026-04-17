@@ -59,7 +59,7 @@ lastUpdated: false
         <span class="link-panel-label">Continue With</span>
         <strong>If the direction fits, continue from here</strong>
         <div class="founder-profile-action-grid">
-          <a class="founder-profile-action-link founder-profile-action-link--primary" href="../contact.html#lead-form">
+          <a class="founder-profile-action-link founder-profile-action-link--primary" href="https://execfabric.cn/#/login?intent=beta">
             <span>Direct discussion</span>
             <strong>Discuss a scenario</strong>
           </a>
@@ -278,7 +278,7 @@ lastUpdated: false
         <p class="brand-lead">The most effective next move is usually to take one real workflow and talk directly about inputs, outputs, boundaries, and phase-one goals. That is faster than staying in abstraction.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss a real scenario</strong>
         </a>

@@ -34,7 +34,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../product/personal-billing-membership.html">Read Billing and Membership first</a>
         <a class="cta-button" href="../product/editions.html">View the edition roadmap</a>
-        <a class="cta-button" href="../contact.html#lead-form">Discuss scenario / routing</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">Discuss scenario / routing</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -234,7 +234,7 @@ lastUpdated: false
           <span>Cooperation</span>
           <strong>Kickoff Options / Service Packages</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss a customer scenario</strong>
         </a>

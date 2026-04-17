@@ -35,7 +35,7 @@ lastUpdated: false
         <span class="brand-chip">Local hybrid execution</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss deployment options</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss deployment options</a>
         <a class="cta-button" href="./editions.html">View Version Stages &amp; Upgrade Path</a>
       </div>
     </div>
@@ -322,12 +322,12 @@ lastUpdated: false
     <p class="brand-kicker">How To Choose</p>
     <h2>Choose the right deployment path by project focus</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="../contact.html#lead-form">
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
         <span>Customer Delivery</span>
         <strong>Customer-delivery projects</strong>
         <p>Start with the single-tenant delivery path first, then add unified governance if the operating model requires it.</p>
       </a>
-      <a class="brand-link-card" href="../contact.html#lead-form">
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
         <span>Platform Ops</span>
         <strong>Platform governance and operations</strong>
         <p>Layer platform-governance mode on top of tenant isolation so announcements, templates, logs, and ledgers can be centrally controlled.</p>
@@ -347,7 +347,7 @@ lastUpdated: false
         <strong>Formal delivery package and long-term customer entry</strong>
         <p>Continue into the Customer Delivery Docs &amp; Entry Points page to define the real instructions and entries the customer will use over time.</p>
       </a>
-      <a class="brand-link-card" href="../contact.html#lead-form">
+      <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
         <span>Growth Entry</span>
         <strong>Free path and lead-routing entry</strong>
         <p>Let visitors enter through the free path first, then decide whether they should remain in personal space, move into the team edition, or continue into enterprise delivery.</p>

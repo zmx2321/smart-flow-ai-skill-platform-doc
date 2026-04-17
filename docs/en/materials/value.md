@@ -92,7 +92,7 @@ lastUpdated: false
           <td>Free path</td>
           <td>Low-friction first contact with the platform value</td>
           <td>Prove first that this is not a generic chat page, but a platform that can bring scripts and automation into one governed entry</td>
-          <td><a href="../guide/getting-started.html">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/#/register">Getting Started</a></td>
         </tr>
         <tr>
           <td>Local script-slot expansion</td>
@@ -213,7 +213,7 @@ lastUpdated: false
           <span>Roadmap</span>
           <strong>Edition Roadmap</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss a real scenario</strong>
         </a>

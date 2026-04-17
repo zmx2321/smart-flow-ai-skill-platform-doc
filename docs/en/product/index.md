@@ -65,7 +65,7 @@ lastUpdated: false
         <span class="brand-chip">shared SaaS</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../guide/getting-started.html">Try it for free now</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Try it for free now</a>
         <a class="cta-button" href="./scenarios.html">View scenarios</a>
         <a class="cta-button" href="./script-risk-levels.html">View risk levels</a>
       </div>
@@ -191,7 +191,7 @@ lastUpdated: false
           <td>Free path</td>
           <td>People touching the platform for the first time</td>
           <td>Feel the product position, execution chain, and personal-entry value first</td>
-          <td><a href="../guide/getting-started.html">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/#/experience">Getting Started</a></td>
         </tr>
         <tr>
           <td>Local script-slot expansion</td>
@@ -475,7 +475,7 @@ lastUpdated: false
           <span>Capability</span>
           <strong>Capabilities</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Submit a lead / routing</strong>
         </a>

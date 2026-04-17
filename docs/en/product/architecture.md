@@ -36,7 +36,7 @@ lastUpdated: false
         <span class="brand-chip">CLI bridge</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss architecture and onboarding</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss architecture and onboarding</a>
         <a class="cta-button" href="./deployment.html">View Deployment &amp; Delivery Boundaries</a>
       </div>
     </div>

@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">Lifecycle governance</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a real scenario</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a real scenario</a>
         <a class="cta-button" href="./architecture.html">View architecture</a>
       </div>
     </div>
@@ -195,8 +195,8 @@ lastUpdated: false
       <p class="brand-kicker">Hot Update</p>
       <h2>How customer scripts keep getting updated</h2>
       <ul class="brand-list">
-        <li>The customer prepares a script directory that includes at least <code>main.py</code> and <code>README.md</code></li>
-        <li>The script is uploaded into the correct tenant directory instead of being mixed into another customer's directory</li>
+        <li>The customer prepares a script directory in the recommended <code>tenant / language / script-code / entry-file</code> layout, including at least the agreed entry file and <code>README.md</code></li>
+        <li>The script is uploaded into the correct tenant and language directory instead of being mixed into another customer's directory</li>
         <li>The platform completes review, sync, script registration, Skill binding, and tenant authorization</li>
         <li>After verification succeeds, only the owning tenant can see and use the updated capability</li>
       </ul>

@@ -85,7 +85,7 @@ lastUpdated: false
           <td>People touching the platform for the first time</td>
           <td>Lead with the platform position, the pain point, and the value of the free experience</td>
           <td>Do not start with enterprise delivery or heavy customization</td>
-          <td><a href="../guide/getting-started.html">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/#/register">Getting Started</a></td>
         </tr>
         <tr>
           <td>People already using scripts continuously in their personal space</td>
@@ -244,7 +244,7 @@ lastUpdated: false
           <span>Roadmap</span>
           <strong>Edition Roadmap</strong>
         </a>
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss a real scenario</strong>
         </a>

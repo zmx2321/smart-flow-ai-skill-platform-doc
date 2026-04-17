@@ -25,7 +25,7 @@ lastUpdated: false
         <span class="brand-chip">全链路留痕</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通能力接入</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通能力接入</a>
         <a class="cta-button" href="./capabilities.html">查看核心能力</a>
       </div>
       <div class="orchestration-signal-grid">

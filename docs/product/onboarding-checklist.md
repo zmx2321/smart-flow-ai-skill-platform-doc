@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">风险边界</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">带着清单来沟通</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">带着清单来沟通</a>
         <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
       </div>
     </div>
@@ -200,7 +200,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>只是第一次了解平台</td>
-          <td><a href="../guide/getting-started.html">快速开始</a></td>
+          <td><a href="https://execfabric.cn/#/register">快速开始</a></td>
           <td>先判断平台定位和真实入口</td>
           <td>不必一开始就准备完整交付清单。</td>
         </tr>

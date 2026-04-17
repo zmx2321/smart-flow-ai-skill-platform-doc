@@ -29,7 +29,7 @@ lastUpdated: false
         <span class="brand-chip">CLI 接入</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通架构与接入</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通架构与接入</a>
         <a class="cta-button" href="./deployment.html">查看部署方式与交付边界</a>
       </div>
     </div>

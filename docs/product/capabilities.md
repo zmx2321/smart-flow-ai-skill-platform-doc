@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">生命周期治理</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通真实场景</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
         <a class="cta-button" href="./architecture.html">查看架构说明</a>
       </div>
     </div>
@@ -198,8 +198,8 @@ lastUpdated: false
       <p class="brand-kicker">Hot Update</p>
       <h2>客户脚本如何持续更新</h2>
       <ul class="brand-list">
-        <li>客户准备脚本目录，至少包含 <code>main.py</code> 与 <code>README.md</code></li>
-        <li>脚本上传到所属租户目录，而不是混放到其他客户目录</li>
+        <li>客户准备脚本目录，推荐按 <code>租户 / 语言 / 脚本编码 / 入口文件</code> 组织，至少包含约定入口文件与 <code>README.md</code></li>
+        <li>脚本上传到所属租户目录和语言子目录，而不是混放到其他客户目录</li>
         <li>平台完成审核、同步、Script 注册、Skill 关联与租户授权绑定</li>
         <li>验证通过后，只有当前客户所属租户可见可用</li>
       </ul>

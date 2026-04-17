@@ -8,10 +8,13 @@ hero:
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
-      link: /guide/getting-started
+      link: https://execfabric.cn/#/experience
+    - theme: alt
+      text: 申请内测资格
+      link: https://execfabric.cn/#/experience?intent=beta
     - theme: alt
       text: 沟通真实场景
-      link: /contact#lead-form
+      link: https://execfabric.cn/#/login?intent=beta
     - theme: alt
       text: 查看产品概览
       link: /product/
@@ -44,9 +47,59 @@ features:
         </div>
       </div>
       <div class="partner-banner__actions">
-        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">沟通真实场景</a>
-        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecFabric%20%E5%9C%BA%E6%99%AF%20%E6%B2%9F%E9%80%9A">直接发邮件</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">申请内测资格</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
       </div>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Beta Intake</p>
+      <h2>先把官网变成需求收集器，再继续堆更多概念页</h2>
+      <p class="landing-lead">
+        如果你已经有一个最具体的自动化问题，希望判断它值不值得接进
+        <strong>璇络(ExecFabric)</strong>，
+        最有效的方式不是泛泛咨询，而是直接申请内测资格。
+        我们优先处理
+        <strong>问题具体、频率稳定、愿意给反馈</strong>
+        的申请。
+      </p>
+    </div>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card">
+        <p class="brand-kicker">Ask</p>
+        <h2>你会被问什么</h2>
+        <ul class="brand-list">
+          <li>公司和角色</li>
+          <li>1 个最具体的自动化问题</li>
+          <li>常用脚本语言</li>
+          <li>每周花在这类问题上的时间</li>
+        </ul>
+      </article>
+      <article class="brand-card">
+        <p class="brand-kicker">Fit</p>
+        <h2>什么样的申请更值得先看</h2>
+        <ul class="brand-list">
+          <li>已经在手工做，或者已经有散装脚本但入口很乱</li>
+          <li>问题每周都发生，不是偶发想法</li>
+          <li>你愿意在第一轮验证后继续反馈</li>
+        </ul>
+      </article>
+      <article class="brand-card">
+        <p class="brand-kicker">Split</p>
+        <h2>如果你不确定该走哪条入口</h2>
+        <ul class="brand-list">
+          <li>只是第一次接触：先看免费线体验</li>
+          <li>已有一个具体问题：申请内测资格</li>
+          <li>准备正式合作：走合作线索页</li>
+        </ul>
+      </article>
+    </div>
+    <div class="brand-actions">
+      <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience?intent=beta">去填内测表单</a>
+      <a class="cta-button" href="https://execfabric.cn/#/experience">先看免费线体验</a>
+      <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">沟通正式合作</a>
     </div>
   </section>
 
@@ -77,7 +130,7 @@ features:
           你可以先从公开体验入口走完一条简化流程，再决定是否接入自己的真实场景。
         </p>
         <p class="landing-lead">
-          当前 Web 上传注册入口已经统一支持 <strong>Python / Shell</strong> 文本脚本；公开体验页固定展示
+          当前 Web 上传注册入口已经统一支持 <strong>Python / Shell / Node.js</strong> 文本脚本，并接受 <code>.py / .sh / .bash / .js</code>；公开体验页固定展示
           <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
           真实体验脚本来自 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>，
           由 manifest 做热插拔映射。
@@ -270,8 +323,8 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="./guide/getting-started.html">立即免费体验（免登录）</a>
-      <a href="./contact.html#lead-form">沟通真实场景</a>
+      <a href="https://execfabric.cn/#/experience">立即免费体验（免登录）</a>
+      <a href="https://execfabric.cn/#/login?intent=beta">沟通真实场景</a>
       <a href="./product/index.html">查看产品概览</a>
       <a href="./product/editions.html">看当前阶段</a>
     </div>
@@ -306,7 +359,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./materials/case-studies.html">查看完整演示案例</a>
-      <a href="./guide/getting-started.html">先走体验入口</a>
+      <a href="https://execfabric.cn/#/experience">先走体验入口</a>
     </div>
   </section>
 
@@ -380,7 +433,7 @@ features:
         <strong>先把平台做成一个能持续解决真实问题、也能支撑稳定经营的小生意。</strong>
       </p>
       <div class="landing-inline-links">
-        <a href="./contact.html#lead-form">继续沟通场景</a>
+        <a href="https://execfabric.cn/#/experience?intent=beta">继续沟通场景</a>
         <a href="./materials/founder-profile.html">查看完整履历背景</a>
         <a href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">查看公开博客</a>
       </div>
@@ -558,7 +611,7 @@ features:
       <strong>开始使用</strong>
       <p>先把入口、角色和阅读路径对齐，避免一开始就在各页之间来回跳转。</p>
     </a>
-    <a class="link-panel" href="./guide/getting-started.html">
+    <a class="link-panel" href="https://execfabric.cn/#/login">
       <span class="link-panel-label">Quick Start</span>
       <strong>快速开始</strong>
       <p>用最短时间看懂如何从免费线开始、如何接脚本，以及何时该走团队版或企业路径。</p>
@@ -627,9 +680,9 @@ features:
         </p>
       </div>
       <div class="cta-actions">
-        <a class="cta-button cta-button--brand" href="./guide/getting-started.html">立即免费体验</a>
-        <a class="cta-button" href="./contact.html#lead-form">沟通具体场景</a>
-        <a class="cta-button" href="./contact.html#lead-form">咨询交付方案</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience?intent=beta">沟通具体场景</a>
+        <a class="cta-button" href="https://execfabric.cn/#/login?intent=beta">咨询交付方案</a>
       </div>
     </div>
   </section>

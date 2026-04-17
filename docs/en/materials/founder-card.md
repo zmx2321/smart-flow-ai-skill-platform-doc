@@ -28,7 +28,7 @@ lastUpdated: false
         <span class="brand-chip">Delivery-oriented engineer</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a real scenario</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/login?intent=beta">Discuss a real scenario</a>
         <a class="cta-button" href="./resume-public.html">View Projects and Resume</a>
         <a class="cta-button" href="./service-packages.html">View Kickoff Options</a>
       </div>
@@ -160,7 +160,7 @@ lastUpdated: false
         <p class="brand-lead">When a map, frontend, or automation chain needs to be filled quickly, the best move is to evaluate one real module, workflow, or script scenario directly and judge the boundary, cycle, and whether it can become a deliverable closed loop.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="../contact.html#lead-form">
+        <a class="brand-link-card" href="https://execfabric.cn/#/login?intent=beta">
           <span>Lead</span>
           <strong>Discuss a real scenario</strong>
         </a>
