@@ -15,7 +15,7 @@ lastUpdated: false
         <p>把当前已做成的、仍在推进的、后续可能扩展的部分分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
-        <strong>当前更适合这样理解 璇络(ExecFabric)：它先把 Python 作为第一种成熟执行资产做实，并把 Python / Shell / Node.js 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
+        <strong>当前更适合这样理解 璇络(ExecFabric)：它先把 Python 作为第一种成熟执行资产做实，并把 Python / Shell / Bat(Cmd) / Node.js 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
       </p>
       <p class="brand-lead">
         <strong>璇络(ExecFabric)底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>

@@ -138,7 +138,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>After a file is uploaded, how does the script know which file to process</h3>
-        <p>The script does not guess. The upload button in the execution quick bar binds the current upload as one <code>uploadBatchId</code>, and during confirmation the backend passes a snapshot of that batch into the script. Python and Shell scripts can read <code>EXECFABRIC_UPLOAD_BATCH_NO</code>, <code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code>, <code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code>, and <code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code>, so they operate on the bound batch rather than some guessed “latest file” in a historical directory.</p>
+        <p>The script does not guess. The upload button in the execution quick bar binds the current upload as one <code>uploadBatchId</code>, and during confirmation the backend passes a snapshot of that batch into the script. Python, Shell, Bat(Cmd), and Node.js scripts can read <code>EXECFABRIC_UPLOAD_BATCH_NO</code>, <code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code>, <code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code>, and <code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code>, so they operate on the bound batch rather than some guessed “latest file” in a historical directory.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>What documentation does a customer usually receive after formal delivery</h3>
@@ -165,7 +165,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Are all script types fully supported for remote onboarding already</h3>
-        <p>Web-side upload registration already supports Python, Shell, and Node.js text scripts. CLI-side remote registration also already supports Python, Shell, and Node.js today, while richer asset-type coverage still comes later.</p>
+        <p>Web-side upload registration already supports Python, Shell, Bat(Cmd), and Node.js text scripts. The page now auto-detects the current cloud runtime and disables <code>bat / cmd</code> on non-Windows environments. CLI-side remote registration also already supports Python, Shell, Bat(Cmd), and Node.js today. Cloud execution of <code>bat / cmd</code> still requires a Windows runtime, while broader asset-type coverage still comes later.</p>
       </article>
     </div>
   </section>

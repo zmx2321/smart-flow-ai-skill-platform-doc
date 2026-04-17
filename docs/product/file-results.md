@@ -209,7 +209,7 @@ lastUpdated: false
         </tr>
       </tbody>
     </table>
-    <p>当前 Python / Shell / Node.js 执行器都会把这些变量注入运行环境。如果用户重新上传了一批新文件并再次确认执行，新的批次就会覆盖旧批次。脚本应始终按当前执行上下文里的批次信息读取输入，而不是凭“最新文件”这种不稳定规则处理。</p>
+    <p>当前 Python / Shell / Bat(Cmd) / Node.js 执行器都会把这些变量注入运行环境。如果用户重新上传了一批新文件并再次确认执行，新的批次就会覆盖旧批次。脚本应始终按当前执行上下文里的批次信息读取输入，而不是凭“最新文件”这种不稳定规则处理；其中 <code>bat / cmd</code> 在线执行依赖 Windows 运行时。</p>
   </section>
 
   <section class="brand-card">

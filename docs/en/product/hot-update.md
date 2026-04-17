@@ -87,7 +87,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>1. Prepare the script folder</h3>
-        <p>Prepare the folder according to the agreed structure. The recommended layout is <code>tenant / language / script-code / entry-file</code>, and at minimum it should include the entry script and <code>README.md</code>. The current default entry files for Python, Shell, and Node.js text scripts are <code>main.py</code>, <code>main.sh</code>, and <code>main.js</code>.</p>
+        <p>Prepare the folder according to the agreed structure. The recommended layout is <code>tenant / language / script-code / entry-file</code>, and at minimum it should include the entry script and <code>README.md</code>. The current default entry files for Python, Shell, Bat(Cmd), and Node.js text scripts are <code>main.py</code>, <code>main.sh</code>, <code>main.bat(main.cmd)</code>, and <code>main.js</code>. <code>bat / cmd</code> still belongs to the <code>shell/</code> storage family in the repository layout.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. Submit it into the tenant boundary it belongs to</h3>
@@ -129,7 +129,7 @@ lastUpdated: false
           <td>Script files</td>
           <td>Required</td>
           <td>The real execution content</td>
-          <td>At minimum include the agreed entry file. Today the default for Python, Shell, and Node.js is <code>main.py</code>, <code>main.sh</code>, or <code>main.js</code>.</td>
+          <td>At minimum include the agreed entry file. Today the default for Python, Shell, Bat(Cmd), and Node.js is <code>main.py</code>, <code>main.sh</code>, <code>main.bat(main.cmd)</code>, or <code>main.js</code>. <code>bat / cmd</code> stays in the <code>shell/</code> storage family.</td>
         </tr>
         <tr>
           <td><code>README.md</code></td>

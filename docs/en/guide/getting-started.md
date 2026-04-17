@@ -220,8 +220,9 @@ lastUpdated: false
         <li>The public experience page is meant to demonstrate the execution chain first. It does not take real business writes.</li>
         <li>The current demo on the experience page comes from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code> and is mapped through the manifest for hot swapping.</li>
         <li>After signup, you enter the personal intelligent execution console and can start onboarding your first script.</li>
-        <li>Web upload-based registration already supports <code>.py / .sh / .bash / .js</code>.</li>
-        <li><code>execfabric-cli</code> already supports both <code>cloud</code> and <code>local-agent</code> onboarding paths today. CLI <code>cloud</code> already supports Python, Shell, and Node.js for remote upload, while the primary examples and default guidance still lean toward Python for now.</li>
+        <li>Web upload-based registration already supports <code>.py / .sh / .bash / .bat / .cmd / .js</code>.</li>
+        <li>The current Web upload flow already accepts <code>.py / .sh / .bash / .bat / .cmd / .js</code> and auto-detects whether <code>bat / cmd</code> should be enabled on the current cloud runtime.</li>
+        <li><code>execfabric-cli</code> already supports both <code>cloud</code> and <code>local-agent</code> onboarding paths today. CLI <code>cloud</code> already supports Python, Shell, Bat(Cmd), and Node.js for remote upload, but <code>bat / cmd</code> cloud execution still requires a Windows runtime. The primary examples and default guidance still lean toward Python for now.</li>
         <li>If you are only continuing as an individual user and have not entered multi-user collaboration yet, start with local script-slot expansion instead of jumping to the enterprise path.</li>
         <li>If you only need standard capability and lighter collaboration, evaluate the shared-SaaS tenant path first.</li>
         <li><code>execfabric-cli</code> is already usable and its local-integration capability will continue to get stronger.</li>

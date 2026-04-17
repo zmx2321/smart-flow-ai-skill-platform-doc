@@ -130,7 +130,8 @@ features:
           你可以先从公开体验入口走完一条简化流程，再决定是否接入自己的真实场景。
         </p>
         <p class="landing-lead">
-          当前 Web 上传注册入口已经统一支持 <strong>Python / Shell / Node.js</strong> 文本脚本，并接受 <code>.py / .sh / .bash / .js</code>；公开体验页固定展示
+          当前 Web 上传注册入口已经统一支持 <strong>Python / Shell / Bat(Cmd) / Node.js</strong> 文本脚本，并接受 <code>.py / .sh / .bash / .bat / .cmd / .js</code>；
+          页面会按当前云端环境自动判断是否开放 <strong>Bat(Cmd)</strong>，非 Windows 云端会直接置灰；其中 <strong>Bat(Cmd) 在线执行依赖 Windows 运行时</strong>；公开体验页固定展示
           <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
           真实体验脚本来自 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>，
           由 manifest 做热插拔映射。

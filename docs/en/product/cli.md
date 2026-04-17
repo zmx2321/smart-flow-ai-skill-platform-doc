@@ -72,7 +72,7 @@ lastUpdated: false
         <li><code>agent describe</code>, <code>agent bind</code>, and <code>agent start</code></li>
         <li>sidecar JSON overrides and metadata extraction from comments, docstrings, and file names</li>
         <li><code>.execfabric-manifest.json</code> generation</li>
-        <li><code>register --execution-mode cloud</code> calling backend <code>upload-register</code> for Python, Shell, and Node.js upload registration</li>
+        <li><code>register --execution-mode cloud</code> calling backend <code>upload-register</code> for Python, Shell, Bat(Cmd), and Node.js upload registration</li>
         <li><code>register --execution-mode local-agent</code> calling backend <code>local-register</code> for single-file or folder local-path registration</li>
         <li><code>agent start</code> polling, claiming, executing, and completing Local Agent jobs on the current machine</li>
       </ul>
@@ -84,7 +84,7 @@ lastUpdated: false
         <li><code>pull</code>, <code>publish</code>, and <code>doctor</code></li>
         <li><code>agent heartbeat</code>, <code>agent status</code>, and <code>agent run</code></li>
         <li>streaming log upload and deeper multi-machine scheduling</li>
-        <li>richer cloud upload registration for more asset types such as <code>bat</code> beyond today's Python, Shell, and Node.js path</li>
+        <li>richer cloud upload registration for more non-script asset types beyond today's Python, Shell, Bat(Cmd), and Node.js path</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -164,8 +164,8 @@ lastUpdated: false
       <h2>What <code>cloud</code> registration does today</h2>
       <ul class="brand-list">
         <li>The CLI scans the workspace, extracts metadata, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code></li>
-        <li>Python, Shell, and Node.js scripts currently go through the real cloud upload-registration path</li>
-        <li>If the workspace contains other script types such as <code>bat</code>, they are not yet fully uploaded through this path</li>
+        <li>Python, Shell, Bat(Cmd), and Node.js scripts currently go through the real cloud upload-registration path</li>
+        <li>Cloud execution of <code>bat / cmd</code> still requires a Windows runtime, so non-Windows servers will fail clearly at execution time</li>
         <li>This is the path for putting script content into the platform-side registration flow</li>
       </ul>
     </article>
@@ -203,7 +203,7 @@ execfabric-cli --help</code></pre>
       <article class="brand-card brand-card--nested">
         <h3>3. Register a workspace in cloud mode</h3>
         <pre><code class="language-bash">execfabric-cli register ./examples/scripts</code></pre>
-        <p>The command scans the folder, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code>. Python, Shell, and Node.js already go through the real cloud-registration path.</p>
+        <p>The command scans the folder, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code>. Python, Shell, Bat(Cmd), and Node.js already go through the real cloud-registration path. Cloud execution of <code>bat / cmd</code> still requires a Windows runtime.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. Register local scripts and start the Local Agent</h3>
@@ -292,7 +292,7 @@ backup.execfabric-skill.json
       <ul class="brand-list">
         <li>General operational governance around heartbeat, status, richer Agent control, and deeper multi-machine scheduling</li>
         <li>Streaming execution-log upload instead of simple completion-summary reporting</li>
-        <li>A fuller cloud-registration path for more asset types beyond today's Python, Shell, and Node.js mainline</li>
+        <li>A fuller cloud-registration path for more asset types beyond today's Python, Shell, Bat(Cmd), and Node.js mainline</li>
       </ul>
     </article>
   </section>

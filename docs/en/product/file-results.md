@@ -191,7 +191,7 @@ lastUpdated: false
         </tr>
       </tbody>
     </table>
-    <p>Both Python and Shell executors currently inject these variables into the runtime environment. If the user uploads a new batch of files and confirms execution again, the new batch replaces the old one. Scripts should always read inputs from the current execution context instead of relying on unstable rules such as "the latest file."</p>
+    <p>Python, Shell, Bat(Cmd), and Node.js executors currently inject these variables into the runtime environment. If the user uploads a new batch of files and confirms execution again, the new batch replaces the old one. Scripts should always read inputs from the current execution context instead of relying on unstable rules such as "the latest file." Cloud execution of <code>bat / cmd</code> still requires a Windows runtime.</p>
   </section>
 
   <section class="brand-card">

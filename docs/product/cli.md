@@ -70,7 +70,7 @@ lastUpdated: false
         <li><code>agent describe</code>、<code>agent bind</code>、<code>agent start</code></li>
         <li>sidecar JSON 覆盖，以及注释 / docstring / 文件名元数据提取</li>
         <li><code>.execfabric-manifest.json</code> 生成</li>
-        <li><code>register --execution-mode cloud</code> 调用后端 <code>upload-register</code>，完成 Python / Shell / Node.js 云端注册</li>
+        <li><code>register --execution-mode cloud</code> 调用后端 <code>upload-register</code>，完成 Python / Shell / Bat(Cmd) / Node.js 云端注册</li>
         <li><code>register --execution-mode local-agent</code> 调用后端 <code>local-register</code>，完成单文件或目录的本机路径登记</li>
         <li><code>agent start</code> 会在当前机器轮询、领取、执行并回传 Local Agent 作业</li>
       </ul>
@@ -82,7 +82,7 @@ lastUpdated: false
         <li><code>pull</code> / <code>publish</code> / <code>doctor</code></li>
         <li><code>agent heartbeat</code> / <code>agent status</code> / <code>agent run</code></li>
         <li>更通用的 Agent 在线治理、更多控制面和更细粒度多机调度</li>
-        <li>更多非 Python / Shell / Node.js 资源类型的云端上传注册</li>
+        <li>更多其他非脚本资源类型的云端上传注册</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -114,7 +114,7 @@ lastUpdated: false
         <li>网页端已经提供 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
         <li>注册成功当前会先进入 <code>/register/result</code> 结果页，再回到登录与个人主链路。</li>
         <li>体验页用于先感受执行链路；当前左侧是 Python 示例 <code>task_brief_demo.py</code>，右侧是 Shell 示例 <code>clean_log_demo.sh</code>。</li>
-        <li>网页端上传注册已经支持 <code>.py</code>、<code>.sh</code>、<code>.bash</code>、<code>.js</code>。</li>
+        <li>网页端上传注册已经支持 <code>.py</code>、<code>.sh</code>、<code>.bash</code>、<code>.bat</code>、<code>.cmd</code>、<code>.js</code>。</li>
         <li>网页入口更适合可见的单文件接入；CLI 负责可重复的单文件 / 目录登记、本机路径登记和 Local Agent 执行桥接。</li>
       </ul>
     </article>
@@ -162,8 +162,8 @@ lastUpdated: false
       <h2><code>cloud</code> 模式当前做什么</h2>
       <ul class="brand-list">
         <li>CLI 会扫描目录、提取元数据、生成 <code>.execfabric-manifest.json</code>，然后调用后端 <code>upload-register</code></li>
-        <li>Python、Shell 和 Node.js 脚本当前都已经走真实的云端上传注册链路</li>
-        <li>如果目录里还有 <code>bat</code> 等其他脚本类型，这条 CLI <code>cloud</code> 路径暂时还不会完整云端上传</li>
+        <li>Python、Shell、Bat(Cmd) 和 Node.js 脚本当前都已经走真实的云端上传注册链路</li>
+        <li>其中 <code>bat / cmd</code> 在线执行依赖 Windows 运行时；如果云端不是 Windows，执行阶段会明确失败提示</li>
         <li>这是把脚本内容进入平台注册中心的主路径</li>
       </ul>
     </article>
@@ -201,7 +201,7 @@ execfabric-cli --help</code></pre>
       <article class="brand-card brand-card--nested">
         <h3>3. 以云端模式登记脚本目录</h3>
         <pre><code class="language-bash">execfabric-cli register ./examples/scripts</code></pre>
-        <p>命令会扫描目录、生成 <code>.execfabric-manifest.json</code>，并调用后端 <code>upload-register</code>。Python、Shell 和 Node.js 当前都已经走真实的云端注册链路。</p>
+        <p>命令会扫描目录、生成 <code>.execfabric-manifest.json</code>，并调用后端 <code>upload-register</code>。Python、Shell、Bat(Cmd) 和 Node.js 当前都已经走真实的云端注册链路；其中 <code>bat / cmd</code> 在线执行依赖 Windows 运行时。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. 登记本地脚本并启动 Local Agent</h3>
@@ -343,7 +343,7 @@ backup.execfabric-skill.json
       <ul class="brand-list">
         <li><code>heartbeat</code>、<code>status</code>、更丰富的 Agent 控制面和在线治理</li>
         <li>更细粒度的多机 / 多 Agent 调度与更完整的治理策略</li>
-        <li>除了当前 Python / Shell / Node.js 主线之外，更多类型的完整云端注册路径</li>
+        <li>除了当前 Python / Shell / Bat(Cmd) / Node.js 主线之外，更多类型的完整云端注册路径</li>
       </ul>
     </article>
   </section>

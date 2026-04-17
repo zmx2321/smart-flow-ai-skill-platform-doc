@@ -173,6 +173,7 @@ const withLocale = (localeKey, path = "/") => {
 }
 
 const createActiveMatch = (localeKey, path) => `^${withLocale(localeKey, path)}`
+const createMultiActiveMatch = (localeKey, paths) => paths.map((path) => `(${createActiveMatch(localeKey, path)})`).join("|")
 
 const createSearchOptions = () => ({
   detailedView: "auto",
@@ -263,17 +264,8 @@ const createNav = (localeKey) => {
       ],
     },
     {
-      text: t.navCustomerCasesMenu,
-      activeMatch: createActiveMatch(localeKey, "/customer-cases/"),
-      link: withLocale(localeKey, "/customer-cases/"),
-    },
-    {
-      text: t.navBeta,
-      link: execfabricBetaUrl,
-    },
-    {
       text: t.navMaterials,
-      activeMatch: createActiveMatch(localeKey, "/materials/"),
+      activeMatch: createMultiActiveMatch(localeKey, ["/materials/", "/customer-cases/"]),
       items: [
         { text: t.navMaterialsIndex, link: withLocale(localeKey, "/materials/") },
         { text: t.navWhy, link: withLocale(localeKey, "/materials/why-execfabric") },
@@ -285,9 +277,11 @@ const createNav = (localeKey) => {
         { text: t.navFounderProfile, link: withLocale(localeKey, "/materials/founder-profile") },
         { text: t.navFounderCard, link: withLocale(localeKey, "/materials/founder-card") },
         { text: t.navResume, link: withLocale(localeKey, "/materials/resume-public") },
+        { text: t.navCustomerCasesIndex, link: withLocale(localeKey, "/customer-cases/") },
       ],
     },
     { text: t.navContact, link: withLocale(localeKey, "/contact") },
+    { text: t.navBeta, link: execfabricBetaUrl },
     { text: t.navBlog, link: "https://zmx2321.github.io/vite-blog" },
   ]
 }
@@ -349,6 +343,7 @@ const createSidebar = (localeKey) => {
           { text: t.navFounderProfile, link: withLocale(localeKey, "/materials/founder-profile") },
           { text: t.navFounderCard, link: withLocale(localeKey, "/materials/founder-card") },
           { text: t.navResume, link: withLocale(localeKey, "/materials/resume-public") },
+          { text: t.navCustomerCasesIndex, link: withLocale(localeKey, "/customer-cases/") },
         ],
       },
     ],
@@ -362,7 +357,6 @@ const createSidebar = (localeKey) => {
           { text: t.navFaq, link: withLocale(localeKey, "/guide/faq") },
           { text: t.navProductIndex, link: withLocale(localeKey, "/product/") },
           { text: t.navCustomerCasesIndex, link: withLocale(localeKey, "/customer-cases/") },
-          { text: t.navBeta, link: execfabricBetaUrl },
           { text: t.navCli, link: withLocale(localeKey, "/product/cli") },
           { text: t.navCustomerFlow, link: withLocale(localeKey, "/product/customer-flow") },
           { text: t.navImplementationTraining, link: withLocale(localeKey, "/product/implementation-training") },
@@ -371,6 +365,7 @@ const createSidebar = (localeKey) => {
           { text: t.navCaseStudies, link: withLocale(localeKey, "/materials/case-studies") },
           { text: t.navPitch, link: withLocale(localeKey, "/materials/pitch") },
           { text: t.navContact, link: withLocale(localeKey, "/contact") },
+          { text: t.navBeta, link: execfabricBetaUrl },
         ],
       },
     ],

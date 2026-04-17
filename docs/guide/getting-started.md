@@ -220,8 +220,8 @@ lastUpdated: false
         <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
         <li>体验页 demo 当前来自 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>，由 manifest 热插拔映射。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
-        <li>当前 Web 上传注册已支持 <code>.py / .sh / .bash / .js</code>。</li>
-        <li><code>execfabric-cli</code> 当前已经支持 <code>cloud + local-agent</code> 两条接入主线；其中 CLI <code>cloud</code> 远程上传已支持 Python / Shell / Node.js，目录注册的主示例和默认指引暂时仍以 Python 为主。</li>
+        <li>当前 Web 上传注册已支持 <code>.py / .sh / .bash / .bat / .cmd / .js</code>；页面会按当前云端环境自动判断是否开放 <code>bat / cmd</code>。</li>
+        <li><code>execfabric-cli</code> 当前已经支持 <code>cloud + local-agent</code> 两条接入主线；其中 CLI <code>cloud</code> 远程上传已支持 Python / Shell / Bat(Cmd) / Node.js，但 <code>bat / cmd</code> 在线执行依赖 Windows 运行时，目录注册的主示例和默认指引暂时仍以 Python 为主。</li>
         <li>如果只是个人继续使用但还没进入多人协作，先看本地脚本位增购，不要急着跳企业路径。</li>
         <li>如果只是标准能力和较轻协作，可以优先评估共享 SaaS 共享租户路径。</li>
         <li><code>execfabric-cli</code> 当前已可用，本地接入能力会继续增强。</li>
